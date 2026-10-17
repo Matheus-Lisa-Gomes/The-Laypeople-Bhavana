@@ -45,8 +45,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 6,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "DN 2 (Sāmaññaphala Sutta)",
@@ -256,8 +256,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 7,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "MN 118 (Ānāpānasati Sutta)",
@@ -341,8 +341,6 @@ const MEDITATION_LINEAGES = [
     ]
   },
 
-,
-
   {
     id: "ebt-samannaphala",
     cluster: "ebt",
@@ -361,8 +359,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 5,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Stage 1 Foundations (MN 119, MN 20)",
@@ -512,8 +510,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 1,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "None (The best somatic starting point)",
@@ -651,8 +649,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 2,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "MN 119 (Kāyagatāsati Sutta)",
@@ -790,8 +788,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 8,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "MN 10 (Satipaṭṭhāna Sutta)",
@@ -917,8 +915,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 9,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "AN 4.170 (Yuganaddha Sutta)",
@@ -1044,8 +1042,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 4,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "SN 36.31 (Nirāmisa Sutta)",
@@ -1183,8 +1181,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "advanced",
     curriculumOrder: 11,
     difficultyLabel: {
-      en: "Stage 3: Deep Wisdom & Emptiness",
-      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "MN 128 (Upakkilesa Sutta)",
@@ -1310,8 +1308,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "advanced",
     curriculumOrder: 12,
     difficultyLabel: {
-      en: "Stage 3: Deep Wisdom & Emptiness",
-      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "AN 9.36 (Jhāna Sutta)",
@@ -1449,8 +1447,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 3,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "MN 20 (Vitakkasaṇṭhāna Sutta)",
@@ -1576,8 +1574,8 @@ const MEDITATION_LINEAGES = [
     difficulty: "advanced",
     curriculumOrder: 10,
     difficultyLabel: {
-      en: "Stage 3: Deep Wisdom & Emptiness",
-      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "Stage 2 Concentration mastery",
@@ -1705,8 +1703,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "Rooted in AN 4.170, Dhammapada, Sutta Nipāta",
     difficulty: "foundational",
     difficultyLabel: {
-      en: "Foundational / Accessible",
-      pt: "Fundamentos / Acessível"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "Basic breath & posture",
@@ -1806,8 +1804,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "Rooted in MN 118, MN 119 (Kāyagatāsati Sutta), MN 140",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Energy Work",
-      pt: "Intermediário / Energia da Respiração"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Basic breath awareness",
@@ -1907,8 +1905,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "DN 2, MN 118, AN 9.35, AN 9.36",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Deep Jhāna",
-      pt: "Intermediário / Jhāna Profundo"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Sustained sitting practice",
@@ -2035,8 +2033,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "Dhammacakkappavattana Sutta, SN 22.59 (Anattalakkhaṇa Sutta), MN 128",
     difficulty: "advanced",
     difficultyLabel: {
-      en: "Advanced / Ascetic Warfare",
-      pt: "Avançado / Batalha Ascética"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "Strong samādhi foundation",
@@ -2130,8 +2128,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "DN 22 (Mahāsatipaṭṭhāna Sutta), Visuddhimagga, Abhidhammattha Saṅgaha",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Intensive Noting",
-      pt: "Intermediário / Rotulação Intensiva"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Foundational mindfulness",
@@ -2231,8 +2229,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "DN 22 (Vedanānupassanā), SN 36 (Vedanā Saṁyutta)",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Somatic Scanning",
-      pt: "Intermediário / Varredura Corporal"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "3 days of breath concentration",
@@ -2332,8 +2330,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "Visuddhimagga, Abhidhammattha Saṅgaha, MN 118, DN 16",
     difficulty: "advanced",
     difficultyLabel: {
-      en: "Advanced / Classical Abhidhamma",
-      pt: "Avançado / Abhidhamma Clássico"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "4th Jhāna mastery & Abhidhamma study",
@@ -2433,8 +2431,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "DN 22 (Cittānupassanā), AN 1.49 (Pabhassara Sutta)",
     difficulty: "foundational",
     difficultyLabel: {
-      en: "Foundational / Everyday Mind",
-      pt: "Fundamentos / Mente Cotidiana"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "None (Designed for lay householders)",
@@ -2528,8 +2526,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "MN 18 (Madhupiṇḍika Sutta), SN 12.15 (Kaccānagotta Sutta), MN 121 (Cūḷasuññata Sutta)",
     difficulty: "advanced",
     difficultyLabel: {
-      en: "Advanced / Radical Emptiness",
-      pt: "Avançado / Vacuidade Radical"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "Strong familiarity with EBT suttas",
@@ -2623,8 +2621,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "MN 118, MN 21 (Kakacūpama Sutta), MN 31, AN 11.16",
     difficulty: "foundational",
     difficultyLabel: {
-      en: "Foundational / Heart-Centered",
-      pt: "Fundamentos / Mettā & Relaxamento"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "None (Gentle and joyful)",
@@ -2742,8 +2740,8 @@ const MEDITATION_LINEAGES = [
     canonicalRef: "MN 10, DN 22, Chinese Madhyama-āgama, Ekottarika-āgama",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Comparative Synthesis",
-      pt: "Intermediário / Síntese Canônica"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Basic Satipaṭṭhāna practice",
@@ -3852,7 +3850,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "MN 118",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Ānāpānasati Sutta",
     title: {
       en: "Mindfulness of Breathing",
@@ -3873,7 +3871,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "MN 10",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Satipaṭṭhāna Sutta",
     title: {
       en: "The Establishments of Mindfulness",
@@ -3894,7 +3892,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "DN 2",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Sāmaññaphala Sutta",
     title: {
       en: "The Fruits of the Contemplative Life & The Jhāna Similes",
@@ -3915,7 +3913,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "MN 119",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Kāyagatāsati Sutta",
     title: {
       en: "Mindfulness Immersed in the Body & The 10 Blessings",
@@ -3936,7 +3934,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "MN 20",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Vitakkasaṇṭhāna Sutta",
     title: {
       en: "The Removal of Distracting Thoughts (The 5 Pegs)",
@@ -3957,7 +3955,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "AN 4.170",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Yuganaddha Sutta",
     title: {
       en: "In Tandem (Samatha & Vipassanā Yoked Together)",
@@ -3978,7 +3976,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "AN 4.41",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Samādhibhāvanā Sutta",
     title: {
       en: "The Four Developments of Concentration",
@@ -3999,7 +3997,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "AN 10.60",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Girimānanda Sutta",
     title: {
       en: "The Ten Contemplations for Mind-Body Healing",
@@ -4020,7 +4018,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "AN 9.36",
     difficulty: "advanced",
     stage: 3,
-    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
+    stageLabel: { en: "Advanced", pt: "Avançado" },
     paliTitle: "Jhāna Sutta",
     title: {
       en: "Meditative Absorption as Basis for Insight",
@@ -4041,7 +4039,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "MN 121",
     difficulty: "advanced",
     stage: 3,
-    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
+    stageLabel: { en: "Advanced", pt: "Avançado" },
     paliTitle: "Cūḷasuññata Sutta",
     title: {
       en: "The Shorter Discourse on Emptiness",
@@ -4062,7 +4060,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "SN 36.31",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Nirāmisa Sutta",
     title: {
       en: "Worldly, Unworldly & Ultra-Unworldly Feelings",
@@ -4083,7 +4081,7 @@ const SUTTA_MEDITATION_CORPUS = [
     code: "MN 128",
     difficulty: "advanced",
     stage: 3,
-    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
+    stageLabel: { en: "Advanced", pt: "Avançado" },
     paliTitle: "Upakkilesa Sutta",
     title: {
       en: "Overcoming the 11 Corruptions of Meditative Light (Nimitta)",
@@ -4173,10 +4171,10 @@ const I18N = {
     readSuttaCentral: "Read Full Text on SuttaCentral ↗",
     curriculumTitle: "Gradual Training Study Path (Anupubbasikkhā)",
     curriculumSubtitle: "Systematic canonical progression: somatic grounding → core concentration → deep insight & emptiness",
-    lvlAll: "All Suttas (12)",
-    lvlFoundational: "🟢 Stage 1: Foundations & Somatic Grounding (4)",
-    lvlIntermediate: "🟡 Stage 2: Core Roadmaps & Concentration (5)",
-    lvlAdvanced: "🟣 Stage 3: Deep Wisdom & Emptiness (3)",
+    lvlAll: "All",
+    lvlFoundational: "Foundations",
+    lvlIntermediate: "Intermediate",
+    lvlAdvanced: "Advanced",
     phaseOrderPrefix: "Step",
     phaseOrderOf: "of 12 in Study Path",
     prereqLabel: "Suggested Foundation:",
@@ -4229,10 +4227,10 @@ const I18N = {
     readSuttaCentral: "Ler Texto Completo no SuttaCentral ↗",
     curriculumTitle: "Caminho do Treinamento Gradual (Anupubbasikkhā)",
     curriculumSubtitle: "Progressão canônica sistemática: enraizamento somático → concentração profunda → sabedoria & vacuidade",
-    lvlAll: "Todos os Suttas (12)",
-    lvlFoundational: "🟢 Etapa 1: Fundamentos & Presença Somática (4)",
-    lvlIntermediate: "🟡 Etapa 2: Mapas Centrais & Samādhi (5)",
-    lvlAdvanced: "🟣 Etapa 3: Sabedoria Profunda & Vacuidade (3)",
+    lvlAll: "Todos",
+    lvlFoundational: "Fundamentos",
+    lvlIntermediate: "Intermediário",
+    lvlAdvanced: "Avançado",
     phaseOrderPrefix: "Passo",
     phaseOrderOf: "de 12 no Caminho de Estudo",
     prereqLabel: "Fundamento Sugerido:",

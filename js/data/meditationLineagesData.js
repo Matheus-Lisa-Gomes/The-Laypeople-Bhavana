@@ -36,8 +36,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 6,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "DN 2 (Sāmaññaphala Sutta)",
@@ -247,8 +247,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 7,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "MN 118 (Ānāpānasati Sutta)",
@@ -332,8 +332,6 @@ export const MEDITATION_LINEAGES = [
     ]
   },
 
-,
-
   {
     id: "ebt-samannaphala",
     cluster: "ebt",
@@ -352,8 +350,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 5,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Stage 1 Foundations (MN 119, MN 20)",
@@ -503,8 +501,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 1,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "None (The best somatic starting point)",
@@ -642,8 +640,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 2,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "MN 119 (Kāyagatāsati Sutta)",
@@ -781,8 +779,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 8,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "MN 10 (Satipaṭṭhāna Sutta)",
@@ -908,8 +906,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "intermediate",
     curriculumOrder: 9,
     difficultyLabel: {
-      en: "Stage 2: Core Roadmaps & Samādhi",
-      pt: "Etapa 2: Mapas Centrais & Samādhi"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "AN 4.170 (Yuganaddha Sutta)",
@@ -1035,8 +1033,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 4,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "SN 36.31 (Nirāmisa Sutta)",
@@ -1174,8 +1172,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "advanced",
     curriculumOrder: 11,
     difficultyLabel: {
-      en: "Stage 3: Deep Wisdom & Emptiness",
-      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "MN 128 (Upakkilesa Sutta)",
@@ -1301,8 +1299,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "advanced",
     curriculumOrder: 12,
     difficultyLabel: {
-      en: "Stage 3: Deep Wisdom & Emptiness",
-      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "AN 9.36 (Jhāna Sutta)",
@@ -1440,8 +1438,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "foundational",
     curriculumOrder: 3,
     difficultyLabel: {
-      en: "Stage 1: Foundational Grounding",
-      pt: "Etapa 1: Enraizamento Fundamental"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "MN 20 (Vitakkasaṇṭhāna Sutta)",
@@ -1567,8 +1565,8 @@ export const MEDITATION_LINEAGES = [
     difficulty: "advanced",
     curriculumOrder: 10,
     difficultyLabel: {
-      en: "Stage 3: Deep Wisdom & Emptiness",
-      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "Stage 2 Concentration mastery",
@@ -1696,8 +1694,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "Rooted in AN 4.170, Dhammapada, Sutta Nipāta",
     difficulty: "foundational",
     difficultyLabel: {
-      en: "Foundational / Accessible",
-      pt: "Fundamentos / Acessível"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "Basic breath & posture",
@@ -1797,8 +1795,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "Rooted in MN 118, MN 119 (Kāyagatāsati Sutta), MN 140",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Energy Work",
-      pt: "Intermediário / Energia da Respiração"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Basic breath awareness",
@@ -1898,8 +1896,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "DN 2, MN 118, AN 9.35, AN 9.36",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Deep Jhāna",
-      pt: "Intermediário / Jhāna Profundo"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Sustained sitting practice",
@@ -2026,8 +2024,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "Dhammacakkappavattana Sutta, SN 22.59 (Anattalakkhaṇa Sutta), MN 128",
     difficulty: "advanced",
     difficultyLabel: {
-      en: "Advanced / Ascetic Warfare",
-      pt: "Avançado / Batalha Ascética"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "Strong samādhi foundation",
@@ -2121,8 +2119,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "DN 22 (Mahāsatipaṭṭhāna Sutta), Visuddhimagga, Abhidhammattha Saṅgaha",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Intensive Noting",
-      pt: "Intermediário / Rotulação Intensiva"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Foundational mindfulness",
@@ -2222,8 +2220,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "DN 22 (Vedanānupassanā), SN 36 (Vedanā Saṁyutta)",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Somatic Scanning",
-      pt: "Intermediário / Varredura Corporal"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "3 days of breath concentration",
@@ -2323,8 +2321,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "Visuddhimagga, Abhidhammattha Saṅgaha, MN 118, DN 16",
     difficulty: "advanced",
     difficultyLabel: {
-      en: "Advanced / Classical Abhidhamma",
-      pt: "Avançado / Abhidhamma Clássico"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "4th Jhāna mastery & Abhidhamma study",
@@ -2424,8 +2422,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "DN 22 (Cittānupassanā), AN 1.49 (Pabhassara Sutta)",
     difficulty: "foundational",
     difficultyLabel: {
-      en: "Foundational / Everyday Mind",
-      pt: "Fundamentos / Mente Cotidiana"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "None (Designed for lay householders)",
@@ -2519,8 +2517,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "MN 18 (Madhupiṇḍika Sutta), SN 12.15 (Kaccānagotta Sutta), MN 121 (Cūḷasuññata Sutta)",
     difficulty: "advanced",
     difficultyLabel: {
-      en: "Advanced / Radical Emptiness",
-      pt: "Avançado / Vacuidade Radical"
+      en: "Advanced",
+      pt: "Avançado"
     },
     recommendedPrereq: {
       en: "Strong familiarity with EBT suttas",
@@ -2614,8 +2612,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "MN 118, MN 21 (Kakacūpama Sutta), MN 31, AN 11.16",
     difficulty: "foundational",
     difficultyLabel: {
-      en: "Foundational / Heart-Centered",
-      pt: "Fundamentos / Mettā & Relaxamento"
+      en: "Foundations",
+      pt: "Fundamentos"
     },
     recommendedPrereq: {
       en: "None (Gentle and joyful)",
@@ -2733,8 +2731,8 @@ export const MEDITATION_LINEAGES = [
     canonicalRef: "MN 10, DN 22, Chinese Madhyama-āgama, Ekottarika-āgama",
     difficulty: "intermediate",
     difficultyLabel: {
-      en: "Intermediate / Comparative Synthesis",
-      pt: "Intermediário / Síntese Canônica"
+      en: "Intermediate",
+      pt: "Intermediário"
     },
     recommendedPrereq: {
       en: "Basic Satipaṭṭhāna practice",

@@ -9,7 +9,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "MN 118",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Ānāpānasati Sutta",
     title: {
       en: "Mindfulness of Breathing",
@@ -30,7 +30,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "MN 10",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Satipaṭṭhāna Sutta",
     title: {
       en: "The Establishments of Mindfulness",
@@ -51,7 +51,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "DN 2",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Sāmaññaphala Sutta",
     title: {
       en: "The Fruits of the Contemplative Life & The Jhāna Similes",
@@ -72,7 +72,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "MN 119",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Kāyagatāsati Sutta",
     title: {
       en: "Mindfulness Immersed in the Body & The 10 Blessings",
@@ -93,7 +93,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "MN 20",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Vitakkasaṇṭhāna Sutta",
     title: {
       en: "The Removal of Distracting Thoughts (The 5 Pegs)",
@@ -114,7 +114,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "AN 4.170",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Yuganaddha Sutta",
     title: {
       en: "In Tandem (Samatha & Vipassanā Yoked Together)",
@@ -135,7 +135,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "AN 4.41",
     difficulty: "intermediate",
     stage: 2,
-    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
+    stageLabel: { en: "Intermediate", pt: "Intermediário" },
     paliTitle: "Samādhibhāvanā Sutta",
     title: {
       en: "The Four Developments of Concentration",
@@ -156,7 +156,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "AN 10.60",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Girimānanda Sutta",
     title: {
       en: "The Ten Contemplations for Mind-Body Healing",
@@ -177,7 +177,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "AN 9.36",
     difficulty: "advanced",
     stage: 3,
-    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
+    stageLabel: { en: "Advanced", pt: "Avançado" },
     paliTitle: "Jhāna Sutta",
     title: {
       en: "Meditative Absorption as Basis for Insight",
@@ -198,7 +198,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "MN 121",
     difficulty: "advanced",
     stage: 3,
-    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
+    stageLabel: { en: "Advanced", pt: "Avançado" },
     paliTitle: "Cūḷasuññata Sutta",
     title: {
       en: "The Shorter Discourse on Emptiness",
@@ -219,7 +219,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "SN 36.31",
     difficulty: "foundational",
     stage: 1,
-    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
+    stageLabel: { en: "Foundations", pt: "Fundamentos" },
     paliTitle: "Nirāmisa Sutta",
     title: {
       en: "Worldly, Unworldly & Ultra-Unworldly Feelings",
@@ -240,7 +240,7 @@ export const SUTTA_MEDITATION_CORPUS = [
     code: "MN 128",
     difficulty: "advanced",
     stage: 3,
-    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
+    stageLabel: { en: "Advanced", pt: "Avançado" },
     paliTitle: "Upakkilesa Sutta",
     title: {
       en: "Overcoming the 11 Corruptions of Meditative Light (Nimitta)",
