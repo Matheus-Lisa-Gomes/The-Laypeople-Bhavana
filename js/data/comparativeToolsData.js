@@ -818,6 +818,116 @@ export const LINEAGE_COMPARISON_MATRIX = [
     keyStrength: "Pure canonical Buddha root"
   },
   {
+    lineageId: "ebt-satipatthana",
+    name: "Canonical Satipaṭṭhāna (MN 10 / DN 22)",
+    anchor: "4 Fields: Body, Feeling, Mind, Dhammas",
+    notingStyle: "Direct recognition (Internal & External)",
+    jhanaView: "Essential soil from which right samādhi grows",
+    vedanaApproach: "Discerns pleasant, painful, neutral & worldly vs unworldly",
+    dailyLifeIntegration: "Exceptional (Sampajañña in all postures & duties)",
+    keyStrength: "The direct convergence path (Ekāyano maggo)"
+  },
+  {
+    lineageId: "ebt-samannaphala",
+    name: "Sāmaññaphala Sutta (DN 2)",
+    anchor: "Guarding 6 sense doors & full-body suffusion",
+    notingStyle: "Silent awareness leading to insight knowledge",
+    jhanaView: "Classical 4 Jhāna similes (bathman, spring, lotuses, cloth)",
+    vedanaApproach: "Joy from abandoning 5 hindrances",
+    dailyLifeIntegration: "High (Sense restraint with digital/sensory inputs)",
+    keyStrength: "Complete canonical architecture of the contemplative life"
+  },
+  {
+    lineageId: "ebt-kayagatasati",
+    name: "Kāyagatāsati Sutta (MN 119)",
+    anchor: "Living body in all 4 postures & 4 elements",
+    notingStyle: "Direct somatic presence without verbalization",
+    jhanaView: "Whole-body permeation with rapture, bliss, and light",
+    vedanaApproach: "Equanimity enduring acute physical pain & sickness",
+    dailyLifeIntegration: "Supreme (Grounding in walking, eating, and chores)",
+    keyStrength: "10 blessings conquering fear, dread, and bodily pain"
+  },
+  {
+    lineageId: "ebt-vitakkasanthana",
+    name: "Vitakkasaṇṭhāna Sutta (MN 20)",
+    anchor: "Cognitive replacement & stepping down momentum",
+    notingStyle: "Wholesome peg substitution & danger appraisal",
+    jhanaView: "Prerequisite de-cluttering so mind can settle into jhāna",
+    vedanaApproach: "Relief when poisonous unwholesome thoughts subside",
+    dailyLifeIntegration: "Exceptional (Cures insomnia, rumination & anger)",
+    keyStrength: "The Buddha's 5-step emergency combat protocol"
+  },
+  {
+    lineageId: "ebt-yuganaddha",
+    name: "Yuganaddha Sutta (AN 4.170)",
+    anchor: "Dynamic balance of stillness & inquiry",
+    notingStyle: "Flexible: noting during insight, silent in samatha",
+    jhanaView: "4 paths: jhāna before insight, after insight, or in tandem",
+    vedanaApproach: "Disenchantment with conditioned sensations",
+    dailyLifeIntegration: "High (Diagnostic flexibility based on nervous system)",
+    keyStrength: "Harmonizes Samatha & Vipassanā without dogma"
+  },
+  {
+    lineageId: "ebt-samadhibhavana",
+    name: "Samādhibhāvanā Sutta (AN 4.41)",
+    anchor: "4 Modes: Jhānas, Light, Real-time tracking, 5 Aggregates",
+    notingStyle: "Real-time tracking of sensations, perceptions & thoughts",
+    jhanaView: "Primary practice for 'Pleasant dwelling in the here-and-now'",
+    vedanaApproach: "Tracking arising, presence, and vanishing of feeling",
+    dailyLifeIntegration: "High (Select mode based on present spiritual need)",
+    keyStrength: "Exact fourfold taxonomy of meditative concentration"
+  },
+  {
+    lineageId: "ebt-girimananda",
+    name: "Girimānanda Sutta (AN 10.60)",
+    anchor: "Universal marks, bodily danger, and breath integration",
+    notingStyle: "Thematic reflection followed by silent 16-step breath",
+    jhanaView: "Contemplation of dispassion (virāga) & cessation (nirodha)",
+    vedanaApproach: "Transforming bodily sickness into insight into non-self",
+    dailyLifeIntegration: "Exceptional (Supreme solace during illness & aging)",
+    keyStrength: "10 healing contemplations that cure severe disease"
+  },
+  {
+    lineageId: "ebt-jhana-insight",
+    name: "Jhāna Sutta (AN 9.36)",
+    anchor: "The 5 aggregates within or directly upon absorption",
+    notingStyle: "7-fold diagnostic formula: impermanent, dart, empty, not-self",
+    jhanaView: "Direct springboard for insight; turning to the Deathless",
+    vedanaApproach: "Dissecting absorption bliss as conditioned & impermanent",
+    dailyLifeIntegration: "Moderate (Deep sits required for high absorption)",
+    keyStrength: "Proves that absorptions lead directly to Arahantship"
+  },
+  {
+    lineageId: "ebt-culasunnata",
+    name: "Cūḷasuññata Sutta (MN 121)",
+    anchor: "Gradual reduction from wilderness to signless immersion",
+    notingStyle: "Noting what is absent vs what slight disturbance remains",
+    jhanaView: "Surpasses rūpa-jhānas into formless & signless concentration",
+    vedanaApproach: "Deepest peace of progressive mental subtraction",
+    dailyLifeIntegration: "High (Reducing sensory overload in noisy cities)",
+    keyStrength: "Authentic canonical practice of Emptiness (Suññatā)"
+  },
+  {
+    lineageId: "ebt-niramisa-vedana",
+    name: "Nirāmisa Sutta (SN 36.31)",
+    anchor: "Affective tone: worldly vs unworldly vs ultra-unworldly",
+    notingStyle: "Discerning the root source of every feeling",
+    jhanaView: "Validates jhanic bliss as holy unworldly pleasure (nirāmisa)",
+    vedanaApproach: "Core laboratory: cultivating holy bliss over sensual hits",
+    dailyLifeIntegration: "High (Replaces addictive dopamine with calm joy)",
+    keyStrength: "Removes ascetic guilt; maps the spiritual hierarchy of joy"
+  },
+  {
+    lineageId: "ebt-upakkilesa-anuruddha",
+    name: "Upakkilesa Sutta (MN 128 / AN 3.100)",
+    anchor: "Luminous sign (obhāsa/nimitta) & middle-path effort",
+    notingStyle: "Detecting elation, excess force, and slack drifting",
+    jhanaView: "Stabilizes fragile luminous nimittas into unwavering jhāna",
+    vedanaApproach: "Overcoming emotional excitement when peace arises",
+    dailyLifeIntegration: "High (Master goldsmith metaphor for work & life effort)",
+    keyStrength: "Cures the 11 subtle mental corruptions of meditation light"
+  },
+  {
     lineageId: "thai-forest-ajahn-chah",
     name: "Ajahn Chah (Wat Nong Pah Pong)",
     anchor: "Natural awareness / The One Who Knows",

@@ -313,13 +313,1217 @@ const MEDITATION_LINEAGES = [
     ]
   },
 
+,
+
+  {
+    id: "ebt-samannaphala",
+    cluster: "ebt",
+    number: "03",
+    paliTitle: "Sāmaññaphala Sutta",
+    title: {
+      en: "The Fruits of the Contemplative Life & The Gradual Training",
+      pt: "Os Frutos da Vida Contemplativa & O Treinamento Gradual"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha, King Ajātasattu",
+    canonicalRef: "DN 2 (Dīgha Nikāya 2)",
+    coreFocus: {
+      en: "The comprehensive gradual training: Sīla, Sense Restraint, Overcoming the 5 Hindrances, and the 4 Jhāna Similes",
+      pt: "O treinamento gradual completo: Ética, Guarda dos Sentidos, Abandono dos 5 Obstáculos e os Símiles dos 4 Jhānas"
+    },
+    primaryAnchor: {
+      en: "Guarding the six sense doors (indriyasaṁvara), somatic joy from seclusion, and pervasive full-body awareness",
+      pt: "Guarda das seis portas dos sentidos (indriyasaṁvara), alegria do recolhimento e saturação corporal total"
+    },
+    approachToJhana: {
+      en: "The definitive canonical foundation for the 4 Jhānas with the classic bodily suffusion similes (bathman, spring, lotuses, white cloth)",
+      pt: "A matriz canônica definitiva dos 4 Jhānas com os clássicos símiles de saturação física (atendente, nascente, lótus, pano branco)"
+    },
+    useOfNoting: {
+      en: "Silent, vivid experiential awareness of the body suffused with rapture and bliss, followed by direct insight knowledge (ñāṇadassana)",
+      pt: "Consciência experiencial límpida e silenciosa do corpo saturado de êxtase e paz, seguida pelo insight direto (ñāṇadassana)"
+    },
+    tagline: {
+      en: "'Just as a cool mountain lake fed by an underground spring overflows from within... so the meditator drenches this very body with rapture and joy.'",
+      pt: "'Assim como um lago límpido na montanha alimentado por uma nascente subterrânea transborda de dentro para fora... assim o meditador satura este próprio corpo com êxtase e paz.'"
+    },
+    overview: {
+      en: "The Sāmaññaphala Sutta (DN 2) delivers the most complete, magnificent architectural blueprint of contemplative development in the early canon. Addressed to King Ajātasattu, the Buddha outlines the Gradual Training (anupubbikathā): establishing unblemished ethical purity, guarding the sense faculties so sensory input doesn't ignite craving or irritation, developing mindfulness and clear comprehension in every posture, and resting in joyful contentment with the barest essentials. When retiring to meditate in seclusion, the practitioner systematically recognizes and abandons the Five Hindrances—experiencing the exhilarating relief of a person who has cleared a heavy debt, recovered from a wasting illness, emerged from a harsh prison, been freed from slavery, or safely crossed a treacherous desert. This immense relief gives birth to spiritual rapture (pīti) and physical ease (passaddhi), naturally opening the doors to the four Jhānas, which suffuse every cell of the physical frame before being turned toward penetrating insight.",
+      pt: "O Sāmaññaphala Sutta (DN 2) apresenta o mais completo e magnífico mapa arquitetônico do desenvolvimento contemplativo em todo o cânone inicial. Dirigido ao Rei Ajātasattu, o Buda delineia o Treinamento Gradual (anupubbikathā): o estabelecimento da pureza ética, a guarda atenta das portas sensoriais para que impressões visuais ou sonoras não alimentem a cobiça ou a aversão, o florescimento da plena consciência em cada gesto, e o contentamento alegre com o essencial. Ao assentar-se em recolhimento, o praticante identifica e abandona os Cinco Obstáculos — vivenciando o alívio radiante de quem quita uma dívida esmagadora, cura-se de uma doença grave, sai dos grilhões de uma prisão, alcança a liberdade da escravidão ou atravessa com segurança um deserto perigoso. Desse alívio inefável nascem o arrebatamento espiritual (pīti) e a tranquilidade física (passaddhi), conduzindo naturalmente aos quatro Jhānas, que banham cada poro do corpo antes de serem direcionados à visão intuitiva libertadora."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Indriyasaṁvara",
+        title: {
+          en: "1. Guarding the Sense Doors",
+          pt: "1. A Guarda das Portas dos Sentidos"
+        },
+        desc: {
+          en: "On seeing a form, hearing a sound, smelling, tasting, touching, or cognizing a thought, do not grasp at general signs or secondary details that evoke greed or dejection. Guard the mind at the threshold of contact.",
+          pt: "Ao ver uma forma, ouvir um som, cheirar, saborear, tocar ou pensar, não se apegue aos traços gerais nem aos detalhes secundários que provoquem cobiça ou irritação. Vigie a mente no portal do contato."
+        }
+      },
+      {
+        step: 2,
+        pali: "Nīvaraṇappahāna",
+        title: {
+          en: "2. Abandoning the 5 Hindrances (The 5 Similes of Freedom)",
+          pt: "2. O Abandono dos 5 Obstáculos (Os 5 Símiles da Liberdade)"
+        },
+        desc: {
+          en: "Recognize sensual desire as debt, ill-will as disease, dullness/sloth as prison, restlessness as slavery, and doubt as a dark desert. Discarding them, delight and relief arise in the heart.",
+          pt: "Reconheça o desejo sensual como dívida, a má-vontade como doença, o torpor como masmorra, a inquietação como escravidão e a dúvida como um deserto sombrio. Ao descartá-los, o coração é inundado de leveza."
+        }
+      },
+      {
+        step: 3,
+        pali: "Paṭhama Jhāna (Nhāpaka Simile)",
+        title: {
+          en: "3. First Jhāna: The Bathman's Moisture Kneading",
+          pt: "3. Primeiro Jhāna: O Amassar do Sabão de Banho"
+        },
+        desc: {
+          en: "Secluded from sensual desires and unwholesome states, one enters the first jhāna with directed thought (vitakka), evaluation (vicāra), rapture (pīti), and pleasure (sukha). Like a bathman kneading water into soap-powder until every granule is soaked, rapture permeates the entire body.",
+          pt: "Afaste-se dos desejos dos sentidos e entre no primeiro jhāna, acompanhado de pensamento aplicado (vitakka), sustentado (vicāra), êxtase (pīti) e felicidade (sukha). Como um banhista que amassa sabão em pó com água até saturar cada partícula, o êxtase permeia todo o corpo."
+        }
+      },
+      {
+        step: 4,
+        pali: "Dutiya Jhāna (Ubbhidodaka Simile)",
+        title: {
+          en: "4. Second Jhāna: The Deep Spring-Fed Mountain Lake",
+          pt: "4. Segundo Jhāna: O Lago da Nascente Subterrânea"
+        },
+        desc: {
+          en: "With the stilling of directed and evaluated thought, one attains internal confidence and mental singleness, entering the second jhāna. Like a lake fed by an internal cool spring without rain or streams, internal joy wells up and floods the organism.",
+          pt: "Com a cessação do pensamento aplicado e da sustentação, atinge-se a confiança interior e a unificação mental. Como um lago alimentado por uma nascente límpida e profunda, sem rios externos, a paz interna brota e transborda."
+        }
+      },
+      {
+        step: 5,
+        pali: "Tatiya & Catuttha Jhāna (Uppala & Odāta Similes)",
+        title: {
+          en: "5. Third & Fourth Jhānas: Submerged Lotuses & The White Cloth",
+          pt: "5. Terceiro e Quarto Jhānas: Os Lótus Submersos e o Manto Branco"
+        },
+        desc: {
+          en: "With fading of rapture, one dwells in equanimous bliss (3rd Jhāna, like white lotuses submerged in cool water). Then, abandoning pleasure and pain, one enters the 4th Jhāna: pure equanimity and mindfulness, sitting enveloped in a brilliant white radiant cloth.",
+          pt: "Com o desvanecer do êxtase, repousa-se no contentamento equânime (3º Jhāna, como flores de lótus banhadas sob a água fria). Abandonando prazer e dor, atinge-se o 4º Jhāna: pura equanimidade e presença luminosa, como quem se senta envolvido por um manto alvo e imaculado."
+        }
+      },
+      {
+        step: 6,
+        pali: "Ñāṇadassana",
+        title: {
+          en: "6. Knowledge & Vision of the Aggregates",
+          pt: "6. Conhecimento e Visão dos Agregados"
+        },
+        desc: {
+          en: "With mind concentrated, purified, and unblemished, one directs it to insight: 'This body of mine is material, made of the 4 elements, subject to breakup; and this consciousness of mine is bound to it, supported by it.' Direct realization of non-clinging.",
+          pt: "Com a mente unificada, límpida e maleável, direciona-se a atenção ao discernimento: 'Este meu corpo é composto dos 4 elementos, perecível; e esta minha consciência está vinculada a ele.' Compreensão direta do desapego."
+        }
+      }
+    ],
+    layApplication: {
+      en: "Use sense restraint (Indriyasaṁvara) directly with smartphones, social media feeds, and visual advertising: pause before clicking and feel the initial tug of craving or aversion. Before every sit, deliberately review the 5 Hindrance Similes—especially the 'clearing of debt' and 'release from prison'—to bring joyful lightness to the meditation cushion rather than grim striving.",
+      pt: "Aplique a guarda dos sentidos (Indriyasaṁvara) diretamente com smartphones e redes sociais: faça uma pausa antes de clicar e reconheça o puxão da cobiça ou da irritação. Antes de meditar, rememore os 5 símiles dos obstáculos — sobretudo o alívio da quitação de uma dívida e da saída de uma prisão — trazendo leveza e alegria à prática."
+    },
+    keyPaliTerms: [
+      {
+        term: "Indriyasaṁvara",
+        meaning: "Guarding the doors of the sense faculties against reactive contamination"
+      },
+      {
+        term: "Nīvaraṇappahāna",
+        meaning: "The conscious abandoning and cutting off of the five hindrances"
+      },
+      {
+        term: "Santuṭṭhi",
+        meaning: "Contentment with what is present and minimal necessary requisites"
+      },
+      {
+        term: "Ñāṇadassana",
+        meaning: "Direct knowledge and vision into the conditioned nature of body and consciousness"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-kayagatasati",
+    cluster: "ebt",
+    number: "04",
+    paliTitle: "Kāyagatāsati Sutta",
+    title: {
+      en: "Mindfulness Immersed in the Body & The 10 Blessings",
+      pt: "Atenção Plena Imersa no Corpo & As Dez Bênçãos"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha, Ven. Ānanda",
+    canonicalRef: "MN 119 (Majjhima Nikāya 119)",
+    coreFocus: {
+      en: "Comprehensive somatic embodiment across postures, physical elements, anatomical components, and the 10 supreme blessings of mastery",
+      pt: "Presença somática integral nas posturas, elementos físicos, partes anatômicas e as 10 bênçãos supremas de domínio mental"
+    },
+    primaryAnchor: {
+      en: "The immediate tactile, proprioceptive reality of the living physical body in all four postures",
+      pt: "A realidade tátil e proprioceptiva imediata do corpo físico vivo em todas as quatro posturas"
+    },
+    approachToJhana: {
+      en: "Jhānas are experienced not as disembodied trances, but as organic, full-bodied saturations of rapture, ease, and pristine equanimity",
+      pt: "Os Jhānas são vivenciados não como transes desincorporados, mas como saturação orgânica de todo o corpo com êxtase, paz e lucidez"
+    },
+    useOfNoting: {
+      en: "Direct somatic recognition without mental verbalization ('When bending or stretching the limbs, one acts with situational clarity')",
+      pt: "Reconhecimento somático direto sem verbalização discursiva ('Ao dobrar ou esticar os membros, age-se com lucidez situacional')"
+    },
+    tagline: {
+      en: "'Whoever penetrates bodily mindfulness with clarity has embraced within themselves all wholesome qualities leading to awakening.'",
+      pt: "'Aquele que penetra a atenção plena no corpo com clareza abrangeu em si todas as qualidades salutares que conduzem ao despertar.'"
+    },
+    overview: {
+      en: "In the Kāyagatāsati Sutta (MN 119), the Buddha provides the ultimate practical guide to somatic grounding. Far from regarding the body as a mere hindrance to be bypassed, the Buddha presents bodily awareness as the unshakeable foundation for all spiritual mastery. The sutta details progressive bodily contemplations: breath awareness, the four primary postures, clear comprehension in eating, drinking, and daily movement, examining the 31 anatomical parts, meditating on the four material elements (earth, water, fire, wind), the cemetery reflections on decay, and the four somatic Jhāna suffusions. Most inspiringly, the Buddha concludes with the Ten Great Blessings of bodily mindfulness: it conquers discontent and delight, subdues fear and dread, enables one to endure cold, heat, hunger, thirst, and severe physical pain without agony, and makes the mind instantly receptive to liberating realizations.",
+      pt: "No Kāyagatāsati Sutta (MN 119), o Buda fornece o guia definitivo para o enraizamento somático. Longe de tratar o corpo como mero obstáculo a ser ignorado, o Buda o estabelece como a âncora inabalável para o domínio espiritual. O sutta percorre contemplações progressivas: a respiração consciente, as quatro posturas, a lucidez ao alimentar-se, caminhar e mover-se, o escaneamento das 31 partes anatômicas, a percepção dos quatro elementos materiais (terra, água, fogo, ar), as reflexões nos cemitérios sobre a transitoriedade e a saturação somática dos quatro Jhānas. O Buda coroa o discurso com as Dez Grandes Bênçãos da atenção plena no corpo: ela conquista o desprazer e o apego, subjuga o pânico e o medo, capacita o praticante a suportar frio, calor, fome e dores físicas intensas sem desespero mental, tornando a mente fértil para a libertação."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Catur-iriyāpatha",
+        title: {
+          en: "1. The Four Somatic Postures",
+          pt: "1. As Quatro Posturas Somáticas"
+        },
+        desc: {
+          en: "When walking, one discerns: 'I am walking'; standing: 'I am standing'; sitting: 'I am sitting'; lying down: 'I am lying down'. Know the body directly in whatever position it is arranged.",
+          pt: "Ao caminhar, discerne: 'Estou caminhando'; ao parar: 'Estou de pé'; ao sentar: 'Estou sentado'; ao deitar: 'Estou deitado'. Reconheça o corpo diretamente na postura em que se encontra."
+        }
+      },
+      {
+        step: 2,
+        pali: "Sampajañña in Action",
+        title: {
+          en: "2. Clear Comprehension in Daily Living",
+          pt: "2. Clara Compreensão nas Ações Cotidianas"
+        },
+        desc: {
+          en: "In going forward and returning, looking ahead and looking away, flexing and extending limbs, eating, drinking, chewing, savoring, urinating, defaecating, falling asleep, and waking: act with clear awareness.",
+          pt: "Ao avançar e recuar, olhar para frente e para o lado, dobrar e estender braços e pernas, comer, beber, mastigar, ir ao banheiro, adormecer e acordar: aja com atenção lúcida."
+        }
+      },
+      {
+        step: 3,
+        pali: "Koṭṭhāsa & Dhātuso",
+        title: {
+          en: "3. Anatomical Parts & Four Physical Elements",
+          pt: "3. Partes Anatômicas e os Quatro Elementos"
+        },
+        desc: {
+          en: "Scan the body from head to toe: hair, skin, flesh, bones, internal organs. Discern the four primary elements: earth (solidity/hardness), water (cohesion/fluidity), fire (warmth/temperature), wind (pressure/movement).",
+          pt: "Escanear o corpo dos pés à cabeça: cabelos, pele, carne, ossos, órgãos internos. Discernir os quatro elementos: terra (solidez/peso), água (coesão/umidade), fogo (temperatura) e ar (pressão/movimento)."
+        }
+      },
+      {
+        step: 4,
+        pali: "Kāyaparipūraṇa Jhāna",
+        title: {
+          en: "4. Full-Body Jhāna Saturation",
+          pt: "4. Saturação Corpórea nos Jhānas"
+        },
+        desc: {
+          en: "Cultivate Jhānas with pervasive somatic integration: permeating every limb and tissue with rapture, deep peaceful bliss, and pure radiant mind-state, leaving no spot in the entire body untouched.",
+          pt: "Cultivar os Jhānas com integração física total: permeando cada membro e tecido com arrebatamento, paz reconfortante e luminosidade serena, sem deixar qualquer ponto do corpo desassistido."
+        }
+      },
+      {
+        step: 5,
+        pali: "Dasa Ānisaṁsā",
+        title: {
+          en: "5. Harvesting the Ten Somatic Blessings",
+          pt: "5. Colhendo as Dez Bênçãos Somáticas"
+        },
+        desc: {
+          en: "Observe how continuous physical presence conquers fear and panic, overcomes agitation, and empowers the meditator to remain completely undisturbed by sharp bodily pains, illness, and difficult environments.",
+          pt: "Testemunhe como a presença física contínua dissipa o medo e o pânico, supera a agitação e capacita o praticante a permanecer imperturbável diante de dores agudas, doenças e desafios externos."
+        }
+      }
+    ],
+    layApplication: {
+      en: "Whenever intense emotional distress or anxiety strikes during the day, do not wrestle with obsessive thoughts in the head. Immediately drop attention into physical sensations: feel the weight of the feet pressing on the floor, the hands resting on the lap, or the chest rising and falling. Somatic embodiment instantly short-circuits the runaway loops of conceptual rumination.",
+      pt: "Sempre que surgir ansiedade, estresse ou angústia emocional no cotidiano, não tente debater com os pensamentos na cabeça. Traga a atenção imediatamente para as sensações do corpo: sinta o peso dos pés no chão, o toque das mãos no colo ou o tórax expandindo. A presença somática corta pela raiz o ciclo do excesso de pensamento."
+    },
+    keyPaliTerms: [
+      {
+        term: "Kāyagatāsati",
+        meaning: "Mindfulness immersed and grounded in the physical body"
+      },
+      {
+        term: "Dhātu-manasikāra",
+        meaning: "Attention directed to the four material elements (earth, water, fire, wind)"
+      },
+      {
+        term: "Abhirati-arati-saha",
+        meaning: "The capacity of somatic awareness to conquer both sensual craving and aversion"
+      },
+      {
+        term: "Adhivāsanakhantī",
+        meaning: "Endurance and equanimity in the face of harsh sensations and bodily discomfort"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-vitakkasanthana",
+    cluster: "ebt",
+    number: "05",
+    paliTitle: "Vitakkasaṇṭhāna Sutta",
+    title: {
+      en: "The Removal of Distracting Thoughts & Cognitive Restructuring",
+      pt: "A Remoção dos Pensamentos Perturbadores"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha",
+    canonicalRef: "MN 20 (Majjhima Nikāya 20)",
+    coreFocus: {
+      en: "The five-step tactical escalation protocol for extinguishing obsessive thoughts of lust, anger, and delusion during meditation",
+      pt: "Protocolo tático em 5 etapas progressivas para extinguir pensamentos obsessivos de cobiça, raiva e confusão na meditação"
+    },
+    primaryAnchor: {
+      en: "Mindful cognitive observation and the deliberate skillful substitution of mental objects",
+      pt: "Observação cognitiva consciente e a substituição deliberada e hábil de objetos mentais"
+    },
+    approachToJhana: {
+      en: "A prerequisite psychological de-cluttering tool: clearing the intrusive mental weeds so the mind can settle into unified absorption",
+      pt: "Ferramenta indispensável para desobstruir a mente dos ruídos intrusivos para que ela alcance a absorção unificada"
+    },
+    useOfNoting: {
+      en: "Immediate recognition of the ethical valence of a thought (wholesome vs. unwholesome) and immediate tactical intervention",
+      pt: "Reconhecimento imediato do tom do pensamento (salutar vs. prejudicial) e intervenção prática imediata"
+    },
+    tagline: {
+      en: "'Just as a skilled carpenter knocks out a coarse peg with a fine peg, so too the meditator drives out an unwholesome thought with a wholesome theme.'",
+      pt: "'Assim como um carpinteiro habilidoso desaloja um pino rústico com um pino fino, assim o meditador expulsa um pensamento prejudicial com um tema benéfico.'"
+    },
+    overview: {
+      en: "In the Vitakkasaṇṭhāna Sutta (MN 20), the Buddha addresses the universal challenge of every meditator: what to do when obsessive, intrusive, or compulsive thoughts of desire, irritation, or anxiety refuse to subside despite breath mindfulness. The Buddha does not advocate passive resignation. Instead, he lays out a precise five-tier tactical escalation protocol. The meditator begins with the gentlest intervention (replacing the unwholesome thought with an opposite wholesome theme, like knocking out a coarse wooden peg with a fine peg). If that fails, one proceeds to the second tier (examining the degradation and danger of the thought, like wearing a foul carcass around one's neck). If still unsuccessful, the third tier is applied (deliberately turning away attention and ignoring it). If thoughts persist, the fourth tier steps down the thought's kinetic momentum (tracing the thought back to its source, from running to walking, walking to sitting). Finally, as an ultimate emergency resort, one uses forceful resolve—clenching the teeth and subduing the mind by raw willpower. By mastering these five tools, one attains total mastery over thoughts: thinking what one wishes to think, and refusing to think what one does not wish to think.",
+      pt: "No Vitakkasaṇṭhāna Sutta (MN 20), o Buda aborda o desafio universal de todo meditador: o que fazer quando pensamentos obsessivos de desejo, irritação ou ansiedade recusam-se a cessar. O Buda não recomenda resignação passiva. Em vez disso, estabelece um protocolo tático de intervenção em cinco etapas. Começa-se pela abordagem mais suave (substituir o pensamento nocivo pelo seu oposto benéfico, como um carpinteiro que expulsa um pino de madeira rústica com um pino fino). Se isso não bastar, avança-se para o segundo nível (contemplar o perigo e a degradação daquele pensamento, como carregar uma carcaça podre no pescoço). Se persistir, aplica-se o terceiro nível (desviar a atenção e ignorá-lo deliberadamente). Se continuar, o quarto passo desacelera o ímpeto cinético do pensamento (passar do correr ao andar, do andar ao sentar). Por fim, em última instância, utiliza-se a determinação firme com os dentes cerrados para subjugar a mente. Dominando essas cinco chaves, o praticante conquista a maestria mental: pensando o que deseja pensar e descartando o que não deseja."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Aññaṁ Nimittaṁ (The Fine Peg)",
+        title: {
+          en: "1. Wholesome Object Replacement",
+          pt: "1. Substituição por um Tema Salutar"
+        },
+        desc: {
+          en: "When unwholesome thoughts connected with desire, aversion, or delusion arise, attend to an alternative wholesome theme. Replace lust with body contemplation; replace anger with loving-kindness (mettā); replace confusion with breath clarity.",
+          pt: "Quando surgirem pensamentos de desejo, aversão ou confusão, direcione a mente para um tema oposto benéfico. Substitua a luxúria pela impermanência; a raiva pelo amor-bondade (mettā); a dispersão pela respiração."
+        }
+      },
+      {
+        step: 2,
+        pali: "Ādīnavānupassanā (The Carcass)",
+        title: {
+          en: "2. Scrutinizing the Danger & Toxicity",
+          pt: "2. Examinar o Perigo e a Toxicidade"
+        },
+        desc: {
+          en: "If the thought lingers, examine its poisonous fruit: 'These thoughts are unwholesome, blameworthy, and lead directly to suffering.' Feel the visceral revulsion of a cultured person having a decomposing carcass hung around their neck.",
+          pt: "Se o pensamento persistir, analise seu veneno: 'Esses pensamentos são destrutivos e geram sofrimento.' Sinta a repulsa visceral de quem carrega a carcaça de um animal morto pendurada no pescoço."
+        }
+      },
+      {
+        step: 3,
+        pali: "Asatī-Amanasikāra (Looking Away)",
+        title: {
+          en: "3. Non-Attention & Deliberate Neglect",
+          pt: "3. Desatenção e Ignorar Deliberado"
+        },
+        desc: {
+          en: "If it still persists, resolve: 'I will not look at this.' Treat the thought as an irrelevant, uninvited guest. Look away, as someone closes their eyes or turns their head away from an unpleasant sight.",
+          pt: "Se continuar, decida: 'Não darei atenção a isto.' Trate o pensamento como um ruído distante e desinteressante. Feche os olhos mentais ou desvie o olhar como quem recusa fitar algo desagradável."
+        }
+      },
+      {
+        step: 4,
+        pali: "Vitakkasaṅkhārasaṇṭhāna (Stepping Down Momentum)",
+        title: {
+          en: "4. De-escalating the Thought's Kinetic Energy",
+          pt: "4. Desacelerar o Ímpeto do Pensamento"
+        },
+        desc: {
+          en: "Question the hurry: 'Why am I running so fast in thought? What if I walk? Why walk when I can stand? Why stand when I can sit? Why sit when I can lie down?' Consciously step down mental agitation into stillness.",
+          pt: "Questione a pressa mental: 'Por que estou correndo tanto mentalmente? E se eu apenas caminhasse? Por que caminhar se posso parar de pé? Por que de pé se posso me sentar?' Reduza passo a passo a rotação mental."
+        }
+      },
+      {
+        step: 5,
+        pali: "Abhiniggaha (The Ultimate Resolve)",
+        title: {
+          en: "5. Forceful Mind-Subdual",
+          pt: "5. Determinação Firme e Contenção"
+        },
+        desc: {
+          en: "If obsessive thoughts still overpower the mind, with teeth clenched and tongue pressed against the roof of the mouth, crush the unwholesome mental process by direct spiritual willpower, like a strong man pinning down a weaker foe.",
+          pt: "Se pensamentos obsessivos ainda tentarem arrastar a mente, cerre os dentes, pressione a língua no palato e esmague a compulsão mental com firme vontade espiritual, como um guerreiro que domina um adversário."
+        }
+      }
+    ],
+    layApplication: {
+      en: "This is the ultimate toolkit for ending nighttime insomnia, rumination over work disputes, or intrusive spirals of anxiety. Never jump directly to willpower (Step 5); always start with replacement (Step 1) or stepping down the kinetic energy (Step 4). When replaying an angry argument in bed, immediately ask: 'Why am I running? Can I walk? Can I simply lie still?'",
+      pt: "Esta é a melhor caixa de ferramentas para vencer a insônia, ruminações sobre o trabalho ou espirais de ansiedade. Nunca salte direto para o esforço bruto (Passo 5); comece sempre pela substituição (Passo 1) ou desaceleração do ritmo (Passo 4). Ao repassar uma discussão na cama, pergunte-se: 'Por que estou correndo tanto por dentro? Posso simplesmente descansar?'"
+    },
+    keyPaliTerms: [
+      {
+        term: "Vitakkasaṇṭhāna",
+        meaning: "The stilling, settling, and strategic removal of discursive thoughts"
+      },
+      {
+        term: "Aññaṁ Nimittaṁ",
+        meaning: "A different, opposite wholesome mental sign or object"
+      },
+      {
+        term: "Ādīnava",
+        meaning: "Danger, misery, defect, or degrading consequence"
+      },
+      {
+        term: "Cetaso Abhiniggaha",
+        meaning: "Direct resolute subdual of the unwholesome mind state by willpower"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-yuganaddha",
+    cluster: "ebt",
+    number: "06",
+    paliTitle: "Yuganaddha Sutta",
+    title: {
+      en: "Samatha & Vipassanā Yoked in Tandem",
+      pt: "Calma & Discernimento Conduzidos em Pareamento"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Ven. Ānanda, Gotama Buddha",
+    canonicalRef: "AN 4.170 (Aṅguttara Nikāya 4.170)",
+    coreFocus: {
+      en: "The four canonical dynamic pathways through which Tranquility (Samatha) and Insight (Vipassanā) unite to realize full awakening",
+      pt: "As quatro rotas canônicas pelas quais a Calma (Samatha) e o Discernimento (Vipassanā) se unem rumo à libertação plena"
+    },
+    primaryAnchor: {
+      en: "Balanced cooperation between mental stillness (cittassa ekaggatā) and investigative wisdom (dhammavicaya)",
+      pt: "Cooperação equilibrada entre a quietude mental (cittassa ekaggatā) e a sabedoria investigativa (dhammavicaya)"
+    },
+    approachToJhana: {
+      en: "Reconciles historical debates: Jhāna may precede insight, follow insight, or develop simultaneously in harmonic synchronization",
+      pt: "Reconcilia os debates históricos: os Jhānas podem preceder o insight, segui-lo ou desenvolver-se em sincronia harmônica"
+    },
+    useOfNoting: {
+      en: "Flexible: noting and analytical contemplation operate during the insight phase, settling into pristine silence during samatha",
+      pt: "Flexível: investigação e rotulação operam na fase de insight, dissolvendo-se no silêncio na fase de samatha"
+    },
+    tagline: {
+      en: "'Whoever declares the realization of final knowledge in my presence has done so through one of these four authentic paths.'",
+      pt: "'Qualquer pessoa que declare a realização do conhecimento supremo em minha presença o fez por uma dessas quatro vias autênticas.'"
+    },
+    overview: {
+      en: "The Yuganaddha Sutta (AN 4.170) is the supreme canonical authority reconciling the age-old debate between Samatha (tranquility/absorption) and Vipassanā (insight/discernment). Delivered by the Buddha's beloved personal attendant, Ven. Ānanda, the sutta declares that all monks and nuns who attained Arahantship did so through one of four authentic pathways: 1. Insight preceded by Tranquility (cultivating deep jhanic stillness first, then examining the conditioned nature of that state); 2. Tranquility preceded by Insight (investigating impermanence and non-self first until the exhausted, disenchanted mind settles into deep samādhi); 3. Tranquility and Insight cultivated in Tandem (yoked together like a matched pair of oxen, alternating smoothly between stillness and investigation); and 4. Settling Agitation regarding the Dhamma (for practitioners overwhelmed by spiritual enthusiasm, overthinking doctrine, or intense restlessness, whose minds eventually settle into unified peace). This sutta proves that meditation is a flexible, living balance rather than a rigid, sectarian dogma.",
+      pt: "O Yuganaddha Sutta (AN 4.170) é a autoridade canônica máxima que pacifica o debate histórico entre Samatha (calma/absorção) e Vipassanā (insight/discernimento). Proferido pelo Ven. Ānanda, companheiro íntimo do Buda, o discurso atesta que todos os praticantes que alcançaram a iluminação o fizeram por uma de quatro vias autênticas: 1. O insight precedido pela calma (cultivando primeiro a quietude profunda dos jhānas e depois dissecando a inconstância da mente); 2. A calma precedida pelo insight (investigando a transitoriedade e o não-eu até que a mente, desiludida do apego, pouse em profundo samādhi); 3. Calma e insight pareados em uníssono (yuganaddha, conduzidos como uma parelha de bois em perfeita harmonia); e 4. A pacificação da agitação doutrinária (para praticantes aflitos por excesso de estudo ou ansiedade espiritual, cuja mente finalmente silencia). O sutta comprova que a meditação budista é um equilíbrio dinâmico e flexível, e não um dogma estreito."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Samathapubbaṅgamaṁ Vipassanaṁ",
+        title: {
+          en: "Path 1: Insight Preceded by Tranquility",
+          pt: "Via 1: O Insight Precedido pela Calma"
+        },
+        desc: {
+          en: "First, one cultivates deep concentration, calming the breath and mental chatter until reaching absorption. Emerging from stillness, one examines the 5 aggregates with laser clarity as impermanent, unsatisfactory, and not-self.",
+          pt: "Primeiro, cultiva-se profunda concentração e silêncio até a absorção. Emergindo da quietude, disseca-se os 5 agregados com clareza cristalina como inconstantes, insatisfatórios e desprovidos de um eu."
+        }
+      },
+      {
+        step: 2,
+        pali: "Vipassanāpubbaṅgamaṁ Samathaṁ",
+        title: {
+          en: "Path 2: Tranquility Preceded by Insight",
+          pt: "Via 2: A Calma Precedida pelo Insight"
+        },
+        desc: {
+          en: "First, one contemplates the immediate rise and fall of physical sensations and thoughts. As clinging is severed by insight, the mind drops its burdens and naturally collapses into deep, unforced samādhi.",
+          pt: "Primeiro, contempla-se o fluxo contínuo de sensações e pensamentos. Conforme o apego é cortado pela lucidez, a mente solta seus fardos e pousa naturalmente em profundo e espontâneo samādhi."
+        }
+      },
+      {
+        step: 3,
+        pali: "Samathavipassanaṁ Yuganaddhaṁ",
+        title: {
+          en: "Path 3: Tranquility & Insight in Tandem",
+          pt: "Via 3: Calma & Insight em Pareamento"
+        },
+        desc: {
+          en: "Developing both wings simultaneously: whenever the mind becomes scattered, one applies tranquility; whenever the mind becomes dull or stagnant, one applies investigation. The two work together like two hands washing each other.",
+          pt: "Desenvolvem-se as duas asas simultaneamente: quando a mente dispersa, ancora-se na calma; quando a mente estagna, aciona-se a investigação. Ambas operam juntas como duas mãos lavando-se mutuamente."
+        }
+      },
+      {
+        step: 4,
+        pali: "Dhammuddhacca-vūpasama",
+        title: {
+          en: "Path 4: Calming Agitation About the Dhamma",
+          pt: "Via 4: Pacificando a Inquietação Doutrinária"
+        },
+        desc: {
+          en: "When a meditator's mind is seized by restlessness concerning experiences, lights, or philosophical theories, they drop all analysis and let the mind settle in its natural stillness until unified focus is born.",
+          pt: "Quando o praticante é tomado por agitação sobre luzes meditativas, teorias ou dúvidas doutrinárias, abandona-se toda análise e permite-se que a mente repouse na quietude pura até que o foco se unifique."
+        }
+      }
+    ],
+    layApplication: {
+      en: "Household meditators often fall into the trap of forcing their sit into a single rigid template. Yuganaddha teaches intelligent diagnosis: if you arrive home with an exhausted, stressed nervous system, do not force analytical insight—nurture Samatha (Path 1). If you are calm but daydreaming, stimulate active contemplation of impermanence (Path 2).",
+      pt: "Praticantes leigos frequentemente caem no erro de forçar suas práticas num molde único e rígido. Yuganaddha ensina o diagnóstico flexível: se você chegar do trabalho com o sistema nervoso esgotado, não force análises intelectuais — cultive a calma pura (Via 1). Se estiver descansado mas disperso, estimule a contemplação ativa da impermanência (Via 2)."
+    },
+    keyPaliTerms: [
+      {
+        term: "Yuganaddha",
+        meaning: "Yoked together in tandem, operating in harmonic synchrony"
+      },
+      {
+        term: "Samatha",
+        meaning: "Tranquility, serenity, stilling of mental formations"
+      },
+      {
+        term: "Vipassanā",
+        meaning: "Insight, clear intuitive seeing of the three marks of existence"
+      },
+      {
+        term: "Dhammuddhacca",
+        meaning: "Restlessness or agitation arising from spiritual experiences or doctrinal debate"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-samadhibhavana",
+    cluster: "ebt",
+    number: "07",
+    paliTitle: "Samādhibhāvanā Sutta",
+    title: {
+      en: "The Four Developments of Concentration",
+      pt: "Os Quatro Modos de Cultivar a Concentração"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha",
+    canonicalRef: "AN 4.41 (Aṅguttara Nikāya 4.41)",
+    coreFocus: {
+      en: "The Buddha's definitive categorization of 4 distinct ways concentration is developed, each mapped to a specific spiritual fruition",
+      pt: "A classificação canônica definitiva dos 4 modos de desenvolver o samādhi, mapeados para seus respectivos frutos espirituais"
+    },
+    primaryAnchor: {
+      en: "Context-dependent: breath/joy for pleasant abiding; light (āloka) for knowledge & vision; rising/passing events for mindfulness; 5 aggregates for liberation",
+      pt: "Conforme o propósito: respiração/paz para bem-estar; luz (āloka) para visão; eventos presentes para lucidez; 5 agregados para libertação"
+    },
+    approachToJhana: {
+      en: "Directly positions the 4 Jhānas as the primary cultivation for 'Pleasant Abiding in the Here-and-Now' (diṭṭhadhammasukhavihāra)",
+      pt: "Posiciona formalmente os 4 Jhānas como o cultivo primordial para o 'Viver Feliz no Aqui e Agora' (diṭṭhadhammasukhavihāra)"
+    },
+    useOfNoting: {
+      en: "Employed with laser precision in the 3rd development (knowing feelings, perceptions, and thoughts as they arise, persist, and vanish)",
+      pt: "Empregado com precisão cirúrgica no 3º modo (discernindo sensações, percepções e pensamentos ao surgirem, persistirem e cessarem)"
+    },
+    tagline: {
+      en: "'There are these four developments of concentration: for pleasant dwelling here-and-now, for knowledge and vision, for mindfulness and situational awareness, and for the destruction of the taints.'",
+      pt: "'Existem estes quatro modos de cultivar a concentração: para o viver agradável aqui e agora, para o conhecimento e visão, para a atenção plena e lucidez, e para a destruição dos grilhões.'"
+    },
+    overview: {
+      en: "In the Samādhibhāvanā Sutta (AN 4.41), the Buddha eliminates confusion about the ultimate purpose of meditation by mapping concentration into four distinct operational modes, each geared toward a unique spiritual dividend: 1. Concentration developed for pleasant dwelling in the present life (diṭṭhadhammasukhavihāra): the four Jhānas, which provide restorative rest, physiological rejuvenation, and freedom from sensual stress; 2. Concentration developed for gaining knowledge and vision (ñāṇadassanapaṭilābha): attending to the perception of light (ālokasaññā) and maintaining an open, luminous mind by day and night; 3. Concentration developed for mindfulness and clear comprehension (satisampajaññāya): tracking feelings (vedanā), perceptions (saññā), and applied thoughts (vitakka) in real-time as they arise, become known, and pass away; and 4. Concentration developed for the final destruction of the taints (āsavānaṁ khayāya): observing the constant arising and passing away of the Five Clinging-Aggregates (rūpa, vedanā, saññā, saṅkhārā, viññāṇa). This provides practitioners with an unambiguous diagnostic compass.",
+      pt: "No Samādhibhāvanā Sutta (AN 4.41), o Buda elimina ambiguidades sobre o propósito da meditação ao mapear a concentração em quatro modos práticos, cada qual com um objetivo espiritual específico: 1. Concentração para o viver feliz no presente momento (diṭṭhadhammasukhavihāra): os quatro Jhānas, que proporcionam regeneração física, alívio de estresse e recolhimento sereno; 2. Concentração para o conhecimento e a visão intuitiva (ñāṇadassanapaṭilābha): cultivando a percepção da luminosidade (ālokasaññā) de dia e de noite; 3. Concentração para a atenção plena e discernimento situacional (satisampajaññāya): rastreando em tempo real as sensações, percepções e pensamentos à medida que surgem, permanecem e cessam; e 4. Concentração para a erradicação dos contaminantes mentais (āsavānaṁ khayāya): contemplando o constante nascer e fenecer dos Cinco Agregados do Apego. O sutta é uma bússola de clareza indispensável para o praticante."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Diṭṭhadhammasukhavihāra",
+        title: {
+          en: "1. For Pleasant Abiding (The 4 Jhānas)",
+          pt: "1. Para o Bem-Estar Presente (Os 4 Jhānas)"
+        },
+        desc: {
+          en: "Secluded from unwholesome states, one enters and abides in the 1st, 2nd, 3rd, and 4th Jhānas. Cultivated to heal stress, stabilize the nervous system, and rest the heart in sacred tranquility.",
+          pt: "Afaste-se das impurezas e repouse nos 4 Jhānas. Praticado para curar o estresse, acalmar o sistema nervoso e descansar o coração em serenidade sagrada."
+        }
+      },
+      {
+        step: 2,
+        pali: "Ñāṇadassanapaṭilābha",
+        title: {
+          en: "2. For Knowledge & Vision (Luminous Perception)",
+          pt: "2. Para Conhecimento e Visão (A Luz Interior)"
+        },
+        desc: {
+          en: "One attends to the perception of light (ālokasaññā) and establishes the perception of daytime by day and night alike. The mind becomes bright, radiant, and open, overcoming sluggish darkness.",
+          pt: "Foque na percepção da luminosidade (ālokasaññā) e estabeleça a clareza do dia tanto durante o dia quanto à noite. A mente torna-se radiante, límpida e desobstruída."
+        }
+      },
+      {
+        step: 3,
+        pali: "Satisampajañña",
+        title: {
+          en: "3. For Mindfulness & Precision (Real-Time Tracking)",
+          pt: "3. Para a Lucidez Rápida (Rastreamento em Tempo Real)"
+        },
+        desc: {
+          en: "One observes: 'Such are feelings as they arise, such as they are known, such as they fade; such are perceptions; such are thoughts.' Tracking the microscopic trajectory of mental events without entanglement.",
+          pt: "Observe com precisão: 'Assim surgem as sensações, assim são conhecidas, assim desaparecem; assim são as percepções e os pensamentos.' Registre o nascimento e o fim de cada evento mental."
+        }
+      },
+      {
+        step: 4,
+        pali: "Āsavānaṁ Khaya",
+        title: {
+          en: "4. For the Destruction of the Taints (The 5 Aggregates)",
+          pt: "4. Para a Extinção dos Grilhões (Os 5 Agregados)"
+        },
+        desc: {
+          en: "One dwells contemplating the rise and fall of the 5 clinging-aggregates: 'Such is form, its origination, its passing away; such is feeling... perception... volitions... consciousness.' Realizing that nothing is 'me' or 'mine'.",
+          pt: "Contemple o surgir e cessar dos 5 agregados: 'Assim é o corpo, sua origem e seu fim; assim é a sensação... a percepção... as formações... a consciência.' Reconhecendo que nada é 'eu' ou 'meu'."
+        }
+      }
+    ],
+    layApplication: {
+      en: "This discourse provides a clear diagnostic map for daily life: When burned out or physically exhausted from family and corporate pressure, utilize Mode 1 (sitting purely for restorative jhanic ease). When feeling sleepy or mentally foggy, utilize Mode 2 (perception of light). When dealing with emotional flare-ups, utilize Mode 3 (watching feelings rise and fade). When seeking spiritual breakthrough, practice Mode 4.",
+      pt: "Este discurso fornece um mapa prático de discernimento para a vida cotidiana: quando exausto pelas pressões do trabalho e família, utilize o Modo 1 (sentar-se para o alívio e descanso meditativo). Quando sonolento ou embotado, use o Modo 2 (percepção da luminosidade). Diante de conflitos emocionais, ative o Modo 3 (acompanhando sensações nascerem e sumirem). Na busca da sabedoria final, pratique o Modo 4."
+    },
+    keyPaliTerms: [
+      {
+        term: "Diṭṭhadhammasukhavihāra",
+        meaning: "Pleasant, blissful dwelling in the present life here and now"
+      },
+      {
+        term: "Ālokasaññā",
+        meaning: "The perception of radiant light, overcoming dullness and obscurity"
+      },
+      {
+        term: "Satisampajañña",
+        meaning: "Mindfulness and clear situational comprehension of internal states"
+      },
+      {
+        term: "Āsavakkhaya",
+        meaning: "The total destruction and eradication of mental taints and defilements"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-girimananda",
+    cluster: "ebt",
+    number: "08",
+    paliTitle: "Girimānanda Sutta",
+    title: {
+      en: "The Ten Contemplations for Mind-Body Healing",
+      pt: "As Dez Contemplações para a Cura da Mente e do Corpo"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha, Ven. Ānanda, Ven. Girimānanda",
+    canonicalRef: "AN 10.60 (Aṅguttara Nikāya 10.60)",
+    coreFocus: {
+      en: "Ten profound therapeutic and liberating contemplations given to alleviate severe somatic disease and catalyze awakening",
+      pt: "Dez contemplações terapêuticas e libertadoras transmitidas para curar enfermidades graves e conduzir ao despertar"
+    },
+    primaryAnchor: {
+      en: "Universal existential marks (Anicca, Anattā, Asubha, Ādīnava) integrated with the complete 16-step breath meditation",
+      pt: "Marcas existenciais universais (Anicca, Anattā, Asubha, Ādīnava) integradas à prática completa da respiração consciente"
+    },
+    approachToJhana: {
+      en: "Combines serene contemplation of cessation (nirodha) and dispassion (virāga) with somatic healing ease",
+      pt: "Combina a contemplação serena da cessação (nirodha) e desapego (virāga) com alívio e cura somática"
+    },
+    useOfNoting: {
+      en: "Deep thematic reflection followed by silent breath cultivation across all sixteen steps",
+      pt: "Profunda reflexão temática seguida de cultivo silencioso da respiração em todas as dezesseis etapas"
+    },
+    tagline: {
+      en: "'When the venerable Girimānanda heard these ten contemplations, his affliction was immediately subdued, and he rose healed from his sickbed.'",
+      pt: "'Quando o venerável Girimānanda ouviu estas dez contemplações, sua enfermidade foi imediatamente apaziguada e ele ergueu-se curado de seu leito.'"
+    },
+    overview: {
+      en: "The Girimānanda Sutta (AN 10.60) is one of the most revered healing discourses in the Theravāda world. When the monk Girimānanda was stricken with a severe, agonizing bodily illness, the Buddha instructed Ven. Ānanda to visit him and recite ten specific contemplations (dasa saññā). Upon hearing and contemplating them with deep mindfulness, Girimānanda's somatic suffering miraculously vanished. The ten contemplations form a complete master curriculum of Buddhist practice: 1. Perception of impermanence (aniccasaññā); 2. Perception of non-self (anattasaññā); 3. Perception of unattractiveness (asubhasaññā); 4. Perception of danger/illness in the body (ādīnavasaññā, noting that the body is prone to hundreds of diseases); 5. Perception of abandoning unwholesome thoughts (pahānasaññā); 6. Perception of dispassion/fading (virāgasaññā); 7. Perception of cessation (nirodhasaññā); 8. Perception of non-delight in the whole world (sabbaloke anabhiratasaññā); 9. Perception of impermanence in all conditioned things (sabbasaṅkhāresu aniccasaññā); and 10. Mindfulness of in-and-out breathing (ānāpānasati in all 16 steps). This sutta demonstrates how wisdom can transform physical pain into spiritual release.",
+      pt: "O Girimānanda Sutta (AN 10.60) é um dos discursos de cura mais reverenciados da tradição Theravāda. Quando o monge Girimānanda caiu gravemente enfermo, afligido por dores intensas, o Buda encarregou o Ven. Ānanda de visitá-lo e recitar dez contemplações profundas (dasa saññā). Ao ouvi-las e contemplá-las com atenção plena, o sofrimento físico de Girimānanda foi apaziguado e ele se levantou curado de sua enfermidade. As dez contemplações formam um curso completo de libertação: 1. A percepção da inconstância (aniccasaññā); 2. A percepção do não-eu (anattasaññā); 3. A percepção da natureza orgânica perecível (asubhasaññā); 4. A percepção do perigo e vulnerabilidade do corpo (ādīnavasaññā, reconhecendo suas inúmeras fragilidades); 5. A percepção do abandono de pensamentos tóxicos (pahānasaññā); 6. A percepção do desapego (virāgasaññā); 7. A percepção da cessação (nirodhasaññā); 8. A percepção do desencanto com as vaidades mundanas (sabbaloke anabhiratasaññā); 9. A percepção da transitoriedade em todas as coisas condicionadas (sabbasaṅkhāresu aniccasaññā); e 10. A atenção plena na respiração (ānāpānasati em seus 16 passos). Mostra como a sabedoria converte a dor física em liberação espiritual."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Anicca & Anatta Saññā",
+        title: {
+          en: "1. Impermanence & Non-Self Foundations",
+          pt: "1. Fundamentos da Inconstância e do Não-Eu"
+        },
+        desc: {
+          en: "Contemplate the 5 aggregates (form, feeling, perception, volitions, consciousness) as constantly changing, devoid of lasting essence, and unable to be owned as 'me' or 'mine'.",
+          pt: "Contemple os 5 agregados (forma, sensação, percepção, formações, consciência) como mutáveis, sem núcleo permanente e incapazes de serem reivindicados como 'eu' ou 'meu'."
+        }
+      },
+      {
+        step: 2,
+        pali: "Ādīnavasaññā (The Vulnerability of the Body)",
+        title: {
+          en: "2. Contemplating the Vulnerability of Flesh",
+          pt: "2. Contemplando a Fragilidade da Carne"
+        },
+        desc: {
+          en: "Recognize that this body is a home of afflictions: prone to eye diseases, ear diseases, headaches, arthritis, fever, and decay. Seeing illness not as a personal failure, but as the natural condition of flesh.",
+          pt: "Reconheça que este corpo é suscetível a incontáveis fragilidades: dores de cabeça, febres, problemas articulares e desgastes. Enxergue a dor não como culpa pessoal, mas como condição natural da matéria."
+        }
+      },
+      {
+        step: 3,
+        pali: "Virāga & Nirodha Saññā",
+        title: {
+          en: "3. Dispassion & The Stillness of Cessation",
+          pt: "3. O Desapego e o Silêncio da Cessação"
+        },
+        desc: {
+          en: "Contemplate the complete fading away of lust and feverish clinging (virāga). Savor the peaceful stillness of cessation (nirodha): 'This is peaceful, this is sublime: the stilling of all formations, Nibbāna.'",
+          pt: "Contemple o desvanecimento completo do apego e da febre de controle (virāga). Saboreie o silêncio sereno da cessação: 'Isto é a paz sublime: o acalmar de todas as formações, Nibbāna.'"
+        }
+      },
+      {
+        step: 4,
+        pali: "Sabbaloke Anabhirata",
+        title: {
+          en: "4. Non-Delight in the World",
+          pt: "4. O Desencanto com as Vaidades do Mundo"
+        },
+        desc: {
+          en: "Abandon all fascination with worldly prestige, comparisons, arguments, and ephemeral acquisitions. The heart steps outside the noisy game of society.",
+          pt: "Abandone o apego ao prestígio social, disputas, comparações e acúmulos transitórios. O coração dá um passo atrás do teatro ruidoso das vaidades humanas."
+        }
+      },
+      {
+        step: 5,
+        pali: "Pāripūrī Ānāpānasati",
+        title: {
+          en: "5. Integration with the Breath Roadmap",
+          pt: "5. Integração com a Respiração Consciente"
+        },
+        desc: {
+          en: "Ground all nine previous insights into the smooth rhythm of the breath: calming bodily tension, experiencing joy and peace, steadying the mind, and contemplating relinquishment with every in-and-out breath.",
+          pt: "Enraíze os nove insights anteriores no ritmo orgânico da respiração: acalmando tensões, vivenciando o alívio sereno e soltando o apego a cada inspiração e expiração."
+        }
+      }
+    ],
+    layApplication: {
+      en: "This is the premier Buddhist practice to rely upon during illness, chronic pain, medical hospitalizations, or caring for aging parents. Instead of viewing bodily pain with anger or self-pity ('Why is this happening to me?'), apply Ādīnavasaññā: understand that pain is simply the natural behavior of an organic physical body. Couple this with the 4th step of Ānāpānasati: consciously calming physical tension on the exhalation.",
+      pt: "Esta é a prática suprema para momentos de dor crônica, hospitalizações ou cuidados com familiares doentes. Em vez de reagir à dor física com raiva ou queixa ('Por que comigo?'), aplique Ādīnavasaññā: compreenda que o desconforto é a natureza inerente do corpo biológico. Associe isso ao 4º passo da respiração: relaxando a tensão muscular a cada expiração."
+    },
+    keyPaliTerms: [
+      {
+        term: "Dasa Saññā",
+        meaning: "The ten transformative meditative perceptions taught for healing and awakening"
+      },
+      {
+        term: "Ādīnavasaññā",
+        meaning: "Perception of the inherent dangers, afflictions, and vulnerability of the physical body"
+      },
+      {
+        term: "Virāgasaññā",
+        meaning: "Perception of the peaceful fading away of craving and passion"
+      },
+      {
+        term: "Nirodhasaññā",
+        meaning: "Perception of cessation and the untroubled extinction of suffering"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-jhana-insight",
+    cluster: "ebt",
+    number: "09",
+    paliTitle: "Jhāna Sutta",
+    title: {
+      en: "Absorption as the Platform for Penetrating Insight",
+      pt: "A Absorção Meditativa como Plataforma para o Insight"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha",
+    canonicalRef: "AN 9.36 (Aṅguttara Nikāya 9.36)",
+    coreFocus: {
+      en: "Direct textual evidence that any Jhāna (from 1st to 8th) serves as an immediate springboard for dissecting the aggregates and attaining Arahantship",
+      pt: "Prova canônica de que qualquer nível de Jhāna (do 1º ao 8º) serve como base imediata para dissecar os agregados e alcançar a libertação"
+    },
+    primaryAnchor: {
+      en: "The five aggregates (form, feeling, perception, volitions, consciousness) as they exist within or immediately upon emerging from absorption",
+      pt: "Os cinco agregados presentes na absorção ou imediatamente após emergir da quietude"
+    },
+    approachToJhana: {
+      en: "Absorptions are treated not as an end in themselves, but as the steady, razor-sharp laboratory in which insight dissects all conditioned phenomena",
+      pt: "Os Jhānas são valorizados não como fim estático, mas como o laboratório nítido onde a sabedoria investiga os fenômenos condicionados"
+    },
+    useOfNoting: {
+      en: "The sevenfold insight diagnostic formula: seeing states as impermanent, painful, a disease, an arrow, alien, empty, and not-self",
+      pt: "A fórmula analítica sétupla: discernindo os estados como inconstantes, dolorosos, uma doença, uma flecha, alienígenas, vazios e não-eu"
+    },
+    tagline: {
+      en: "'Whatever phenomena exist in that absorption — form, feeling, perception, formations, consciousness — one contemplates them as impermanent, a disease, a dart, empty, not-self.'",
+      pt: "'Quaisquer fenômenos presentes naquela absorção — forma, sensação, percepção, formações, consciência — contempla-se como inconstantes, uma enfermidade, uma flecha, vazios e não-eu.'"
+    },
+    overview: {
+      en: "In the Jhāna Sutta (AN 9.36), the Buddha delivers a masterstroke of practical clarity that resolves centuries of sectarian debates regarding concentration. Some modern schools assert that Jhāna is unnecessary for awakening; others claim that one must emerge completely from absorption before insight can begin. In AN 9.36, the Buddha demonstrates that within or directly upon the foundation of any absorption—from the 1st Jhāna up to the Dimension of Nothingness—the practitioner examines whatever phenomena are present: physical form, pleasant feeling, perception, mental formations, and consciousness. The meditator contemplates them through seven diagnostic lenses: as impermanent (anicca), suffering (dukkha), a sickness (roga), a boil (gaṇḍa), a dart (salla), disintegrating (paloka), empty (suñña), and non-self (anattā). By turning the mind away from those conditioned states, one directs the heart to the Deathless (amata-dhātu): 'This is peaceful, this is sublime: the stilling of all formations, Nibbāna.' Through this direct method, Stream-Entry, Non-Returning, or full Arahantship is realized.",
+      pt: "No Jhāna Sutta (AN 9.36), o Buda oferece uma clarificação cirúrgica que pacifica séculos de debates doutrinários sobre a relação entre concentração e sabedoria. Algumas escolas afirmam que os Jhānas são desnecessários; outras sustentam que não é possível investigar enquanto há absorção. No AN 9.36, o Buda demonstra que, apoiado em qualquer nível de absorção — do 1º Jhāna até a Dimensão do Nada —, o praticante examina os fenômenos ali presentes: forma física, sensações agradáveis, percepção, formações mentais e consciência. O meditador contempla esses fatores através de sete lentes de insight: como inconstantes (anicca), dolorosos (dukkha), uma doença (roga), uma chaga (gaṇḍa), uma flecha (salla), vazios (suñña) e desprovidos de um eu (anattā). Ao desviar o coração desses fatores condicionados, volta a mente para o Elemento Imorredouro (amata-dhātu): 'Isto é a paz suprema: o silenciar de todas as formações, Nibbāna.' Por essa via direta, o praticante alcança os frutos da libertação."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Samādhi-uppatti",
+        title: {
+          en: "1. Entering Stable Absorption",
+          pt: "1. Estabelecendo a Absorção Estável"
+        },
+        desc: {
+          en: "Establish full seclusion from sensory distractions, entering the 1st, 2nd, 3rd, or 4th Jhāna. Allow the mind to dwell in radiant, concentrated stability.",
+          pt: "Alcance o recolhimento das distrações dos sentidos, ingressando no 1º, 2º, 3º ou 4º Jhāna. Deixe a mente repousar em firmeza e luminosidade serena."
+        }
+      },
+      {
+        step: 2,
+        pali: "Khandha-pariggaha",
+        title: {
+          en: "2. Dissecting the Absorption Factors",
+          pt: "2. Dissecando os Componentes da Absorção"
+        },
+        desc: {
+          en: "Notice the components making up this state: physical posture/breath (form), blissful rapture (feeling), meditative markers (perception), applied intention (formations), and knowing awareness (consciousness).",
+          pt: "Reconheça os elementos que compõem este estado: o corpo físico (forma), o êxtase ou paz (sensação), os marcos mentais (percepção), a intenção sustentada (formações) e o saber presente (consciência)."
+        }
+      },
+      {
+        step: 3,
+        pali: "Sattākāra-anupassanā",
+        title: {
+          en: "3. Applying the Sevenfold Insight Diagnostic",
+          pt: "3. Aplicando a Lente Analítica Sétupla"
+        },
+        desc: {
+          en: "Contemplate these absorption factors: they are conditioned; dependent on causes; impermanent; liable to vanish; an arrow; alien; empty; and not a permanent self. Even sublime bliss is impermanent.",
+          pt: "Contemple os fatores da absorção: são condicionados por causas; transitórios; sujeitos a cessar; vazios de um eu independente. Mesmo o êxtase mais sublime é inconstante."
+        }
+      },
+      {
+        step: 4,
+        pali: "Amatadhātu-adhimutti",
+        title: {
+          en: "4. Turning the Heart to the Deathless",
+          pt: "4. Voltando o Coração para o Imorredouro"
+        },
+        desc: {
+          en: "Turning the mind away from all conditioned formations, one inclines toward the unconditioned: 'This is peace: the stilling of all fabrications, the relinquishment of all clinging, Nibbāna.'",
+          pt: "Desviando a atenção de todas as formações condicionadas, incline o coração para o incondicionado: 'Isto é a paz: o silenciar de todas as fabricações, a renúncia de todo apego, Nibbāna.'"
+        }
+      }
+    ],
+    layApplication: {
+      en: "Do not get trapped in spiritual addiction to peaceful sitting sessions. When you experience profound tranquility, calmness, or joy during a sit, do not grasp at it as 'my achievement' or try to freeze it in time. Instead, immediately run the insight diagnostic: observe that even this magnificent tranquility is conditioned and transient. This protects you from spiritual pride and transforms calm into wisdom.",
+      pt: "Evite o apego cego às experiências de paz na almofada. Quando vivenciar um estado profundo de quietude, leveza ou êxtase, não se apegue a ele como 'minha conquista' nem tente eternizá-lo. Imediatamente aplique o discernimento: reconheça que até mesmo essa serenidade sublime é condicionada e mutável. Isso liberta do orgulho espiritual e transforma a calma em sabedoria."
+    },
+    keyPaliTerms: [
+      {
+        term: "Amata-dhātu",
+        meaning: "The Deathless element, the unconditioned reality of Nibbāna"
+      },
+      {
+        term: "Salla",
+        meaning: "A dart, arrow, or thorn (recognizing that even subtle mental states contain subtle stress)"
+      },
+      {
+        term: "Paloka",
+        meaning: "Disintegrating, liable to break up, fragile"
+      },
+      {
+        term: "Suññato",
+        meaning: "Empty of an enduring, autonomous, self-existent entity"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-culasunnata",
+    cluster: "ebt",
+    number: "10",
+    paliTitle: "Cūḷasuññata Sutta",
+    title: {
+      en: "The Shorter Discourse on Emptiness (The Gradual Descent into Voidness)",
+      pt: "O Discurso Breve sobre o Vazio (O Mergulho Gradual na Vacuidade)"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha, Ven. Ānanda",
+    canonicalRef: "MN 121 (Majjhima Nikāya 121)",
+    coreFocus: {
+      en: "The genuine canonical method of contemplating Emptiness (Suññatā): gradually peeling back layers of perception to reach the signless liberation",
+      pt: "O método canônico autêntico de contemplação do Vazio (Suññatā): descascar progressivamente camadas de percepção rumo à libertação"
+    },
+    primaryAnchor: {
+      en: "Discerning what is absent (suñña) vs. what slight residue remains present at each level of meditative refinement",
+      pt: "Discernir o que já está ausente (vazio) versus o resíduo sutil que ainda permanece presente em cada estágio"
+    },
+    approachToJhana: {
+      en: "Traverses beyond the 4 Rūpa Jhānas into the Formless Dimensions (Āyatanas) culminating in Signless Immersion (Animitta Samādhi)",
+      pt: "Avança além dos 4 Jhānas materiais rumo às Dimensões Imateriais (Āyatanas), culminando na Imersão Sem Sinais (Animitta)"
+    },
+    useOfNoting: {
+      en: "Lucid analytical subtraction: noting the absence of turbulence and resting in the remaining degree of undisturbed openness",
+      pt: "Subtração analítica lúcida: registrando a ausência de perturbação e repousando no espaço desimpedido restante"
+    },
+    tagline: {
+      en: "'One regards whatever is not there as empty of it; but whatever remains, one discerns that as present: this is genuine, undistorted entry into emptiness.'",
+      pt: "'Considera-se vazio daquilo que não está presente; mas do que permanece, discerne-se que está ali: esta é a entrada autêntica e sem distorções na vacuidade.'"
+    },
+    overview: {
+      en: "In the Cūḷasuññata Sutta (MN 121), the Buddha explains to Ven. Ānanda the authentic, uncontrived practice of Emptiness (suññatāvihāra). Rather than treating emptiness as a philosophical concept, the Buddha presents it as an experiential meditative reduction—like looking at a lecture hall and recognizing that it is empty of elephants, horses, and noisy crowds, yet not empty of the monks sitting within it. The meditator begins by dropping thoughts of village, city, and social concerns, resting in the perception of the quiet forest wilderness. Next, one drops the unevenness of trees and valleys, perceiving only the uniform, flat earth element. Progressively, the meditator peels back perception: entering the Dimension of Infinite Space, Infinite Consciousness, Nothingness, Neither-Perception-Nor-Non-Perception, and finally Signless Concentration (animitta cetosamādhi). At each stage, the practitioner accurately notes: 'Whatever disturbances existed before are now absent; only this slight degree of disturbance remains.' Finally, discerning that even the signless state is conditioned and fabricated, the mind is liberated from the taints of sensual desire, becoming, and ignorance, attaining the supreme, unsurpassable emptiness of Arahantship.",
+      pt: "No Cūḷasuññata Sutta (MN 121), o Buda explica ao Ven. Ānanda a prática autêntica e descomplicada da Vacuidade (suññatāvihāra). Em vez de abordá-la como abstração filosófica, o Buda a ensina como uma redução meditativa progressiva — como alguém que entra num salão e nota que ele está vazio de elefantes, cavalos e multidões ruidosas, mas não está vazio dos praticantes sentados em silêncio. O meditador começa soltando as preocupações com cidades e relações sociais, repousando na percepção da floresta serena. Em seguida, descarta a irregularidade da vegetação e das colinas, mantendo apenas a percepção uniforme do elemento terra. Gradualmente, o praticante descasca a percepção: mergulhando no Espaço Infinito, Consciência Infinita, Nada, Nem-Percepção-Nem-Não-Percepção e, por fim, na Concentração Sem Sinais (animitta cetosamādhi). Em cada etapa, observa com lucidez: 'As perturbações anteriores estão agora ausentes; resta apenas este grau sutil de presença.' Por fim, reconhecendo que até o estado sem sinais é fabricado, a mente liberta-se dos contaminantes da cobiça e da ignorância, alcançando o vazio supremo da libertação."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Araññasaññā",
+        title: {
+          en: "1. Empty of Urban Noise (Perceiving the Wilderness)",
+          pt: "1. Vazio de Ruídos Sociais (A Percepção da Floresta)"
+        },
+        desc: {
+          en: "Drop all memories, tasks, and conflicts regarding society, family, and marketplace. Dwell in the perception of the forest: notice that the mind is empty of social turbulence.",
+          pt: "Abandone memórias, tarefas e atritos sociais e familiares. Repouse na percepção da floresta serena: reconheça que a mente esvaziou-se do ruído urbano."
+        }
+      },
+      {
+        step: 2,
+        pali: "Paṭhavīsaññā",
+        title: {
+          en: "2. Empty of Diversity (Perceiving Pure Earth)",
+          pt: "2. Vazio de Irregularidades (A Percepção da Terra Pura)"
+        },
+        desc: {
+          en: "Subdue perception of hills, valleys, thorns, and trees, attending only to the open, flat expanse of the earth element, like a bull's hide stretched without wrinkles.",
+          pt: "Abaixe a percepção de colinas, árvores e irregularidades, focando apenas na vastidão contínua do elemento terra, como um couro esticado sem dobras."
+        }
+      },
+      {
+        step: 3,
+        pali: "Āruppa-saññā",
+        title: {
+          en: "3. Stripping Immaterial Perceptions",
+          pt: "3. Descascando Percepções Imateriais"
+        },
+        desc: {
+          en: "Progressively ascend: from earth to Infinite Space (empty of physical form); from Space to Infinite Consciousness (empty of spatial limits); from Consciousness to Nothingness (empty of mental objects).",
+          pt: "Ascenda gradualmente: da terra ao Espaço Infinito (vazio de matéria física); do Espaço à Consciência Infinita (vazia de limites espaciais); ao Nada (vazio de objetos mentais)."
+        }
+      },
+      {
+        step: 4,
+        pali: "Animitta Cetosamādhi",
+        title: {
+          en: "4. The Signless Immersion",
+          pt: "4. A Imersão Sem Sinais (Animitta)"
+        },
+        desc: {
+          en: "Not attending to any sensory sign or feature, one enters signless concentration of the mind. Notice: it is empty of the taints of lust, becoming, and ignorance.",
+          pt: "Sem apegar-se a qualquer sinal visual ou conceitual, ingresse na concentração sem sinais. Observe: a mente está vazia das perturbações da cobiça e do apego ao vir-a-ser."
+        }
+      },
+      {
+        step: 5,
+        pali: "Paramānuttarā Suññatā",
+        title: {
+          en: "5. The Unsurpassable Ultimate Emptiness",
+          pt: "5. A Vacuidade Suprema e Insuperável"
+        },
+        desc: {
+          en: "Discern that even this Signless state is conditioned and volitionally produced. Knowing this, the mind is fully released: 'Birth is destroyed, the holy life is lived, there is no more returning to this state.'",
+          pt: "Reconheça que até mesmo o estado sem sinais é condicionado e sustentado pela volição. Compreendendo isso, a mente liberta-se totalmente: 'Destruído está o renascimento, cumprida a nobre tarefa.'"
+        }
+      }
+    ],
+    layApplication: {
+      en: "Whenever your apartment, home, or office feels overwhelmingly noisy, crowded, or chaotic, do not fight the external clutter. Close your eyes and run the reduction method: look at the room and deliberately register what is absent (there are no wild tigers, no bombs falling, no war). Notice the empty space between the furniture. This immediately calms nervous system overwhelm.",
+      pt: "Sempre que seu lar ou ambiente de trabalho parecer sufocante, barulhento ou caótico, não lute contra a desordem externa. Feche os olhos e aplique a redução: observe o que NÃO está ali (não há animais selvagens, não há bombas caindo). Perceba o espaço vazio entre os móveis e pessoas. Isso acalma instantaneamente a sobrecarga sensorial."
+    },
+    keyPaliTerms: [
+      {
+        term: "Suññatāvihāra",
+        meaning: "Dwelling in genuine meditative emptiness and unconditioned voidness"
+      },
+      {
+        term: "Animitta Samādhi",
+        meaning: "Signless concentration, devoid of sensory marks and conceptual constructs"
+      },
+      {
+        term: "Daratha",
+        meaning: "Disturbance, stress, turbulence, or agitation remaining in perception"
+      },
+      {
+        term: "Yathābhucca",
+        meaning: "Real, factual, genuine, undistorted (accurate entry into emptiness)"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-niramisa-vedana",
+    cluster: "ebt",
+    number: "11",
+    paliTitle: "Nirāmisa Sutta",
+    title: {
+      en: "Worldly, Unworldly & Ultra-Unworldly Feelings",
+      pt: "Sensações Mundanas, Espirituais & Transmundanas"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha",
+    canonicalRef: "SN 36.31 (Saṁyutta Nikāya 36.31)",
+    coreFocus: {
+      en: "The anatomical taxonomy of feeling (Vedanā): distinguishing worldly sensations of the senses from the unworldly spiritual bliss of meditation",
+      pt: "A taxonomia anatômica das sensações (Vedanā): diferenciando estímulos sensuais do prazer espiritual e do êxtase da libertação"
+    },
+    primaryAnchor: {
+      en: "The affective valence (pleasant, painful, neutral) of present sensory and mental contact",
+      pt: "O tom afetivo (agradável, desagradável, neutro) do contato sensorial e mental presente"
+    },
+    approachToJhana: {
+      en: "Validates meditative bliss as 'Unworldly Pleasure' (Nirāmisa Sukha) that must be cultivated, not feared or repressed",
+      pt: "Valida o prazer dos Jhānas como 'Felicidade Espiritual' (Nirāmisa Sukha) que deve ser desenvolvida, sem medo ou aversão"
+    },
+    useOfNoting: {
+      en: "Clear discernment of the origin of every feeling: is it rooted in sensual appetite or in meditative renunciation?",
+      pt: "Discernimento claro da raiz de cada sensação: está fundamentada no apetite sensual ou na renúncia meditativa?"
+    },
+    tagline: {
+      en: "'There is worldly pleasure, there is unworldly pleasure, and there is pleasure more unworldly than the unworldly.'",
+      pt: "'Existe a felicidade mundana, existe a felicidade espiritual, e existe uma felicidade mais espiritual do que a espiritual.'"
+    },
+    overview: {
+      en: "In the Nirāmisa Sutta (SN 36.31), the Buddha clarifies one of the most misunderstood areas of Buddhist practice: the nature of pleasure and joy. Ascetic extremists historically taught that all pleasure is dangerous and must be eliminated. The Buddha corrects this error by differentiating feelings (vedanā) into three progressive orders: 1. Worldly feelings (sāmisa vedanā): pleasant, painful, or neutral sensations dependent on the five cords of sensual pleasure (food, sex, entertainment, visual beauty, praise), which keep beings chained to craving and irritation; 2. Unworldly feelings (nirāmisa vedanā): the profound joy (pīti), ease (sukha), and serene equanimity born of renunciation and the four Jhānas. The Buddha explicitly commands that this unworldly pleasure is to be cultivated, developed, and frequently practiced, because it replaces coarse sensual desires without causing defilement; and 3. Feelings more unworldly than the unworldly (nirāmisā nirāmisatarā): the unshakeable peace and freedom that arises in the heart of an Arahant reviewing their liberation from greed, aversion, and delusion.",
+      pt: "No Nirāmisa Sutta (SN 36.31), o Buda esclarece um dos pontos mais mal interpretados da prática espiritual: a natureza do prazer e da alegria. Extremistas ascéticos historicamente defendiam que todo prazer deveria ser combatido e erradicado. O Buda corrige esse engano ao categorizar as sensações (vedanā) em três ordens progressivas: 1. Sensações mundanas (sāmisa vedanā): prazeres, dores ou neutralidades atrelados aos cinco sentidos (alimentos, entretenimento, elogios, sensualidade), que alimentam a dependência e a frustração; 2. Sensações espirituais (nirāmisa vedanā): o arrebatamento (pīti), bem-estar (sukha) e equanimidade profunda nascidos do recolhimento e dos quatro Jhānas. O Buda ordena expressamente que essa felicidade espiritual seja cultivada, repetida e desenvolvida com frequência, pois ela sacia a mente sem alimentar os venenos da cobiça; e 3. Sensações mais espirituais que as espirituais (nirāmisatarā): a serenidade inabalável do sábio que contempla sua mente completamente livre de amarras e delírios."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Sāmisa Vedanā-Pariññā",
+        title: {
+          en: "1. Recognizing Worldly Sensations",
+          pt: "1. Reconhecendo as Sensações Mundanas"
+        },
+        desc: {
+          en: "Notice feelings tied to the 5 senses: pleasant flavors, flattering compliments, visual beauty, and their opposites (harsh criticism, bodily discomfort). Observe how they trigger craving or aversion.",
+          pt: "Identifique as sensações atreladas aos 5 sentidos: sabores apetitosos, elogios, beleza visual e seus contrários (críticas, desconfortos). Observe como disparam cobiça ou irritação."
+        }
+      },
+      {
+        step: 2,
+        pali: "Nirāmisa Vedanā-Bhāvanā",
+        title: {
+          en: "2. Cultivating Unworldly Meditative Pleasure",
+          pt: "2. Cultivando a Felicidade Espiritual (Nirāmisa Sukha)"
+        },
+        desc: {
+          en: "Sit in quiet seclusion. Through breath and mindfulness, welcome the joy (pīti) and peaceful ease (sukha) of the Jhānas. Understand: this is sacred, clean pleasure that nourishes spiritual momentum.",
+          pt: "Recolha-se em silêncio. Através da respiração e da presença, acolha o êxtase e a paz dos Jhānas. Compreenda: este é um prazer limpo e sagrado que fortalece a energia meditativa."
+        }
+      },
+      {
+        step: 3,
+        pali: "Nirāmisa Upekkhā",
+        title: {
+          en: "3. Cultivating Unworldly Equanimity",
+          pt: "3. Cultivando a Equanimidade Espiritual"
+        },
+        desc: {
+          en: "Advance beyond emotional volatility into the 4th Jhāna: unworldly neutral feeling (nirāmisa adukkham-asukha). A pristine, unshakable balance untouched by the worldly winds of gain and loss.",
+          pt: "Avance além da montanha-russa emocional rumo ao 4º Jhāna: a equanimidade espiritual (nirāmisa upekkhā). Um equilíbrio inabalável diante dos ventos mundanos de ganho e perda."
+        }
+      },
+      {
+        step: 4,
+        pali: "Nirāmisatarā Vimutti",
+        title: {
+          en: "4. The Ultra-Unworldly Bliss of Liberation",
+          pt: "4. O Êxtase Transmundano da Libertação"
+        },
+        desc: {
+          en: "Reviewing a mind freed from the shackles of craving, fear, and ego-clinging, the practitioner experiences the highest unworldly bliss: the peace of liberation (vimuttisukha).",
+          pt: "Ao contemplar a mente despojada de grilhões, medos e apegos do ego, vivencia-se a mais alta felicidade espiritual: a paz inabalável da libertação (vimuttisukha)."
+        }
+      }
+    ],
+    layApplication: {
+      en: "This teaching rescues practitioners from ascetic guilt: you do not need to feel guilty for enjoying the peace, stillness, and rapture of your meditation cushion! That is Nirāmisa Sukha (unworldly pleasure). Cultivating daily meditation pleasure is precisely what protects you from seeking cheap, addictive worldly dopamine hits (junk food, compulsive scrolling, impulse purchases) during the workday.",
+      pt: "Este ensinamento liberta o meditador da culpa puritana: você não precisa se sentir culpado por desfrutar da paz e do êxtase da meditação! Isso é Nirāmisa Sukha (felicidade espiritual). Ter uma fonte diária de prazer e paz na prática meditativa é o que protege você de buscar dopamina mundana compulsiva (redes sociais, comida em excesso, compras impulsivas) ao longo do dia."
+    },
+    keyPaliTerms: [
+      {
+        term: "Sāmisa Vedanā",
+        meaning: "Worldly feelings dependent on sensual objects and material stimuli"
+      },
+      {
+        term: "Nirāmisa Sukha",
+        meaning: "Unworldly, spiritual pleasure born of seclusion, stillness, and jhānas"
+      },
+      {
+        term: "Nirāmisatarā",
+        meaning: "More unworldly than the unworldly: the unconditioned peace of liberation"
+      },
+      {
+        term: "Vimuttisukha",
+        meaning: "The bliss and joy of spiritual freedom from defilements"
+      }
+    ]
+  },
+
+  {
+    id: "ebt-upakkilesa-anuruddha",
+    cluster: "ebt",
+    number: "12",
+    paliTitle: "Upakkilesa Sutta",
+    title: {
+      en: "Overcoming the 11 Corruptions of Meditative Light & Vision",
+      pt: "Superando as 11 Corrupções da Luz Meditativa (Nimitta)"
+    },
+    lineageTradition: {
+      en: "Canonical Early Buddhist Texts (EBT)",
+      pt: "Textos Budistas Antigos (EBT Canônico)"
+    },
+    primaryMasters: "Gotama Buddha, Ven. Anuruddha, Ven. Nandiya, Ven. Kimbila",
+    canonicalRef: "MN 128 (Majjhima Nikāya 128), AN 3.100",
+    coreFocus: {
+      en: "The Buddha coaches Ven. Anuruddha on diagnosing and curing the 11 subtle mental distortions that cause meditation light (obhāsa) and visions to collapse",
+      pt: "O Buda instrui o Ven. Anuruddha a diagnosticar e curar as 11 corrupções sutis que fazem a luz meditativa (obhāsa) e o nimitta colapsarem"
+    },
+    primaryAnchor: {
+      en: "The luminous sign of the mind (obhāsa/nimitta) and balancing energy like a master goldsmith",
+      pt: "O sinal luminoso da mente (obhāsa/nimitta) e o equilíbrio de energia como um ourives mestre"
+    },
+    approachToJhana: {
+      en: "Addresses the precise intermediate threshold where luminous nimittas appear and instructs how to stabilize them into unwavering absorption",
+      pt: "Aborda o limiar exato em que surgem os nimittas luminosos e ensina como estabilizá-los em absorção inabalável"
+    },
+    useOfNoting: {
+      en: "Subtle micro-tuning of effort: detecting when the mind is pushing too hard vs. slacking into inertia",
+      pt: "Micro-ajuste sutil do esforço: detectando quando a mente força demais versus quando cai em letargia"
+    },
+    tagline: {
+      en: "'Just as a master goldsmith heats the ore, sprinkles water, and blows on it until it is pliant, radiant, and pure... so the meditator purges the 11 mental taints until light shines undiminished.'",
+      pt: "'Assim como um mestre ourives aquece o minério, borrifa água e sopra até torná-lo maleável, radiante e puro... assim o meditador elimina as 11 impurezas até que a luz brilhe sem oscilar.'"
+    },
+    overview: {
+      en: "In the Upakkilesa Sutta (MN 128), the Buddha visits the venerable Anuruddha, Nandiya, and Kimbila practicing in the Eastern Bamboo Park. Ven. Anuruddha confesses a subtle obstacle: 'Lord, while meditating, we perceive luminous light (obhāsa) and the vision of forms (rūpa); but soon the light and the vision disappear. Why does this happen?' In response, the Buddha shares his own personal pre-awakening breakthroughs, systematically cataloging the Eleven Subtle Corruptions (upakkilesa) of the mind that cause meditation light to fade: 1. Doubt (vicikicchā); 2. Inattention (amanasikāra); 3. Sloth and torpor (thīnamiddha); 4. Fear (chambhitatta, when terrifying visions arise); 5. Elation (ubbilāvita, getting overly excited when light appears); 6. Inertia/clumsiness (duṭṭhulla); 7. Excessive energy (accāraddhavīriya, grasping at the light like squeezing a fragile bird); 8. Slack energy (atilīnavīriya, causing the mind to drift); 9. Longing/expectation (abhijappā, craving for the nimitta to grow); 10. Perception of diversity (nānattasaññā, paying attention to shifting details); and 11. Excessive pondering over forms (atidijjhāyitatta). Like a master goldsmith refining raw gold (AN 3.100), the meditator cleanses these eleven taints until the mind becomes utterly pliant, radiant, and steady.",
+      pt: "No Upakkilesa Sutta (MN 128), o Buda visita os veneráveis Anuruddha, Nandiya e Kimbila que praticavam no Parque dos Bambus. O Ven. Anuruddha relata um obstáculo sutil: 'Senhor, enquanto meditamos, percebemos uma luz resplandecente (obhāsa) e formas luminosas; mas logo essa luz desaparece. Por que isso ocorre?' Em resposta, o Buda revela suas próprias experiências anteriores ao despertar e cataloga as Onze Corrupções Sutis (upakkilesa) que fazem o nimitta esmaecer: 1. A dúvida (vicikicchā); 2. A desatenção (amanasikāra); 3. A moleza e o torpor (thīnamiddha); 4. O medo ou susto (chambhitatta); 5. A euforia (ubbilāvita, empolgar-se quando a luz surge); 6. A inércia pesada (duṭṭhulla); 7. O excesso de esforço (accāraddhavīriya, segurar a luz com tanta força que a esmaga); 8. O esforço frouxo (atilīnavīriya, deixando a mente divagar); 9. A expectativa ansiosa (abhijappā); 10. A percepção da diversidade (nānattasaññā, distrair-se com variações); e 11. O excesso de análise sobre as formas (atidijjhāyitatta). Como um ourives que purifica o ouro (AN 3.100), o praticante elimina essas impurezas até que a mente se torne maleável, radiante e inabalavelmente absorvida."
+    },
+    steps: [
+      {
+        step: 1,
+        pali: "Obhāsa-Nimitta Upāda",
+        title: {
+          en: "1. The Arising of the Luminous Sign",
+          pt: "1. O Surgimento do Sinal Luminoso"
+        },
+        desc: {
+          en: "As breath and thought settle, subtle internal brightness (obhāsa) and mental forms arise. Learn to recognize this threshold without leaping into excited conceptual evaluation.",
+          pt: "Conforme respiração e pensamentos aquietam, surgem lampejos de claridade interna (obhāsa) e nimittas luminosos. Reconheça esse limiar sem disparar análises mentais excitadas."
+        }
+      },
+      {
+        step: 2,
+        pali: "Ekādasa Upakkilesa-Pariññā",
+        title: {
+          en: "2. Diagnosing the 11 Subtle Distortions",
+          pt: "2. Diagnosticando as 11 Corrupções Sutis"
+        },
+        desc: {
+          en: "Notice why the light collapses: Did you get excited (elation)? Did you grasp at it too hard (excess energy)? Did you start daydreaming (diversity)? Name the specific corruption and release it.",
+          pt: "Perceba por que a luminosidade sumiu: houve euforia? Houve esforço tenso demais? Houve divagação mental? Identifique a corrupção exata e solte a atitude reativa."
+        }
+      },
+      {
+        step: 3,
+        pali: "Suvaṇṇakāra-Upamā",
+        title: {
+          en: "3. Tuning Energy Like a Master Goldsmith",
+          pt: "3. Ajustando a Energia como um Ourives"
+        },
+        desc: {
+          en: "Alternate skillfully: heat the gold with effort when sluggish; cool it with water when agitated; blow on it with equanimity when balanced. Master the middle path of effort.",
+          pt: "Alterne com sabedoria: aqueça o metal com energia quando letárgico; resfrie com calma quando agitado; observe com equanimidade quando equilibrado. Domine o caminho do meio do esforço."
+        }
+      },
+      {
+        step: 4,
+        pali: "Pariyo-dāta Samādhi",
+        title: {
+          en: "4. Stainless, Radiant Absorption",
+          pt: "4. Absorção Resplandecente e Imaculada"
+        },
+        desc: {
+          en: "With all 11 corruptions eradicated, the light remains steady, unified, and limitless. The mind enters unwavering absorption (samādhi) ready for direct liberation.",
+          pt: "Com as 11 corrupções dissolvidas, a luz permanece firme, homogênea e límpida. A mente ingressa em absorção inabalável pronta para o despertar."
+        }
+      }
+    ],
+    layApplication: {
+      en: "This discourse provides the golden rule for meditation effort: whenever a meditator begins experiencing light, tingles, or profound calm, the instinct is to try to 'hold onto it' or get excited ('Wow, it's working!'). That sudden surge of grasping and elation is precisely what destroys the state. Treat meditative signs like a butterfly resting on your open palm: if you close your fist to grasp it, you crush it; remain utterly still and let it rest.",
+      pt: "Este discurso ensina a regra de ouro do esforço meditativo: quando surgem luzes, arrepios de paz ou tranquilidade profunda, o reflexo instintivo é tentar 'segurar' ou comemorar ('Uau, consegui!'). Esse impulso de posse e euforia é exatamente o que desfaz a concentração. Trate as experiências meditativas como uma borboleta que pousa na palma aberta: se fechar a mão para segurá-la, você a esmaga; mantenha-se sereno e permita que ela repouse."
+    },
+    keyPaliTerms: [
+      {
+        term: "Upakkilesa",
+        meaning: "Subtle corruptions, taints, or distortions of meditative concentration"
+      },
+      {
+        term: "Obhāsa",
+        meaning: "Inner meditative luminosity, radiance, or illumination"
+      },
+      {
+        term: "Accāraddhavīriya",
+        meaning: "Excessive, strained effort that leads to agitation and disturbance"
+      },
+      {
+        term: "Atilīnavīriya",
+        meaning: "Overly slack, sluggish effort that leads to drowsiness and drifting"
+      }
+    ]
+  },
+
   // ==========================================
   // 2. THAI FOREST TRADITION (KAMMAṬṬHĀNA)
   // ==========================================
   {
     id: "thai-forest-ajahn-chah",
     cluster: "thai-forest",
-    number: "03",
+    number: "13",
     paliTitle: "Ajahn Chah Kammaṭṭhāna",
     title: {
       en: "Ajahn Chah — Natural Awareness & Still Flowing Water",
@@ -407,7 +1611,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "thai-forest-ajahn-lee",
     cluster: "thai-forest",
-    number: "04",
+    number: "14",
     paliTitle: "Ajahn Lee Ānāpāna-Kammaṭṭhāna",
     title: {
       en: "Ajahn Lee Dhammadharo — Breath Energy & Somatic Circulation",
@@ -495,7 +1699,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "thai-forest-ajahn-brahm",
     cluster: "thai-forest",
-    number: "05",
+    number: "15",
     paliTitle: "Ajahn Brahm Samādhi-Jhāna",
     title: {
       en: "Ajahn Brahm — The 7 Stages to Stillness & Luminous Jhānas",
@@ -610,7 +1814,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "thai-forest-ajahn-maha-boowa",
     cluster: "thai-forest",
-    number: "06",
+    number: "16",
     paliTitle: "Ajahn Maha Boowa Kammaṭṭhāna",
     title: {
       en: "Ajahn Maha Boowa — Buddho Parikamma & The Indomitable Citta",
@@ -692,7 +1896,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "burmese-mahasi",
     cluster: "burmese",
-    number: "07",
+    number: "17",
     paliTitle: "Mahāsi Vipassanā-Ñāṇa",
     title: {
       en: "Mahāsi Sayādaw — Momentary Noting & The 16 Stages of Insight",
@@ -780,7 +1984,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "burmese-goenka-ledi",
     cluster: "burmese",
-    number: "08",
+    number: "18",
     paliTitle: "Goenka-Ledi Vedanānupassanā",
     title: {
       en: "S.N. Goenka & Ledi Sayādaw — Body Sweeping & Somatic Vedanā",
@@ -868,7 +2072,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "burmese-pa-auk",
     cluster: "burmese",
-    number: "09",
+    number: "19",
     paliTitle: "Pa-Auk Samatha-Vipassanā",
     title: {
       en: "Pa-Auk Sayādaw — Classical Visuddhimagga, 40 Kammaṭṭhānas & Kalāpas",
@@ -956,7 +2160,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "burmese-tejaniya",
     cluster: "burmese",
-    number: "10",
+    number: "20",
     paliTitle: "U Tejaniya Citta-Vipassanā",
     title: {
       en: "Sayadaw U Tejaniya — Mind Awareness & Right Attitude",
@@ -1038,7 +2242,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "sri-lanka-nanananda",
     cluster: "sri-lanka",
-    number: "11",
+    number: "21",
     paliTitle: "Ñāṇananda Papañca-Nirodha",
     title: {
       en: "Ven. Ñāṇananda — Papañca-Nirodha, Concept & Emptiness",
@@ -1120,7 +2324,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "contemporary-twim",
     cluster: "contemporary",
-    number: "12",
+    number: "22",
     paliTitle: "TWIM (Tranquil Wisdom)",
     title: {
       en: "Bhante Vimalaramsi — TWIM, The 6Rs & Sutta-Jhānas",
@@ -1226,7 +2430,7 @@ const MEDITATION_LINEAGES = [
   {
     id: "contemporary-analayo",
     cluster: "contemporary",
-    number: "13",
+    number: "23",
     paliTitle: "Bhikkhu Anālayo Satipaṭṭhāna",
     title: {
       en: "Bhikkhu Anālayo — Compassionate Satipaṭṭhāna & Early Buddhist Synthesis",
@@ -2122,6 +3326,116 @@ const LINEAGE_COMPARISON_MATRIX = [
     keyStrength: "Pure canonical Buddha root"
   },
   {
+    lineageId: "ebt-satipatthana",
+    name: "Canonical Satipaṭṭhāna (MN 10 / DN 22)",
+    anchor: "4 Fields: Body, Feeling, Mind, Dhammas",
+    notingStyle: "Direct recognition (Internal & External)",
+    jhanaView: "Essential soil from which right samādhi grows",
+    vedanaApproach: "Discerns pleasant, painful, neutral & worldly vs unworldly",
+    dailyLifeIntegration: "Exceptional (Sampajañña in all postures & duties)",
+    keyStrength: "The direct convergence path (Ekāyano maggo)"
+  },
+  {
+    lineageId: "ebt-samannaphala",
+    name: "Sāmaññaphala Sutta (DN 2)",
+    anchor: "Guarding 6 sense doors & full-body suffusion",
+    notingStyle: "Silent awareness leading to insight knowledge",
+    jhanaView: "Classical 4 Jhāna similes (bathman, spring, lotuses, cloth)",
+    vedanaApproach: "Joy from abandoning 5 hindrances",
+    dailyLifeIntegration: "High (Sense restraint with digital/sensory inputs)",
+    keyStrength: "Complete canonical architecture of the contemplative life"
+  },
+  {
+    lineageId: "ebt-kayagatasati",
+    name: "Kāyagatāsati Sutta (MN 119)",
+    anchor: "Living body in all 4 postures & 4 elements",
+    notingStyle: "Direct somatic presence without verbalization",
+    jhanaView: "Whole-body permeation with rapture, bliss, and light",
+    vedanaApproach: "Equanimity enduring acute physical pain & sickness",
+    dailyLifeIntegration: "Supreme (Grounding in walking, eating, and chores)",
+    keyStrength: "10 blessings conquering fear, dread, and bodily pain"
+  },
+  {
+    lineageId: "ebt-vitakkasanthana",
+    name: "Vitakkasaṇṭhāna Sutta (MN 20)",
+    anchor: "Cognitive replacement & stepping down momentum",
+    notingStyle: "Wholesome peg substitution & danger appraisal",
+    jhanaView: "Prerequisite de-cluttering so mind can settle into jhāna",
+    vedanaApproach: "Relief when poisonous unwholesome thoughts subside",
+    dailyLifeIntegration: "Exceptional (Cures insomnia, rumination & anger)",
+    keyStrength: "The Buddha's 5-step emergency combat protocol"
+  },
+  {
+    lineageId: "ebt-yuganaddha",
+    name: "Yuganaddha Sutta (AN 4.170)",
+    anchor: "Dynamic balance of stillness & inquiry",
+    notingStyle: "Flexible: noting during insight, silent in samatha",
+    jhanaView: "4 paths: jhāna before insight, after insight, or in tandem",
+    vedanaApproach: "Disenchantment with conditioned sensations",
+    dailyLifeIntegration: "High (Diagnostic flexibility based on nervous system)",
+    keyStrength: "Harmonizes Samatha & Vipassanā without dogma"
+  },
+  {
+    lineageId: "ebt-samadhibhavana",
+    name: "Samādhibhāvanā Sutta (AN 4.41)",
+    anchor: "4 Modes: Jhānas, Light, Real-time tracking, 5 Aggregates",
+    notingStyle: "Real-time tracking of sensations, perceptions & thoughts",
+    jhanaView: "Primary practice for 'Pleasant dwelling in the here-and-now'",
+    vedanaApproach: "Tracking arising, presence, and vanishing of feeling",
+    dailyLifeIntegration: "High (Select mode based on present spiritual need)",
+    keyStrength: "Exact fourfold taxonomy of meditative concentration"
+  },
+  {
+    lineageId: "ebt-girimananda",
+    name: "Girimānanda Sutta (AN 10.60)",
+    anchor: "Universal marks, bodily danger, and breath integration",
+    notingStyle: "Thematic reflection followed by silent 16-step breath",
+    jhanaView: "Contemplation of dispassion (virāga) & cessation (nirodha)",
+    vedanaApproach: "Transforming bodily sickness into insight into non-self",
+    dailyLifeIntegration: "Exceptional (Supreme solace during illness & aging)",
+    keyStrength: "10 healing contemplations that cure severe disease"
+  },
+  {
+    lineageId: "ebt-jhana-insight",
+    name: "Jhāna Sutta (AN 9.36)",
+    anchor: "The 5 aggregates within or directly upon absorption",
+    notingStyle: "7-fold diagnostic formula: impermanent, dart, empty, not-self",
+    jhanaView: "Direct springboard for insight; turning to the Deathless",
+    vedanaApproach: "Dissecting absorption bliss as conditioned & impermanent",
+    dailyLifeIntegration: "Moderate (Deep sits required for high absorption)",
+    keyStrength: "Proves that absorptions lead directly to Arahantship"
+  },
+  {
+    lineageId: "ebt-culasunnata",
+    name: "Cūḷasuññata Sutta (MN 121)",
+    anchor: "Gradual reduction from wilderness to signless immersion",
+    notingStyle: "Noting what is absent vs what slight disturbance remains",
+    jhanaView: "Surpasses rūpa-jhānas into formless & signless concentration",
+    vedanaApproach: "Deepest peace of progressive mental subtraction",
+    dailyLifeIntegration: "High (Reducing sensory overload in noisy cities)",
+    keyStrength: "Authentic canonical practice of Emptiness (Suññatā)"
+  },
+  {
+    lineageId: "ebt-niramisa-vedana",
+    name: "Nirāmisa Sutta (SN 36.31)",
+    anchor: "Affective tone: worldly vs unworldly vs ultra-unworldly",
+    notingStyle: "Discerning the root source of every feeling",
+    jhanaView: "Validates jhanic bliss as holy unworldly pleasure (nirāmisa)",
+    vedanaApproach: "Core laboratory: cultivating holy bliss over sensual hits",
+    dailyLifeIntegration: "High (Replaces addictive dopamine with calm joy)",
+    keyStrength: "Removes ascetic guilt; maps the spiritual hierarchy of joy"
+  },
+  {
+    lineageId: "ebt-upakkilesa-anuruddha",
+    name: "Upakkilesa Sutta (MN 128 / AN 3.100)",
+    anchor: "Luminous sign (obhāsa/nimitta) & middle-path effort",
+    notingStyle: "Detecting elation, excess force, and slack drifting",
+    jhanaView: "Stabilizes fragile luminous nimittas into unwavering jhāna",
+    vedanaApproach: "Overcoming emotional excitement when peace arises",
+    dailyLifeIntegration: "High (Master goldsmith metaphor for work & life effort)",
+    keyStrength: "Cures the 11 subtle mental corruptions of meditation light"
+  },
+  {
     lineageId: "thai-forest-ajahn-chah",
     name: "Ajahn Chah (Wat Nong Pah Pong)",
     anchor: "Natural awareness / The One Who Knows",
@@ -2220,7 +3534,7 @@ const LINEAGE_COMPARISON_MATRIX = [
 /**
  * The Lay Dharma Household Bhāvanā — Canonical Sutta Meditation Corpus
  * Primary discourses on Bhāvanā (mental development, tranquility & insight).
- * Bilingual: English (EN) and Portuguese (PT-BR) with Pāli root texts.
+ * Bilingual: English (EN) and Portuguese (PT-BR) with Pāli root texts and SuttaCentral URLs.
  */
 const SUTTA_MEDITATION_CORPUS = [
   {
@@ -2260,6 +3574,60 @@ const SUTTA_MEDITATION_CORPUS = [
     }
   },
   {
+    code: "DN 2",
+    paliTitle: "Sāmaññaphala Sutta",
+    title: {
+      en: "The Fruits of the Contemplative Life & The Jhāna Similes",
+      pt: "Os Frutos da Vida Contemplativa & Os Símiles dos Jhānas"
+    },
+    suttaCentralUrl: "https://suttacentral.net/dn2",
+    role: {
+      en: "The definitive gradual training curriculum: from sense restraint to abandoning the 5 hindrances and the 4 bodily jhāna suffusions.",
+      pt: "O currículo definitivo do treinamento gradual: da guarda dos sentidos ao abandono dos 5 obstáculos e saturação dos 4 jhānas."
+    },
+    keyPassage: {
+      pali: "So vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati. So imameva kāyaṁ vivekajena pītisukhena abhisandeti parisandeti paripūreti parippharati.",
+      en: "Quite secluded from sensual pleasures, secluded from unwholesome states, a mendicant enters and abides in the first jhāna. They suffuse, drench, fill, and radiate through this very body with the rapture and pleasure born of seclusion.",
+      pt: "Afastado dos prazeres sensuais e das impurezas, o mendicante entra e permanece no primeiro jhāna. Ele banha, satura, preenche e permeia este próprio corpo com o êxtase e a paz nascidos do recolhimento."
+    }
+  },
+  {
+    code: "MN 119",
+    paliTitle: "Kāyagatāsati Sutta",
+    title: {
+      en: "Mindfulness Immersed in the Body & The 10 Blessings",
+      pt: "Atenção Plena Imersa no Corpo & As Dez Bênçãos"
+    },
+    suttaCentralUrl: "https://suttacentral.net/mn119",
+    role: {
+      en: "Describes how deep physical mindfulness across postures, elements, and jhānas conquers fear, pain, and restlessness.",
+      pt: "Descreve como a presença corpórea profunda nas posturas, elementos e jhānas vence o medo, a dor e a agitação."
+    },
+    keyPassage: {
+      pali: "Kāyagatāya, bhikkhave, satiyā āsevitāya bhāvitāya bahulīkatāya... ime dasa ānisaṁsā pāṭikaṅkhā. Aratiratisaho hoti, na ca taṁ arati sahati; bhayabheravasaho hoti, na ca taṁ bhayabheravaṁ sahati; khamo hoti sītassa uṇhassa...",
+      en: "When mindfulness immersed in the body is frequently cultivated, these ten blessings can be expected: One conquers discontent and delight; one conquers fear and dread; one endures cold and heat, hunger and thirst, and acute bodily pains without dismay.",
+      pt: "Quando a atenção plena imersa no corpo é cultivada com frequência, dez bênçãos são colhidas: Conquista-se o desprazer e o apego; subjuga-se o medo e o pavor; suporta-se com serenidade o frio, o calor, a fome e dores físicas agudas."
+    }
+  },
+  {
+    code: "MN 20",
+    paliTitle: "Vitakkasaṇṭhāna Sutta",
+    title: {
+      en: "The Removal of Distracting Thoughts (The 5 Pegs)",
+      pt: "A Remoção dos Pensamentos Perturbadores (Os 5 Pinos)"
+    },
+    suttaCentralUrl: "https://suttacentral.net/mn20",
+    role: {
+      en: "The Buddha's emergency protocol: five progressive tactical methods to dismantle obsessive, agitated thoughts during sitting meditation.",
+      pt: "O protocolo de emergência do Buda: cinco métodos táticos progressivos para desarmar pensamentos obsessivos e perturbadores."
+    },
+    keyPassage: {
+      pali: "Seyyathāpi, bhikkhave, dakkho palagaṇḍo vā palagaṇḍantevāsī vā sukhumāya āṇiyā oḷārikaṁ āṇiṁ abhinīhareyya abhinīhāreyya abhinīvaṭṭeyya; evameva kho, bhikkhave, bhikkhuno yaṁ nimittaṁ āgamma... aññaṁ nimittaṁ manasikaroto...",
+      en: "Just as a skilled carpenter knocks out a coarse peg with a fine peg, so too when a mendicant attends to an alternative wholesome theme, unwholesome thoughts are abandoned and subside, and the mind becomes steady, tranquil, and unified.",
+      pt: "Assim como um carpinteiro experiente expulsa um pino de madeira rústica com um pino fino, assim quando o meditador atende a um tema salutar alternativo, os pensamentos prejudiciais cessam e a mente se unifica em quietude."
+    }
+  },
+  {
     code: "AN 4.170",
     paliTitle: "Yuganaddha Sutta",
     title: {
@@ -2278,21 +3646,39 @@ const SUTTA_MEDITATION_CORPUS = [
     }
   },
   {
-    code: "MN 119",
-    paliTitle: "Kāyagatāsati Sutta",
+    code: "AN 4.41",
+    paliTitle: "Samādhibhāvanā Sutta",
     title: {
-      en: "Mindfulness Immersed in the Body & The Jhana Similes",
-      pt: "Atenção Plena Imersa no Corpo & Os Símiles dos Jhānas"
+      en: "The Four Developments of Concentration",
+      pt: "Os Quatro Modos de Cultivar a Concentração"
     },
-    suttaCentralUrl: "https://suttacentral.net/mn119",
+    suttaCentralUrl: "https://suttacentral.net/an4.41",
     role: {
-      en: "Describes how deep physical mindfulness suffuses the entire bodily frame with celestial rapture and peaceful ease throughout the four Jhānas.",
-      pt: "Descreve como a presença corpórea profunda banha todo o corpo físico com arrebatamento e bem-estar ao longo dos quatro Jhānas."
+      en: "The Buddha classifies 4 distinct ways to cultivate concentration: for pleasant dwelling here-and-now, divine vision, mindfulness, and the destruction of taints.",
+      pt: "O Buda classifica 4 formas de cultivar o samādhi: para o bem-estar presente, visão radiante, lucidez rápida e a destruição dos grilhões."
     },
     keyPassage: {
-      pali: "Seyyathāpi, bhikkhave, puriso unhodakāvāṭe nhāyeyya... evam'eva kho, bhikkhave, bhikkhu imameva kāyaṁ vivekajena pītisukhena abhisandeti parisandeti paripūreti parippharati.",
-      en: "Just as a skilled bathman kneads moisture into soap clay until it is thoroughly saturated inside and out... so too the meditator permeates and suffuses this very body with the rapture and bliss born of seclusion.",
-      pt: "Assim como um atendente de banho amassa sabão em pó com água até saturar cada partícula... assim também o meditador impregna e satura este próprio corpo com o êxtase e a paz nascidos do recolhimento."
+      pali: "Cattāromā, bhikkhave, samādhibhāvanā. Katamā catasso? Atthi, bhikkhave, samādhibhāvanā bhāvitā bahulīkatā diṭṭhadhammasukhavihārāya saṁvattati... ñāṇadassanapaṭilābhāya... satisampajaññāya... āsavānaṁ khayāya saṁvattati.",
+      en: "There are these four developments of concentration: one developed for pleasant abiding here and now; one developed for gaining knowledge and vision; one developed for mindfulness and clear awareness; and one developed for the total destruction of taints.",
+      pt: "Existem estes quatro modos de cultivar a concentração: um que conduz ao viver feliz no presente momento; outro que conduz ao conhecimento e à visão; outro que aprimora a atenção plena e lucidez; e outro que leva à destruição total das contaminações."
+    }
+  },
+  {
+    code: "AN 10.60",
+    paliTitle: "Girimānanda Sutta",
+    title: {
+      en: "The Ten Contemplations for Mind-Body Healing",
+      pt: "As Dez Contemplações para a Cura da Mente e do Corpo"
+    },
+    suttaCentralUrl: "https://suttacentral.net/an10.60",
+    role: {
+      en: "Ten profound contemplations (Anicca, Anattā, Asubha, Ādīnava, Pahāna, Virāga, Nirodha, Non-Delight, Ānāpānasati) that cured Ven. Girimānanda's severe disease.",
+      pt: "Dez contemplações profundas (Inconstância, Não-Eu, Vulnerabilidade, Desapego, Cessação e Respiração) que curaram a grave enfermidade do monge Girimānanda."
+    },
+    keyPassage: {
+      pali: "Sace kho tvaṁ, ānanda, girimānandassa bhikkhuno dasa saññā bhāseyyāsi, ṭhānaṁ kho panetaṁ vijjati yaṁ girimānandassa bhikkhuno dasa saññā sutvā so ābādho ṭhānaso paṭippassambheyya.",
+      en: "If you recite these ten contemplations to the monk Girimānanda, it is possible that on hearing them his affliction will immediately subside. And upon hearing them, his sickness was cured.",
+      pt: "Se você recitar estas dez contemplações ao monge Girimānanda, é bem possível que, ao ouvi-las, sua aflição seja apaziguada imediatamente. E, ao escutá-las, sua enfermidade foi curada."
     }
   },
   {
@@ -2308,9 +3694,63 @@ const SUTTA_MEDITATION_CORPUS = [
       pt: "Comprova que qualquer Jhāna (do 1º ao 8º) serve como plataforma imediata para dissecar os cinco agregados como inconstantes e não-eu."
     },
     keyPassage: {
-      pali: "So te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati.",
-      en: "Whatever phenomena exist in that absorption — form, feeling, perception, volitional formations, consciousness — one contemplates them as impermanent, suffering, a disease, an arrow, alien, disintegrating, empty, not-self.",
-      pt: "Quaisquer fenômenos presentes naquela absorção — forma, sensação, percepção, formações, consciência — o meditador os contempla como inconstantes, dolorosos, uma enfermidade, uma flecha, alienígenas, vazios e desprovidos de um eu."
+      pali: "So te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. So tehi dhammehi cittaṁ paṭivāpeti. So tehi dhammehi cittaṁ paṭivāpetvā amatāya dhātuyā cittaṁ upasaṁharati.",
+      en: "Whatever phenomena exist in that absorption — form, feeling, perception, volitions, consciousness — one contemplates them as impermanent, suffering, a disease, an arrow, alien, disintegrating, empty, not-self. Turning away from them, one inclines the mind to the Deathless.",
+      pt: "Quaisquer fenômenos presentes naquela absorção — forma, sensação, percepção, formações, consciência — o meditador os contempla como inconstantes, dolorosos, uma enfermidade, uma flecha, alienígenas, vazios e não-eu. Afastando-se deles, inclina a mente ao Imorredouro."
+    }
+  },
+  {
+    code: "MN 121",
+    paliTitle: "Cūḷasuññata Sutta",
+    title: {
+      en: "The Shorter Discourse on Emptiness",
+      pt: "O Discurso Breve sobre o Vazio (Vacuidade)"
+    },
+    suttaCentralUrl: "https://suttacentral.net/mn121",
+    role: {
+      en: "The authentic canonical reduction method of Emptiness: gradually peeling back perceptions from social noise to signless absorption.",
+      pt: "O método canônico de redução da Vacuidade: descascando progressivamente as percepções do ruído social à imersão sem sinais."
+    },
+    keyPassage: {
+      pali: "Yañhi kho tattha na hoti, tena taṁ suññaṁ samanupassati. Yaṁ pana tattha avasiṭṭhaṁ hoti, taṁ 'santaṁ idaṁ atthī'ti pajānāti. Evam'pissa esā, ānanda, yathābhuccā avipallatthā pariyodātā paramānuttarā suññatāvakkanti bhavati.",
+      en: "Whatever is not present there, one regards as empty of it. But whatever remains present there, one discerns: 'This is present.' Thus, Ānanda, this is the genuine, undistorted, pure, unsurpassable entry into emptiness.",
+      pt: "Aquilo que não está presente ali, considera-se vazio disso. Mas o que permanece, discerne-se com lucidez: 'Isto está presente.' Assim, Ānanda, dá-se a entrada genuína, sem distorções, pura e insuperável no vazio."
+    }
+  },
+  {
+    code: "SN 36.31",
+    paliTitle: "Nirāmisa Sutta",
+    title: {
+      en: "Worldly, Unworldly & Ultra-Unworldly Feelings",
+      pt: "Sensações Mundanas, Espirituais & Transmundanas"
+    },
+    suttaCentralUrl: "https://suttacentral.net/sn36.31",
+    role: {
+      en: "The taxonomy of sensation (Vedanā): validates meditative joy (nirāmisa sukha) as holy pleasure that replaces sensual craving without causing bondage.",
+      pt: "A anatomia da sensação (Vedanā): valida a alegria meditativa (nirāmisa sukha) como prazer sagrado que substitui o apego sensual sem gerar contaminação."
+    },
+    keyPassage: {
+      pali: "Atthi, bhikkhave, sāmisaṁ sukhaṁ, atthi nirāmisaṁ sukhaṁ, atthi nirāmisā nirāmisataraṁ sukhaṁ... Katamañca nirāmisaṁ sukhaṁ? Idha bhikkhu vivicceva kāmehi... Paṭhamaṁ jhānaṁ upasampajja viharati.",
+      en: "There is worldly pleasure, there is unworldly pleasure, and there is pleasure more unworldly than the unworldly. And what is unworldly pleasure? When secluded from sensual desires, a mendicant enters and abides in the jhānas.",
+      pt: "Existe o prazer mundano, existe o prazer espiritual e existe um prazer mais espiritual que o espiritual. E o que é o prazer espiritual? É quando, afastado dos desejos dos sentidos, o mendicante entra e permanece nos jhānas."
+    }
+  },
+  {
+    code: "MN 128",
+    paliTitle: "Upakkilesa Sutta",
+    title: {
+      en: "Overcoming the 11 Corruptions of Meditative Light (Nimitta)",
+      pt: "Superando as 11 Corrupções da Luz Meditativa (Nimitta)"
+    },
+    suttaCentralUrl: "https://suttacentral.net/mn128",
+    role: {
+      en: "The Buddha coaches Ven. Anuruddha on why meditative radiance and nimittas vanish, diagnosing 11 subtle traps including excitement and excess force.",
+      pt: "O Buda orienta o Ven. Anuruddha sobre o motivo pelo qual a luz e os nimittas esvaecem, diagnosticando 11 armadilhas como a euforia e a força excessiva."
+    },
+    keyPassage: {
+      pali: "Yato kho me, anuruddhā, vicikicchā upakkileso pahīno ahosi, amanasikāro... Thīnamiddhaṁ... Chambhitattaṁ... Ubbilāvitaṁ... Duṭṭhullaṁ... Accāraddhavīriyaṁ... Atilīnavīriyaṁ... Abhijappā... Nānattasaññā... Atidijjhāyitattaṁ upakkileso pahīno ahosi, tato me samādhi na hāyati.",
+      en: "When I had understood and abandoned these eleven subtle corruptions of the mind — doubt, inattention, sluggishness, fear, elation, inertia, excessive energy, slack energy, longing, perception of diversity, and excessive pondering — my concentration no longer declined.",
+      pt: "Quando compreendi e abandonei essas onze corrupções sutis da mente — dúvida, desatenção, torpor, medo, euforia, inércia, esforço excessivo, esforço frouxo, anseio, percepção da diversidade e excesso de análise —, minha concentração nunca mais declinou."
     }
   }
 ];
