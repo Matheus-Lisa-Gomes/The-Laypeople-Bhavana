@@ -16,12 +16,6 @@
  */
 const LINEAGE_CLUSTERS = [
   {
-    "id": "all",
-    "en": "All Traditions",
-    "pt": "Todas as Tradições",
-    "icon": "☸"
-  },
-  {
     "id": "ebt",
     "en": "Canonical EBT Suttas",
     "pt": "Suttas Canônicos (EBT)",
@@ -7486,7 +7480,7 @@ const SUTTA_MEDITATION_CORPUS = [
 // Global App State
 const state = {
   lang: localStorage.getItem('bhavana_lang') || 'en',
-  activeCluster: 'all',
+  activeCluster: 'ebt',
   selectedLineageId: null,
   activePortalTab: 'method',
   temperamentFilter: 'all',
@@ -7684,7 +7678,7 @@ function renderAppView() {
   } else {
     if (portalWrap) portalWrap.style.display = 'none';
     if (ebtCurriculum) {
-      if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
+      if (state.activeCluster !== 'tools') {
         ebtCurriculum.style.display = 'block';
         renderEbtCurriculumNav();
       } else {
@@ -7767,12 +7761,12 @@ function renderTraditionsGrid() {
   if (!grid) return;
 
   let list = MEDITATION_LINEAGES.slice();
-  if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
+  if (state.activeCluster !== 'tools') {
     list = list.filter(item => item.cluster === state.activeCluster);
   }
 
   // Curriculum Filtering & Progression Ordering for all specific traditions
-  if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
+  if (state.activeCluster !== 'tools') {
     if (state.ebtDifficultyFilter !== 'all') {
       list = list.filter(item => item.difficulty === state.ebtDifficultyFilter);
     }
@@ -7863,7 +7857,7 @@ function renderTraditionsGrid() {
 function selectTradition(id) {
   const item = MEDITATION_LINEAGES.find(x => x.id === id);
   if (item && state.activeCluster === 'tools') {
-    state.activeCluster = item.cluster || 'all';
+    state.activeCluster = item.cluster || 'ebt';
     renderClusterTabs();
   }
   state.selectedLineageId = id;
@@ -8336,7 +8330,7 @@ document.addEventListener('DOMContentLoaded', () => {
   searchInput?.addEventListener('input', (e) => {
     state.searchQuery = e.target.value;
     if (state.activeCluster === 'tools' && state.searchQuery.trim()) {
-      state.activeCluster = 'all';
+      state.activeCluster = 'ebt';
       renderClusterTabs();
     }
     renderAppView();

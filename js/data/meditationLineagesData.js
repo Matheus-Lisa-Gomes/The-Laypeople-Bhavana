@@ -6,12 +6,6 @@
 
 export const LINEAGE_CLUSTERS = [
   {
-    "id": "all",
-    "en": "All Traditions",
-    "pt": "Todas as Tradições",
-    "icon": "☸"
-  },
-  {
     "id": "ebt",
     "en": "Canonical EBT Suttas",
     "pt": "Suttas Canônicos (EBT)",
