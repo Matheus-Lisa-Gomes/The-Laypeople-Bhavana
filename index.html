@@ -4,22 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Lay Dharma Household Mārga</title>
+  <title>The Lay Dharma Household Bhāvanā — Theravāda Meditation Aggregate</title>
   <meta name="description"
-    content="Authentic Buddhist teachings, canonical suttas, Pāli terminology, and practical ethical guidance tailored specifically for householders and lay practitioners.">
+    content="Comprehensive Theravāda meditation study aggregate compiling authentic methods, lineage masters, 40 Kammaṭṭhānas, 16 Insight Knowledges, and canonical instructions from all major Theravāda traditions.">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0a944'><circle cx='12' cy='12' r='10' stroke='%23e0a944' stroke-width='2' fill='none'/><circle cx='12' cy='12' r='2' fill='%23e0a944'/></svg>">
 </head>
 
 <body>
-  <!-- Ambient Sacred Background Element -->
+  <!-- Ambient Meditative Halo -->
   <div class="ambient-halo"></div>
 
   <div class="container">
-    <!-- Header with Dharmachakra (Wheel of Dhamma) -->
+    <!-- Header -->
     <header class="site-header">
-      <!-- Language Selector with USA & Brazil Flags (EN / PT) -->
+      <!-- Language Selector with USA & Brazil Flags -->
       <div class="lang-selector-wrap" id="langSelector" role="group" aria-label="Language selection">
         <button class="lang-btn active" id="langBtnEn" data-lang="en" aria-label="Switch to English (USA)" title="English">
           <svg class="flag-icon" viewBox="0 0 60 40" aria-hidden="true">
@@ -65,13 +65,12 @@
         </button>
       </div>
 
-      <!-- 8-Spoked Wheel of Dhamma (Noble Eightfold Path) -->
+      <!-- Sacred Dharmachakra Emblem -->
       <svg class="dharmachakra-emblem" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <circle cx="50" cy="50" r="46" stroke="url(#goldGrad)" stroke-width="3" />
         <circle cx="50" cy="50" r="40" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="3 3" />
         <circle cx="50" cy="50" r="14" fill="#131a26" stroke="url(#goldGrad)" stroke-width="2.5" />
         <circle cx="50" cy="50" r="6" fill="url(#goldGrad)" />
-        <!-- 8 Spokes -->
         <g stroke="url(#goldGrad)" stroke-width="2.5">
           <line x1="50" y1="10" x2="50" y2="36" />
           <line x1="50" y1="64" x2="50" y2="90" />
@@ -91,152 +90,74 @@
         </defs>
       </svg>
 
-      <h1 class="site-title" id="siteTitle">The Lay Dharma Household Mārga</h1>
-      <div class="site-subtitle" id="siteSubtitle">Focused Teachings for Laypeople</div>
+      <h1 class="site-title" id="siteTitle">The Lay Dharma Household Bhāvanā</h1>
+      <div class="site-subtitle" id="siteSubtitle">Theravāda Meditation Aggregate & Lineage Study Portal</div>
+
+      <!-- Search Bar -->
+      <div class="header-action-bar">
+        <div class="search-input-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search lineages, methods, masters, Pāli terms..." aria-label="Search lineages and meditation teachings">
+        </div>
+      </div>
     </header>
 
-    <!-- Radial Menu with 9 Annular Sectors -->
-    <section class="wheel-stage" id="wheelStage" aria-label="Wheel of Dhamma Radial Navigation">
-      <div class="radial-menu-wrapper" id="radialMenuWrapper">
-        <!-- SVG Radial Canvas for the 9 Annular Sectors -->
-        <svg class="radial-svg" id="radialSvg" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="goldGradHub" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#f5c76b" />
-              <stop offset="0.5" stop-color="#e0a944" />
-              <stop offset="1" stop-color="#b88126" />
-            </linearGradient>
-
-            <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
-              <feGaussianBlur stdDeviation="5" result="blur" />
-              <feComposite in="SourceGraphic" in2="blur" operator="over" />
-            </filter>
-          </defs>
-
-          <!-- Outer & Inner Orbit Guide Rings -->
-          <circle cx="350" cy="350" r="322" class="guide-ring-outer" />
-          <circle cx="350" cy="350" r="148" class="guide-ring-inner" />
-
-          <!-- The 9 Annular Sector Paths Container -->
-          <g id="annularSectorsGroup" class="annular-sectors-group">
-            <!-- 9 annular sector <path> elements rendered dynamically -->
-          </g>
-        </svg>
-
-        <!-- HTML Overlay for Sector Labels (Crisp, High-Contrast Typography) -->
-        <div class="radial-labels-container" id="radialLabelsContainer">
-          <!-- 9 sector labels centered at each annular sector's centroid -->
-        </div>
-
-        <!-- Center Interactive Hub -->
-        <div class="wheel-center-hub" id="wheelCenterHub" role="button" tabindex="0" aria-label="Center Wheel Hub">
-          <div class="hub-emblem-wrap">
-            <svg class="hub-dharmachakra" viewBox="0 0 100 100" fill="none" aria-hidden="true">
-              <circle cx="50" cy="50" r="46" stroke="url(#goldGradHub)" stroke-width="2.5" />
-              <circle cx="50" cy="50" r="14" fill="#131a26" stroke="url(#goldGradHub)" stroke-width="2" />
-              <circle cx="50" cy="6" fill="url(#goldGradHub)" />
-              <g stroke="url(#goldGradHub)" stroke-width="2">
-                <line x1="50" y1="10" x2="50" y2="36" />
-                <line x1="50" y1="64" x2="50" y2="90" />
-                <line x1="10" y1="50" x2="36" y2="50" />
-                <line x1="64" y1="50" x2="90" y2="50" />
-                <line x1="21.7" y1="21.7" x2="40.1" y2="40.1" />
-                <line x1="59.9" y1="59.9" x2="78.3" y2="78.3" />
-                <line x1="78.3" y1="21.7" x2="59.9" y2="40.1" />
-                <line x1="40.1" y1="59.9" x2="21.7" y2="78.3" />
-              </g>
-            </svg>
-          </div>
-          <div class="hub-text-wrap">
-            <span class="hub-badge" id="hubBadge">09 CANONICAL PILLARS</span>
-            <h3 class="hub-title" id="hubTitle">Ariya Magga</h3>
-            <p class="hub-desc" id="hubDesc">Hover or click any sector to enter study</p>
-          </div>
-        </div>
+    <!-- Lineage Clusters Filter Pills Bar -->
+    <section class="clusters-nav-section" aria-label="Traditions and Lineages Selector">
+      <div class="cluster-tabs-container" id="clusterTabsContainer">
+        <!-- Rendered dynamically by app.js -->
       </div>
     </section>
 
-    <!-- Full In-Page Canonical Study Portal (No Longer a Pop-up Modal) -->
-    <main class="study-portal-section" id="studyPortal" aria-label="Canonical Study Portal">
-      <article class="reader-dialog" id="readerDialog">
-        <!-- Reader Header -->
-        <header class="reader-header">
-          <div>
-            <div class="reader-badge-wrap">
-              <span class="modal-enumeration" id="modalNumber">01</span>
-              <span class="category-pill" id="modalCategory">Foundational Wisdom</span>
-            </div>
-            <h2 class="reader-title-pali" id="modalPaliTitle">Cattāri Ariyasaccāni</h2>
-            <div class="reader-title-eng" id="modalEngTitle">The Four Noble Truths</div>
-          </div>
-        </header>
+    <!-- Main Content Area: Traditions Grid OR Deep Study Portal -->
+    <main class="main-content-flow" id="mainContentFlow">
+      <!-- Traditions Card Grid -->
+      <section class="traditions-grid" id="traditionsGrid" aria-label="Meditation Traditions Grid">
+        <!-- Rendered dynamically by app.js -->
+      </section>
 
-        <!-- Navigation Tabs (Sticky Segmented Control) -->
-        <nav class="reader-tabs-nav" aria-label="Study Tabs">
-          <button class="tab-nav-btn active" data-tab="tab-overview" id="tabBtnOverview">Overview & Essence</button>
-          <button class="tab-nav-btn" data-tab="tab-canonical" id="tabBtnCanonical">Canonical Corpus</button>
-          <button class="tab-nav-btn" data-tab="tab-household" id="tabBtnHousehold">Householder Practice</button>
-        </nav>
-
-        <!-- Tab Content Area -->
-        <div class="reader-body">
-          <!-- Tab 1: Overview -->
-          <div class="tab-content active" id="tab-overview">
-            <div class="canonical-citation-tag" id="modalCitation">SN 56.11, MN 141</div>
-            <p class="lead-overview" id="modalOverview"></p>
-
-            <!-- Doctrinal Operational Matrix (Catukicca Framework) -->
-            <div id="modalDoctrinalFramework"></div>
-
-            <div class="section-label" id="headingKeyPali">
-              <span>☸</span> Key Pāli Terminology
-            </div>
-            <div class="pali-terms-grid" id="modalPaliTerms"></div>
-          </div>
-
-          <!-- Tab 2: Canonical Texts -->
-          <div class="tab-content" id="tab-canonical">
-            <div id="modalExcerptsList"></div>
-          </div>
-
-          <!-- Tab 3: Householder Practice -->
-          <div class="tab-content" id="tab-household">
-            <p id="householdIntroText" style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">
-              Specific strategies, psychological guardrails, and behavioral advice for integrating this teaching into
-              family dynamics, career, and household governance:
-            </p>
-            <div id="modalHouseholdList"></div>
-          </div>
-        </div>
-
-        <!-- Reader Bottom Navigation Footer -->
-        <footer class="reader-footer-nav">
-          <button class="footer-nav-btn" id="footerPrevBtn">
-            <span>←</span> <span id="footerPrevText">Previous Pillar</span>
-          </button>
-          <a href="#wheelStage" class="footer-wheel-btn" id="footerWheelBtn">
-            <span>☸</span> <span id="footerWheelText">Return to Dhamma Wheel</span>
-          </a>
-          <button class="footer-nav-btn" id="footerNextBtn">
-            <span id="footerNextText">Next Pillar</span> <span>→</span>
-          </button>
-        </footer>
-      </article>
+      <!-- Deep Study Portal (Single Tradition View) -->
+      <section class="deep-study-portal-wrap" id="deepStudyPortalWrap" style="display:none;" aria-label="Deep Study Portal">
+        <!-- Rendered dynamically by app.js when a lineage is selected -->
+      </section>
     </main>
 
-    <!-- Sacred Site Footer -->
+    <!-- Master Comparative Tools & Diagnostics Section -->
+    <section class="master-tools-section" id="masterToolsSection" aria-label="Comparative Tools and Diagnostics">
+      <div class="tools-header">
+        <div class="tools-badge">ENCYCLOPEDIC REFERENCE</div>
+        <h2 class="tools-title">Master Comparative Tools & Diagnostics</h2>
+        <p class="tools-subtitle">Comprehensive analytical frameworks across all branches and lineages of the Theravāda tradition</p>
+      </div>
+
+      <!-- Tools Subtabs Navigation -->
+      <nav class="tools-subtabs-nav" id="toolsSubtabsNav" role="tablist">
+        <!-- Rendered dynamically by app.js -->
+      </nav>
+
+      <!-- Active Tool Content Box -->
+      <div class="tool-tab-content-area" id="toolTabContentArea">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- Sacred Contemplative Footer -->
     <footer class="site-footer">
-      <div class="footer-divider"></div>
-      <div class="footer-content">
-        <div class="footer-quote">
-          “Dhammo have rakkhati dhammacāriṁ” — <span class="footer-quote-trans">The Dhamma protects the one who lives by the Dhamma.</span>
-        </div>
-        <div class="footer-meta">The Lay Dharma Household Mārga • Upāsaka-Dharma Canonical Study Portal</div>
+      <div class="footer-emblem-wrap">
+        <span class="footer-dhamma-wheel">☸</span>
+      </div>
+      <p class="footer-pali-quote">“Dhammo have rakkhati dhammacāriṁ”</p>
+      <p class="footer-quote-trans">“The Dhamma protects the one who lives by the Dhamma.”</p>
+      <div class="footer-links">
+        <span>The Lay Dharma Household Bhāvanā</span> •
+        <span>Early Buddhist Texts (Nikāyas)</span> •
+        <span>100% Offline Local</span> •
+        <span>Zero Runtime Dependencies</span>
       </div>
     </footer>
   </div>
 
-  <!-- Standalone Universal Web Bundle (Works on file://, localhost, and live servers) -->
+  <!-- Scripts -->
   <script src="js/bundle.js"></script>
 </body>
 

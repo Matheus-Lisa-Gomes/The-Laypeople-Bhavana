@@ -1,4 +1,4 @@
-# The Lay Dharma Household Mārga - Lightweight Local HTTP Server
+# The Lay Dharma Household Bhāvanā - Lightweight Local HTTP Server
 $port = 8081
 $url = "http://localhost:$port/"
 $listener = New-Object System.Net.HttpListener
@@ -7,7 +7,7 @@ $listener.Prefixes.Add($url)
 try {
     $listener.Start()
     Write-Host "=======================================================" -ForegroundColor DarkYellow
-    Write-Host "   The Lay Dharma Household Mārga" -ForegroundColor Yellow
+    Write-Host "   The Lay Dharma Household Bhāvanā" -ForegroundColor Yellow
     Write-Host "   Running at: $url" -ForegroundColor Green
     Write-Host "=======================================================" -ForegroundColor DarkYellow
     Write-Host "Press Ctrl+C to stop the server." -ForegroundColor Gray

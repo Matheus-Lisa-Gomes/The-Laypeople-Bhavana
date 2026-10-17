@@ -1,21 +1,19 @@
-# Build script to bundle The Lay Dharma Household Mārga scripts into js/bundle.js
+# Build script to bundle The Lay Dharma Household Bhāvanā scripts into js/bundle.js
 
-$paContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/dependentArisingData.js", [System.Text.Encoding]::UTF8)
-$maggaContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/fourthNobleTruthData.js", [System.Text.Encoding]::UTF8)
-$cosmoContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/buddhistCosmologyData.js", [System.Text.Encoding]::UTF8)
-$topicsContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/topicsData.js", [System.Text.Encoding]::UTF8)
+$lineagesContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/meditationLineagesData.js", [System.Text.Encoding]::UTF8)
+$toolsContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/comparativeToolsData.js", [System.Text.Encoding]::UTF8)
+$suttaContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/data/suttaMeditationCorpusData.js", [System.Text.Encoding]::UTF8)
 $appContent = [System.IO.File]::ReadAllText("$PSScriptRoot/js/app.js", [System.Text.Encoding]::UTF8)
 
 # Strip ES module imports and exports for universal browser execution
-$paClean = $paContent -replace '(?m)^\s*export\s+const\s+', 'const '
-$maggaClean = $maggaContent -replace '(?m)^\s*export\s+const\s+', 'const '
-$cosmoClean = $cosmoContent -replace '(?m)^\s*export\s+const\s+', 'const '
-$topicsClean = $topicsContent -replace '(?m)^\s*export\s+const\s+', 'const ' -replace '(?m)^\s*import\s+[^;]+;\s*\r?\n', ''
+$lineagesClean = $lineagesContent -replace '(?m)^\s*export\s+const\s+', 'const '
+$toolsClean = $toolsContent -replace '(?m)^\s*export\s+const\s+', 'const '
+$suttaClean = $suttaContent -replace '(?m)^\s*export\s+const\s+', 'const '
 $appClean = $appContent -replace '(?m)^\s*import\s+[^;]+;\s*\r?\n', ''
 
 $bundle = @"
 /**
- * The Lay Dharma Household Mārga — Standalone Universal Web Bundle
+ * The Lay Dharma Household Bhāvanā — Standalone Universal Web Bundle
  * Runs directly on file:// as well as HTTPS / local servers.
  */
 
@@ -23,27 +21,22 @@ $bundle = @"
   'use strict';
 
   // ==========================================
-  // 1. DEPENDENT ARISING DATA MODULE
+  // 1. MEDITATION LINEAGES DATA
   // ==========================================
-$paClean
+$lineagesClean
 
   // ==========================================
-  // 2. FOURTH NOBLE TRUTH DATA MODULE
+  // 2. COMPARATIVE TOOLS & DIAGNOSTICS DATA
   // ==========================================
-$maggaClean
+$toolsClean
 
   // ==========================================
-  // 3. BUDDHIST COSMOLOGY DATA MODULE
+  // 3. CANONICAL SUTTA MEDITATION CORPUS
   // ==========================================
-$cosmoClean
+$suttaClean
 
   // ==========================================
-  // 4. CANONICAL TOPICS DATA
-  // ==========================================
-$topicsClean
-
-  // ==========================================
-  // 5. APPLICATION CONTROLLER
+  // 4. APPLICATION CONTROLLER
   // ==========================================
 $appClean
 
@@ -52,4 +45,3 @@ $appClean
 
 [System.IO.File]::WriteAllText("$PSScriptRoot/js/bundle.js", $bundle, [System.Text.Encoding]::UTF8)
 Write-Host "bundle.js successfully built! Total size: $([System.IO.FileInfo]::new("$PSScriptRoot/js/bundle.js").Length) bytes." -ForegroundColor Green
-
