@@ -2450,30 +2450,51 @@ function renderClusterTabs() {
       state.activeCluster = clusterId;
       state.selectedLineageId = null; // Return to list view
       renderClusterTabs();
-      renderTraditionsGrid();
-      if (clusterId === 'tools') {
-        const toolsSec = document.getElementById('masterToolsSection');
-        if (toolsSec) toolsSec.scrollIntoView({ behavior: 'smooth' });
-      }
+      renderAppView();
+      const mainFlow = document.getElementById('mainContentFlow');
+      if (mainFlow) mainFlow.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
+}
+
+// Master App View Router
+function renderAppView() {
+  const grid = document.getElementById('traditionsGrid');
+  const portalWrap = document.getElementById('deepStudyPortalWrap');
+  const toolsSec = document.getElementById('masterToolsSection');
+
+  if (state.activeCluster === 'tools') {
+    if (grid) grid.style.display = 'none';
+    if (portalWrap) portalWrap.style.display = 'none';
+    if (toolsSec) {
+      toolsSec.style.display = 'block';
+      renderMasterTools();
+    }
+    return;
+  }
+
+  // Hide tools section when on lineage traditions clusters
+  if (toolsSec) toolsSec.style.display = 'none';
+
+  if (state.selectedLineageId) {
+    if (grid) grid.style.display = 'none';
+    if (portalWrap) {
+      portalWrap.style.display = 'block';
+      renderDeepStudyPortal();
+    }
+  } else {
+    if (portalWrap) portalWrap.style.display = 'none';
+    if (grid) {
+      grid.style.display = 'grid';
+      renderTraditionsGrid();
+    }
+  }
 }
 
 // Render Traditions Grid
 function renderTraditionsGrid() {
   const grid = document.getElementById('traditionsGrid');
-  const portalWrap = document.getElementById('deepStudyPortalWrap');
   if (!grid) return;
-
-  if (state.selectedLineageId) {
-    grid.style.display = 'none';
-    if (portalWrap) portalWrap.style.display = 'block';
-    renderDeepStudyPortal();
-    return;
-  }
-
-  grid.style.display = 'grid';
-  if (portalWrap) portalWrap.style.display = 'none';
 
   let list = MEDITATION_LINEAGES;
   if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
@@ -2542,9 +2563,14 @@ function renderTraditionsGrid() {
 }
 
 function selectTradition(id) {
+  const item = MEDITATION_LINEAGES.find(x => x.id === id);
+  if (item && state.activeCluster === 'tools') {
+    state.activeCluster = item.cluster || 'all';
+    renderClusterTabs();
+  }
   state.selectedLineageId = id;
   state.activePortalTab = 'method';
-  renderTraditionsGrid();
+  renderAppView();
   const portalWrap = document.getElementById('deepStudyPortalWrap');
   if (portalWrap) portalWrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -2589,7 +2615,7 @@ function renderDeepStudyPortal() {
 
   document.getElementById('btnBackToGrid')?.addEventListener('click', () => {
     state.selectedLineageId = null;
-    renderTraditionsGrid();
+    renderAppView();
     document.getElementById('traditionsGrid')?.scrollIntoView({ behavior: 'smooth' });
   });
 
@@ -2968,8 +2994,7 @@ function setLanguage(lang) {
   });
 
   renderClusterTabs();
-  renderTraditionsGrid();
-  renderMasterTools();
+  renderAppView();
 }
 
 // Initialize Application on DOM Ready
@@ -2982,7 +3007,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
   searchInput?.addEventListener('input', (e) => {
     state.searchQuery = e.target.value;
-    renderTraditionsGrid();
+    if (state.activeCluster === 'tools' && state.searchQuery.trim()) {
+      state.activeCluster = 'all';
+      renderClusterTabs();
+    }
+    renderAppView();
   });
 
   // Initial Renders

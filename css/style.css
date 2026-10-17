@@ -5533,11 +5533,10 @@ body {
 
 .cluster-tabs-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
-  overflow-x: auto;
   padding: 6px 2px 14px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--gold-border) transparent;
 }
 
 .cluster-pill {
@@ -6119,6 +6118,7 @@ body {
   padding: 40px 32px;
   margin-bottom: 70px;
   box-shadow: var(--shadow-lg);
+  animation: fadeInPortal 0.35s ease-out;
 }
 
 .tools-header {
@@ -6153,7 +6153,6 @@ body {
 .tools-subtabs-nav {
   display: flex;
   gap: 10px;
-  overflow-x: auto;
   border-bottom: 1px solid var(--border-subtle);
   padding-bottom: 14px;
   margin-bottom: 30px;
