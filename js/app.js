@@ -17,6 +17,7 @@ const state = {
   activePortalTab: 'method',
   temperamentFilter: 'all',
   activeToolTab: 'comparison',
+  ebtDifficultyFilter: 'all',
   searchQuery: ''
 };
 
@@ -66,7 +67,17 @@ const I18N = {
     colJhana: "Approach to Jhāna",
     colVedana: "Vedanā (Sensation)",
     colLay: "Lay Feasibility",
-    readSuttaCentral: "Read Full Text on SuttaCentral ↗"
+    readSuttaCentral: "Read Full Text on SuttaCentral ↗",
+    curriculumTitle: "Gradual Training Study Path (Anupubbasikkhā)",
+    curriculumSubtitle: "Systematic canonical progression: somatic grounding → core concentration → deep insight & emptiness",
+    lvlAll: "All Suttas (12)",
+    lvlFoundational: "🟢 Stage 1: Foundations & Somatic Grounding (4)",
+    lvlIntermediate: "🟡 Stage 2: Core Roadmaps & Concentration (5)",
+    lvlAdvanced: "🟣 Stage 3: Deep Wisdom & Emptiness (3)",
+    phaseOrderPrefix: "Step",
+    phaseOrderOf: "of 12 in Study Path",
+    prereqLabel: "Suggested Foundation:",
+    whyStudyLabel: "Why Study at This Stage:"
   },
   pt: {
     siteTitle: "O Mārga da Bhāvanā Leiga",
@@ -112,7 +123,17 @@ const I18N = {
     colJhana: "Visão sobre Jhānas",
     colVedana: "Manejo de Sensações (Vedanā)",
     colLay: "Praticabilidade Leiga",
-    readSuttaCentral: "Ler Texto Completo no SuttaCentral ↗"
+    readSuttaCentral: "Ler Texto Completo no SuttaCentral ↗",
+    curriculumTitle: "Caminho do Treinamento Gradual (Anupubbasikkhā)",
+    curriculumSubtitle: "Progressão canônica sistemática: enraizamento somático → concentração profunda → sabedoria & vacuidade",
+    lvlAll: "Todos os Suttas (12)",
+    lvlFoundational: "🟢 Etapa 1: Fundamentos & Presença Somática (4)",
+    lvlIntermediate: "🟡 Etapa 2: Mapas Centrais & Samādhi (5)",
+    lvlAdvanced: "🟣 Etapa 3: Sabedoria Profunda & Vacuidade (3)",
+    phaseOrderPrefix: "Passo",
+    phaseOrderOf: "de 12 no Caminho de Estudo",
+    prereqLabel: "Fundamento Sugerido:",
+    whyStudyLabel: "Por Que Estudar nesta Fase:"
   }
 };
 
@@ -132,6 +153,7 @@ function renderClusterTabs() {
     btn.addEventListener('click', () => {
       const clusterId = btn.getAttribute('data-cluster');
       state.activeCluster = clusterId;
+      state.ebtDifficultyFilter = 'all';
       state.selectedLineageId = null; // Return to list view
       renderClusterTabs();
       renderAppView();
@@ -146,10 +168,12 @@ function renderAppView() {
   const grid = document.getElementById('traditionsGrid');
   const portalWrap = document.getElementById('deepStudyPortalWrap');
   const toolsSec = document.getElementById('masterToolsSection');
+  const ebtCurriculum = document.getElementById('ebtCurriculumContainer');
 
   if (state.activeCluster === 'tools') {
     if (grid) grid.style.display = 'none';
     if (portalWrap) portalWrap.style.display = 'none';
+    if (ebtCurriculum) ebtCurriculum.style.display = 'none';
     if (toolsSec) {
       toolsSec.style.display = 'block';
       renderMasterTools();
@@ -162,12 +186,21 @@ function renderAppView() {
 
   if (state.selectedLineageId) {
     if (grid) grid.style.display = 'none';
+    if (ebtCurriculum) ebtCurriculum.style.display = 'none';
     if (portalWrap) {
       portalWrap.style.display = 'block';
       renderDeepStudyPortal();
     }
   } else {
     if (portalWrap) portalWrap.style.display = 'none';
+    if (ebtCurriculum) {
+      if (state.activeCluster === 'ebt') {
+        ebtCurriculum.style.display = 'block';
+        renderEbtCurriculumNav();
+      } else {
+        ebtCurriculum.style.display = 'none';
+      }
+    }
     if (grid) {
       grid.style.display = 'grid';
       renderTraditionsGrid();
@@ -175,14 +208,64 @@ function renderAppView() {
   }
 }
 
+// Render EBT Curriculum Progression Navigator
+function renderEbtCurriculumNav() {
+  const container = document.getElementById('ebtCurriculumContainer');
+  if (!container) return;
+  const str = I18N[state.lang];
+
+  container.innerHTML = `
+    <div class="curriculum-header">
+      <div class="curriculum-title-wrap">
+        <span class="curriculum-icon">🧭</span>
+        <div>
+          <h3 class="curriculum-title">${str.curriculumTitle}</h3>
+          <p class="curriculum-subtitle">${str.curriculumSubtitle}</p>
+        </div>
+      </div>
+    </div>
+    <div class="curriculum-level-pills">
+      <button class="level-pill ${state.ebtDifficultyFilter === 'all' ? 'active' : ''}" data-diff="all">
+        <span>${str.lvlAll}</span>
+      </button>
+      <button class="level-pill stage-foundational ${state.ebtDifficultyFilter === 'foundational' ? 'active' : ''}" data-diff="foundational">
+        <span>${str.lvlFoundational}</span>
+      </button>
+      <button class="level-pill stage-intermediate ${state.ebtDifficultyFilter === 'intermediate' ? 'active' : ''}" data-diff="intermediate">
+        <span>${str.lvlIntermediate}</span>
+      </button>
+      <button class="level-pill stage-advanced ${state.ebtDifficultyFilter === 'advanced' ? 'active' : ''}" data-diff="advanced">
+        <span>${str.lvlAdvanced}</span>
+      </button>
+    </div>
+  `;
+
+  container.querySelectorAll('.level-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.ebtDifficultyFilter = btn.getAttribute('data-diff');
+      renderEbtCurriculumNav();
+      renderTraditionsGrid();
+    });
+  });
+}
+
 // Render Traditions Grid
 function renderTraditionsGrid() {
   const grid = document.getElementById('traditionsGrid');
   if (!grid) return;
 
-  let list = MEDITATION_LINEAGES;
+  let list = MEDITATION_LINEAGES.slice();
   if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
     list = list.filter(item => item.cluster === state.activeCluster);
+  }
+
+  // EBT Curriculum Filtering & Progression Ordering
+  if (state.activeCluster === 'ebt') {
+    if (state.ebtDifficultyFilter !== 'all') {
+      list = list.filter(item => item.difficulty === state.ebtDifficultyFilter);
+    }
+    // Sort in recommended progressive curriculum order (1 to 12)
+    list.sort((a, b) => (a.curriculumOrder || 99) - (b.curriculumOrder || 99));
   }
 
   if (state.searchQuery.trim()) {
@@ -202,9 +285,22 @@ function renderTraditionsGrid() {
     <article class="tradition-card" data-id="${item.id}">
       <div class="tradition-card-header">
         <span class="tradition-num">${item.number}</span>
-        <span class="tradition-pali-badge">${item.paliTitle}</span>
+        <div class="tradition-badge-row">
+          <span class="tradition-pali-badge">${item.paliTitle}</span>
+          ${item.difficulty ? `
+            <span class="difficulty-badge badge-${item.difficulty}">
+              ${state.lang === 'pt' ? item.difficultyLabel.pt : item.difficultyLabel.en}
+            </span>
+          ` : ''}
+        </div>
       </div>
       <h3 class="tradition-title">${state.lang === 'pt' ? item.title.pt : item.title.en}</h3>
+      ${item.curriculumOrder ? `
+        <div class="curriculum-step-tag">
+          <span class="step-num-pill">${str.phaseOrderPrefix} ${item.curriculumOrder}</span>
+          <span class="step-desc-text">${str.phaseOrderOf}</span>
+        </div>
+      ` : ''}
       <div class="tradition-meta">
         <span class="meta-label">${str.primaryMastersLabel}</span>
         <span class="meta-val">${item.primaryMasters}</span>
@@ -214,6 +310,12 @@ function renderTraditionsGrid() {
         <span class="meta-val highlight">${item.canonicalRef}</span>
       </div>
       <p class="tradition-tagline">“${state.lang === 'pt' ? item.tagline.pt : item.tagline.en}”</p>
+      ${item.whyStudy ? `
+        <div class="why-study-callout">
+          <span class="why-study-label">${str.whyStudyLabel}</span>
+          <p class="why-study-text">${state.lang === 'pt' ? item.whyStudy.pt : item.whyStudy.en}</p>
+        </div>
+      ` : ''}
       <div class="tradition-preview-grid">
         <div class="preview-box">
           <span class="box-label">${str.primaryAnchorLabel}</span>
@@ -277,6 +379,31 @@ function renderDeepStudyPortal() {
         <span class="portal-source">${item.canonicalRef}</span>
       </div>
     </div>
+
+    ${item.curriculumOrder ? `
+      <div class="portal-curriculum-banner">
+        <div class="banner-phase">
+          <span class="phase-pill badge-${item.difficulty}">
+            ${state.lang === 'pt' ? item.difficultyLabel.pt : item.difficultyLabel.en}
+          </span>
+          <span class="phase-count">${str.phaseOrderPrefix} ${item.curriculumOrder} ${str.phaseOrderOf}</span>
+        </div>
+        <div class="banner-flow">
+          ${item.recommendedPrereq ? `
+            <div class="flow-item">
+              <span class="flow-label">${str.prereqLabel}</span>
+              <span class="flow-val">${state.lang === 'pt' ? item.recommendedPrereq.pt : item.recommendedPrereq.en}</span>
+            </div>
+          ` : ''}
+          ${item.whyStudy ? `
+            <div class="flow-item">
+              <span class="flow-label">${str.whyStudyLabel}</span>
+              <span class="flow-val">${state.lang === 'pt' ? item.whyStudy.pt : item.whyStudy.en}</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    ` : ''}
 
     <div class="portal-hero">
       <h2 class="portal-title">${state.lang === 'pt' ? item.title.pt : item.title.en}</h2>
@@ -640,6 +767,11 @@ function renderActiveToolContent() {
               <div class="sutta-header">
                 <span class="sutta-code">${s.code}</span>
                 <span class="sutta-pali">${s.paliTitle}</span>
+                ${s.difficulty ? `
+                  <span class="difficulty-badge badge-${s.difficulty}">
+                    ${state.lang === 'pt' ? s.stageLabel.pt : s.stageLabel.en}
+                  </span>
+                ` : ''}
               </div>
               <h4 class="sutta-title">${state.lang === 'pt' ? s.title.pt : s.title.en}</h4>
               <p class="sutta-role">${state.lang === 'pt' ? s.role.pt : s.role.en}</p>

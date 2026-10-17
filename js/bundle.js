@@ -42,6 +42,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, Ven. Sāriputta, Ven. Ānanda",
     canonicalRef: "MN 118 (Ānāpānasati Sutta), SN 54 (Ānāpāna Saṁyutta)",
+    difficulty: "intermediate",
+    curriculumOrder: 6,
+    difficultyLabel: {
+      en: "Stage 2: Core Roadmaps & Samādhi",
+      pt: "Etapa 2: Mapas Centrais & Samādhi"
+    },
+    recommendedPrereq: {
+      en: "DN 2 (Sāmaññaphala Sutta)",
+      pt: "DN 2 (Sāmaññaphala Sutta)"
+    },
+    whyStudy: {
+      en: "The Buddha's own practice: 16 sequential steps linking body, feeling, mind, and awakening through breath.",
+      pt: "A prática do próprio Buda: 16 passos sequenciais unindo corpo, sensação, mente e despertar através da respiração."
+    },
     coreFocus: {
       en: "16 Progressive Contemplations across 4 Tetrads unifying Samatha and Vipassanā",
       pt: "16 Contemplações Progressivas em 4 Tétrades unindo Samatha e Vipassanā"
@@ -239,6 +253,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, Ven. Sāriputta, Ven. Mahā Moggallāna",
     canonicalRef: "DN 22 (Mahāsatipaṭṭhāna Sutta), MN 10 (Satipaṭṭhāna Sutta), SN 47",
+    difficulty: "intermediate",
+    curriculumOrder: 7,
+    difficultyLabel: {
+      en: "Stage 2: Core Roadmaps & Samādhi",
+      pt: "Etapa 2: Mapas Centrais & Samādhi"
+    },
+    recommendedPrereq: {
+      en: "MN 118 (Ānāpānasati Sutta)",
+      pt: "MN 118 (Ānāpānasati Sutta)"
+    },
+    whyStudy: {
+      en: "The master curriculum for continuous mindfulness across all 4 experiential domains: body, feelings, mind, and phenomena.",
+      pt: "A matriz fundamental para a atenção plena contínua nos 4 domínios: corpo, sensações, mente e fenômenos."
+    },
     coreFocus: {
       en: "Comprehensive fourfold mindful investigation: Body (Kāya), Feeling (Vedanā), Mind (Citta), Phenomena (Dhammā)",
       pt: "Investigação consciente quádrupla: Corpo (Kāya), Sensação (Vedanā), Mente (Citta), Fenômenos (Dhammā)"
@@ -330,6 +358,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, King Ajātasattu",
     canonicalRef: "DN 2 (Dīgha Nikāya 2)",
+    difficulty: "intermediate",
+    curriculumOrder: 5,
+    difficultyLabel: {
+      en: "Stage 2: Core Roadmaps & Samādhi",
+      pt: "Etapa 2: Mapas Centrais & Samādhi"
+    },
+    recommendedPrereq: {
+      en: "Stage 1 Foundations (MN 119, MN 20)",
+      pt: "Fundamentos da Etapa 1 (MN 119, MN 20)"
+    },
+    whyStudy: {
+      en: "The canonical overview of the Gradual Training: ethics, sense restraint, overcoming the 5 hindrances, and the 4 Jhānas.",
+      pt: "A visão panorâmica do Treinamento Gradual: ética, guarda dos sentidos, superação dos obstáculos e os 4 Jhānas."
+    },
     coreFocus: {
       en: "The comprehensive gradual training: Sīla, Sense Restraint, Overcoming the 5 Hindrances, and the 4 Jhāna Similes",
       pt: "O treinamento gradual completo: Ética, Guarda dos Sentidos, Abandono dos 5 Obstáculos e os Símiles dos 4 Jhānas"
@@ -467,6 +509,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, Ven. Ānanda",
     canonicalRef: "MN 119 (Majjhima Nikāya 119)",
+    difficulty: "foundational",
+    curriculumOrder: 1,
+    difficultyLabel: {
+      en: "Stage 1: Foundational Grounding",
+      pt: "Etapa 1: Enraizamento Fundamental"
+    },
+    recommendedPrereq: {
+      en: "None (The best somatic starting point)",
+      pt: "Nenhum (O melhor ponto de partida somático)"
+    },
+    whyStudy: {
+      en: "Establishes somatic grounding in the living body and postures before attempting subtle mental states.",
+      pt: "Estabelece o enraizamento no corpo vivo e nas posturas antes de tentar estados mentais sutis."
+    },
     coreFocus: {
       en: "Comprehensive somatic embodiment across postures, physical elements, anatomical components, and the 10 supreme blessings of mastery",
       pt: "Presença somática integral nas posturas, elementos físicos, partes anatômicas e as 10 bênçãos supremas de domínio mental"
@@ -592,6 +648,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha",
     canonicalRef: "MN 20 (Majjhima Nikāya 20)",
+    difficulty: "foundational",
+    curriculumOrder: 2,
+    difficultyLabel: {
+      en: "Stage 1: Foundational Grounding",
+      pt: "Etapa 1: Enraizamento Fundamental"
+    },
+    recommendedPrereq: {
+      en: "MN 119 (Kāyagatāsati Sutta)",
+      pt: "MN 119 (Kāyagatāsati Sutta)"
+    },
+    whyStudy: {
+      en: "Gives practitioners practical emergency tools to disarm racing thoughts and mental restlessness on the cushion.",
+      pt: "Oferece aos praticantes ferramentas de emergência para desarmar pensamentos acelerados e inquietação na almofada."
+    },
     coreFocus: {
       en: "The five-step tactical escalation protocol for extinguishing obsessive thoughts of lust, anger, and delusion during meditation",
       pt: "Protocolo tático em 5 etapas progressivas para extinguir pensamentos obsessivos de cobiça, raiva e confusão na meditação"
@@ -717,6 +787,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Ānanda, Gotama Buddha",
     canonicalRef: "AN 4.170 (Aṅguttara Nikāya 4.170)",
+    difficulty: "intermediate",
+    curriculumOrder: 8,
+    difficultyLabel: {
+      en: "Stage 2: Core Roadmaps & Samādhi",
+      pt: "Etapa 2: Mapas Centrais & Samādhi"
+    },
+    recommendedPrereq: {
+      en: "MN 10 (Satipaṭṭhāna Sutta)",
+      pt: "MN 10 (Satipaṭṭhāna Sutta)"
+    },
+    whyStudy: {
+      en: "Shows how to intelligently balance stillness (Samatha) with active investigation (Vipassanā) according to present conditions.",
+      pt: "Ensina a equilibrar com inteligência a quietude (Samatha) e a investigação ativa (Vipassanā) conforme o momento."
+    },
     coreFocus: {
       en: "The four canonical dynamic pathways through which Tranquility (Samatha) and Insight (Vipassanā) unite to realize full awakening",
       pt: "As quatro rotas canônicas pelas quais a Calma (Samatha) e o Discernimento (Vipassanā) se unem rumo à libertação plena"
@@ -830,6 +914,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha",
     canonicalRef: "AN 4.41 (Aṅguttara Nikāya 4.41)",
+    difficulty: "intermediate",
+    curriculumOrder: 9,
+    difficultyLabel: {
+      en: "Stage 2: Core Roadmaps & Samādhi",
+      pt: "Etapa 2: Mapas Centrais & Samādhi"
+    },
+    recommendedPrereq: {
+      en: "AN 4.170 (Yuganaddha Sutta)",
+      pt: "AN 4.170 (Yuganaddha Sutta)"
+    },
+    whyStudy: {
+      en: "Provides a precise 4-way compass for selecting the right type of concentration for your current spiritual objective.",
+      pt: "Oferece uma bússola de 4 vias para selecionar o tipo de concentração ideal para o seu objetivo espiritual atual."
+    },
     coreFocus: {
       en: "The Buddha's definitive categorization of 4 distinct ways concentration is developed, each mapped to a specific spiritual fruition",
       pt: "A classificação canônica definitiva dos 4 modos de desenvolver o samādhi, mapeados para seus respectivos frutos espirituais"
@@ -943,6 +1041,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, Ven. Ānanda, Ven. Girimānanda",
     canonicalRef: "AN 10.60 (Aṅguttara Nikāya 10.60)",
+    difficulty: "foundational",
+    curriculumOrder: 4,
+    difficultyLabel: {
+      en: "Stage 1: Foundational Grounding",
+      pt: "Etapa 1: Enraizamento Fundamental"
+    },
+    recommendedPrereq: {
+      en: "SN 36.31 (Nirāmisa Sutta)",
+      pt: "SN 36.31 (Nirāmisa Sutta)"
+    },
+    whyStudy: {
+      en: "Prepares the mind to face illness, physical pain, and life crises with calm equanimity and healing breath.",
+      pt: "Prepara a mente para enfrentar dores físicas, doenças e crises com serenidade e respiração terapêutica."
+    },
     coreFocus: {
       en: "Ten profound therapeutic and liberating contemplations given to alleviate severe somatic disease and catalyze awakening",
       pt: "Dez contemplações terapêuticas e libertadoras transmitidas para curar enfermidades graves e conduzir ao despertar"
@@ -1068,6 +1180,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha",
     canonicalRef: "AN 9.36 (Aṅguttara Nikāya 9.36)",
+    difficulty: "advanced",
+    curriculumOrder: 11,
+    difficultyLabel: {
+      en: "Stage 3: Deep Wisdom & Emptiness",
+      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+    },
+    recommendedPrereq: {
+      en: "MN 128 (Upakkilesa Sutta)",
+      pt: "MN 128 (Upakkilesa Sutta)"
+    },
+    whyStudy: {
+      en: "Teaches how to directly turn absorption into liberating insight using the 7-fold diagnostic formula without getting stuck.",
+      pt: "Ensina a transformar a absorção em insight libertador através da fórmula analítica sétupla sem estagnar."
+    },
     coreFocus: {
       en: "Direct textual evidence that any Jhāna (from 1st to 8th) serves as an immediate springboard for dissecting the aggregates and attaining Arahantship",
       pt: "Prova canônica de que qualquer nível de Jhāna (do 1º ao 8º) serve como base imediata para dissecar os agregados e alcançar a libertação"
@@ -1181,6 +1307,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, Ven. Ānanda",
     canonicalRef: "MN 121 (Majjhima Nikāya 121)",
+    difficulty: "advanced",
+    curriculumOrder: 12,
+    difficultyLabel: {
+      en: "Stage 3: Deep Wisdom & Emptiness",
+      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+    },
+    recommendedPrereq: {
+      en: "AN 9.36 (Jhāna Sutta)",
+      pt: "AN 9.36 (Jhāna Sutta)"
+    },
+    whyStudy: {
+      en: "The authentic canonical reduction method into Emptiness (Suññatā) and Signless Immersion leading to final unbinding.",
+      pt: "O método canônico autêntico de redução rumo à Vacuidade (Suññatā) e à Imersão Sem Sinais para a libertação final."
+    },
     coreFocus: {
       en: "The genuine canonical method of contemplating Emptiness (Suññatā): gradually peeling back layers of perception to reach the signless liberation",
       pt: "O método canônico autêntico de contemplação do Vazio (Suññatā): descascar progressivamente camadas de percepção rumo à libertação"
@@ -1306,6 +1446,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha",
     canonicalRef: "SN 36.31 (Saṁyutta Nikāya 36.31)",
+    difficulty: "foundational",
+    curriculumOrder: 3,
+    difficultyLabel: {
+      en: "Stage 1: Foundational Grounding",
+      pt: "Etapa 1: Enraizamento Fundamental"
+    },
+    recommendedPrereq: {
+      en: "MN 20 (Vitakkasaṇṭhāna Sutta)",
+      pt: "MN 20 (Vitakkasaṇṭhāna Sutta)"
+    },
+    whyStudy: {
+      en: "Clarifies the crucial difference between worldly sensory craving and clean meditative joy, removing ascetic guilt.",
+      pt: "Clarifica a diferença entre desejos sensuais mundanos e o prazer limpo da meditação, eliminando a culpa ascética."
+    },
     coreFocus: {
       en: "The anatomical taxonomy of feeling (Vedanā): distinguishing worldly sensations of the senses from the unworldly spiritual bliss of meditation",
       pt: "A taxonomia anatômica das sensações (Vedanā): diferenciando estímulos sensuais do prazer espiritual e do êxtase da libertação"
@@ -1419,6 +1573,20 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Gotama Buddha, Ven. Anuruddha, Ven. Nandiya, Ven. Kimbila",
     canonicalRef: "MN 128 (Majjhima Nikāya 128), AN 3.100",
+    difficulty: "advanced",
+    curriculumOrder: 10,
+    difficultyLabel: {
+      en: "Stage 3: Deep Wisdom & Emptiness",
+      pt: "Etapa 3: Sabedoria Profunda & Vacuidade"
+    },
+    recommendedPrereq: {
+      en: "Stage 2 Concentration mastery",
+      pt: "Domínio da Concentração da Etapa 2"
+    },
+    whyStudy: {
+      en: "Cures the 11 subtle mental distortions that cause meditation light (obhāsa) and nimittas to destabilize and collapse.",
+      pt: "Cura as 11 distorções mentais sutis que fazem a luz meditativa e os nimittas colapsarem."
+    },
     coreFocus: {
       en: "The Buddha coaches Ven. Anuruddha on diagnosing and curing the 11 subtle mental distortions that cause meditation light (obhāsa) and visions to collapse",
       pt: "O Buda instrui o Ven. Anuruddha a diagnosticar e curar as 11 corrupções sutis que fazem a luz meditativa (obhāsa) e o nimitta colapsarem"
@@ -1535,6 +1703,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Ajahn Chah Subhaddo, Ven. Ajahn Sumedho, Ven. Ajahn Amaro, Ven. Ajahn Pasanno",
     canonicalRef: "Rooted in AN 4.170, Dhammapada, Sutta Nipāta",
+    difficulty: "foundational",
+    difficultyLabel: {
+      en: "Foundational / Accessible",
+      pt: "Fundamentos / Acessível"
+    },
+    recommendedPrereq: {
+      en: "Basic breath & posture",
+      pt: "Respiração básica e postura"
+    },
+    whyStudy: {
+      en: "Supreme instruction for radical non-clinging in the midst of ordinary household and work activities.",
+      pt: "Instrução suprema para o desapego radical em meio às atividades cotidianas e profissionais."
+    },
     coreFocus: {
       en: "Unconditional letting go (cāga), non-clinging awareness, welcoming suffering as the supreme teacher",
       pt: "Renúncia incondicional (cāga), atenção sem apego, acolher o sofrimento como supremo mestre"
@@ -1623,6 +1804,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Ajahn Lee Dhammadharo, Ven. Thanissaro Bhikkhu (Metta Forest Monastery)",
     canonicalRef: "Rooted in MN 118, MN 119 (Kāyagatāsati Sutta), MN 140",
+    difficulty: "intermediate",
+    difficultyLabel: {
+      en: "Intermediate / Energy Work",
+      pt: "Intermediário / Energia da Respiração"
+    },
+    recommendedPrereq: {
+      en: "Basic breath awareness",
+      pt: "Consciência básica da respiração"
+    },
+    whyStudy: {
+      en: "Teaches how to spread breath energy through the somatic nerves to dissolve physical knots and enter jhāna.",
+      pt: "Ensina a circular a energia da respiração pelos nervos para dissolver bloqueios físicos e entrar em jhāna."
+    },
     coreFocus: {
       en: "Breath energy (vāyodhātu) active circulation throughout the entire nervous system to induce buoyant Samādhi and deep healing",
       pt: "Circulação ativa da energia da respiração (vāyodhātu) por todo o sistema nervoso gerando Samādhi radiante e cura somática"
@@ -1711,6 +1905,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Ajahn Brahmavamso (disciple of Ajahn Chah)",
     canonicalRef: "DN 2, MN 118, AN 9.35, AN 9.36",
+    difficulty: "intermediate",
+    difficultyLabel: {
+      en: "Intermediate / Deep Jhāna",
+      pt: "Intermediário / Jhāna Profundo"
+    },
+    recommendedPrereq: {
+      en: "Sustained sitting practice",
+      pt: "Prática meditativa sustentada"
+    },
+    whyStudy: {
+      en: "A step-by-step 7-stage roadmap from present-moment awareness to beautiful breath, nimittas, and deep absorptions.",
+      pt: "Mapa progressivo em 7 etapas da presença atenta à respiração bela, aos nimittas e aos jhānas profundos."
+    },
     coreFocus: {
       en: "Radical surrender of the 'doer', unconditional kindness to the mind, step-by-step entry into luminous Nimitta and deep canonical Jhānas",
       pt: "Rendição radical do 'controlador', gentileza irrestrita para com a mente, entrada progressiva no Nimitta luminoso e Jhānas profundos"
@@ -1826,6 +2033,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Ajahn Maha Boowa Ñāṇasampanno, Ven. Ajahn Mun Bhūridatto",
     canonicalRef: "Dhammacakkappavattana Sutta, SN 22.59 (Anattalakkhaṇa Sutta), MN 128",
+    difficulty: "advanced",
+    difficultyLabel: {
+      en: "Advanced / Ascetic Warfare",
+      pt: "Avançado / Batalha Ascética"
+    },
+    recommendedPrereq: {
+      en: "Strong samādhi foundation",
+      pt: "Firme base de samādhi"
+    },
+    whyStudy: {
+      en: "Fierce, uncompromising investigation of bodily pain and dismantling the subtle core of ignorance in the citta.",
+      pt: "Investigação intransigente da dor física e desmantelamento do núcleo sutil de ignorância na mente (citta)."
+    },
     coreFocus: {
       en: "Uncompromising heroic effort (viriya), continuous repetition of the Buddho mantra, heroic confrontation with bodily pain to pierce through defilements",
       pt: "Esforço heroico inabalável (viriya), repetição incessante de Buddho, confronto desassombrado da dor física para dissecar as impurezas"
@@ -1908,6 +2128,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Mahāsi Sayādaw, Ven. Sayadaw U Pandita, Ven. Sayadaw U Silananda",
     canonicalRef: "DN 22 (Mahāsatipaṭṭhāna Sutta), Visuddhimagga, Abhidhammattha Saṅgaha",
+    difficulty: "intermediate",
+    difficultyLabel: {
+      en: "Intermediate / Intensive Noting",
+      pt: "Intermediário / Rotulação Intensiva"
+    },
+    recommendedPrereq: {
+      en: "Foundational mindfulness",
+      pt: "Atenção plena básica"
+    },
+    whyStudy: {
+      en: "Laser-like mental noting of all sensory events, navigating the classical 16 stages of insight knowledges (ñāṇas).",
+      pt: "Rotulação mental minuciosa de cada evento sensorial, percorrendo os 16 estágios clássicos de insight (ñāṇas)."
+    },
     coreFocus: {
       en: "Moment-to-moment verbal noting (nāmarūpa-pariccheda), observation of abdominal movement, systematic navigation of the 16 Insight Knowledges (Visuddhiñāṇa)",
       pt: "Rotulação verbal momento a momento (nāmarūpa-pariccheda), observação do abdômen e navegação dos 16 Conhecimentos de Insight (Visuddhiñāṇa)"
@@ -1996,6 +2229,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Ledi Sayādaw, Saya Thetgyi, Sayagyi U Ba Khin, S.N. Goenka",
     canonicalRef: "DN 22 (Vedanānupassanā), SN 36 (Vedanā Saṁyutta)",
+    difficulty: "intermediate",
+    difficultyLabel: {
+      en: "Intermediate / Somatic Scanning",
+      pt: "Intermediário / Varredura Corporal"
+    },
+    recommendedPrereq: {
+      en: "3 days of breath concentration",
+      pt: "3 dias de concentração na respiração"
+    },
+    whyStudy: {
+      en: "Systematic, part-by-part somatic body sweep developing equanimity in the presence of physical sensations.",
+      pt: "Varredura corporal sistemática parte a parte cultivando equanimidade diante de sensações físicas."
+    },
     coreFocus: {
       en: "Systematic, sequential bodily sweeping from head to feet; direct experiential observation of impermanence (anicca) through physical sensations",
       pt: "Varredura sistemática e sequencial da cabeça aos pés; observação empírica direta de anicca através das sensações corporais"
@@ -2084,6 +2330,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Pa-Auk Tawya Sayādaw (Ven. Āciṇṇa)",
     canonicalRef: "Visuddhimagga, Abhidhammattha Saṅgaha, MN 118, DN 16",
+    difficulty: "advanced",
+    difficultyLabel: {
+      en: "Advanced / Classical Abhidhamma",
+      pt: "Avançado / Abhidhamma Clássico"
+    },
+    recommendedPrereq: {
+      en: "4th Jhāna mastery & Abhidhamma study",
+      pt: "Domínio do 4º Jhāna e estudo do Abhidhamma"
+    },
+    whyStudy: {
+      en: "Exhaustive mastery of the 40 kammaṭṭhānas, 8 jhānas, and dissecting mind-matter into microscopic kalāpas.",
+      pt: "Domínio exaustivo dos 40 kammaṭṭhānas, 8 jhānas e dissecação de mente e matéria em kalāpas microscópicos."
+    },
     coreFocus: {
       en: "Rigorous Samatha-Yānika progression: white nostril-tip Nimitta, mastery of 4 Rūpa Jhānas and 4 Arūpa Jhānas, Four Elements analysis into Kalāpas, Abhidhamma Vipassanā",
       pt: "Progressão estrita de Samatha-Yānika: Nimitta branco, domínio dos 4 Rūpa e 4 Arūpa Jhānas, dissecação em Kalāpas e Vipassanā do Abhidhamma"
@@ -2172,6 +2431,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Sayadaw U Tejaniya, Ven. Shwe Oo Min Sayādaw",
     canonicalRef: "DN 22 (Cittānupassanā), AN 1.49 (Pabhassara Sutta)",
+    difficulty: "foundational",
+    difficultyLabel: {
+      en: "Foundational / Everyday Mind",
+      pt: "Fundamentos / Mente Cotidiana"
+    },
+    recommendedPrereq: {
+      en: "None (Designed for lay householders)",
+      pt: "Nenhum (Criado para leigos)"
+    },
+    whyStudy: {
+      en: "Effortless, continuous 24-hour awareness of the mind's attitude, ideal for busy work, family, and social life.",
+      pt: "Atenção plena relaxada e contínua de 24 horas sobre a atitude da mente, ideal para o trabalho e a rotina familiar."
+    },
     coreFocus: {
       en: "Continuous, relaxed awareness of the observing mind; investigating the attitude behind the meditation; converting daily activity into effortless practice",
       pt: "Atenção contínua e relaxada da mente que observa; investigar a atitude interna; transformar o dia a dia em prática fluida"
@@ -2254,6 +2526,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Kaṭukurunde Ñāṇananda, Ven. Matara Sri Ñāṇārāma, Ven. Nyanaponika Thera",
     canonicalRef: "MN 18 (Madhupiṇḍika Sutta), SN 12.15 (Kaccānagotta Sutta), MN 121 (Cūḷasuññata Sutta)",
+    difficulty: "advanced",
+    difficultyLabel: {
+      en: "Advanced / Radical Emptiness",
+      pt: "Avançado / Vacuidade Radical"
+    },
+    recommendedPrereq: {
+      en: "Strong familiarity with EBT suttas",
+      pt: "Familiaridade com suttas canônicos"
+    },
+    whyStudy: {
+      en: "Deconstructs linguistic concepts, mental proliferation (papañca), and exposes consciousness as a magical illusion.",
+      pt: "Desconstrói conceitos linguísticos, proliferação mental (papañca) e expõe a consciência como ilusão de ótica."
+    },
     coreFocus: {
       en: "The cessation of conceptual proliferation (papañca-nirodha), deconstruction of linguistic conventions (paññatti), radical realization of Non-Self and Emptiness (Suññatā)",
       pt: "Cessação da proliferação conceitual (papañca-nirodha), desconstrução das convenções linguísticas e realização da Vacuidade (Suññatā)"
@@ -2336,6 +2621,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Bhante Vimalaramsi",
     canonicalRef: "MN 118, MN 21 (Kakacūpama Sutta), MN 31, AN 11.16",
+    difficulty: "foundational",
+    difficultyLabel: {
+      en: "Foundational / Heart-Centered",
+      pt: "Fundamentos / Mettā & Relaxamento"
+    },
+    recommendedPrereq: {
+      en: "None (Gentle and joyful)",
+      pt: "Nenhum (Suave e alegre)"
+    },
+    whyStudy: {
+      en: "Combines warm loving-kindness with the 6Rs relaxation cycle, keeping meditation light, smiling, and joyful.",
+      pt: "Combina amor-bondade acolhedor com o ciclo de relaxamento dos 6Rs, mantendo a prática leve, sorridente e alegre."
+    },
     coreFocus: {
       en: "Integration of Samatha and Vipassanā using Loving-Kindness (Mettā), relaxing physical tension in the head and body ('The 6Rs')",
       pt: "Integração de Samatha e Vipassanā através de Mettā (Bondade), relaxando a tensão física na cabeça e no corpo ('Os 6Rs')"
@@ -2442,6 +2740,19 @@ const MEDITATION_LINEAGES = [
     },
     primaryMasters: "Ven. Bhikkhu Anālayo, Ven. Bhikkhu Bodhi",
     canonicalRef: "MN 10, DN 22, Chinese Madhyama-āgama, Ekottarika-āgama",
+    difficulty: "intermediate",
+    difficultyLabel: {
+      en: "Intermediate / Comparative Synthesis",
+      pt: "Intermediário / Síntese Canônica"
+    },
+    recommendedPrereq: {
+      en: "Basic Satipaṭṭhāna practice",
+      pt: "Prática básica de Satipaṭṭhāna"
+    },
+    whyStudy: {
+      en: "Scholarly, compassionate integration of the Pāli suttas and Chinese Āgamas into an open, balanced mindfulness practice.",
+      pt: "Integração compassiva e erudita dos suttas Pāli e Āgamas chineses numa prática aberta e equilibrada de atenção plena."
+    },
     coreFocus: {
       en: "Balancing all four Satipaṭṭhānas as a cohesive, open-field contemplation; historical comparison of Pāli Nikāyas with Chinese Āgamas; integrating compassion with emptiness",
       pt: "Equilíbrio dos quatro Satipaṭṭhānas como contemplação integrada; comparação histórica com os Āgamas chineses; união de compaixão e vacuidade"
@@ -3539,6 +3850,9 @@ const LINEAGE_COMPARISON_MATRIX = [
 const SUTTA_MEDITATION_CORPUS = [
   {
     code: "MN 118",
+    difficulty: "intermediate",
+    stage: 2,
+    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
     paliTitle: "Ānāpānasati Sutta",
     title: {
       en: "Mindfulness of Breathing",
@@ -3557,6 +3871,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "MN 10",
+    difficulty: "intermediate",
+    stage: 2,
+    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
     paliTitle: "Satipaṭṭhāna Sutta",
     title: {
       en: "The Establishments of Mindfulness",
@@ -3575,6 +3892,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "DN 2",
+    difficulty: "intermediate",
+    stage: 2,
+    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
     paliTitle: "Sāmaññaphala Sutta",
     title: {
       en: "The Fruits of the Contemplative Life & The Jhāna Similes",
@@ -3593,6 +3913,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "MN 119",
+    difficulty: "foundational",
+    stage: 1,
+    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
     paliTitle: "Kāyagatāsati Sutta",
     title: {
       en: "Mindfulness Immersed in the Body & The 10 Blessings",
@@ -3611,6 +3934,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "MN 20",
+    difficulty: "foundational",
+    stage: 1,
+    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
     paliTitle: "Vitakkasaṇṭhāna Sutta",
     title: {
       en: "The Removal of Distracting Thoughts (The 5 Pegs)",
@@ -3629,6 +3955,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "AN 4.170",
+    difficulty: "intermediate",
+    stage: 2,
+    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
     paliTitle: "Yuganaddha Sutta",
     title: {
       en: "In Tandem (Samatha & Vipassanā Yoked Together)",
@@ -3647,6 +3976,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "AN 4.41",
+    difficulty: "intermediate",
+    stage: 2,
+    stageLabel: { en: "Stage 2: Core Roadmaps & Samādhi", pt: "Etapa 2: Mapas Centrais & Samādhi" },
     paliTitle: "Samādhibhāvanā Sutta",
     title: {
       en: "The Four Developments of Concentration",
@@ -3665,6 +3997,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "AN 10.60",
+    difficulty: "foundational",
+    stage: 1,
+    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
     paliTitle: "Girimānanda Sutta",
     title: {
       en: "The Ten Contemplations for Mind-Body Healing",
@@ -3683,6 +4018,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "AN 9.36",
+    difficulty: "advanced",
+    stage: 3,
+    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
     paliTitle: "Jhāna Sutta",
     title: {
       en: "Meditative Absorption as Basis for Insight",
@@ -3701,6 +4039,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "MN 121",
+    difficulty: "advanced",
+    stage: 3,
+    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
     paliTitle: "Cūḷasuññata Sutta",
     title: {
       en: "The Shorter Discourse on Emptiness",
@@ -3719,6 +4060,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "SN 36.31",
+    difficulty: "foundational",
+    stage: 1,
+    stageLabel: { en: "Stage 1: Foundational Grounding", pt: "Etapa 1: Enraizamento Fundamental" },
     paliTitle: "Nirāmisa Sutta",
     title: {
       en: "Worldly, Unworldly & Ultra-Unworldly Feelings",
@@ -3737,6 +4081,9 @@ const SUTTA_MEDITATION_CORPUS = [
   },
   {
     code: "MN 128",
+    difficulty: "advanced",
+    stage: 3,
+    stageLabel: { en: "Stage 3: Deep Wisdom & Emptiness", pt: "Etapa 3: Sabedoria Profunda & Vacuidade" },
     paliTitle: "Upakkilesa Sutta",
     title: {
       en: "Overcoming the 11 Corruptions of Meditative Light (Nimitta)",
@@ -3773,6 +4120,7 @@ const state = {
   activePortalTab: 'method',
   temperamentFilter: 'all',
   activeToolTab: 'comparison',
+  ebtDifficultyFilter: 'all',
   searchQuery: ''
 };
 
@@ -3822,7 +4170,17 @@ const I18N = {
     colJhana: "Approach to Jhāna",
     colVedana: "Vedanā (Sensation)",
     colLay: "Lay Feasibility",
-    readSuttaCentral: "Read Full Text on SuttaCentral ↗"
+    readSuttaCentral: "Read Full Text on SuttaCentral ↗",
+    curriculumTitle: "Gradual Training Study Path (Anupubbasikkhā)",
+    curriculumSubtitle: "Systematic canonical progression: somatic grounding → core concentration → deep insight & emptiness",
+    lvlAll: "All Suttas (12)",
+    lvlFoundational: "🟢 Stage 1: Foundations & Somatic Grounding (4)",
+    lvlIntermediate: "🟡 Stage 2: Core Roadmaps & Concentration (5)",
+    lvlAdvanced: "🟣 Stage 3: Deep Wisdom & Emptiness (3)",
+    phaseOrderPrefix: "Step",
+    phaseOrderOf: "of 12 in Study Path",
+    prereqLabel: "Suggested Foundation:",
+    whyStudyLabel: "Why Study at This Stage:"
   },
   pt: {
     siteTitle: "O Mārga da Bhāvanā Leiga",
@@ -3868,7 +4226,17 @@ const I18N = {
     colJhana: "Visão sobre Jhānas",
     colVedana: "Manejo de Sensações (Vedanā)",
     colLay: "Praticabilidade Leiga",
-    readSuttaCentral: "Ler Texto Completo no SuttaCentral ↗"
+    readSuttaCentral: "Ler Texto Completo no SuttaCentral ↗",
+    curriculumTitle: "Caminho do Treinamento Gradual (Anupubbasikkhā)",
+    curriculumSubtitle: "Progressão canônica sistemática: enraizamento somático → concentração profunda → sabedoria & vacuidade",
+    lvlAll: "Todos os Suttas (12)",
+    lvlFoundational: "🟢 Etapa 1: Fundamentos & Presença Somática (4)",
+    lvlIntermediate: "🟡 Etapa 2: Mapas Centrais & Samādhi (5)",
+    lvlAdvanced: "🟣 Etapa 3: Sabedoria Profunda & Vacuidade (3)",
+    phaseOrderPrefix: "Passo",
+    phaseOrderOf: "de 12 no Caminho de Estudo",
+    prereqLabel: "Fundamento Sugerido:",
+    whyStudyLabel: "Por Que Estudar nesta Fase:"
   }
 };
 
@@ -3888,6 +4256,7 @@ function renderClusterTabs() {
     btn.addEventListener('click', () => {
       const clusterId = btn.getAttribute('data-cluster');
       state.activeCluster = clusterId;
+      state.ebtDifficultyFilter = 'all';
       state.selectedLineageId = null; // Return to list view
       renderClusterTabs();
       renderAppView();
@@ -3902,10 +4271,12 @@ function renderAppView() {
   const grid = document.getElementById('traditionsGrid');
   const portalWrap = document.getElementById('deepStudyPortalWrap');
   const toolsSec = document.getElementById('masterToolsSection');
+  const ebtCurriculum = document.getElementById('ebtCurriculumContainer');
 
   if (state.activeCluster === 'tools') {
     if (grid) grid.style.display = 'none';
     if (portalWrap) portalWrap.style.display = 'none';
+    if (ebtCurriculum) ebtCurriculum.style.display = 'none';
     if (toolsSec) {
       toolsSec.style.display = 'block';
       renderMasterTools();
@@ -3918,12 +4289,21 @@ function renderAppView() {
 
   if (state.selectedLineageId) {
     if (grid) grid.style.display = 'none';
+    if (ebtCurriculum) ebtCurriculum.style.display = 'none';
     if (portalWrap) {
       portalWrap.style.display = 'block';
       renderDeepStudyPortal();
     }
   } else {
     if (portalWrap) portalWrap.style.display = 'none';
+    if (ebtCurriculum) {
+      if (state.activeCluster === 'ebt') {
+        ebtCurriculum.style.display = 'block';
+        renderEbtCurriculumNav();
+      } else {
+        ebtCurriculum.style.display = 'none';
+      }
+    }
     if (grid) {
       grid.style.display = 'grid';
       renderTraditionsGrid();
@@ -3931,14 +4311,64 @@ function renderAppView() {
   }
 }
 
+// Render EBT Curriculum Progression Navigator
+function renderEbtCurriculumNav() {
+  const container = document.getElementById('ebtCurriculumContainer');
+  if (!container) return;
+  const str = I18N[state.lang];
+
+  container.innerHTML = `
+    <div class="curriculum-header">
+      <div class="curriculum-title-wrap">
+        <span class="curriculum-icon">🧭</span>
+        <div>
+          <h3 class="curriculum-title">${str.curriculumTitle}</h3>
+          <p class="curriculum-subtitle">${str.curriculumSubtitle}</p>
+        </div>
+      </div>
+    </div>
+    <div class="curriculum-level-pills">
+      <button class="level-pill ${state.ebtDifficultyFilter === 'all' ? 'active' : ''}" data-diff="all">
+        <span>${str.lvlAll}</span>
+      </button>
+      <button class="level-pill stage-foundational ${state.ebtDifficultyFilter === 'foundational' ? 'active' : ''}" data-diff="foundational">
+        <span>${str.lvlFoundational}</span>
+      </button>
+      <button class="level-pill stage-intermediate ${state.ebtDifficultyFilter === 'intermediate' ? 'active' : ''}" data-diff="intermediate">
+        <span>${str.lvlIntermediate}</span>
+      </button>
+      <button class="level-pill stage-advanced ${state.ebtDifficultyFilter === 'advanced' ? 'active' : ''}" data-diff="advanced">
+        <span>${str.lvlAdvanced}</span>
+      </button>
+    </div>
+  `;
+
+  container.querySelectorAll('.level-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.ebtDifficultyFilter = btn.getAttribute('data-diff');
+      renderEbtCurriculumNav();
+      renderTraditionsGrid();
+    });
+  });
+}
+
 // Render Traditions Grid
 function renderTraditionsGrid() {
   const grid = document.getElementById('traditionsGrid');
   if (!grid) return;
 
-  let list = MEDITATION_LINEAGES;
+  let list = MEDITATION_LINEAGES.slice();
   if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
     list = list.filter(item => item.cluster === state.activeCluster);
+  }
+
+  // EBT Curriculum Filtering & Progression Ordering
+  if (state.activeCluster === 'ebt') {
+    if (state.ebtDifficultyFilter !== 'all') {
+      list = list.filter(item => item.difficulty === state.ebtDifficultyFilter);
+    }
+    // Sort in recommended progressive curriculum order (1 to 12)
+    list.sort((a, b) => (a.curriculumOrder || 99) - (b.curriculumOrder || 99));
   }
 
   if (state.searchQuery.trim()) {
@@ -3958,9 +4388,22 @@ function renderTraditionsGrid() {
     <article class="tradition-card" data-id="${item.id}">
       <div class="tradition-card-header">
         <span class="tradition-num">${item.number}</span>
-        <span class="tradition-pali-badge">${item.paliTitle}</span>
+        <div class="tradition-badge-row">
+          <span class="tradition-pali-badge">${item.paliTitle}</span>
+          ${item.difficulty ? `
+            <span class="difficulty-badge badge-${item.difficulty}">
+              ${state.lang === 'pt' ? item.difficultyLabel.pt : item.difficultyLabel.en}
+            </span>
+          ` : ''}
+        </div>
       </div>
       <h3 class="tradition-title">${state.lang === 'pt' ? item.title.pt : item.title.en}</h3>
+      ${item.curriculumOrder ? `
+        <div class="curriculum-step-tag">
+          <span class="step-num-pill">${str.phaseOrderPrefix} ${item.curriculumOrder}</span>
+          <span class="step-desc-text">${str.phaseOrderOf}</span>
+        </div>
+      ` : ''}
       <div class="tradition-meta">
         <span class="meta-label">${str.primaryMastersLabel}</span>
         <span class="meta-val">${item.primaryMasters}</span>
@@ -3970,6 +4413,12 @@ function renderTraditionsGrid() {
         <span class="meta-val highlight">${item.canonicalRef}</span>
       </div>
       <p class="tradition-tagline">“${state.lang === 'pt' ? item.tagline.pt : item.tagline.en}”</p>
+      ${item.whyStudy ? `
+        <div class="why-study-callout">
+          <span class="why-study-label">${str.whyStudyLabel}</span>
+          <p class="why-study-text">${state.lang === 'pt' ? item.whyStudy.pt : item.whyStudy.en}</p>
+        </div>
+      ` : ''}
       <div class="tradition-preview-grid">
         <div class="preview-box">
           <span class="box-label">${str.primaryAnchorLabel}</span>
@@ -4033,6 +4482,31 @@ function renderDeepStudyPortal() {
         <span class="portal-source">${item.canonicalRef}</span>
       </div>
     </div>
+
+    ${item.curriculumOrder ? `
+      <div class="portal-curriculum-banner">
+        <div class="banner-phase">
+          <span class="phase-pill badge-${item.difficulty}">
+            ${state.lang === 'pt' ? item.difficultyLabel.pt : item.difficultyLabel.en}
+          </span>
+          <span class="phase-count">${str.phaseOrderPrefix} ${item.curriculumOrder} ${str.phaseOrderOf}</span>
+        </div>
+        <div class="banner-flow">
+          ${item.recommendedPrereq ? `
+            <div class="flow-item">
+              <span class="flow-label">${str.prereqLabel}</span>
+              <span class="flow-val">${state.lang === 'pt' ? item.recommendedPrereq.pt : item.recommendedPrereq.en}</span>
+            </div>
+          ` : ''}
+          ${item.whyStudy ? `
+            <div class="flow-item">
+              <span class="flow-label">${str.whyStudyLabel}</span>
+              <span class="flow-val">${state.lang === 'pt' ? item.whyStudy.pt : item.whyStudy.en}</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    ` : ''}
 
     <div class="portal-hero">
       <h2 class="portal-title">${state.lang === 'pt' ? item.title.pt : item.title.en}</h2>
@@ -4396,6 +4870,11 @@ function renderActiveToolContent() {
               <div class="sutta-header">
                 <span class="sutta-code">${s.code}</span>
                 <span class="sutta-pali">${s.paliTitle}</span>
+                ${s.difficulty ? `
+                  <span class="difficulty-badge badge-${s.difficulty}">
+                    ${state.lang === 'pt' ? s.stageLabel.pt : s.stageLabel.en}
+                  </span>
+                ` : ''}
               </div>
               <h4 class="sutta-title">${state.lang === 'pt' ? s.title.pt : s.title.en}</h4>
               <p class="sutta-role">${state.lang === 'pt' ? s.role.pt : s.role.en}</p>

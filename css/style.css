@@ -5574,6 +5574,267 @@ body {
   font-size: 1rem;
 }
 
+/* EBT Curriculum Progression Navigator */
+.ebt-curriculum-container {
+  background: linear-gradient(135deg, rgba(20, 26, 38, 0.95) 0%, rgba(13, 17, 24, 0.98) 100%);
+  border: 1px solid var(--gold-border);
+  border-radius: 18px;
+  padding: 22px 24px;
+  margin-bottom: 30px;
+  box-shadow: var(--shadow-md);
+  animation: fadeInPortal 0.35s ease-out;
+}
+
+.curriculum-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(224, 169, 68, 0.15);
+  padding-bottom: 14px;
+}
+
+.curriculum-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.curriculum-icon {
+  font-size: 1.6rem;
+  background: rgba(224, 169, 68, 0.15);
+  border: 1px solid var(--gold-border);
+  border-radius: 12px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.curriculum-title {
+  font-family: var(--font-serif-sacred);
+  font-size: 1.22rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 4px 0;
+}
+
+.curriculum-subtitle {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  margin: 0;
+  max-width: 720px;
+  line-height: 1.4;
+}
+
+.curriculum-level-pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.level-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  padding: 7px 16px;
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.level-pill:hover {
+  border-color: var(--gold-border);
+  color: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+.level-pill.active {
+  background: linear-gradient(135deg, rgba(224, 169, 68, 0.28), rgba(20, 26, 38, 0.95));
+  border-color: var(--gold-primary);
+  color: #ffffff;
+  box-shadow: 0 0 12px var(--gold-glow);
+}
+
+.level-pill.stage-foundational.active {
+  border-color: #56d364;
+  background: rgba(46, 160, 67, 0.25);
+  color: #56d364;
+  box-shadow: 0 0 12px rgba(46, 160, 67, 0.35);
+}
+
+.level-pill.stage-intermediate.active {
+  border-color: var(--gold-primary);
+  background: rgba(224, 169, 68, 0.25);
+  color: var(--gold-light);
+  box-shadow: 0 0 12px var(--gold-glow);
+}
+
+.level-pill.stage-advanced.active {
+  border-color: #a371f7;
+  background: rgba(163, 113, 247, 0.25);
+  color: #d2a8ff;
+  box-shadow: 0 0 12px rgba(163, 113, 247, 0.35);
+}
+
+/* Difficulty Badges */
+.difficulty-badge {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 12px;
+  padding: 3px 9px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.badge-foundational {
+  background: rgba(46, 160, 67, 0.18);
+  border: 1px solid rgba(46, 160, 67, 0.45);
+  color: #56d364;
+}
+
+.badge-intermediate {
+  background: rgba(224, 169, 68, 0.18);
+  border: 1px solid rgba(224, 169, 68, 0.45);
+  color: var(--gold-light);
+}
+
+.badge-advanced {
+  background: rgba(163, 113, 247, 0.2);
+  border: 1px solid rgba(163, 113, 247, 0.5);
+  color: #d2a8ff;
+}
+
+.tradition-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.curriculum-step-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  font-size: 0.78rem;
+}
+
+.step-num-pill {
+  font-weight: 700;
+  color: var(--gold-primary);
+  font-family: var(--font-serif-sacred);
+}
+
+.step-desc-text {
+  color: var(--text-muted);
+}
+
+.why-study-callout {
+  background: rgba(15, 20, 30, 0.75);
+  border-left: 3px solid var(--gold-primary);
+  border-radius: 0 8px 8px 0;
+  padding: 8px 12px;
+  margin: 10px 0 14px 0;
+  font-size: 0.82rem;
+}
+
+.why-study-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 3px;
+}
+
+.why-study-text {
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Portal Curriculum Banner */
+.portal-curriculum-banner {
+  background: linear-gradient(135deg, rgba(20, 26, 38, 0.85), rgba(12, 16, 23, 0.95));
+  border: 1px solid var(--gold-border);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+
+.banner-phase {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.phase-pill {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-radius: 12px;
+  padding: 4px 12px;
+}
+
+.phase-count {
+  font-family: var(--font-serif-sacred);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--gold-primary);
+}
+
+.banner-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.flow-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.flow-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.flow-val {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
 /* Traditions Grid */
 .traditions-grid {
   display: grid;
