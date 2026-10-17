@@ -7964,7 +7964,7 @@ function renderPortalTabContent(item) {
         <div class="steps-timeline">
           ${item.steps.map(s => `
             <div class="step-card">
-              <div class="step-num-pill">${s.step}</div>
+              <div class="step-card-num">${s.step}</div>
               <div class="step-body">
                 <div class="step-pali">${s.pali}</div>
                 <h4 class="step-title">${state.lang === 'pt' ? s.title.pt : s.title.en}</h4>

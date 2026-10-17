@@ -5735,16 +5735,29 @@ body {
   padding: 4px 10px;
   margin-bottom: 10px;
   font-size: 0.78rem;
+  line-height: 1.3;
 }
 
 .step-num-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   color: var(--gold-primary);
   font-family: var(--font-serif-sacred);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  background: rgba(224, 169, 68, 0.12);
+  border: 1px solid rgba(224, 169, 68, 0.35);
+  border-radius: 999px;
+  padding: 2px 8px;
+  line-height: 1.3;
+  flex-shrink: 0;
 }
 
 .step-desc-text {
   color: var(--text-muted);
+  line-height: 1.3;
 }
 
 .why-study-callout {
@@ -6138,7 +6151,7 @@ body {
   background: rgba(26, 36, 52, 0.85);
 }
 
-.step-num-pill {
+.step-card-num {
   width: 36px;
   height: 36px;
   border-radius: 50%;
