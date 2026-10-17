@@ -70,6 +70,8 @@ const I18N = {
     readSuttaCentral: "Read Full Text on SuttaCentral ↗",
     curriculumTitle: "Gradual Training Study Path (Anupubbasikkhā)",
     curriculumSubtitle: "Systematic canonical progression: somatic grounding → core concentration → deep insight & emptiness",
+    curriculumTitleThai: "Thai Forest Kammaṭṭhāna Study Path",
+    curriculumSubtitleThai: "Systematic wilderness progression: solitary grounding → breath & fear transcendence → radiant emptiness",
     lvlAll: "All",
     lvlFoundational: "Foundations",
     lvlIntermediate: "Intermediate",
@@ -126,6 +128,8 @@ const I18N = {
     readSuttaCentral: "Ler Texto Completo no SuttaCentral ↗",
     curriculumTitle: "Caminho do Treinamento Gradual (Anupubbasikkhā)",
     curriculumSubtitle: "Progressão canônica sistemática: enraizamento somático → concentração profunda → sabedoria & vacuidade",
+    curriculumTitleThai: "Caminho de Estudo Kammaṭṭhāna da Floresta",
+    curriculumSubtitleThai: "Progressão canônica da selva: solitude e enraizamento → superação do medo e respiração → vacuidade radiante",
     lvlAll: "Todos",
     lvlFoundational: "Fundamentos",
     lvlIntermediate: "Intermediário",
@@ -194,7 +198,7 @@ function renderAppView() {
   } else {
     if (portalWrap) portalWrap.style.display = 'none';
     if (ebtCurriculum) {
-      if (state.activeCluster === 'ebt') {
+      if (state.activeCluster === 'ebt' || state.activeCluster === 'thai-forest') {
         ebtCurriculum.style.display = 'block';
         renderEbtCurriculumNav();
       } else {
@@ -214,13 +218,18 @@ function renderEbtCurriculumNav() {
   if (!container) return;
   const str = I18N[state.lang];
 
+  const isThai = state.activeCluster === 'thai-forest';
+  const icon = isThai ? '🌲' : '🧭';
+  const title = isThai ? str.curriculumTitleThai : str.curriculumTitle;
+  const subtitle = isThai ? str.curriculumSubtitleThai : str.curriculumSubtitle;
+
   container.innerHTML = `
     <div class="curriculum-header">
       <div class="curriculum-title-wrap">
-        <span class="curriculum-icon">🧭</span>
+        <span class="curriculum-icon">${icon}</span>
         <div>
-          <h3 class="curriculum-title">${str.curriculumTitle}</h3>
-          <p class="curriculum-subtitle">${str.curriculumSubtitle}</p>
+          <h3 class="curriculum-title">${title}</h3>
+          <p class="curriculum-subtitle">${subtitle}</p>
         </div>
       </div>
     </div>
@@ -259,8 +268,8 @@ function renderTraditionsGrid() {
     list = list.filter(item => item.cluster === state.activeCluster);
   }
 
-  // EBT Curriculum Filtering & Progression Ordering
-  if (state.activeCluster === 'ebt') {
+  // Curriculum Filtering & Progression Ordering for EBT & Thai Forest
+  if (state.activeCluster === 'ebt' || state.activeCluster === 'thai-forest') {
     if (state.ebtDifficultyFilter !== 'all') {
       list = list.filter(item => item.difficulty === state.ebtDifficultyFilter);
     }
