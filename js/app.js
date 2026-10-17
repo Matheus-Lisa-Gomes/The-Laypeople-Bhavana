@@ -72,12 +72,18 @@ const I18N = {
     curriculumSubtitle: "Systematic canonical progression: somatic grounding → core concentration → deep insight & emptiness",
     curriculumTitleThai: "Thai Forest Kammaṭṭhāna Study Path",
     curriculumSubtitleThai: "Systematic wilderness progression: solitary grounding → breath & fear transcendence → radiant emptiness",
+    curriculumTitleBurmese: "Burmese Vipassanā & Samatha Study Path",
+    curriculumSubtitleBurmese: "Classical Visuddhimagga & noting methodologies: bare attention → somatic scanning → insight knowledges",
+    curriculumTitleSriLanka: "Sri Lankan Forest Hermitage Study Path",
+    curriculumSubtitleSriLanka: "Island Hermitage & analytical deep wisdom: solitary presence → deconstructing concepts → radical emptiness",
+    curriculumTitleModern: "Modern & Sutta Integration Study Path",
+    curriculumSubtitleModern: "Contemporary bridges for householders: accessible jhāna & plain English → psychological wisdom → ways of looking",
     lvlAll: "All",
     lvlFoundational: "Foundations",
     lvlIntermediate: "Intermediate",
     lvlAdvanced: "Advanced",
     phaseOrderPrefix: "Step",
-    phaseOrderOf: "of 12 in Study Path",
+    phaseOrderOf: "in Study Path",
     prereqLabel: "Suggested Foundation:",
     whyStudyLabel: "Why Study at This Stage:"
   },
@@ -130,12 +136,18 @@ const I18N = {
     curriculumSubtitle: "Progressão canônica sistemática: enraizamento somático → concentração profunda → sabedoria & vacuidade",
     curriculumTitleThai: "Caminho de Estudo Kammaṭṭhāna da Floresta",
     curriculumSubtitleThai: "Progressão canônica da selva: solitude e enraizamento → superação do medo e respiração → vacuidade radiante",
+    curriculumTitleBurmese: "Caminho de Estudo Vipassanā & Samatha da Birmânia",
+    curriculumSubtitleBurmese: "Metodologias clássicas do Visuddhimagga & rotulação: atenção nua → varredura somática → estágios de insight",
+    curriculumTitleSriLanka: "Caminho de Estudo dos Eremitérios do Sri Lanka",
+    curriculumSubtitleSriLanka: "Eremitério da Ilha & sabedoria analítica profunda: presença solitária → desconstrução conceitual → vacuidade radical",
+    curriculumTitleModern: "Caminho de Integração Contemporânea & Suttas",
+    curriculumSubtitleModern: "Pontes contemporâneas para leigos: jhānas acessíveis & clareza direta → sabedoria psicológica → modos de contemplação",
     lvlAll: "Todos",
     lvlFoundational: "Fundamentos",
     lvlIntermediate: "Intermediário",
     lvlAdvanced: "Avançado",
     phaseOrderPrefix: "Passo",
-    phaseOrderOf: "de 12 no Caminho de Estudo",
+    phaseOrderOf: "no Caminho de Estudo",
     prereqLabel: "Fundamento Sugerido:",
     whyStudyLabel: "Por Que Estudar nesta Fase:"
   }
@@ -198,7 +210,7 @@ function renderAppView() {
   } else {
     if (portalWrap) portalWrap.style.display = 'none';
     if (ebtCurriculum) {
-      if (state.activeCluster === 'ebt' || state.activeCluster === 'thai-forest') {
+      if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
         ebtCurriculum.style.display = 'block';
         renderEbtCurriculumNav();
       } else {
@@ -218,10 +230,27 @@ function renderEbtCurriculumNav() {
   if (!container) return;
   const str = I18N[state.lang];
 
-  const isThai = state.activeCluster === 'thai-forest';
-  const icon = isThai ? '🌲' : '🧭';
-  const title = isThai ? str.curriculumTitleThai : str.curriculumTitle;
-  const subtitle = isThai ? str.curriculumSubtitleThai : str.curriculumSubtitle;
+  let icon = '🧭';
+  let title = str.curriculumTitle;
+  let subtitle = str.curriculumSubtitle;
+
+  if (state.activeCluster === 'thai-forest') {
+    icon = '🌲';
+    title = str.curriculumTitleThai;
+    subtitle = str.curriculumSubtitleThai;
+  } else if (state.activeCluster === 'burmese') {
+    icon = '🇲🇲';
+    title = str.curriculumTitleBurmese;
+    subtitle = str.curriculumSubtitleBurmese;
+  } else if (state.activeCluster === 'sri-lanka') {
+    icon = '🇱🇰';
+    title = str.curriculumTitleSriLanka;
+    subtitle = str.curriculumSubtitleSriLanka;
+  } else if (state.activeCluster === 'contemporary') {
+    icon = '🧘';
+    title = str.curriculumTitleModern;
+    subtitle = str.curriculumSubtitleModern;
+  }
 
   container.innerHTML = `
     <div class="curriculum-header">
@@ -268,12 +297,12 @@ function renderTraditionsGrid() {
     list = list.filter(item => item.cluster === state.activeCluster);
   }
 
-  // Curriculum Filtering & Progression Ordering for EBT & Thai Forest
-  if (state.activeCluster === 'ebt' || state.activeCluster === 'thai-forest') {
+  // Curriculum Filtering & Progression Ordering for all specific traditions
+  if (state.activeCluster !== 'all' && state.activeCluster !== 'tools') {
     if (state.ebtDifficultyFilter !== 'all') {
       list = list.filter(item => item.difficulty === state.ebtDifficultyFilter);
     }
-    // Sort in recommended progressive curriculum order (1 to 12)
+    // Sort in recommended progressive curriculum order
     list.sort((a, b) => (a.curriculumOrder || 99) - (b.curriculumOrder || 99));
   }
 
