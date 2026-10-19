@@ -9798,9 +9798,7 @@ const I18N = {
     backToListBtn: "← Back to Lineages Explorer",
     tabMethod: "Method & Steps",
     tabAttainments: "Obstacles & Jhāna",
-    tabLayLife: "Householder Practice",
     tabPali: "Pāli Terminology",
-    tabJournal: "Practice Journal",
     toolsSectionTitle: "Master Comparative Tools & Diagnostics",
     toolsSubtitle: "Encyclopedic comparative frameworks across all Theravāda branches",
     tabToolComparison: "Lineage Comparison Table",
@@ -9814,13 +9812,7 @@ const I18N = {
     simileLabel: "Canonical Simile:",
     canonicalCauseLabel: "Root Condition / Cause:",
     lineageRemediesLabel: "Tradition-Specific Antidotes:",
-    journalHeading: "Personal Meditation Practice Journal",
-    journalIntro: "Record your session insights, observations of hindrances, and reflections. Data remains 100% private and saved locally on this device.",
-    journalPlaceholder: "Enter your sit reflection (e.g., breath sensation, posture, obstacle met, antidote applied)...",
-    journalSaveBtn: "Save Reflection",
-    journalSavedNotice: "✓ Reflection saved locally",
-    journalPastTitle: "Past Recorded Sits:",
-    noPastJournals: "No journal reflections recorded yet. Complete a meditation sit and save your observations above.",
+
     colTradition: "Tradition / Lineage",
     colAnchor: "Primary Anchor",
     colNoting: "Noting Style",
@@ -9862,9 +9854,7 @@ const I18N = {
     backToListBtn: "← Retornar ao Explorador de Linhagens",
     tabMethod: "Método & Passos",
     tabAttainments: "Obstáculos & Jhāna",
-    tabLayLife: "Prática na Vida Leiga",
     tabPali: "Terminologia Pāli",
-    tabJournal: "Diário de Prática",
     toolsSectionTitle: "Ferramentas Comparativas & Diagnósticos",
     toolsSubtitle: "Estruturas analíticas e comparativas de todas as vertentes do Theravāda",
     tabToolComparison: "Tabela Comparativa de Linhagens",
@@ -9878,13 +9868,7 @@ const I18N = {
     simileLabel: "Símile Canônico:",
     canonicalCauseLabel: "Causa Condicional Primária:",
     lineageRemediesLabel: "Antídotos por Tradição:",
-    journalHeading: "Diário Pessoal de Prática Meditativa",
-    journalIntro: "Registre seus insights, obstáculos encontrados e resoluções. Seus registros permanecem 100% privados e armazenados localmente neste aparelho.",
-    journalPlaceholder: "Registre sua reflexão após a sentada (sensações corporais, dispersões, calma, antídoto utilizado)...",
-    journalSaveBtn: "Salvar Registro",
-    journalSavedNotice: "✓ Registro salvo localmente",
-    journalPastTitle: "Registros de Práticas Anteriores:",
-    noPastJournals: "Nenhuma reflexão registrada ainda. Conclua uma prática meditativa e anote suas percepções acima.",
+
     colTradition: "Tradição / Linhagem",
     colAnchor: "Âncora Primária",
     colNoting: "Estilo de Rotulação",
@@ -10212,9 +10196,7 @@ function renderDeepStudyPortal() {
     <nav class="portal-subtabs-nav" role="tablist">
       <button class="portal-tab-btn ${state.activePortalTab === 'method' ? 'active' : ''}" data-tab="method">${str.tabMethod}</button>
       <button class="portal-tab-btn ${state.activePortalTab === 'attainments' ? 'active' : ''}" data-tab="attainments">${str.tabAttainments}</button>
-      <button class="portal-tab-btn ${state.activePortalTab === 'laylife' ? 'active' : ''}" data-tab="laylife">${str.tabLayLife}</button>
       <button class="portal-tab-btn ${state.activePortalTab === 'pali' ? 'active' : ''}" data-tab="pali">${str.tabPali}</button>
-      <button class="portal-tab-btn ${state.activePortalTab === 'journal' ? 'active' : ''}" data-tab="journal">${str.tabJournal}</button>
     </nav>
 
     <div class="portal-tab-content">
@@ -10234,8 +10216,6 @@ function renderDeepStudyPortal() {
       renderDeepStudyPortal();
     });
   });
-
-  bindJournalEvents(item.id);
 }
 
 function renderPortalTabContent(item) {
@@ -10320,20 +10300,6 @@ function renderPortalTabContent(item) {
     `;
   }
 
-  if (state.activePortalTab === 'laylife') {
-    return `
-      <div class="laylife-section">
-        <div class="lay-guidance-card">
-          <div class="lay-icon">🏡</div>
-          <div class="lay-content">
-            <h3>Integrating this Method into Everyday Household Life</h3>
-            <p>${state.lang === 'pt' ? item.layApplication.pt : item.layApplication.en}</p>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-
   if (state.activePortalTab === 'pali') {
     return `
       <div class="pali-terms-grid">
@@ -10347,62 +10313,7 @@ function renderPortalTabContent(item) {
     `;
   }
 
-  if (state.activePortalTab === 'journal') {
-    const savedKey = `bhavana_journal_${item.id}`;
-    const pastEntries = JSON.parse(localStorage.getItem(savedKey) || '[]');
-
-    return `
-      <div class="journal-section">
-        <h3>${str.journalHeading}</h3>
-        <p class="journal-intro">${str.journalIntro}</p>
-        <div class="journal-form">
-          <textarea id="journalInput" rows="5" placeholder="${str.journalPlaceholder}"></textarea>
-          <div class="journal-actions">
-            <button class="btn-save-journal" id="btnSaveJournal">${str.journalSaveBtn}</button>
-            <span class="journal-saved-feedback" id="journalFeedback" style="display:none">${str.journalSavedNotice}</span>
-          </div>
-        </div>
-
-        <h4 class="past-journals-heading">${str.journalPastTitle}</h4>
-        <div class="past-entries-list">
-          ${pastEntries.length === 0 ? `<p class="no-entries">${str.noPastJournals}</p>` : pastEntries.map(e => `
-            <div class="past-entry-card">
-              <span class="entry-date">${e.date}</span>
-              <p class="entry-text">${e.text}</p>
-            </div>
-          `).join('')}
-        </div>
-      </div>
-    `;
-  }
-
   return '';
-}
-
-function bindJournalEvents(lineageId) {
-  const saveBtn = document.getElementById('btnSaveJournal');
-  const input = document.getElementById('journalInput');
-  const feedback = document.getElementById('journalFeedback');
-
-  saveBtn?.addEventListener('click', () => {
-    const text = input.value.trim();
-    if (!text) return;
-    const key = `bhavana_journal_${lineageId}`;
-    const past = JSON.parse(localStorage.getItem(key) || '[]');
-    past.unshift({
-      date: new Date().toLocaleDateString(state.lang === 'pt' ? 'pt-BR' : 'en-US', {
-        year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
-      }),
-      text
-    });
-    localStorage.setItem(key, JSON.stringify(past));
-    input.value = '';
-    if (feedback) {
-      feedback.style.display = 'inline';
-      setTimeout(() => { feedback.style.display = 'none'; }, 2500);
-    }
-    renderDeepStudyPortal();
-  });
 }
 
 // Master Tools Rendering
