@@ -480,24 +480,62 @@ function renderDeepStudyPortal() {
 
 function renderPortalTabContent(item) {
   const str = I18N[state.lang];
+  const isPt = state.lang === 'pt';
 
   if (state.activePortalTab === 'method') {
     return `
       <div class="method-section">
         <div class="method-controls-bar">
-          <span class="method-info-badge">${item.steps.length} Sequenced Practice Contemplations</span>
+          <span class="method-info-badge">${item.steps.length} ${isPt ? 'Contemplações Práticas Sequenciadas' : 'Sequenced Practice Contemplations'}</span>
         </div>
         <div class="steps-timeline">
-          ${item.steps.map(s => `
-            <div class="step-card">
+          ${item.steps.map(s => {
+            const hasExtra = s.practiceInstructions || s.canonicalBasis || s.canonicalSimile;
+            return `
+            <div class="step-card ${hasExtra ? 'step-card-expanded' : ''}">
               <div class="step-card-num">${s.step}</div>
               <div class="step-body">
                 <div class="step-pali">${s.pali}</div>
-                <h4 class="step-title">${state.lang === 'pt' ? s.title.pt : s.title.en}</h4>
-                <p class="step-desc">${state.lang === 'pt' ? s.desc.pt : s.desc.en}</p>
+                <h4 class="step-title">${isPt ? s.title.pt : s.title.en}</h4>
+                <div class="step-desc">${isPt ? s.desc.pt : s.desc.en}</div>
+
+                ${hasExtra ? `
+                  <div class="step-details-grid">
+                    ${s.practiceInstructions ? `
+                      <div class="step-detail-box step-practice-box">
+                        <div class="step-box-header">
+                          <span class="step-box-icon">🎯</span>
+                          <span class="step-box-title">${isPt ? 'Instruções Práticas Precisas' : 'Precise Practical Teachings'}</span>
+                        </div>
+                        <div class="step-box-content">${isPt ? s.practiceInstructions.pt : s.practiceInstructions.en}</div>
+                      </div>
+                    ` : ''}
+
+                    ${s.canonicalBasis ? `
+                      <div class="step-detail-box step-canonical-box">
+                        <div class="step-box-header">
+                          <span class="step-box-icon">📜</span>
+                          <span class="step-box-title">${isPt ? 'Base Canônica & Comentários' : 'Canonical Basis & Commentarial Insight'}</span>
+                        </div>
+                        <div class="step-box-content">${isPt ? s.canonicalBasis.pt : s.canonicalBasis.en}</div>
+                      </div>
+                    ` : ''}
+
+                    ${s.canonicalSimile ? `
+                      <div class="step-detail-box step-simile-box">
+                        <div class="step-box-header">
+                          <span class="step-box-icon">🏺</span>
+                          <span class="step-box-title">${isPt ? 'Símile Canônico & Aplicação Prática' : 'Canonical Simile & Meditative Application'}</span>
+                        </div>
+                        <div class="step-box-content">${isPt ? s.canonicalSimile.pt : s.canonicalSimile.en}</div>
+                      </div>
+                    ` : ''}
+                  </div>
+                ` : ''}
               </div>
             </div>
-          `).join('')}
+          `;
+          }).join('')}
         </div>
       </div>
     `;

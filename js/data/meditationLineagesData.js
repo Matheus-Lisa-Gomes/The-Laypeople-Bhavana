@@ -644,66 +644,150 @@ export const MEDITATION_LINEAGES = [
       "pt": "No Kāyagatāsati Sutta (MN 119), o Buda fornece o guia definitivo para o enraizamento somático. Longe de tratar o corpo como mero obstáculo a ser ignorado, o Buda o estabelece como a âncora inabalável para o domínio espiritual. O sutta percorre contemplações progressivas: a respiração consciente, as quatro posturas, a lucidez ao alimentar-se, caminhar e mover-se, o escaneamento das 31 partes anatômicas, a percepção dos quatro elementos materiais (terra, água, fogo, ar), as reflexões nos cemitérios sobre a transitoriedade e a saturação somática dos quatro Jhānas. O Buda coroa o discurso com as Dez Grandes Bênçãos da atenção plena no corpo: ela conquista o desprazer e o apego, subjuga o pânico e o medo, capacita o praticante a suportar frio, calor, fome e dores físicas intensas sem desespero mental, tornando a mente fértil para a libertação."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Catur-iriyāpatha",
-        "title": {
-          "en": "1. The Four Somatic Postures",
-          "pt": "1. As Quatro Posturas Somáticas"
-        },
-        "desc": {
-          "en": "When walking, one discerns: 'I am walking'; standing: 'I am standing'; sitting: 'I am sitting'; lying down: 'I am lying down'. Know the body directly in whatever position it is arranged.",
-          "pt": "Ao caminhar, discerne: 'Estou caminhando'; ao parar: 'Estou de pé'; ao sentar: 'Estou sentado'; ao deitar: 'Estou deitado'. Reconheça o corpo diretamente na postura em que se encontra."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Sampajañña in Action",
-        "title": {
-          "en": "2. Clear Comprehension in Daily Living",
-          "pt": "2. Clara Compreensão nas Ações Cotidianas"
-        },
-        "desc": {
-          "en": "In going forward and returning, looking ahead and looking away, flexing and extending limbs, eating, drinking, chewing, savoring, urinating, defaecating, falling asleep, and waking: act with clear awareness.",
-          "pt": "Ao avançar e recuar, olhar para frente e para o lado, dobrar e estender braços e pernas, comer, beber, mastigar, ir ao banheiro, adormecer e acordar: aja com atenção lúcida."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Koṭṭhāsa & Dhātuso",
-        "title": {
-          "en": "3. Anatomical Parts & Four Physical Elements",
-          "pt": "3. Partes Anatômicas e os Quatro Elementos"
-        },
-        "desc": {
-          "en": "Scan the body from head to toe: hair, skin, flesh, bones, internal organs. Discern the four primary elements: earth (solidity/hardness), water (cohesion/fluidity), fire (warmth/temperature), wind (pressure/movement).",
-          "pt": "Escanear o corpo dos pés à cabeça: cabelos, pele, carne, ossos, órgãos internos. Discernir os quatro elementos: terra (solidez/peso), água (coesão/umidade), fogo (temperatura) e ar (pressão/movimento)."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Kāyaparipūraṇa Jhāna",
-        "title": {
-          "en": "4. Full-Body Jhāna Saturation",
-          "pt": "4. Saturação Corpórea nos Jhānas"
-        },
-        "desc": {
-          "en": "Cultivate Jhānas with pervasive somatic integration: permeating every limb and tissue with rapture, deep peaceful bliss, and pure radiant mind-state, leaving no spot in the entire body untouched.",
-          "pt": "Cultivar os Jhānas com integração física total: permeando cada membro e tecido com arrebatamento, paz reconfortante e luminosidade serena, sem deixar qualquer ponto do corpo desassistido."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Dasa Ānisaṁsā",
-        "title": {
-          "en": "5. Harvesting the Ten Somatic Blessings",
-          "pt": "5. Colhendo as Dez Bênçãos Somáticas"
-        },
-        "desc": {
-          "en": "Observe how continuous physical presence conquers fear and panic, overcomes agitation, and empowers the meditator to remain completely undisturbed by sharp bodily pains, illness, and difficult environments.",
-          "pt": "Testemunhe como a presença física contínua dissipa o medo e o pânico, supera a agitação e capacita o praticante a permanecer imperturbável diante de dores agudas, doenças e desafios externos."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Catur-iriyāpatha Manasikāra",
+                "title": {
+                      "en": "1. The Four Somatic Postures & Proprioceptive Grounding",
+                      "pt": "1. As Quatro Posturas Somáticas & Enraizamento Proprioceptivo"
+                },
+                "desc": {
+                      "en": "The Buddha instructs that when walking, standing, sitting, or lying down, one knows directly: 'I am walking', 'I am standing', 'I am sitting', 'I am lying down'. The practice is not an abstract verbal repetition, but continuous, non-reactive somatic presence in the musculoskeletal framework of the living organism as it navigates space.",
+                      "pt": "O Buda instrui que ao andar, ficar em pé, sentar ou deitar, discerne-se diretamente: 'Estou andando', 'Estou de pé', 'Estou sentado', 'Estou deitado'. Não se trata de uma repetição verbal mecânica, mas de uma presença somática ininterrupta e não reativa na estrutura musculoesquelética viva enquanto ela navega pelo espaço."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Physical Alignment & Posture:</strong> In sitting, establish an upright spine without rigid strain. Align ears directly over shoulders, and shoulders over hips. In standing, balance body weight evenly across both feet—feeling the tripod formed by the heel, the ball of the big toe, and the base of the little toe.</p><p><strong>Caṅkama (Walking Meditation) Protocol:</strong> Designate a straight, unobstructed path of 15 to 30 paces. Lower the gaze 2 to 3 meters ahead without fixing eyes on objects. Walk at a measured, unhurried pace. Break movement into somatic phases: lifting (<em>uddharaṇa</em>), shifting forward (<em>atiharana</em>), lowering (<em>vossajjana</em>), and resting/touching (<em>sannidhiyāna</em>). Feel the weight transfer directly through the soles of the feet.</p><p><strong>Silent Anchor, No Verbalization:</strong> As taught in the commentaries, avoid converting the practice into an analytical internal dialogue. When the foot presses the ground, feel the direct tactile firmness, temperature, and muscle tension without mental commentary.</p><p><strong>Mindfulness of Transitions:</strong> When shifting from sitting to standing or lying down, maintain unbroken awareness across the transitional shifts of the center of gravity and muscular recruitment.</p>",
+                      "pt": "<p><strong>Alinhamento Físico & Postura:</strong> Ao sentar, firme a coluna ereta sem rigidez mecânica. Alinhe os ouvidos com os ombros e os ombros com o quadril. De pé, distribua o peso uniformemente entre ambos os pés—sentindo o tripé formado pelo calcanhar, a base do polegar e a base do dedo mindinho.</p><p><strong>Protocolo de Caṅkama (Meditação Andando):</strong> Escolha um trajeto reto e desobstruído de 15 a 30 passos. Mantenha os olhos suavemente abertos voltados a cerca de 2 a 3 metros adiante no chão sem fixar em objetos. Caminhe em ritmo medido e regular. Sinta a mecânica somática: elevar (<em>uddharaṇa</em>), mover à frente (<em>atiharana</em>), baixar (<em>vossajjana</em>) e tocar o chão (<em>sannidhiyāna</em>). Sinta a transferência de peso diretamente pelas solas dos pés.</p><p><strong>Âncora Silenciosa, Sem Verbalização:</strong> Conforme ensinado nos comentários, não converta a prática em discurso analítico interior. Quando o pé pressionar o solo, sinta diretamente a firmeza tátil, a temperatura e a tensão muscular sem narrativa mental.</p><p><strong>Atenção Plena nas Transições:</strong> Ao transitar de sentado para de pé ou deitado, mantenha a atenção ininterrupta durante todo o deslocamento do centro de gravidade e recrutamento muscular.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Rooted in <strong>MN 119 §4</strong> and <strong>MN 10 §4</strong> (Satipaṭṭhāna Sutta). In the <em>Papañcasūdanī</em> (Buddhaghosa's Commentary), it is explained that this contemplation directly dismantles the pervasive illusion of a permanent 'soul' (<em>jīva</em>) orchestrating bodily motion: <em>'Who walks? No being or person walks. Movement occurs solely by the diffusion of the air-element (vāyodhātu) produced by mental intention (cittakiriyā-vāyodhātuvappārena).'</em></p><p>Supported by <strong>SN 47.20 (Sedaka Sutta)</strong>, where somatic vigilance is equated to holding a vessel brimming with oil with unwavering focus amid worldly distractions.</p>",
+                      "pt": "<p>Fundamentado em <strong>MN 119 §4</strong> e <strong>MN 10 §4</strong> (Satipaṭṭhāna Sutta). Na <em>Papañcasūdanī</em> (Comentário de Buddhaghosa), explica-se que esta contemplação desconstrói diretamente a ilusão pervasiva de uma 'alma' (<em>jīva</em>) que comanda o movimento: <em>'Quem caminha? Nenhuma entidade ou pessoa caminha. O movimento ocorre unicamente pela difusão do elemento ar (vāyodhātu) nascido da intenção mental (cittakiriyā-vāyodhātuvappārena).'</em></p><p>Apoiado pelo <strong>SN 47.20 (Sedaka Sutta)</strong>, onde a vigilância somática é equiparada a segurar uma tigela de óleo transbordante com foco inabalável em meio às distrações do mundo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Acrobat's Balance Pole & The Brim-Full Bowl of Oil (SN 47.20 / MN 119):</strong> Just as an acrobat in the circus balances their own pole securely before coordinating with their partner, anchoring awareness in the four postures provides an unshakeable somatic gyroscope. Distractions cannot topple a mind rooted firmly in the physical base.</p>",
+                      "pt": "<p><strong>A Vara de Equilíbrio do Acrobata & A Tigela Transbordante de Óleo (SN 47.20 / MN 119):</strong> Tal como o acrobata no circo estabiliza a própria vara de equilíbrio com firmeza antes de coordenar com seu parceiro, ancorar a mente nas quatro posturas cria um giroscópio somático inabalável. As distrações não conseguem derrubar uma mente enraizada no corpo físico.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Sampajañña-pabba & Catuvidha-sampajañña",
+                "title": {
+                      "en": "2. Dynamic Clear Comprehension & The 4 Diagnostic Filters",
+                      "pt": "2. Clara Compreensão Dinâmica & Os Quatro Filtros Diagnósticos"
+                },
+                "desc": {
+                      "en": "Clear comprehension (<em>sampajañña</em>) extends meditative vigilance into every biological and mundane operation: stepping forward, looking back, extending and flexing limbs, wearing clothes, chewing, savoring, swallowing, urinating, defecating, falling asleep, and waking. The mind does not operate on autopilot; every gesture is saturated with lucid awareness.",
+                      "pt": "A clara compreensão (<em>sampajañña</em>) estende a vigilância meditativa a todas as operações biológicas e cotidianas: avançar, olhar em redor, estender e dobrar membros, vestir roupas, mastigar, engolir, urinar, defecar, adormecer e despertar. A mente não opera em piloto automático; cada gesto é banhado de lucidez."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Micro-Pause Before Action:</strong> Before initiating an intentional motor action (e.g., reaching for a glass, standing up from a desk, turning a door handle), introduce a deliberate 1-second pause to witness the mental volition (<em>cetanā</em>) arising before the muscles contract.</p><p><strong>Applying the 4 Classical Filters (Papañcasūdanī / Atthasālinī):</strong><ol><li><strong>Sātthaka-sampajañña (Purpose):</strong> Is this bodily movement genuinely wholesome and aligned with Dhamma, or driven by restless craving and agitation?</li><li><strong>Sappāya-sampajañña (Suitability):</strong> Is this the appropriate time, place, and measure to carry it out?</li><li><strong>Gocara-sampajañña (Domain/Pasture):</strong> Can somatic mindfulness be maintained continuously during the action without losing the anchor?</li><li><strong>Asammoha-sampajañña (Non-Delusion):</strong> Seeing clearly that within the action there is no permanent 'doer'—only biological processes actuated by volitional impulses.</li></ol></p><p><strong>Mindful Eating Protocol:</strong> During daily meals, track the complete physical chain: the visual perception of food, arm reaching, food contact, saliva secretion, the mechanical crushing of chewing, taste fading on the tongue, and swallowing.</p>",
+                      "pt": "<p><strong>A Micro-Pausa Antes da Ação:</strong> Antes de iniciar qualquer movimento intencional (ex.: pegar um copo, levantar-se da cadeira, girar a maçaneta), introduza uma pausa consciente de 1 segundo para testemunhar a volição mental (<em>cetanā</em>) antes que os músculos se contraiam.</p><p><strong>Aplicação dos Quatro Filtros Clássicos (Papañcasūdanī / Atthasālinī):</strong><ol><li><strong>Sātthaka-sampajañña (Propósito):</strong> Este movimento corporal é genuinamente salutar e alinhado com o Dhamma, ou é fruto de inquietação e cobiça reativa?</li><li><strong>Sappāya-sampajañña (Adequação):</strong> É o momento, o lugar e a medida apropriada para realizá-lo?</li><li><strong>Gocara-sampajañña (Domínio/Pastagem):</strong> Consigo manter a presença somática ininterrupta durante a ação sem perder a âncora?</li><li><strong>Asammoha-sampajañña (Não-Ilusão):</strong> Enxergar com clareza que na ação não há um 'agente' ou 'eu' permanente operando, mas processos biológicos acionados por impulsos volitivos.</li></ol></p><p><strong>Protocolo de Alimentação Consciente:</strong> Durante as refeições diárias, acompanhe a cadeia física completa: percepção visual do alimento, extensão do braço, contato na boca, salivação, mastigação mecânica, dissolução do sabor e deglutição esofágica.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Canonical foundation in <strong>MN 119 §5</strong>, <strong>MN 10 §5</strong>, and <strong>DN 2 §65</strong> (Sāmaññaphala Sutta). Explicated in depth in the <em>Atthasālinī</em> (§311–317) and <em>Papañcasūdanī</em>. The commentators emphasize that non-delusion clear comprehension (<em>asammoha-sampajañña</em>) is the direct antidote to the belief in a personal agent: <em>'He does not see an agent who moves; he recognizes the interaction of consciousness, volition, and the wind-element.'</em></p>",
+                      "pt": "<p>Base canônica em <strong>MN 119 §5</strong>, <strong>MN 10 §5</strong> e <strong>DN 2 §65</strong> (Sāmaññaphala Sutta). Explicado em profundidade no <em>Atthasālinī</em> (§311–317) e na <em>Papañcasūdanī</em>. Os comentadores enfatizam que a clara compreensão da não-ilusão (<em>asammoha-sampajañña</em>) é o antídoto direto à crença em um agente pessoal: <em>'Ele não vê um agente que se move; ele reconhece a interação entre consciência, volição e o elemento ar.'</em></p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Skillful Charioteer Reigning in Thorough-bred Horses (MN 119):</strong> The mindful practitioner steers physical faculties like an expert charioteer holding taut reins on an open road, neither lashing the steeds frantically nor letting the reins drop in negligence.</p>",
+                      "pt": "<p><strong>O Cocheiro Hábil Controlando Cavalos de Raça (MN 119):</strong> O praticante atento guia as faculdades físicas como um cocheiro perito segurando as rédeas firmes em estrada aberta, sem chicotear os cavalos com afobação nem soltar as rédeas em negligência.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Dvattiṁsākāra & Aṭṭhisaṅkhalikā",
+                "title": {
+                      "en": "3. The 32 Anatomical Parts & Skeletal Deconstruction",
+                      "pt": "3. As 32 Partes Anatômicas & Desconstrução do Esqueleto"
+                },
+                "desc": {
+                      "en": "The Buddha instructs the meditator to examine this very body from the soles of the feet up and from the crown of the head down, bounded by skin and full of manifold biological substances. This contemplation systematically dismantles erotic infatuation, aesthetic vanity, narcissism, and somatic grasping by confronting biological reality directly.",
+                      "pt": "O Buda instrui o meditador a examinar este exato corpo desde as solas dos pés até o topo da cabeça, envolvido pela pele e repleto de substâncias biológicas. Esta prática desmantela sistematicamente o apego erótico, a vaidade estética e o narcisismo somático, confrontando a realidade biológica sem filtros."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Visuddhimagga Seven-Fold Recitation Method (Ch. VIII, §44–144):</strong><ol><li><strong>Tacamattapañcaka (The Skin Pentad):</strong> Begin by mentally locating and visualizing the first five components: head hairs (<em>kesā</em>), body hairs (<em>lomā</em>), nails (<em>nakhā</em>), teeth (<em>dantā</em>), skin (<em>taco</em>).</li><li>Cycle forward and backward (<em>anuloma-paṭiloma</em>): hairs of the head, hairs of the body, nails, teeth, skin — skin, teeth, nails, hairs of the body, hairs of the head. Repeat until the image is crisp.</li><li>Progress to internal organs: flesh (<em>maṁsaṁ</em>), sinews (<em>nhāru</em>), bones (<em>aṭṭhi</em>), bone-marrow (<em>aṭṭhimiñjaṁ</em>), kidneys (<em>vakkaṁ</em>), heart (<em>hadayaṁ</em>), liver (<em>yakanaṁ</em>), pleura (<em>kilomakaṁ</em>), spleen (<em>pihakaṁ</em>), lungs (<em>papphāsaṁ</em>).</li><li>Survey bodily fluids: bile, phlegm, pus, blood, sweat, fat, tears, grease, saliva, snot, synovial joint fluid, urine (<em>muttaṁ</em>).</li></ol></p><p><strong>Internal Radiographic Scanning (X-Ray Vision):</strong> Sit motionless and penetrate beneath the skin. Visualize and feel the calcium armature of the skull, jawbone, collarbone, ribcage, spine, and leg bones. Note how the skeleton is a mechanical framework held together by sinews.</p><p><strong>Dispassionate Equilibrium (Nibbida):</strong> If repulsion or aversion arises, balance it immediately with compassionate clarity. The purpose is never morbid disgust, but serene disenchantment and freedom from the tyranny of physical vanity.</p>",
+                      "pt": "<p><strong>Método de Recitação do Visuddhimagga (Cap. VIII, §44–144):</strong><ol><li><strong>Tacamattapañcaka (A Pêntade da Pele):</strong> Comece localizando mentalmente as primeiras cinco partes: cabelos (<em>kesā</em>), pelos (<em>lomā</em>), unhas (<em>nakhā</em>), dentes (<em>dantā</em>), pele (<em>taco</em>).</li><li>Percorra em ordem direta e reversa (<em>anuloma-paṭiloma</em>): cabelos, pelos, unhas, dentes, pele — pele, dentes, unhas, pelos, cabelos. Repita até a imagem interna tornar-se nítida.</li><li>Progrida para os órgãos internos: carne (<em>maṁsaṁ</em>), tendões (<em>nhāru</em>), ossos (<em>aṭṭhi</em>), medula óssea (<em>aṭṭhimiñjaṁ</em>), rins (<em>vakkaṁ</em>), coração (<em>hadayaṁ</em>), fígado (<em>yakanaṁ</em>), pleura (<em>kilomakaṁ</em>), baço (<em>pihakaṁ</em>), pulmões (<em>papphāsaṁ</em>).</li><li>Examine os fluidos corporais: bílis, catarro, pus, sangue, suor, gordura, lágrimas, saliva, muco, líquido sinovial articular, urina (<em>muttaṁ</em>).</li></ol></p><p><strong>Varredura Radiográfica Interior (Visão de Raio-X):</strong> Sente-se imóvel e penetre abaixo da superfície dérmica. Visualize e sinta a estrutura de cálcio do crânio, mandíbula, clavículas, caixa torácica, vértebras e ossos das pernas. Observe o esqueleto como uma armação mecânica sustentada por ligamentos fibrosos.</p><p><strong>Equilíbrio Desapegado (Nibbida):</strong> Se surgir aversão ou asco, equilibre imediatamente com lucidez compassiva. O objetivo nunca é o desgosto doentio, mas o desatamento sereno e a libertação da vaidade corpórea.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Canonical text in <strong>MN 119 §7</strong>, parallel to <strong>MN 10 §5</strong> and <strong>AN 10.60 (Girimānanda Sutta)</strong>. The <em>Visuddhimagga</em> (Ch. VIII) instructs the meditator to investigate each part across five criteria: color (<em>vaṇṇa</em>), shape (<em>saṇṭhāna</em>), direction (<em>disā</em>), location (<em>okāsa</em>), and delimitation (<em>pariccheda</em>). This destroys the hallucinatory perception of beauty (<em>subha-saññā</em>) and dissolves sensual lust at its roots.</p>",
+                      "pt": "<p>Texto canônico em <strong>MN 119 §7</strong>, paralelo ao <strong>MN 10 §5</strong> e ao <strong>AN 10.60 (Girimānanda Sutta)</strong>. O <em>Visuddhimagga</em> (Cap. VIII) orienta o meditador a investigar cada parte sob cinco critérios: cor (<em>vaṇṇa</em>), formato (<em>saṇṭhāna</em>), direção (<em>disā</em>), localização (<em>okāsa</em>) e delimitação (<em>pariccheda</em>). Isso aniquila a percepção ilusória de beleza (<em>subha-saññā</em>) e extirpa o apego sensual em sua raiz.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bag of Mixed Grains (MN 119 / MN 10):</strong> 'Just as if there were a bag open at both ends, filled with various kinds of grain—hill rice, red rice, beans, peas, millet, and sesame—and a person with keen eyesight opened it and examined the contents: <em>This is hill rice, this is red rice, these are beans...</em>; so too the meditator inspects the 32 parts of this living body.'</p>",
+                      "pt": "<p><strong>O Saco de Grãos Mistos com Duas Aberturas (MN 119 / MN 10):</strong> 'Assim como se houvesse um saco aberto em ambas as extremidades, repleto de vários grãos—arroz de montanha, arroz vermelho, feijão, ervilhas, sésamo—e um homem de olhos lúcidos o abrisse e inspecionasse: <em>Isto é arroz, isto é feijão, isto é sésamo...</em>; assim também o meditador inspeciona as 32 partes deste corpo vivo.'</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Dhātumanasikāra & Catudhātuvavatthāna",
+                "title": {
+                      "en": "4. Discerning the Four Elemental Realities (Solidity, Fluidity, Heat, Motion)",
+                      "pt": "4. Discernindo as Quatro Realidades Elementares (Solidez, Fluidez, Calor, Movimento)"
+                },
+                "desc": {
+                      "en": "The Buddha instructs to contemplate the body however it is situated or disposed in terms of the fundamental material properties (<em>dhātu</em>): Earth (<em>pathavī</em>), Water (<em>āpo</em>), Fire (<em>tejo</em>), and Wind (<em>vāyo</em>). Matter ceases to be conceived as 'my body' and is directly experienced as universal physical dynamics.",
+                      "pt": "O Buda instrui a contemplar o corpo, qualquer que seja sua posição, sob a ótica de suas propriedades materiais fundamentais (<em>dhātu</em>): Terra (<em>pathavī</em>), Água (<em>āpo</em>), Fogo (<em>tejo</em>) e Vento/Ar (<em>vāyo</em>). A matéria deixa de ser rotulada como 'meu corpo' e passa a ser vivenciada diretamente como dinâmicas físicas impessoais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Discerning the Four Specific Elemental Characteristics:</strong><ol><li><strong>Earth Element (Pathavī-dhātu — Hardness & Softness):</strong> Direct tactile attention to density, firmness, and resistance. Notice the pressure of the pelvic bones into the cushion, the hardness of the teeth, and the tensile rigidity of the spine.</li><li><strong>Water Element (Āpo-dhātu — Cohesion & Fluidity):</strong> Tune into the cohesive binding holding tissues together, and the actual fluids: saliva in the mouth, moisture behind the eyelids, the fluid flow of blood through veins and arteries.</li><li><strong>Fire Element (Tejo-dhātu — Heat & Cold):</strong> Feel thermal energy directly: the warmth radiating from the center of the palms and abdomen, the coolness of the incoming breath against the philtrum, and the metabolic warmth maintaining biological life.</li><li><strong>Wind Element (Vāyo-dhātu — Pressure & Movement):</strong> Sense vibration, expansion, and propulsion. Notice the chest expanding and contracting, peristaltic pulses, joint mobility, and the bio-electric tingling rippling through nerve endings.</li></ol></p><p><strong>Deconstructing Ownership:</strong> Reflect deeply: <em>'The earth element inside this body is of the identical physical nature as the earth element of mountains and soil outside. Neither is me, neither is mine, neither is my eternal soul.'</em></p>",
+                      "pt": "<p><strong>Discernindo as Características de Cada Elemento:</strong><ol><li><strong>Elemento Terra (Pathavī-dhātu — Solidez & Dureza):</strong> Foque a atenção tátil na densidade, firmeza e resistência. Observe a pressão dos ossos da bacia contra a almofada, a dureza dos dentes e a rigidez sustentadora da coluna.</li><li><strong>Elemento Água (Āpo-dhātu — Coesão & Fluidez):</strong> Sintonize a força coesiva que mantém os tecidos unidos e os líquidos vitais: a salivação, a umidade nas córneas e o fluxo contínuo do sangue pelas artérias.</li><li><strong>Elemento Fogo (Tejo-dhātu — Calor & Temperatura):</strong> Sinta a energia térmica diretamente: o calor irradiando nas palmas das mãos e abdômen, o ar fresco tocando o septo na inalação e o calor metabólico da digestão.</li><li><strong>Elemento Vento (Vāyo-dhātu — Pressão & Movimento):</strong> Perceba vibração, expansão e propulsão. Sinta o tórax expandindo e retraindo, pulsos circulatórios nos tecidos e formigamentos bioelétricos nos nervos.</li></ol></p><p><strong>Desconstruindo a Ideia de Propriedade:</strong> Reflita profundamente: <em>'O elemento terra dentro deste corpo é da mesmíssima natureza que o elemento terra das rochas e do solo do planeta. Nenhum deles sou eu, nenhum deles é meu, nenhum deles é uma alma eterna.'</em></p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Rooted in <strong>MN 119 §8</strong>, <strong>MN 140 (Dhātuvibhaṅga Sutta)</strong>, <strong>MN 62 (Mahārāhulovāda Sutta)</strong>, and <strong>Visuddhimagga Ch. XI</strong>. The commentators explain that element meditation directly fractures the 'perception of compactness' (<em>ghana-saññā</em>). When the illusion of an unbroken solid entity is dissolved, access concentration (<em>upacāra-samādhi</em>) is swiftly attained and anattā (non-self) becomes an immediate experiential fact.</p>",
+                      "pt": "<p>Fundamentado em <strong>MN 119 §8</strong>, <strong>MN 140 (Dhātuvibhaṅga Sutta)</strong>, <strong>MN 62 (Mahārāhulovāda Sutta)</strong> e no <strong>Visuddhimagga Cap. XI</strong>. Os comentadores esclarecem que a meditação nos elementos fratura a 'percepção de compacidade' (<em>ghana-saññā</em>). Quando a ilusão de um bloco sólido indivisível é dissolvida, a concentração de acesso (<em>upacāra-samādhi</em>) é rapidamente alcançada e anattā (não-eu) torna-se evidência imediata.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Skilled Butcher at the Crossroads (MN 119 / MN 140):</strong> 'Just as a skilled butcher or his apprentice, having slaughtered a cow and divided it into cuts, sits at the major crossroads displaying the meat; while the cow was whole, the label <em>cow</em> was used. But once cut up, the thought <em>cow</em> disappears, and there is only <em>meat</em>. So too, when the body is analyzed into the four elements, the notion of <em>a self or person</em> vanishes completely.'</p>",
+                      "pt": "<p><strong>O Açougueiro Perito no Cruzamento (MN 119 / MN 140):</strong> 'Assim como um açougueiro experiente ou seu aprendiz, tendo abatido uma vaca e cortado-a em porções, senta-se num cruzamento movimentado exibindo a carne: enquanto a vaca estava inteira, vigorava a ideia de <em>vaca</em>. Cortada em pedaços, o rótulo <em>vaca</em> desaparece e há apenas <em>carne</em>. Da mesma forma, analisado o corpo nos quatro elementos, a ilusão de <em>uma pessoa ou eu</em> cessa por completo.'</p>"
+                }
+          },
+          {
+                "step": 5,
+                "pali": "Kāyaparipūraṇa Jhāna & Catu-Jhānasukha",
+                "title": {
+                      "en": "5. Full-Body Jhāna Saturation & The 4 Canonical Similes",
+                      "pt": "5. Saturação Corpórea nos Jhānas & Os Quatro Símiles Canônicos"
+                },
+                "desc": {
+                      "en": "The Buddha reveals that Jhāna is not an escapist, disembodied trance where somatic awareness is extinguished. In MN 119, each of the four form Jhānas is experienced as an organic, full-bodied saturation: permeating, drenching, suffocating, and suffusing the entire physical body with rapture (<em>pīti</em>), pleasure (<em>sukha</em>), and radiant luminous awareness (<em>cetaso pariyodātā</em>).",
+                      "pt": "O Buda revela que os Jhānas não são transes desincorporados e anestésicos onde a sensibilidade somática é extinta. No MN 119, cada um dos quatro Jhānas da forma é vivenciado como uma saturação física orgânica: permeando, inundando e preenchendo cada poro e tecido vivo com êxtase (<em>pīti</em>), bem-estar pacífico (<em>sukha</em>) e luminosidade lúcida (<em>cetaso pariyodātā</em>)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Four Steps of Full-Body Immersion:</strong><ol><li><strong>1st Jhāna (Seclusion-Born Rapture & Pleasure):</strong> As mental chatter subsides through steady concentration, an energetic warmth and tingling (<em>pīti</em>) emerges in the chest or abdomen. Consciously relax and guide this vibrant energy downward into the pelvic floor, thighs, calves, and feet, and upward into the neck, head, and arms until the entire living organism is suffused with joyful ease.</li><li><strong>2nd Jhāna (Internal Unification & Stillness):</strong> Applied and sustained thought (<em>vitakka-vicāra</em>) dissolve into noble silence. The rapture becomes velvety and deeply peaceful, welling up from within the body like water bubbling from an underground aquifer.</li><li><strong>3rd Jhāna (Equanimous Bodily Bliss):</strong> The excitement of rapture fades completely into serene physical contentment. One experiences with the physical body that sublime bliss (<em>sukha</em>) praised by the Noble Ones: <em>'Equanimous and mindful, he dwells in ease.'</em></li><li><strong>4th Jhāna (Purity of Mind & Translucent Stillness):</strong> Beyond pleasure and pain, the body is suffused with a bright, spotless, translucent stillness—cool, immovable, and crystal clear.</li></ol></p>",
+                      "pt": "<p><strong>Os Quatro Estágios de Imersão Somática Integral:</strong><ol><li><strong>1º Jhāna (Êxtase & Prazer Nascidos do Recolhimento):</strong> Conforme o diálogo interno silencia na concentração contínua, uma vibração energética calorosa (<em>pīti</em>) brota no peito ou abdômen. Relaxe conscientemente e conduza essa vitalidade para o quadril, pernas, pés, e para cima pelo pescoço, cabeça e braços até que todo o organismo esteja banhado em bem-estar.</li><li><strong>2º Jhāna (Paz Interior & Unificação):</strong> O pensamento direcionado e sustentado (<em>vitakka-vicāra</em>) cessam no silêncio nobre. O êxtase torna-se suave, aveludado e sereno, brotando do próprio núcleo do corpo como água puríssima de uma fonte subterrânea.</li><li><strong>3º Jhāna (Equanimidade & Bem-Estar Corpóreo):</strong> O arrebatamento se dissolve em serenidade pacífica. Vivencia-se no corpo físico aquele bem-estar supremo (<em>sukha</em>) louvado pelos Nobres: <em>'Equânime e atento, repousa em paz.'</em></li><li><strong>4º Jhāna (Pureza da Mente & Quietude Translúcida):</strong> Além do prazer e da dor física, todo o organismo é envolvido por uma quietude lúcida e imaculada—fresca, imóvel e cristalina.</li></ol></p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Directly stated in <strong>MN 119 §18–21</strong>, parallel to <strong>DN 2 §77–84</strong> and <strong>AN 5.28</strong>. Buddhaghosa in the <em>Papañcasūdanī</em> states explicitly: <em>'There is no part of his whole physical body that is not suffused (nāssa kiñci sabbāvato kāyassa apphuṭaṁ hoti).'</em> This establishes that in Early Buddhist meditation, deep samādhi does not mean abandoning the body, but purifying it into an instrument of profound peace.</p>",
+                      "pt": "<p>Exposto diretamente em <strong>MN 119 §18–21</strong>, correspondendo a <strong>DN 2 §77–84</strong> e <strong>AN 5.28</strong>. Buddhaghosa na <em>Papañcasūdanī</em> afirma categoricamente: <em>'Não há parte alguma de todo o seu corpo que permaneça desassistida (nāssa kiñci sabbāvato kāyassa apphuṭaṁ hoti).'</em> Isso estabelece que no Budismo Antigo, o samādhi profundo não anula o corpo, mas o purifica como veículo de paz inabalável.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Four Classic Jhāna Similes (MN 119 / DN 2):</strong><ul><li><em>1st Jhāna:</em> A bath attendant working water into bath powder until a moist, cohesive ball forms, permeated with moisture inside and out.</li><li><em>2nd Jhāna:</em> A deep mountain lake with cool water welling up from its own subterranean spring, without incoming rain or rivers.</li><li><em>3rd Jhāna:</em> Water-lilies growing completely submerged under water, steeped and saturated from root to petal.</li><li><em>4th Jhāna:</em> A person sitting wrapped from head to foot in a pristine white cloth, with no part of the body left exposed.</li></ul></p>",
+                      "pt": "<p><strong>Os Quatro Símiles Clássicos dos Jhānas (MN 119 / DN 2):</strong><ul><li><em>1º Jhāna:</em> Um banhista misturando pó de banho com água até formar uma esfera macia e maleável, inteiramente permeada por umidade por dentro e por fora.</li><li><em>2º Jhāna:</em> Um lago alpino profundo alimentado por sua própria nascente límpida subterrânea, sem afluentes externos nem tempestades.</li><li><em>3º Jhāna:</em> Flores de lótus crescendo totalmente submersas na água límpida, banhadas e saturadas da raiz até as pétalas.</li><li><em>4º Jhāna:</em> Uma pessoa sentada totalmente envolta da cabeça aos pés por um manto branco puríssimo, sem nenhum ponto do corpo exposto.</li></ul></p>"
+                }
+          },
+          {
+                "step": 6,
+                "pali": "Dasa Ānisaṁsā & Ceto-vimutti",
+                "title": {
+                      "en": "6. Realizing the 10 Somatic Blessings & Unshakeable Liberation",
+                      "pt": "6. Colhendo as Dez Bênçãos Somáticas & Libertação Inabalável"
+                },
+                "desc": {
+                      "en": "When mindfulness immersed in the body is cultivated, developed, made a vehicle, and established as an unshakeable foundation, ten extraordinary blessings (<em>dasa ānisaṁsā</em>) naturally ripen. The practitioner becomes an invulnerable master of their mental faculties, immune to emotional volatility, visceral fear, and physical agony.",
+                      "pt": "Quando a atenção plena imersa no corpo é cultivada, desenvolvida, convertida em veículo e consolidada como fundamento inabalável, dez bênçãos extraordinárias (<em>dasa ānisaṁsā</em>) amadurecem. O praticante torna-se senhor invulnerável de suas faculdades mentais, imune à volatilidade emocional, ao terror visceral e à agonia da dor física."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Cultivating the Blessings in Daily Crisis:</strong><ol><li><strong>Subduing Attraction and Discontent (Aratiratisaho):</strong> When restlessness, boredom, or obsessive craving arises in daily life, immediately drop attention into the physical sensation of the feet on the floor. Craving and aversion starve when deprived of mental storylines.</li><li><strong>Overcoming Panic and Dread (Bhayabheravasaho):</strong> In moments of acute anxiety, shock, or dread, do not wrestle with fearful thoughts. Relax the solar plexus, soften the belly, drop the shoulders, and feel the solid ground. Fear dissolves as muscular contraction is released.</li><li><strong>Somatic Endurance of Pain (Adhivāsana-khantī):</strong> When facing acute physical discomfort, cold, heat, hunger, or illness, view sensations purely as sensory data (temperature, throbbing, pressure) without adding mental lamentation (<em>papañca</em>).</li><li><strong>Effortless Access to Wisdom (Abhiññā-sacchikiriya):</strong> Because the mind is steady, malleable, and supple like gold refined in a crucible, it can be directed toward insight into the three marks of existence (<em>anicca, dukkha, anattā</em>) and total liberation.</li></ol></p>",
+                      "pt": "<p><strong>Cultivando as Bênçãos nas Crises Cotidianas:</strong><ol><li><strong>Subjugando o Desprazer e a Cobiça (Aratiratisaho):</strong> Quando o tédio, a agitação ou o apego obsessivo surgirem, traga a atenção imediatamente para o contato dos pés com o solo. O desejo e a aversão esmorecem quando privados da narrativa mental.</li><li><strong>Superando o Pânico e o Terror (Bhayabheravasaho):</strong> Em sobressaltos, sustos ou ansiedade aguda, não debata com pensamentos catastróficos. Solte o plexo solar, relaxe o ventre, baixe os ombros e sinta a firmeza da terra. O pavor colapsa quando a tensão muscular é desfeita.</li><li><strong>Paciência Somática diante da Dor (Adhivāsana-khantī):</strong> Ao enfrentar dores agudas, frio, calor, fome ou doenças, encare as sensações como dados táteis neutros (temperatura, pulsação, pressão), sem projetar queixa ou aflição mental (<em>papañca</em>).</li><li><strong>Acesso Natural à Sabedoria (Abhiññā-sacchikiriya):</strong> Como a mente tornou-se maleável e reluzente como ouro purificado no cadinho, ela pode ser direcionada com destreza para a compreensão das três características (<em>anicca, dukkha, anattā</em>) e libertação total.</li></ol></p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Enumerated exhaustively in <strong>MN 119 §30–41</strong>: (1) Conquering discontent/delight, (2) Conquering fear/dread, (3) Enduring cold/heat/pain without dismay, (4) Attaining the 4 Jhānas at will, (5–10) Experiencing transcendent direct knowledges culminating in the destruction of the mental taints (<em>āsavakkhaya</em>). Also supported by <strong>SN 35.206 (Chappāṇaka Sutta)</strong> on taming the six sense doors by tethering them to bodily presence.</p>",
+                      "pt": "<p>Enumeradas minuciosamente em <strong>MN 119 §30–41</strong>: (1) Vitória sobre o desgosto/deleite, (2) Vitória sobre o medo/pânico, (3) Serenidade diante de frio/calor/dores agudas, (4) Domínio espontâneo dos 4 Jhānas, (5–10) Despertar das faculdades superiores de conhecimento direto culminando na destruição das contaminações mentais (<em>āsavakkhaya</em>). Apoiado também pelo <strong>SN 35.206 (Chappāṇaka Sutta)</strong> sobre domar os seis sentidos ancorando-os no corpo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Post Buried Deep & The Six Wild Beasts (SN 35.206 / MN 119):</strong> Six wild animals—a snake, crocodile, bird, dog, jackal, and monkey—are bound by ropes to a stout pillar driven deep into the earth. Though each pulls desperately toward its own domain (hole, water, sky, village, charnel ground, forest), none can dislodge the pillar. Eventually exhausted, they lie quietly beside the post. The stout post is mindfulness immersed in the body; the ropes are mindful restraint.</p>",
+                      "pt": "<p><strong>O Poste Profundo & As Seis Feras Selvagens (SN 35.206 / MN 119):</strong> Seis animais selvagens—uma cobra, um crocodilo, um pássaro, um cão, um chacal e um macaco—são atados por cordas a um poste sólido fincado na terra. Embora cada animal puxe desesperadamente em direção ao seu habitat (buraco, água, céu, aldeia, cemitério, floresta), nenhum consegue mover o poste. Exaustos, deitam-se tranquilos ao lado da estaca. O poste inabalável é a atenção plena imersa no corpo; as cordas são a contenção atenta.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Whenever intense emotional distress or anxiety strikes during the day, do not wrestle with obsessive thoughts in the head. Immediately drop attention into physical sensations: feel the weight of the feet pressing on the floor, the hands resting on the lap, or the chest rising and falling. Somatic embodiment instantly short-circuits the runaway loops of conceptual rumination.",

@@ -6138,6 +6138,7 @@ body {
 
 .step-card {
   display: flex;
+  align-items: flex-start;
   gap: 18px;
   background: rgba(19, 26, 38, 0.65);
   border: 1px solid var(--border-subtle);
@@ -6149,6 +6150,17 @@ body {
 .step-card:hover {
   border-color: var(--gold-border);
   background: rgba(26, 36, 52, 0.85);
+}
+
+.step-card-expanded {
+  background: rgba(16, 23, 36, 0.85);
+  border: 1px solid rgba(224, 169, 68, 0.22);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.step-card-expanded:hover {
+  border-color: rgba(224, 169, 68, 0.45);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
 }
 
 .step-card-num {
@@ -6164,10 +6176,12 @@ body {
   justify-content: center;
   flex-shrink: 0;
   box-shadow: 0 0 10px rgba(224, 169, 68, 0.4);
+  margin-top: 2px;
 }
 
 .step-body {
   flex: 1;
+  min-width: 0;
 }
 
 .step-pali {
@@ -6179,16 +6193,129 @@ body {
 
 .step-title {
   font-family: var(--font-serif-sacred);
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  line-height: 1.35;
 }
 
 .step-desc {
   color: var(--text-secondary);
-  font-size: 0.94rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* Expanded Step Callout Grid & Pedagogical Boxes */
+.step-details-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.step-detail-box {
+  border-radius: 10px;
+  padding: 16px 20px;
+  background: rgba(11, 17, 28, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: var(--transition-smooth);
+}
+
+.step-detail-box:hover {
+  background: rgba(15, 22, 36, 0.92);
+}
+
+.step-practice-box {
+  border-left: 4px solid #3ea876;
+  background: linear-gradient(135deg, rgba(62, 168, 118, 0.08) 0%, rgba(11, 17, 28, 0.85) 100%);
+  border-color: rgba(62, 168, 118, 0.25);
+  border-left-color: #3ea876;
+}
+
+.step-canonical-box {
+  border-left: 4px solid #4a9eff;
+  background: linear-gradient(135deg, rgba(74, 158, 255, 0.08) 0%, rgba(11, 17, 28, 0.85) 100%);
+  border-color: rgba(74, 158, 255, 0.25);
+  border-left-color: #4a9eff;
+}
+
+.step-simile-box {
+  border-left: 4px solid #e0a944;
+  background: linear-gradient(135deg, rgba(224, 169, 68, 0.09) 0%, rgba(11, 17, 28, 0.85) 100%);
+  border-color: rgba(224, 169, 68, 0.28);
+  border-left-color: #e0a944;
+}
+
+.step-box-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.step-box-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.step-box-title {
+  font-family: var(--font-serif-sacred);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.step-practice-box .step-box-title {
+  color: #5cdb95;
+}
+
+.step-canonical-box .step-box-title {
+  color: #70b8ff;
+}
+
+.step-simile-box .step-box-title {
+  color: #f3c267;
+}
+
+.step-box-content {
+  font-size: 0.92rem;
+  color: #d1d8e6;
+  line-height: 1.68;
+}
+
+.step-box-content p {
+  margin-bottom: 10px;
+}
+
+.step-box-content p:last-child {
+  margin-bottom: 0;
+}
+
+.step-box-content ol,
+.step-box-content ul {
+  margin: 8px 0 10px 22px;
+  padding: 0;
+}
+
+.step-box-content li {
+  margin-bottom: 8px;
   line-height: 1.6;
+}
+
+.step-box-content li:last-child {
+  margin-bottom: 0;
+}
+
+.step-box-content strong {
+  color: #f0f4fc;
+  font-weight: 600;
+}
+
+.step-box-content em {
+  color: #e6dfcf;
+  font-style: italic;
 }
 
 /* Attainments Section */
