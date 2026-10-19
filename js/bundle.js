@@ -107,198 +107,390 @@ const MEDITATION_LINEAGES = [
       "pt": "No Ānāpānasati Sutta (MN 118), o Buda ensina dezesseis contemplações sequenciais organizadas em quatro tétrades correspondentes exatamente aos Quatro Satipaṭṭhānas. A respiração não é tratada como um exercício mecânico, mas como uma ponte viva entre corpo, sensação, mente e despertar. Desenvolvida e cultivada, a Ānāpānasati realiza os Quatro Satipaṭṭhānas; os Quatro Satipaṭṭhānas realizam os Sete Fatores do Despertar; e estes realizam o verdadeiro conhecimento e a libertação."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Dīghaṁ assasanto 'dīghaṁ assasāmī'ti pajānāti",
-        "title": {
-          "en": "Discerning Long Breath",
-          "pt": "Discernindo a Respiração Longa"
-        },
-        "desc": {
-          "en": "Breathing in long, one discerns: 'I breathe in long'; breathing out long, one discerns: 'I breathe out long'. Simply noticing duration without forcing.",
-          "pt": "Inspirando longo, discerne: 'Inspiro longo'; expirando longo, discerne: 'Expiro longo'. Notando a duração natural sem forçar."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Rassaṁ assasanto 'rassaṁ assasāmī'ti pajānāti",
-        "title": {
-          "en": "Discerning Short Breath",
-          "pt": "Discernindo a Respiração Curta"
-        },
-        "desc": {
-          "en": "Breathing in short, one discerns: 'I breathe in short'; breathing out short, one discerns: 'I breathe out short'.",
-          "pt": "Inspirando curto, discerne: 'Inspiro curto'; expirando curto, discerne: 'Expiro curto'."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Sabbakāyapaṭisaṁvedī assasissāmīti sikkhati",
-        "title": {
-          "en": "Experiencing the Whole Breath Body",
-          "pt": "Vivenciando o Corpo Inteiro da Respiração"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in sensitive to the entire body of breath'; 'I will breathe out sensitive to the entire body of breath'.",
-          "pt": "Treina-se: 'Inspirarei sensível a todo o corpo da respiração'; 'Expirarei sensível a todo o corpo da respiração'."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Passambhayaṁ kāyasaṅkhāraṁ assasissāmīti sikkhati",
-        "title": {
-          "en": "Calming the Bodily Formation",
-          "pt": "Pacificando a Formação Corpórea"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in calming bodily activity (the coarse breath and bodily tensions)'; 'I will breathe out calming bodily activity'.",
-          "pt": "Treina-se: 'Inspirarei acalmando a atividade corpórea (respiração grosseira e tensões)'; 'Expirarei acalmando a atividade corpórea'."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Pītipaṭisaṁvedī assasissāmīti sikkhati",
-        "title": {
-          "en": "Experiencing Rapture (Pīti)",
-          "pt": "Vivenciando o Arrebatamento (Pīti)"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in experiencing spiritual joy and refreshment'; 'I will breathe out experiencing rapture'.",
-          "pt": "Treina-se: 'Inspirarei vivenciando a alegria e frescor espiritual'; 'Expirarei vivenciando o arrebatamento'."
-        }
-      },
-      {
-        "step": 6,
-        "pali": "Sukhapaṭisaṁvedī assasissāmīti sikkhati",
-        "title": {
-          "en": "Experiencing Pleasure/Bliss (Sukha)",
-          "pt": "Vivenciando a Felicidade/Paz (Sukha)"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in experiencing subtle tranquility and bliss'; 'I will breathe out experiencing bliss'.",
-          "pt": "Treina-se: 'Inspirarei vivenciando a sutil tranquilidade e felicidade'; 'Expirarei vivenciando a felicidade'."
-        }
-      },
-      {
-        "step": 7,
-        "pali": "Cittasaṅkhārapaṭisaṁvedī assasissāmīti sikkhati",
-        "title": {
-          "en": "Experiencing Mental Formations",
-          "pt": "Vivenciando as Formações Mentais"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in sensitive to mental formations (feelings and perceptions that color the mind)'.",
-          "pt": "Treina-se: 'Inspirarei sensível às formações mentais (sensações e percepções que colorem a mente)'."
-        }
-      },
-      {
-        "step": 8,
-        "pali": "Passambhayaṁ cittasaṅkhāraṁ assasissāmīti sikkhati",
-        "title": {
-          "en": "Calming Mental Formations",
-          "pt": "Pacificando as Formações Mentais"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in calming mental formations'; soothing emotional agitation into pristine stillness.",
-          "pt": "Treina-se: 'Inspirarei acalmando as formações mentais'; suavizando a agitação emocional em quietude transparente."
-        }
-      },
-      {
-        "step": 9,
-        "pali": "Cittapaṭisaṁvedī assasissāmīti sikkhati",
-        "title": {
-          "en": "Experiencing the Mind (Citta)",
-          "pt": "Vivenciando o Estado da Mente (Citta)"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in sensitive to the mind state' (whether concentrated, scattered, or lustrous).",
-          "pt": "Treina-se: 'Inspirarei sensível ao estado mental' (seja concentrado, disperso ou luminoso)."
-        }
-      },
-      {
-        "step": 10,
-        "pali": "Abhippamodayaṁ cittaṁ assasissāmīti sikkhati",
-        "title": {
-          "en": "Gladdening the Mind",
-          "pt": "Alegrando a Mente"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in uplifting and cheering the mind' whenever dullness or sluggishness arises.",
-          "pt": "Treina-se: 'Inspirarei elevando e alegrando a mente' sempre que surgir apatia ou letargia."
-        }
-      },
-      {
-        "step": 11,
-        "pali": "Samādahaṁ cittaṁ assasissāmīti sikkhati",
-        "title": {
-          "en": "Concentrating the Mind",
-          "pt": "Concentrando a Mente"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in steadying the mind in unified stillness'.",
-          "pt": "Treina-se: 'Inspirarei estabilizando a mente em quietude unificada'."
-        }
-      },
-      {
-        "step": 12,
-        "pali": "Vimocayaṁ cittaṁ assasissāmīti sikkhati",
-        "title": {
-          "en": "Releasing the Mind",
-          "pt": "Libertando a Mente"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in liberating the mind from hindrances, subtle grasping, and mental attachments'.",
-          "pt": "Treina-se: 'Inspirarei libertando a mente dos obstáculos, apegos sutis e amarras mentais'."
-        }
-      },
-      {
-        "step": 13,
-        "pali": "Aniccānupassī assasissāmīti sikkhati",
-        "title": {
-          "en": "Contemplating Impermanence",
-          "pt": "Contemplando a Inconstância (Anicca)"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in contemplating the rising and falling nature of all conditioned phenomena'.",
-          "pt": "Treina-se: 'Inspirarei contemplando o surgimento e cessação de todos os fenômenos condicionados'."
-        }
-      },
-      {
-        "step": 14,
-        "pali": "Virāgānupassī assasissāmīti sikkhati",
-        "title": {
-          "en": "Contemplating Dispassion/Fading",
-          "pt": "Contemplando o Desapego / Desvanecimento"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in contemplating the fading away of lust, craving, and entanglement'.",
-          "pt": "Treina-se: 'Inspirarei contemplando o desvanecimento do anseio, desejo febril e emaranhamento'."
-        }
-      },
-      {
-        "step": 15,
-        "pali": "Nirodhānupassī assasissāmīti sikkhati",
-        "title": {
-          "en": "Contemplating Cessation",
-          "pt": "Contemplando a Cessação (Nirodha)"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in contemplating cessation'; witnessing the quiet extinction of stress.",
-          "pt": "Treina-se: 'Inspirarei contemplando a cessação'; testemunhando a extinção serena do sofrimento."
-        }
-      },
-      {
-        "step": 16,
-        "pali": "Paṭinissaggānupassī assasissāmīti sikkhati",
-        "title": {
-          "en": "Contemplating Relinquishment",
-          "pt": "Contemplando a Renúncia / Desprendimento Total"
-        },
-        "desc": {
-          "en": "One trains: 'I will breathe in contemplating letting go and relinquishing all clinging'; returning all conditioned phenomena back to nature.",
-          "pt": "Treina-se: 'Inspirarei contemplando o abandono e renúncia de todo apego'; devolvendo todos os agregados à natureza."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Dīghaṁ assasanto 'dīghaṁ assasāmī'ti pajānāti",
+                "title": {
+                      "en": "1. Discerning Long In-and-Out Breaths",
+                      "pt": "1. Discernindo as Respirações Longas"
+                },
+                "desc": {
+                      "en": "Breathing in long, one discerns: 'I breathe in long'; breathing out long, one discerns: 'I breathe out long'. Simply noticing the extended duration of the natural somatic respiration without forcing or regulating.",
+                      "pt": "Inspirando longo, discerne: 'Inspiro longo'; expirando longo, discerne: 'Expiro longo'. Apenas reconhecendo a duração estendida da respiração natural sem forçar, comprimir ou controlar."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Physical Touchpoint Anchor:</strong> Rest attention lightly at the primary tactile contact zone—the nostril rim or upper lip (<em>nāsikagga / mukhanimitta</em>). Feel the cool friction of the incoming air and the warm whisper of the outgoing air.</p><p><strong>Unforced Observation:</strong> Do not artificially deepen or hold the breath. Allow the lung capacity to fill and empty naturally. Notice that when the body is settling down from physical exertion or mental agitation, the breath is organically long and deep.</p>",
+                      "pt": "<p><strong>Ponto de Contato Tátil:</strong> Pouse a atenção na zona de fricção primária—a borda das narinas ou lábio superior (<em>nāsikagga / mukhanimitta</em>). Sinta o frescor suave do ar entrando e o calor tépido do ar saindo.</p><p><strong>Observação Espontânea:</strong> Não force a respiração a ser funda. Permita que os pulmões expandam e recolham no próprio ritmo. Note que enquanto o corpo assenta do cansaço ou tensão mental, a respiração se manifesta organicamente longa.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Foundational formula of <strong>MN 118 §17</strong> and <strong>SN 54.1</strong>. Buddhaghosa in the <em>Papañcasūdanī</em> explains that 'long' refers both to spatial extent and temporal duration: the mind simply observes duration without applying conceptual measurement.</p>",
+                      "pt": "<p>Fórmula de abertura de <strong>MN 118 §17</strong> e <strong>SN 54.1</strong>. Buddhaghosa na <em>Papañcasūdanī</em> esclarece que 'longo' refere-se tanto à extensão espacial quanto à duração temporal: a mente reconhece o tempo sem formular cálculos conceituais.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Skilled Turner (Bhamakāro, MN 118 / DN 22):</strong> 'Just as a skilled turner or his apprentice, when making a long turn, discerns: <em>I make a long turn</em>; so too the practitioner discerns a long breath.'</p>",
+                      "pt": "<p><strong>O Torneiro Perito (Bhamakāro, MN 118 / DN 22):</strong> 'Assim como um torneiro experiente ou seu aprendiz, ao dar uma volta longa no torno, discerne: <em>Estou dando uma volta longa</em>; assim também o meditador discerne a respiração longa.'</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Rassaṁ assasanto 'rassaṁ assasāmī'ti pajānāti",
+                "title": {
+                      "en": "2. Discerning Short In-and-Out Breaths",
+                      "pt": "2. Discernindo as Respirações Curtas"
+                },
+                "desc": {
+                      "en": "Breathing in short, one discerns: 'I breathe in short'; breathing out short, one discerns: 'I breathe out short'. As bodily tranquility sets in, the oxygen requirement decreases, and breathing becomes subtle and brief.",
+                      "pt": "Inspirando curto, discerne: 'Inspiro curto'; expirando curto, discerne: 'Expiro curto'. Conforme o corpo se pacifica, a demanda por oxigênio cai e a respiração torna-se naturalmente sutil, breve e leve."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Recognizing the Calming Shift:</strong> Do not panic or gasp if the breath becomes faint and shallow. Recognize short breath as a natural sign of somatic stillness. Keep attention centered at the touchpoint with refined sensitivity.</p>",
+                      "pt": "<p><strong>Reconhecendo a Mudança de Ritmo:</strong> Não tente forçar ar se a respiração ficar muito tênue. Encare a respiração curta como sintoma benéfico de quietude muscular. Mantenha a presença serena no ponto de contato.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Canonical in <strong>MN 118 §18</strong>. The <em>Visuddhimagga</em> (Ch. VIII) notes that as mindfulness sharpens, coarse chest movement subsides, and the breath becomes gentle like a drifting thread of silk.</p>",
+                      "pt": "<p>Canônico em <strong>MN 118 §18</strong>. O <em>Visuddhimagga</em> (Cap. VIII) pontua que conforme a atenção refina, os movimentos torácicos diminuem e o fluxo aéreo assemelha-se a um fio de seda flutuando.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Quick Short Cut of the Lathe (MN 118):</strong> Just as the woodturner making a quick short cut knows precisely the shortness of the motion, the mind discerns subtle, brief inhalations and exhalations with immediate clarity.</p>",
+                      "pt": "<p><strong>O Corte Curto do Torneiro (MN 118):</strong> Tal como o torneiro ao realizar um giro rápido e curto no torno reconhece com clareza o corte breve, a mente reconhece respirações curtas e sutis sem hesitação.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Sabbakāyapaṭisaṁvedī assasissāmīti sikkhati",
+                "title": {
+                      "en": "3. Experiencing the Entire Body of Breath",
+                      "pt": "3. Vivenciando o Corpo Inteiro da Respiração"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in sensitive to the entire body [of breath]'; 'I will breathe out sensitive to the entire body'. Developing panoramic awareness encompassing the whole physical organism nourished by breath.",
+                      "pt": "Treina-se: 'Inspirarei sensível a todo o corpo'; 'Expirarei sensível a todo o corpo'. Expandindo a presença para abraçar toda a extensão do ciclo respiratório e todo o organismo físico vitalizado pelo ar."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Three Phases of Breath:</strong> Track the breath continuously through its three stations: the beginning (<em>ādi</em> at the nostrils), the middle (<em>majjha</em> filling the chest), and the end (<em>pariyosāna</em> expanding the abdomen). Avoid mental gaps where awareness lapses.</p><p><strong>Somatic Cellular Permeation:</strong> Alternatively, as highlighted in the Thai Forest and commentarial traditions, feel the vital breath energy (<em>prāṇa / vāyo</em>) rippling through every pore, tendon, and tissue in the physical body.</p>",
+                      "pt": "<p><strong>As Três Fases da Respiração:</strong> Acompanhe o fluxo ininterrupto em suas três fases: início (<em>ādi</em> nas narinas), meio (<em>majjha</em> no tórax) e ápice (<em>pariyosāna</em> no abdômen). Elimine lapsos de distração entre a inspiração e a expiração.</p><p><strong>Permeação Celular:</strong> Conforme ensinado na Tradição da Floresta, sinta a energia da respiração (<em>vāyodhātu</em>) nutrindo cada músculo, fibra e poro do corpo simultaneamente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §19</strong>: Ven. Buddhaghosa clarifies that <em>kāya</em> here designates the whole breath-body (beginning, middle, end) while Sutta teachings indicate the living bodily organism (<em>rūpakāya</em>) harmonized with respiration.</p>",
+                      "pt": "<p><strong>MN 118 §19</strong>: Buddhaghosa esclarece que <em>kāya</em> designa todo o corpo da respiração (início, meio e fim), enquanto os suttas apontam para a estrutura corpórea inteira (<em>rūpakāya</em>) unificada com o fôlego.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bellows of the Blacksmith (Papañcasūdanī):</strong> Just as air filling a blacksmith's bellows inflates the whole skin uniformly, the incoming breath infuses vitality across the whole torso.</p>",
+                      "pt": "<p><strong>O Fole do Ferreiro (Papañcasūdanī):</strong> Tal como o ar preenche o fole do ferreiro de modo uniforme em toda a sua câmara, o fôlego expande a presença viva por todo o tronco.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Passambhayaṁ kāyasaṅkhāraṁ assasissāmīti sikkhati",
+                "title": {
+                      "en": "4. Calming the Bodily Formation (Coarse Breath & Tension)",
+                      "pt": "4. Pacificando a Formação Corpórea (Respiração & Tensão)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in calming the bodily formation'; 'I will breathe out calming the bodily formation'. Dissolving gross somatic agitation until the breath becomes tranquil and whisper-quiet.",
+                      "pt": "Treina-se: 'Inspirarei acalmando a formação corpórea'; 'Expirarei acalmando a formação corpórea'. Dissolvendo tensões residuais, microespasmos e agitação até que a respiração fique translúcida e suave."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Conscious Muscular Release:</strong> On each exhalation, actively release tension from the forehead, eyes, jaw, shoulders, and belly. As physical contraction subsides, the breath calms to the point where it feels as if the body is breathing on its own without effort.</p><p><strong>Arising of the Luminous Sign (Nimitta):</strong> In deep calming, an inner radiance, mist, or bright star-like point of light may appear before the mind's eye. Do not chase or grasp it; remain peacefully anchored at the breath touchpoint.</p>",
+                      "pt": "<p><strong>Soltura Muscular Consciente:</strong> A cada expiração, libere conscientemente as sobrancelhas, mandíbula, trapézio e abdômen. À medida que o corpo relaxa, o fôlego pacifica tanto que parece ocorrer espontaneamente sem esforço.</p><p><strong>Surgimento do Sinal Luminoso (Nimitta):</strong> Com a pacificação profunda, uma luz sutil, névoa luminosa ou ponto brilhante pode surgir na mente. Não salte sobre ela; continue sereno na âncora respiratória.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §20</strong> and <strong>MN 44 (Cūḷavedalla Sutta)</strong>, which defines in-and-out breathing as the primary 'bodily formation' (<em>kāyasaṅkhāra</em>) because it is tethered to the physical organism.</p>",
+                      "pt": "<p><strong>MN 118 §20</strong> e <strong>MN 44 (Cūḷavedalla Sutta)</strong>, que define a respiração como a 'formação corpórea' primária (<em>kāyasaṅkhāra</em>) por estar intimamente ligada à matéria física viva.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Stilled Bell Vibration (Visuddhimagga VIII):</strong> When a great bronze bell is struck, there is a loud sound, followed by a resonant hum, which gradually tapers into silence. The breath begins coarse and finishes in serene quietude.</p>",
+                      "pt": "<p><strong>A Vibração do Grande Sino (Visuddhimagga VIII):</strong> Quando um sino de bronze é tocado, surge um som sonoro, seguido por uma ressonância sutil que vai se tornando inaudível até o silêncio. A respiração inicia rústica e silencia em profunda paz.</p>"
+                }
+          },
+          {
+                "step": 5,
+                "pali": "Pītipaṭisaṁvedī assasissāmīti sikkhati",
+                "title": {
+                      "en": "5. Experiencing Energetic Rapture (Pīti)",
+                      "pt": "5. Vivenciando o Arrebatamento Energético (Pīti)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in sensitive to rapture'; 'I will breathe out sensitive to rapture'. Entering the Second Tetrad (contemplation of feeling): mind experiences spiritual joy, lightness, and energetic thrill.",
+                      "pt": "Treina-se: 'Inspirarei sensível ao arrebatamento'; 'Expirarei sensível ao arrebatamento'. Inaugurando a Segunda Tétrade (sensações): a mente experimenta alegria espiritual, frescor elétrico e leveza sublime."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Welcoming Somatic Rapture:</strong> Recognize signs of <em>pīti</em>: hair standing on end, gentle tingling in the spine, a cool breeze across the scalp, or a buoyant feeling of floating. Do not fear or suppress these sensations; breathe through them smoothly.</p>",
+                      "pt": "<p><strong>Acolhendo o Arrebatamento:</strong> Identifique os sinais de <em>pīti</em>: arrepios suaves, cócegas bioelétricas na coluna, frescor na cabeça ou sensação de flutuar. Não estranhe nem reprima; respire através da vibração com leveza.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §21</strong>: Rapture born of seclusion (<em>vivekajaṁ pītiṁ</em>) characterizes the first two Jhānas (DN 2, MN 119).</p>",
+                      "pt": "<p><strong>MN 118 §21</strong>: O arrebatamento nascido do recolhimento mental (<em>vivekajaṁ pītiṁ</em>) caracteriza os dois primeiros Jhānas (DN 2, MN 119).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Desert Traveler Reaching an Oasis (Atthasālinī):</strong> Rapture is like the thrilling joy of a parched desert wanderer who spots an emerald lake in the distance.</p>",
+                      "pt": "<p><strong>O Viajante no Oásis (Atthasālinī):</strong> O arrebatamento é a alegria eufórica do viajante sedento que avista um lago cristalino ao longe no deserto.</p>"
+                }
+          },
+          {
+                "step": 6,
+                "pali": "Sukhapaṭisaṁvedī assasissāmīti sikkhati",
+                "title": {
+                      "en": "6. Experiencing Deep Bodily Pleasure & Ease (Sukha)",
+                      "pt": "6. Vivenciando o Bem-Estar Profundo & Paz (Sukha)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in sensitive to pleasure/ease'; 'I will breathe out sensitive to pleasure/ease'. As the buzzing excitation of rapture softens, it settles into profound, restful somatic well-being.",
+                      "pt": "Treina-se: 'Inspirarei sensível à paz/bem-estar'; 'Expirarei sensível à paz/bem-estar'. Conforme a efervescência de pīti se aquieta, ela decanta em conforto corporal pleno, aveludado e repousante."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Shifting from Excitation to Restful Peace:</strong> Notice the distinction between rapture (excitement) and sukha (contentment). Allow the breath to bathe every organ in ease, entering the blissful stillness of the Second and Third Jhānas.</p>",
+                      "pt": "<p><strong>Transição para o Conforto:</strong> Observe a diferença entre o estímulo de pīti (alegria energética) e sukha (conforto doce). Deixe o fôlego banhar cada órgão com paz, aproximando a mente do 2º e 3º Jhānas.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §22</strong>: Sukha is the unshakeable ease described in the 3rd Jhāna where one abides equanimous and mindful (MN 119).</p>",
+                      "pt": "<p><strong>MN 118 §22</strong>: Sukha é a paz corporal descrita no 3º Jhāna onde o praticante repousa equânime e lúcido (MN 119).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Traveler Drinking the Cool Waters (Atthasālinī):</strong> If rapture is spotting the water, sukha is drinking deeply, resting under shade, and experiencing total relief.</p>",
+                      "pt": "<p><strong>Bebendo da Água Fresca (Atthasālinī):</strong> Se o arrebatamento é avistar a água, sukha é bebê-la até saciar-se, descansando sob a sombra frondosa em alívio total.</p>"
+                }
+          },
+          {
+                "step": 7,
+                "pali": "Cittasaṅkhārapaṭisaṁvedī assasissāmīti sikkhati",
+                "title": {
+                      "en": "7. Experiencing Mental Formations (Perception & Feeling)",
+                      "pt": "7. Vivenciando as Formações Mentais (Percepção & Sensação)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in sensitive to mental formations'; 'I will breathe out sensitive to mental formations'. Discerning how perceptions (saññā) and feelings (vedanā) shape and color the flow of thoughts.",
+                      "pt": "Treina-se: 'Inspirarei sensível às formações mentais'; 'Expirarei sensível às formações mentais'. Discernindo como as percepções (saññā) e sensações (vedanā) colorem e acionam o diálogo interior."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Witnessing the Mind's Modulators:</strong> Observe how a subtle feeling of pleasure or displeasure instantly triggers reactive labels or mental stories. Notice that perception and feeling are the architects of mental moods.</p>",
+                      "pt": "<p><strong>Testemunhando os Moduladores da Mente:</strong> Observe como uma sutil sensação de agrado ou desagrado gera instantaneamente um rótulo ou história mental. Perceba que sensação e percepção são os motores do humor interior.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §23</strong> and <strong>MN 44</strong>: The Buddha defines perception and feeling explicitly as the 'mental formation' (<em>cittasaṅkhāra</em>).</p>",
+                      "pt": "<p><strong>MN 118 §23</strong> e <strong>MN 44</strong>: O Buda define explicitamente percepção e sensação como as 'formações mentais' (<em>cittasaṅkhāra</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Dye in the Clear Water (Papañcasūdanī):</strong> Just as colored dye tinting clear water changes its appearance, perceptions tint the pristine awareness of consciousness.</p>",
+                      "pt": "<p><strong>O Pigmento na Água Pura (Papañcasūdanī):</strong> Tal como uma gota de tinta colorida tinge a água pura alterando sua aparência, percepções mentais colorem a clareza da consciência.</p>"
+                }
+          },
+          {
+                "step": 8,
+                "pali": "Passambhayaṁ cittasaṅkhāraṁ assasissāmīti sikkhati",
+                "title": {
+                      "en": "8. Calming Mental Formations into Equanimity",
+                      "pt": "8. Pacificando as Formações Mentais em Serenidade"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in calming mental formations'; 'I will breathe out calming mental formations'. Quelling agitated perceptions and feelings, bringing the mind into profound, unshakable emotional balance.",
+                      "pt": "Treina-se: 'Inspirarei pacificando as formações mentais'; 'Expirarei pacificando as formações mentais'. Acalmando percepções reativas e sensações turbulentas, estabelecendo equanimidade imperturbável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Softening Internal Reaction:</strong> When feelings arise, do not grasp or push them away. Breathe through them with equanimous detachment until mental waves flatten into glass-like stillness.</p>",
+                      "pt": "<p><strong>Desarmando a Reação Interna:</strong> Ao notar sensações brotando, não se agarre nem as repila. Respire com serenidade através delas até que a superfície mental se torne calma como um espelho d'água.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §24</strong>: Concludes the Second Tetrad (<em>vedanānupassanā</em>), paving the way for direct observation of consciousness itself.</p>",
+                      "pt": "<p><strong>MN 118 §24</strong>: Conclui a Segunda Tétrade (<em>vedanānupassanā</em>), abrindo caminho para o escrutínio lúcido da própria consciência.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Wind Dying Down on a Lake:</strong> As the gusting wind ceases, waves on the lake subside into glassy mirror-like calm reflecting the open sky.</p>",
+                      "pt": "<p><strong>O Vento que Cessa sobre o Lago:</strong> Quando o vento tempestuoso cessa, as ondas do lago se aquietam até formarem um espelho d'água cristalino refletindo o firmamento.</p>"
+                }
+          },
+          {
+                "step": 9,
+                "pali": "Cittapaṭisaṁvedī assasissāmīti sikkhati",
+                "title": {
+                      "en": "9. Experiencing the State of the Mind (Citta)",
+                      "pt": "9. Vivenciando o Estado da Mente (Citta)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in sensitive to the mind'; 'I will breathe out sensitive to the mind'. Entering the Third Tetrad (cittānupassanā): directly observing the overall quality and tone of consciousness.",
+                      "pt": "Treina-se: 'Inspirarei sensível à mente'; 'Expirarei sensível à mente'. Abrindo a Terceira Tétrade (cittānupassanā): contemplando a qualidade geral e a atmosfera da consciência no momento."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Mirror-like Introspection:</strong> Discerning without judging whether the mind is contracted, expanded, distracted, unified, sleepy, or lucid. Knowing the mind as it truly is.</p>",
+                      "pt": "<p><strong>Introspecção Espelhada:</strong> Reconhecer sem autocrítica se a mente está contraída, ampla, dispersa, focada, sonolenta ou desperta. Conhecer a mente como ela realmente se encontra.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §25</strong>, parallel to the mental diagnostic section of <strong>MN 10 §27</strong>.</p>",
+                      "pt": "<p><strong>MN 118 §25</strong>, paralelo ao diagnóstico dos estados da mente em <strong>MN 10 §27</strong>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Looking in a Polished Mirror (DN 2):</strong> A person looking at their own face in a spotless mirror knows instantly if there is a mark or blemish on the forehead.</p>",
+                      "pt": "<p><strong>O Rosto Diante do Espelho Polido (DN 2):</strong> Uma pessoa olhando seu próprio reflexo num espelho límpido reconhece imediatamente qualquer mancha ou marca na testa.</p>"
+                }
+          },
+          {
+                "step": 10,
+                "pali": "Abhippamodayaṁ cittaṁ assasissāmīti sikkhati",
+                "title": {
+                      "en": "10. Gladdening & Brightening the Mind",
+                      "pt": "10. Iluminando & Alegrando a Mente"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in gladdening the mind'; 'I will breathe out gladdening the mind'. Uplifting consciousness with spiritual joy when sluggishness or dry boredom threatens concentration.",
+                      "pt": "Treina-se: 'Inspirarei alegrando a mente'; 'Expirarei alegrando a mente'. Elevando a consciência com júbilo espiritual quando o tédio, a sonolência ou a aridez ameaçarem o retiro interior."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Uplifting Remedies:</strong> If the mind becomes sluggish, bring to mind the virtues of the Buddha, Dhamma, or past acts of generosity (<em>cāgānussati</em>). Rekindle inspiring clarity with the breath.</p>",
+                      "pt": "<p><strong>Antídotos Inspiradores:</strong> Se a mente esmorecer, rememore as qualidades sublimes do Buda, do Dhamma ou a própria generosidade passada (<em>cāgānussati</em>). Reacenda a chama lúcida na respiração.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §26</strong> and <strong>AN 11.12</strong> on recollecting wholesome qualities to ignite joy.</p>",
+                      "pt": "<p><strong>MN 118 §26</strong> e <strong>AN 11.12</strong> sobre cultivar memórias salutares para inflamar o entusiasmo meditativo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Kindling Fire with Dry Wood (SN 46.53):</strong> When fire burns low, a person adds dry grass and sticks to fan the flames into brilliant light.</p>",
+                      "pt": "<p><strong>Alimentando a Fogueira com Madeira Seca (SN 46.53):</strong> Quando a chama enfraquece, adiciona-se folhas e galhos secos para fazê-la reluzir com vigor.</p>"
+                }
+          },
+          {
+                "step": 11,
+                "pali": "Samādahaṁ cittaṁ assasissāmīti sikkhati",
+                "title": {
+                      "en": "11. Concentrating & Unifying the Mind",
+                      "pt": "11. Concentrando & Unificando a Mente"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in steadying the mind'; 'I will breathe out steadying the mind'. Anchoring consciousness in one-pointed, undisturbed absorption (samādhi).",
+                      "pt": "Treina-se: 'Inspirarei unificando a mente'; 'Expirarei unificando a mente'. Ancorando a consciência em foco unificado e absorção inabalável (samādhi)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Deepening Unification:</strong> Seamlessly merge attention and breath into a single, cohesive field of stillness. The mind rests effortless and still on the meditation object.</p>",
+                      "pt": "<p><strong>Aprofundando a Unificação:</strong> Funda a atenção e o fôlego num único campo coeso de quietude. A mente descansa estável e sem esforço no objeto meditativo.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §27</strong>: Relates directly to achieving absorption states (<em>jhānas</em>) through stable breath mindfulness.</p>",
+                      "pt": "<p><strong>MN 118 §27</strong>: Relaciona-se diretamente à estabilização nos estados de absorção meditativa (<em>jhānas</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Steady Candle Flame in a Windless Room (Visuddhimagga):</strong> The flame burns upright, bright, and utterly motionless when sheltered from air drafts.</p>",
+                      "pt": "<p><strong>A Chama da Vela em Sala Sem Vento (Visuddhimagga):</strong> A chama queima ereta, brilhante e totalmente imóvel quando protegida de qualquer rajada de ar.</p>"
+                }
+          },
+          {
+                "step": 12,
+                "pali": "Vimocayaṁ cittaṁ assasissāmīti sikkhati",
+                "title": {
+                      "en": "12. Releasing the Mind from Subtle Clinging",
+                      "pt": "12. Libertando a Mente de Apegos Sutis"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in freeing the mind'; 'I will breathe out freeing the mind'. Releasing consciousness from subtle hindrances, identification with meditative states, and mental tension.",
+                      "pt": "Treina-se: 'Inspirarei libertando a mente'; 'Expirarei libertando a mente'. Soltando a consciência de obstáculos sutis, desidentificando-se dos próprios estados de absorção e nós mentais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Letting Go of the Grip:</strong> Observe if the mind is grasping onto concentration or bliss. Gently release the grip, opening into spacious, unconfined awareness.</p>",
+                      "pt": "<p><strong>Soltando o Controle:</strong> Observe se há apego sutil à própria concentração ou êxtase. Solte o aperto, abrindo a mente para um espaço ilimitado e desobstruído.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §28</strong>: Concludes the Third Tetrad, transitioning into profound insight (*vipassanā*).</p>",
+                      "pt": "<p><strong>MN 118 §28</strong>: Conclui a Terceira Tétrade, preparando o salto para a sabedoria penetrante (*vipassanā*).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bird Released from the Cage:</strong> The door of the wicker cage opens, and the bird soars freely into the wide open sky without tether.</p>",
+                      "pt": "<p><strong>O Pássaro Liberto da Gaiola:</strong> Abre-se a portinhola da gaiola e o pássaro alça voo no céu aberto e límpido, livre de amarras.</p>"
+                }
+          },
+          {
+                "step": 13,
+                "pali": "Aniccānupassī assasissāmīti sikkhati",
+                "title": {
+                      "en": "13. Contemplating Impermanence (Anicca)",
+                      "pt": "13. Contemplando a Impermanência (Anicca)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in contemplating impermanence'; 'I will breathe out contemplating impermanence'. Entering the Fourth Tetrad (dhammānupassanā): witnessing the ceaseless arising and vanishing of breath, body, and consciousness.",
+                      "pt": "Treina-se: 'Inspirarei contemplando a impermanência'; 'Expirarei contemplando a impermanência'. Abrindo a Quarta Tétrade (dhammānupassanā): testemunhando o incessante surgir e perecer da respiração, do corpo e da consciência."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Microscopic Impermanence:</strong> Watch the breath at the cellular level: every millimeter of inhalation is born, alters, and dissolves instantly. Nothing remains static for a microsecond.</p>",
+                      "pt": "<p><strong>Impermanência Microscópica:</strong> Examine a respiração em detalhe: cada milímetro do ar inalado nasce, muda e falece instantaneamente. Nada permanece estático por um microssegundo.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §29</strong>: The primary gateway to liberation across the entire Nikāya corpus.</p>",
+                      "pt": "<p><strong>MN 118 §29</strong>: O portal supremo para a libertação ao longo de todos os discursos antigos.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Water Bubbles Bursting in Heavy Rain (SN 22.95):</strong> Just as bubbles form on the surface of water during heavy downpours and burst the instant they appear, so do all mental and physical phenomena.</p>",
+                      "pt": "<p><strong>Bolhas de Chuva no Chão Molhado (SN 22.95):</strong> Tal como bolhas de água brotam na poça sob chuva forte e estouram no mesmíssimo instante, assim fenecem todos os fenômenos da mente e do corpo.</p>"
+                }
+          },
+          {
+                "step": 14,
+                "pali": "Virāgānupassī assasissāmīti sikkhati",
+                "title": {
+                      "en": "14. Contemplating the Fading of Passion & Disenchantment",
+                      "pt": "14. Contemplando o Desvanecer da Cobiça & Desapego"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in contemplating dispassion/fading'; 'I will breathe out contemplating dispassion'. As impermanence is deeply seen, desire for conditioned phenomena loses its seductive hold.",
+                      "pt": "Treina-se: 'Inspirarei contemplando o desvanecer'; 'Expirarei contemplando o desvanecer'. Vendo a fugacidade de tudo, o apego pelos fenômenos condicionados perde seu poder de sedução."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Experiencing the Cooling of Grasping:</strong> Witness craving lose its momentum. Notice how the compulsion to chase sensations subsides into cool, sober freedom.</p>",
+                      "pt": "<p><strong>Vivenciando o Resfriamento do Desejo:</strong> Testemunhe a cessação do impulso de agarrar. Perceba como a compulsão de perseguir sensações desvanece em sobriedade libertadora.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §30</strong>: <em>Virāga</em> literally means 'de-coloring' or fading of passion.</p>",
+                      "pt": "<p><strong>MN 118 §30</strong>: <em>Virāga</em> significa literalmente a perda da cor, o desbotar das paixões e desilusão salutar.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Smeared Cloth Cleaned in Pure Water:</strong> Just as dirt washed out of cloth leaves it bright and unblemished, dispassion washes away compulsive grasping.</p>",
+                      "pt": "<p><strong>O Tecido Manchado Lavado em Água Pura:</strong> Tal como a poeira e fuligem lavadas de um manto o deixam imaculado, o desapego limpa as impurezas da cobiça.</p>"
+                }
+          },
+          {
+                "step": 15,
+                "pali": "Nirodhānupassī assasissāmīti sikkhati",
+                "title": {
+                      "en": "15. Contemplating Cessation (Nirodha)",
+                      "pt": "15. Contemplando a Cessação (Nirodha)"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in contemplating cessation'; 'I will breathe out contemplating cessation'. Focusing not on the arising of phenomena, but on their vanishing, pointing towards the peace of Nibbāna.",
+                      "pt": "Treina-se: 'Inspirarei contemplando a cessação'; 'Expirarei contemplando a cessação'. Fixando a atenção não no nascimento dos fenômenos, mas em seu desaparecimento total, inclinando a mente para o Nibbāna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Attending to the Gap of Non-Becoming:</strong> Notice the vanishing edge of each exhalation before the new inhalation begins. Turn the mind towards that sublime stillness of non-arising.</p>",
+                      "pt": "<p><strong>Atentando para a Ausência do Devir:</strong> Observe o ponto final de dissolução de cada expiração antes do novo fôlego brotar. Incline o coração para a paz incondicionada da cessação.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §31</strong>: Contemplating the ending of suffering, dukkha-nirodha.</p>",
+                      "pt": "<p><strong>MN 118 §31</strong>: Contemplação da extinção do sofrimento (dukkha-nirodha).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Extinguished Oil Lamp (MN 140):</strong> When oil and wick run out, the flame goes out and cannot be said to have gone east, west, north, or south. It simply ceases.</p>",
+                      "pt": "<p><strong>A Lâmpada de Óleo que se Extingue (MN 140):</strong> Esgotados o azeite e o pavio, a chama apaga-se e não se pode dizer que foi para o leste, oeste, norte ou sul. Apenas cessou.</p>"
+                }
+          },
+          {
+                "step": 16,
+                "pali": "Paṭinissaggānupassī assasissāmīti sikkhati",
+                "title": {
+                      "en": "16. Contemplating Relinquishment & Total Letting Go",
+                      "pt": "16. Contemplando a Renúncia & Desapego Total"
+                },
+                "desc": {
+                      "en": "One trains: 'I will breathe in contemplating relinquishment'; 'I will breathe out contemplating relinquishment'. Complete surrender of all claims of 'me' and 'mine', casting off all fetters into full liberation.",
+                      "pt": "Treina-se: 'Inspirarei contemplando a renúncia total'; 'Expirarei contemplando a renúncia total'. Entrega irrestrita de todas as noções de 'eu' e 'meu', soltando todas as amarras no despertar pleno."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Absolute Relinquishment (Vossagga):</strong> Give the breath, the body, and consciousness back to nature. Abandon even the identity of 'being a meditator'. Rest in unconditioned freedom.</p>",
+                      "pt": "<p><strong>Renúncia Incondicional (Vossagga):</strong> Entregue a respiração, o corpo e a consciência de volta à natureza. Abandone até a identidade de 'ser um meditador'. Repouse na liberdade incondicionada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 118 §32</strong>: Fulfills the 7 Factors of Awakening leading to true knowledge and final deliverance.</p>",
+                      "pt": "<p><strong>MN 118 §32</strong>: Coroa os Sete Fatores do Despertar culminando no conhecimento supremo e libertação definitiva.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Dropping a Heavy Burden at the Journey's End (SN 22.22):</strong> A traveler carrying a massive rock over steep mountain passes finally arrives and casts it down forever, weeping with relief.</p>",
+                      "pt": "<p><strong>Depondo o Fardo Pesado no Fim da Jornada (SN 22.22):</strong> Um viajante que carregou um rochedo esmagador por desfiladeiros chega finalmente ao destino e o larga no chão para sempre, aliviado e livre.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Establish a 25-minute morning anchor sit. Use steps 1-4 to reset the nervous system before work meetings or stressful parenting demands. Throughout the day, remember the 4th step: consciously calming physical tension during transitions (traffic lights, waiting in lines, between emails).",
@@ -377,54 +569,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Satipaṭṭhāna é a matriz prática fundamental do Buda. Longe de ser filosofia abstrata, é uma metodologia exaustiva para ancorar a atenção contínua em quatro domínios biológicos e mentais: 1. Corpo (kāyānupassanā), 2. Sensações (vedanānupassanā), 3. Estados Mentais (cittānupassanā) e 4. Fenômenos Doutrinários (dhammānupassanā). Em cada domínio, permanece-se ardente, claramente lúcido e consciente, superando a cobiça e o pesar pelo mundo."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Kāyānupassanā",
-        "title": {
-          "en": "1. Contemplation of the Body",
-          "pt": "1. Contemplação do Corpo"
-        },
-        "desc": {
-          "en": "Investigating the breath, the 4 postures (walking, standing, sitting, lying down), clear comprehension in all actions, the 31 anatomical parts, the 4 primary elements (earth, water, fire, wind), and charnel ground impermanence.",
-          "pt": "Investigação da respiração, das 4 posturas, clara lucidez em todas as ações diárias, 31 partes anatômicas, 4 elementos primários (terra, água, fogo, ar) e impermanência orgânica."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Vedanānupassanā",
-        "title": {
-          "en": "2. Contemplation of Feeling",
-          "pt": "2. Contemplação das Sensações"
-        },
-        "desc": {
-          "en": "Discerning feelings as pleasant (sukha), painful (dukkha), or neutral (adukkham-asukha). Distinguishing between worldly (sāmisa) and spiritual/unworldly (nirāmisa) feelings.",
-          "pt": "Discernimento do tom afetivo: agradável, desagradável ou neutro. Distinção crucial entre sensações mundanas e sensações espirituais (decorrentes da renúncia e calma)."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Cittānupassanā",
-        "title": {
-          "en": "3. Contemplation of the Mind",
-          "pt": "3. Contemplação da Mente"
-        },
-        "desc": {
-          "en": "Knowing the mind as with lust or without lust; with aversion or without aversion; with delusion or without delusion; constricted, distracted, enlarged, surpassed, or concentrated.",
-          "pt": "Reconhecimento lúcido da mente com cobiça ou livre dela; com aversão ou livre dela; com ilusão ou lúcida; contraída, dispersa, ampla ou concentrada."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Dhammānupassanā",
-        "title": {
-          "en": "4. Contemplation of Phenomena",
-          "pt": "4. Contemplação dos Fenômenos"
-        },
-        "desc": {
-          "en": "Investigating experience through canonical diagnostic lenses: The Five Hindrances, The Five Clinging-Aggregates, The Six Sense Bases, The Seven Factors of Awakening, and The Four Noble Truths.",
-          "pt": "Investigação pelas lentes canônicas: Os Cinco Obstáculos, Os Cinco Agregados do Apego, As Seis Bases dos Sentidos, Os Sete Fatores do Despertar e As Quatro Nobres Verdades."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Kāyānupassanā",
+                "title": {
+                      "en": "1. Contemplation of the Body in the Body",
+                      "pt": "1. Contemplação do Corpo no Corpo"
+                },
+                "desc": {
+                      "en": "One abides contemplating the body as a body—ardent, clearly comprehending, mindful, putting away greed and distress regarding the world. Observing physical phenomena from within without conceptualizing.",
+                      "pt": "Permanece-se contemplando o corpo no corpo—ardente, com clara compreensão, atento, afastando a cobiça e o desprazer em relação ao mundo. Observando os fenômenos físicos por dentro sem conceitualização."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Physical Grounding Method:</strong> Scan systematically through the six anatomical and postural domains: respiration, the 4 postures (walking, standing, sitting, lying down), clear comprehension in daily motor actions, the 32 biological parts, the 4 material elements (solidity, cohesion, heat, motion), and the cemetery reflections on mortality.</p><p><strong>Internal Non-Identification:</strong> Observe sensations purely as raw tactile data. Do not think 'my arm hurts', but note 'throbbing, heat, pressure'.</p>",
+                      "pt": "<p><strong>Método de Enraizamento Físico:</strong> Percorra sistematicamente os seis domínios corpóreos: respiração, as 4 posturas, clara compreensão nas ações motoras, as 32 partes biológicas, os 4 elementos da matéria e as reflexões da decomposição. Observe sensações puramente como dados táteis neutros.</p><p><strong>Desidentificação Interna:</strong> Não pense 'meu braço dói', mas registre 'pulsação, calor, pressão'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 10 §4–10</strong> and <strong>DN 22</strong>. The <em>Papañcasūdanī</em> stresses the repetitive phrasing 'kāye kāyānupassī' (the body in the body) to prevent taking the body as a soul, woman, man, or permanent self.</p>",
+                      "pt": "<p><strong>MN 10 §4–10</strong> e <strong>DN 22</strong>. A <em>Papañcasūdanī</em> frisa que a repetição enfática 'no corpo, o corpo' visa impedir a ilusão de ver ali uma alma, homem, mulher ou eu imutável.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Sieve-Bag of Grains (MN 10):</strong> A person with sharp eyes examines a sack of mixed grains: 'This is rice, this is barley, these are beans'; so one examines the components of the body.</p>",
+                      "pt": "<p><strong>O Saco de Grãos (MN 10):</strong> Um homem de boa visão inspeciona um saco aberto com grãos sortidos: 'Isto é arroz, isto é cevada, isto são favas'; assim discerne-se as partes do corpo.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Vedanānupassanā",
+                "title": {
+                      "en": "2. Contemplation of Feelings in Feelings",
+                      "pt": "2. Contemplação das Sensações nas Sensações"
+                },
+                "desc": {
+                      "en": "Feeling a pleasant, painful, or neutral feeling, one discerns it immediately. Distinguishing worldly sensations tied to sensual desire from unworldly sensations born of spiritual seclusion.",
+                      "pt": "Ao vivenciar uma sensação agradável, dolorosa ou neutra, discerne-se de imediato. Diferenciando sensações mundanas ligadas ao desejo sensorial de sensações sublimes nascidas do recolhimento espiritual."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Catching the Hedonic Tone (Vedanā):</strong> Notice the split-second tonal valence at the moment of sensory contact (<em>phassa</em>). Before desire or aversion ignites, catch the raw feeling tone: agreeable (+), disagreeable (-), or neutral (0). Watch how craving is conditioned by feeling.</p>",
+                      "pt": "<p><strong>Flagrando o Tom Hedônico:</strong> Perceba a tonalidade de valência no milissegundo do contato sensorial (<em>phassa</em>). Antes que o desejo ou a aversão inflamem, reconheça o tom cru: agradável (+), doloroso (-) ou neutro (0). Veja como o apego brota da sensação.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 10 §11–12</strong> and <strong>SN 36.6 (Salla Sutta)</strong>: The uninstructed worldling struck by pain feels two darts (physical and mental). The mindful practitioner feels only the first dart (bare physical sensation).</p>",
+                      "pt": "<p><strong>MN 10 §11–12</strong> e <strong>SN 36.6 (Salla Sutta)</strong>: A pessoa comum ao sentir dor é atingida por duas flechas (a física e a mental). O praticante desperto sente apenas a primeira flecha (o dado físico bruto).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Traveler's Guest House (SN 36.14):</strong> Sensations of various kinds arrive in the body like guests from the east, west, north, and south entering a bustling resthouse; they stay briefly and depart.</p>",
+                      "pt": "<p><strong>A Hospedaria dos Viajantes (SN 36.14):</strong> Sensações diversas chegam ao corpo como viajantes vindos do leste, oeste, norte e sul que entram numa estalagem; hospedam-se brevemente e partem.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Cittānupassanā",
+                "title": {
+                      "en": "3. Contemplation of Mind in the Mind",
+                      "pt": "3. Contemplação da Mente na Mente"
+                },
+                "desc": {
+                      "en": "One knows a mind with passion as with passion; mind without passion as without passion; with aversion, without aversion; contracted, distracted, exalted, or unexcelled. Observing mental states without guilt or pride.",
+                      "pt": "Conhece-se a mente com cobiça como com cobiça; sem cobiça como sem cobiça; com aversão, sem aversão; contraída, dispersa, elevada ou sem igual. Observando o estado mental sem culpa nem soberba."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Non-Reactive Mental Inventory:</strong> Step back and observe the psychological climate like a neutral meteorologist. Do not try to forcefully suppress negative states; the act of clear, non-identified seeing dissolves their power.</p>",
+                      "pt": "<p><strong>Inventário Mental Neutro:</strong> Dê um passo atrás e observe o clima psicológico como um meteorologista neutro. Não tente suprimir à força os estados negativos; o mero ato de ver com clareza desfaz a energia deles.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 10 §27–28</strong>: Sixteen diagnostic dyads and triads analyzing the operational condition of consciousness.</p>",
+                      "pt": "<p><strong>MN 10 §27–28</strong>: Dezesseis díades e tríades diagnósticas examinando as condições operacionais da consciência.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Pure Water Vessel Reflecting the Sky:</strong> When the water is not stirred by mud or dyed with colors, the face of the sky is seen with utter fidelity.</p>",
+                      "pt": "<p><strong>A Bacia de Água Pura Refletindo o Céu:</strong> Quando a água não está agitada pela lama nem tingida por corantes, a face do firmamento é refletida com nitidez absoluta.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Dhammānupassanā",
+                "title": {
+                      "en": "4. Contemplation of Dhammas in Dhammas",
+                      "pt": "4. Contemplação dos Fenômenos nos Fenômenos"
+                },
+                "desc": {
+                      "en": "Contemplating phenomena in terms of the Five Hindrances, Five Clinging Aggregates, Six Sense Bases, Seven Factors of Awakening, and the Four Noble Truths. Aligning internal reality with structural liberating wisdom.",
+                      "pt": "Contemplando os fenômenos através dos Cinco Obstáculos, Cinco Agregados, Seis Bases dos Sentidos, Sete Fatores do Despertar e Quatro Nobres Verdades. Alinhando a realidade com a sabedoria libertadora."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Structural Insight Investigation:</strong> When a hindrance arises, discern: 'Sensual desire is present within me; its cause is attending to attractive features; its abandoning is observing impermanence.' When an awakening factor arises, nourish its growth until liberation ripens.</p>",
+                      "pt": "<p><strong>Investigação Estrutural de Insight:</strong> Quando surgir um obstáculo, discerne-se: 'O desejo sensual está presente em mim; sua causa é a atenção à beleza aparente; seu abandono é contemplar a impermanência'. Quando brotar um fator do despertar, nutra seu amadurecimento.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 10 §36–46</strong>: The pinnacle of the Satipaṭṭhāna Sutta, where contemplation matures directly into Awakening.</p>",
+                      "pt": "<p><strong>MN 10 §36–46</strong>: O ápice do Satipaṭṭhāna Sutta, onde a contemplação amadurece diretamente nos frutos da Iluminação.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Fortress Commander at the Frontier (SN 35.204):</strong> The mindful sentry guards the gateway, receiving swift messengers (calm and insight) who deliver the message of reality to the city lord.</p>",
+                      "pt": "<p><strong>O Comandante da Fortaleza na Fronteira (SN 35.204):</strong> A sentinela atenta guarda o portão e recebe mensageiros velozes (a calma e o insight) que entregam a mensagem da verdade ao senhor da cidade.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Practice clear comprehension (sampajañña) during manual chores: washing dishes, driving, typing. When physical pain arises from desk sitting, apply Vedanānupassanā: observe the pure physical sensation without constructing an emotional drama around it.",
@@ -503,78 +743,150 @@ const MEDITATION_LINEAGES = [
       "pt": "O Sāmaññaphala Sutta (DN 2) apresenta o mais completo e magnífico mapa arquitetônico do desenvolvimento contemplativo em todo o cânone inicial. Dirigido ao Rei Ajātasattu, o Buda delineia o Treinamento Gradual (anupubbikathā): o estabelecimento da pureza ética, a guarda atenta das portas sensoriais para que impressões visuais ou sonoras não alimentem a cobiça ou a aversão, o florescimento da plena consciência em cada gesto, e o contentamento alegre com o essencial. Ao assentar-se em recolhimento, o praticante identifica e abandona os Cinco Obstáculos — vivenciando o alívio radiante de quem quita uma dívida esmagadora, cura-se de uma doença grave, sai dos grilhões de uma prisão, alcança a liberdade da escravidão ou atravessa com segurança um deserto perigoso. Desse alívio inefável nascem o arrebatamento espiritual (pīti) e a tranquilidade física (passaddhi), conduzindo naturalmente aos quatro Jhānas, que banham cada poro do corpo antes de serem direcionados à visão intuitiva libertadora."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Indriyasaṁvara",
-        "title": {
-          "en": "1. Guarding the Sense Doors",
-          "pt": "1. A Guarda das Portas dos Sentidos"
-        },
-        "desc": {
-          "en": "On seeing a form, hearing a sound, smelling, tasting, touching, or cognizing a thought, do not grasp at general signs or secondary details that evoke greed or dejection. Guard the mind at the threshold of contact.",
-          "pt": "Ao ver uma forma, ouvir um som, cheirar, saborear, tocar ou pensar, não se apegue aos traços gerais nem aos detalhes secundários que provoquem cobiça ou irritação. Vigie a mente no portal do contato."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Nīvaraṇappahāna",
-        "title": {
-          "en": "2. Abandoning the 5 Hindrances (The 5 Similes of Freedom)",
-          "pt": "2. O Abandono dos 5 Obstáculos (Os 5 Símiles da Liberdade)"
-        },
-        "desc": {
-          "en": "Recognize sensual desire as debt, ill-will as disease, dullness/sloth as prison, restlessness as slavery, and doubt as a dark desert. Discarding them, delight and relief arise in the heart.",
-          "pt": "Reconheça o desejo sensual como dívida, a má-vontade como doença, o torpor como masmorra, a inquietação como escravidão e a dúvida como um deserto sombrio. Ao descartá-los, o coração é inundado de leveza."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Paṭhama Jhāna (Nhāpaka Simile)",
-        "title": {
-          "en": "3. First Jhāna: The Bathman's Moisture Kneading",
-          "pt": "3. Primeiro Jhāna: O Amassar do Sabão de Banho"
-        },
-        "desc": {
-          "en": "Secluded from sensual desires and unwholesome states, one enters the first jhāna with directed thought (vitakka), evaluation (vicāra), rapture (pīti), and pleasure (sukha). Like a bathman kneading water into soap-powder until every granule is soaked, rapture permeates the entire body.",
-          "pt": "Afaste-se dos desejos dos sentidos e entre no primeiro jhāna, acompanhado de pensamento aplicado (vitakka), sustentado (vicāra), êxtase (pīti) e felicidade (sukha). Como um banhista que amassa sabão em pó com água até saturar cada partícula, o êxtase permeia todo o corpo."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Dutiya Jhāna (Ubbhidodaka Simile)",
-        "title": {
-          "en": "4. Second Jhāna: The Deep Spring-Fed Mountain Lake",
-          "pt": "4. Segundo Jhāna: O Lago da Nascente Subterrânea"
-        },
-        "desc": {
-          "en": "With the stilling of directed and evaluated thought, one attains internal confidence and mental singleness, entering the second jhāna. Like a lake fed by an internal cool spring without rain or streams, internal joy wells up and floods the organism.",
-          "pt": "Com a cessação do pensamento aplicado e da sustentação, atinge-se a confiança interior e a unificação mental. Como um lago alimentado por uma nascente límpida e profunda, sem rios externos, a paz interna brota e transborda."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Tatiya & Catuttha Jhāna (Uppala & Odāta Similes)",
-        "title": {
-          "en": "5. Third & Fourth Jhānas: Submerged Lotuses & The White Cloth",
-          "pt": "5. Terceiro e Quarto Jhānas: Os Lótus Submersos e o Manto Branco"
-        },
-        "desc": {
-          "en": "With fading of rapture, one dwells in equanimous bliss (3rd Jhāna, like white lotuses submerged in cool water). Then, abandoning pleasure and pain, one enters the 4th Jhāna: pure equanimity and mindfulness, sitting enveloped in a brilliant white radiant cloth.",
-          "pt": "Com o desvanecer do êxtase, repousa-se no contentamento equânime (3º Jhāna, como flores de lótus banhadas sob a água fria). Abandonando prazer e dor, atinge-se o 4º Jhāna: pura equanimidade e presença luminosa, como quem se senta envolvido por um manto alvo e imaculado."
-        }
-      },
-      {
-        "step": 6,
-        "pali": "Ñāṇadassana",
-        "title": {
-          "en": "6. Knowledge & Vision of the Aggregates",
-          "pt": "6. Conhecimento e Visão dos Agregados"
-        },
-        "desc": {
-          "en": "With mind concentrated, purified, and unblemished, one directs it to insight: 'This body of mine is material, made of the 4 elements, subject to breakup; and this consciousness of mine is bound to it, supported by it.' Direct realization of non-clinging.",
-          "pt": "Com a mente unificada, límpida e maleável, direciona-se a atenção ao discernimento: 'Este meu corpo é composto dos 4 elementos, perecível; e esta minha consciência está vinculada a ele.' Compreensão direta do desapego."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Sīlasampannatā & Santuṭṭhi",
+                "title": {
+                      "en": "1. Ethical Purity & Radiant Contentment",
+                      "pt": "1. Pureza Ética & Nobre Contentamento"
+                },
+                "desc": {
+                      "en": "Establishing unblemished virtue: harmlessness, truthfulness, integrity, and radical contentment with minimal requisites. Blamelessness creates the psychological foundation of fearlessness.",
+                      "pt": "Estabelecendo conduta ética imaculada: não-violência, integridade e contentamento radical com o necessário. A ausência de culpa cria o alicerce psicológico do destemor."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Cultivating Inward Blameless Ease (Anavajjasukha):</strong> Reflect on your ethical decisions throughout the day. Rejoice in harmlessness. Live simply, letting go of consumerist clutter.</p>",
+                      "pt": "<p><strong>Cultivando a Paz da Inocência (Anavajjasukha):</strong> Reflita sobre suas escolhas éticas cotidianas. Alegre-se na não-violência e viva com simplicidade, desapegando-se do excesso material.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 2 §43–63</strong>: Ethical restraint creates unblemished inward joy that makes meditation effortless.</p>",
+                      "pt": "<p><strong>DN 2 §43–63</strong>: A virtude ética gera um bem-estar interior imaculado que torna o recolhimento natural.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bird Flying with Only Its Wings (DN 2 §66):</strong> Content with basic requisites, wherever a bird flies, it goes bearing only its feathers and wings. So too the unburdened meditator.</p>",
+                      "pt": "<p><strong>O Pássaro que Voa Apenas com Suas Asas (DN 2 §66):</strong> Contente com o essencial, para onde quer que o pássaro voe, leva apenas a carga de suas asas e penas. Assim vive o meditador desimpedido.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Indriyasaṁvara",
+                "title": {
+                      "en": "2. Guarding the Sense Doors",
+                      "pt": "2. Guardando as Portas dos Sentidos"
+                },
+                "desc": {
+                      "en": "On seeing a form with the eye, hearing a sound with the ear, smelling an aroma, tasting, touching, or cognizing a thought: one does not grasp at signs or secondary features that fuel greed and distress.",
+                      "pt": "Ao ver uma forma com os olhos, ouvir um som, cheirar, degustar, tocar ou conceber um pensamento: não se agarra aos sinais aparentes ou detalhes secundários que alimentam a cobiça e o desprazer."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Restraint at the Sensory Threshold:</strong> Notice the initial visual sign (<em>nimitta</em>) before reactive evaluation (<em>anuvyañjana</em>) takes place. Keep the senses sheltered from emotional hijack.</p>",
+                      "pt": "<p><strong>Contenção no Limiar dos Sentidos:</strong> Perceba o sinal visual inicial (<em>nimitta</em>) antes que a avaliação reativa (<em>anuvyañjana</em>) tome posse. Mantenha os sentidos protegidos do contágio emocional.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 2 §64</strong>: If left unguarded, unwholesome states of covetousness and sorrow would flood consciousness.</p>",
+                      "pt": "<p><strong>DN 2 §64</strong>: Se deixadas desprotegidas, contaminações de cobiça e angústia invadem a consciência.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Guarded City on the Border (AN 7.63):</strong> A city with stout walls, deep moat, and vigilant gatekeeper turns away hostile invaders with ease.</p>",
+                      "pt": "<p><strong>A Fortaleza de Fronteira (AN 7.63):</strong> Uma cidade fortificada com muralhas sólidas, fosso fundo e sentinela vigilante rechaça os invasores sem dificuldade.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Nīvaraṇappahāna",
+                "title": {
+                      "en": "3. Abandoning the Five Hindrances",
+                      "pt": "3. Abandonando os Cinco Obstáculos"
+                },
+                "desc": {
+                      "en": "Sitting in seclusion, one cleanses the mind of sensual desire, ill will, sluggishness, restlessness/worry, and skeptical doubt. Seeing the hindrances as temporary defilements rather than permanent traits.",
+                      "pt": "Sentando-se em recolhimento, limpa-se a mente do desejo sensual, má vontade, preguiça, inquietação/remorso e dúvida cética. Enxergando os obstáculos como contaminações passageiras e não traços fixos."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Applying Specific Antidotes:</strong> Meet sensual desire with contemplation of impermanence; meet anger with loving-kindness (<em>mettā</em>); meet sluggishness with perception of light; meet restlessness with breath settling; meet doubt with Dhamma reflection.</p>",
+                      "pt": "<p><strong>Aplicando os Antídotos Específicos:</strong> Enfrente o apego com a impermanência; desarme a raiva com bondade amorosa (<em>mettā</em>); combata a sonolência com luminosidade; acalme a agitação na respiração; dissipe a dúvida no estudo do Dhamma.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 2 §68–74</strong>: The famous section containing the five dramatic parables of liberation from hindrances.</p>",
+                      "pt": "<p><strong>DN 2 §68–74</strong>: O célebre trecho que apresenta as cinco parábolas da libertação dos obstáculos mentais.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Five Great Parables of Relief (DN 2 §69–73):</strong> Overcoming the 5 hindrances is like paying off a crushing debt, recovering from severe illness, being freed from prison, released from slavery, and crossing a perilous wilderness into safety.</p>",
+                      "pt": "<p><strong>As Cinco Parábolas de Alívio (DN 2 §69–73):</strong> Superar os 5 obstáculos é como quitar uma dívida esmagadora, curar-se de doença grave, sair da prisão, ser liberto da escravidão e atravessar um deserto perigoso até a segurança.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Catu-Jhāna Samāpatti",
+                "title": {
+                      "en": "4. The Four Absorptions (Jhāna Suffusions)",
+                      "pt": "4. As Quatro Absorções (Saturações dos Jhānas)"
+                },
+                "desc": {
+                      "en": "Free of hindrances, one ascends through the 4 Jhānas: 1st with applied/sustained thought, rapture, and pleasure; 2nd with inner confidence and joyful unity; 3rd with equanimous ease; 4th with pure mindfulness beyond pleasure and pain.",
+                      "pt": "Livre dos obstáculos, o meditador ascende pelos 4 Jhānas: o 1º com pensamento aplicado e sustentado, êxtase e paz; o 2º com confiança e unificação serena; o 3º com bem-estar equânime; o 4º com pureza imaculada além de prazer e dor."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Step-by-Step Somatic Saturation:</strong> Allow rapture and bliss to permeate every cell of the physical body, maintaining unwavering attention without straining.</p>",
+                      "pt": "<p><strong>Saturação Somática Passo a Passo:</strong> Permita que o arrebatamento e o bem-estar permeiem cada fibra e célula viva do corpo, sustentando foco inabalável sem tensão mecânica.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 2 §75–84</strong>: The core canonical formulation of the Jhāna similes parallel to MN 119.</p>",
+                      "pt": "<p><strong>DN 2 §75–84</strong>: A formulação canônica central dos símiles dos Jhānas paralela ao MN 119.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bathman, Spring Lake, Lotus Flowers, and White Robe (DN 2):</strong> Moisture permeating bath powder, water bubbling in an alpine lake, lotuses steeped under water, and a person wrapped in a pristine white sheet.</p>",
+                      "pt": "<p><strong>O Banhista, o Lago Alpino, os Lótus e o Manto Branco (DN 2):</strong> O pó de banho sovado com água, a nascente pura no leito do lago, flores imersas na água fresca e o homem coberto por um linho branco imaculado.</p>"
+                }
+          },
+          {
+                "step": 5,
+                "pali": "Ñāṇadassana",
+                "title": {
+                      "en": "5. Direct Knowledge and Vision of Mind and Body",
+                      "pt": "5. Conhecimento Direto da Mente e do Corpo"
+                },
+                "desc": {
+                      "en": "With mind concentrated, purified, spotless, and unshakeable, one directs attention to knowledge and vision: 'This body of mine is material, composed of the four elements... and this consciousness of mine is tied to it.'",
+                      "pt": "Com a mente concentrada, purificada e inabalável, inclina-se para a visão direta: 'Este meu corpo é material, composto dos quatro elementos... e esta minha consciência está atada a ele'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Investigating the Relation of Matter and Mind:</strong> Emerging from Jhāna stillness, observe how consciousness is anchored in physical sensory bases, conditioned, and subject to breakup.</p>",
+                      "pt": "<p><strong>Investigando a Relação Mente-Matéria:</strong> Emergindo da calma do Jhāna, observe como a consciência está atada à base física sensorial, condicionada e sujeita ao perecimento.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 2 §85–86</strong>: The breakthrough from meditative tranquility into liberating Vipassanā.</p>",
+                      "pt": "<p><strong>DN 2 §85–86</strong>: O salto da tranquilidade meditativa para a sabedoria penetrante de Vipassanā.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lapis Lazuli Gem on a Colored String (DN 2 §86):</strong> A clear eight-faceted beryl or lapis lazuli gem strung with a red, blue, or yellow thread; a person inspecting it sees: 'Here is the gem, here is the thread running through it.'</p>",
+                      "pt": "<p><strong>A Gema de Berilo em Fio Colorido (DN 2 §86):</strong> Uma gema translúcida de oito facetas atravessada por um fio vermelho ou dourado; uma pessoa de olhos lúcidos vê: 'Aqui está a gema, aqui está o fio que a atravessa.'</p>"
+                }
+          },
+          {
+                "step": 6,
+                "pali": "Āsavakkhaya-ñāṇa",
+                "title": {
+                      "en": "6. Destruction of the Mental Taints (Full Liberation)",
+                      "pt": "6. Destruição das Contaminações (Libertação Plena)"
+                },
+                "desc": {
+                      "en": "Directing the purified mind to the destruction of the taints: one knows as it truly is: 'This is suffering; this is its origin; this is its cessation; this is the path.' Knowing: 'Birth is ended; the spiritual life lived; done is what had to be done.'",
+                      "pt": "Inclinando a mente purificada para a extinção das contaminações: conhece-se a verdade nua: 'Isto é sofrimento; esta é a sua origem; esta é a sua cessação; este é o nobre caminho'. Sabe-se: 'Extinto é o renascimento; vivida a vida santa; feito o que devia ser feito'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Uprooting the Three Deepest Drives:</strong> Directly discern the ending of the taint of sensuality (<em>kāmāsava</em>), taint of becoming (<em>bhavāsava</em>), and taint of ignorance (<em>avijjāsava</em>). Rest in unconditioned liberation.</p>",
+                      "pt": "<p><strong>Erradicando os Impulsos Subjacentes:</strong> Discernir diretamente a extinção da contaminação do apego sensual (<em>kāmāsava</em>), do devir (<em>bhavāsava</em>) e da ignorância (<em>avijjāsava</em>). Repousar na libertação incondicionada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 2 §97–98</strong>: The ultimate fruit (<em>sāmaññaphala</em>) of the contemplative journey.</p>",
+                      "pt": "<p><strong>DN 2 §97–98</strong>: O fruto supremo (<em>sāmaññaphala</em>) de toda a jornada contemplativa.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Crystal Pool in the Mountains (DN 2 §98):</strong> A pool of water on a mountain ridge, crystal clear, where a person standing on the bank sees shells, gravel, and shoals of fish swimming within it with total clarity.</p>",
+                      "pt": "<p><strong>O Lago Cristalino no Topo da Montanha (DN 2 §98):</strong> Um lago límpido no cume de uma montanha, tão translúcido que quem estiver na margem vê as conchas, o cascalho e os cardumes nadando no fundo com nitidez total.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Use sense restraint (Indriyasaṁvara) directly with smartphones, social media feeds, and visual advertising: pause before clicking and feel the initial tug of craving or aversion. Before every sit, deliberately review the 5 Hindrance Similes—especially the 'clearing of debt' and 'release from prison'—to bring joyful lightness to the meditation cushion rather than grim striving.",
@@ -875,66 +1187,126 @@ const MEDITATION_LINEAGES = [
       "pt": "No Vitakkasaṇṭhāna Sutta (MN 20), o Buda aborda o desafio universal de todo meditador: o que fazer quando pensamentos obsessivos de desejo, irritação ou ansiedade recusam-se a cessar. O Buda não recomenda resignação passiva. Em vez disso, estabelece um protocolo tático de intervenção em cinco etapas. Começa-se pela abordagem mais suave (substituir o pensamento nocivo pelo seu oposto benéfico, como um carpinteiro que expulsa um pino de madeira rústica com um pino fino). Se isso não bastar, avança-se para o segundo nível (contemplar o perigo e a degradação daquele pensamento, como carregar uma carcaça podre no pescoço). Se persistir, aplica-se o terceiro nível (desviar a atenção e ignorá-lo deliberadamente). Se continuar, o quarto passo desacelera o ímpeto cinético do pensamento (passar do correr ao andar, do andar ao sentar). Por fim, em última instância, utiliza-se a determinação firme com os dentes cerrados para subjugar a mente. Dominando essas cinco chaves, o praticante conquista a maestria mental: pensando o que deseja pensar e descartando o que não deseja."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Aññaṁ Nimittaṁ (The Fine Peg)",
-        "title": {
-          "en": "1. Wholesome Object Replacement",
-          "pt": "1. Substituição por um Tema Salutar"
-        },
-        "desc": {
-          "en": "When unwholesome thoughts connected with desire, aversion, or delusion arise, attend to an alternative wholesome theme. Replace lust with body contemplation; replace anger with loving-kindness (mettā); replace confusion with breath clarity.",
-          "pt": "Quando surgirem pensamentos de desejo, aversão ou confusão, direcione a mente para um tema oposto benéfico. Substitua a luxúria pela impermanência; a raiva pelo amor-bondade (mettā); a dispersão pela respiração."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Ādīnavānupassanā (The Carcass)",
-        "title": {
-          "en": "2. Scrutinizing the Danger & Toxicity",
-          "pt": "2. Examinar o Perigo e a Toxicidade"
-        },
-        "desc": {
-          "en": "If the thought lingers, examine its poisonous fruit: 'These thoughts are unwholesome, blameworthy, and lead directly to suffering.' Feel the visceral revulsion of a cultured person having a decomposing carcass hung around their neck.",
-          "pt": "Se o pensamento persistir, analise seu veneno: 'Esses pensamentos são destrutivos e geram sofrimento.' Sinta a repulsa visceral de quem carrega a carcaça de um animal morto pendurada no pescoço."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Asatī-Amanasikāra (Looking Away)",
-        "title": {
-          "en": "3. Non-Attention & Deliberate Neglect",
-          "pt": "3. Desatenção e Ignorar Deliberado"
-        },
-        "desc": {
-          "en": "If it still persists, resolve: 'I will not look at this.' Treat the thought as an irrelevant, uninvited guest. Look away, as someone closes their eyes or turns their head away from an unpleasant sight.",
-          "pt": "Se continuar, decida: 'Não darei atenção a isto.' Trate o pensamento como um ruído distante e desinteressante. Feche os olhos mentais ou desvie o olhar como quem recusa fitar algo desagradável."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Vitakkasaṅkhārasaṇṭhāna (Stepping Down Momentum)",
-        "title": {
-          "en": "4. De-escalating the Thought's Kinetic Energy",
-          "pt": "4. Desacelerar o Ímpeto do Pensamento"
-        },
-        "desc": {
-          "en": "Question the hurry: 'Why am I running so fast in thought? What if I walk? Why walk when I can stand? Why stand when I can sit? Why sit when I can lie down?' Consciously step down mental agitation into stillness.",
-          "pt": "Questione a pressa mental: 'Por que estou correndo tanto mentalmente? E se eu apenas caminhasse? Por que caminhar se posso parar de pé? Por que de pé se posso me sentar?' Reduza passo a passo a rotação mental."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Abhiniggaha (The Ultimate Resolve)",
-        "title": {
-          "en": "5. Forceful Mind-Subdual",
-          "pt": "5. Determinação Firme e Contenção"
-        },
-        "desc": {
-          "en": "If obsessive thoughts still overpower the mind, with teeth clenched and tongue pressed against the roof of the mouth, crush the unwholesome mental process by direct spiritual willpower, like a strong man pinning down a weaker foe.",
-          "pt": "Se pensamentos obsessivos ainda tentarem arrastar a mente, cerre os dentes, pressione a língua no palato e esmague a compulsão mental com firme vontade espiritual, como um guerreiro que domina um adversário."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Añña-nimitta-manasikāra",
+                "title": {
+                      "en": "1. Replacing with an Alternative Wholesome Theme",
+                      "pt": "1. Substituindo por um Tema Salutar Alternativo"
+                },
+                "desc": {
+                      "en": "When an unwholesome, harmful thought connected with desire, hatred, or delusion arises, replace it by focusing attention on a different wholesome theme.",
+                      "pt": "Quando surgir um pensamento prejudicial ligado ao desejo, aversão ou ilusão, substitua-o imediatamente focalizando a atenção num tema salutar construtivo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Cognitive Substitution Protocol:</strong> If lust arises, switch to anatomical parts or breath; if resentment arises, switch to loving-kindness (<em>mettā</em>); if anxious planning arises, drop into the feet touching the floor.</p>",
+                      "pt": "<p><strong>Protocolo de Substituição Cognitiva:</strong> Se surgir cobiça, volte-se para o esqueleto ou respiração; se surgir raiva, envie bondade amorosa (<em>mettā</em>); se surgir ansiedade, sinta os pés no chão.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 20 §3</strong>: The first line of defense in cognitive restructuring.</p>",
+                      "pt": "<p><strong>MN 20 §3</strong>: A primeira linha de defesa na reestruturação cognitiva budista.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Fine Wooden Peg (MN 20):</strong> Just as a carpenter knocks out an old, coarse wooden peg by tapping in a new, fine peg, wholesome thoughts drive out unwholesome thoughts.</p>",
+                      "pt": "<p><strong>O Pino de Madeira Fina (MN 20):</strong> Tal como um carpinteiro experiente expulsa um pino de madeira rústica e lascada martelando no lugar um pino novo e fino, pensamentos salutares expulsam os nocivos.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Ādīnavānupassanā",
+                "title": {
+                      "en": "2. Scrutinizing the Peril & Distress",
+                      "pt": "2. Examinando o Perigo & Desvantagem"
+                },
+                "desc": {
+                      "en": "If distracting thoughts persist, examine their danger and drawbacks: 'These thoughts are unwholesome, blameworthy, and result in mental suffering.'",
+                      "pt": "Se os pensamentos persistirem, examine sua nocividade e perigo: 'Estes pensamentos são destrutivos, geram sofrimento e sabotam a paz'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Visceral Reality Check:</strong> Ask yourself: 'Where does following this thought loop lead? Does it bring calm or exhaustion and regret?' Awaken healthy moral shame (<em>hiri</em>) and dread of harm (<em>ottappa</em>).</p>",
+                      "pt": "<p><strong>Confronto com a Realidade:</strong> Pergunte-se: 'Para onde este devaneio me leva? Gera tranquilidade ou exaustão e remorso?' Desperte o pudor saudável (<em>hiri</em>) e o receio do dano (<em>ottappa</em>).</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 20 §4</strong>: Penetrating the drawback (<em>ādīnava</em>) severs the compulsive attraction.</p>",
+                      "pt": "<p><strong>MN 20 §4</strong>: Ver a desvantagem (<em>ādīnava</em>) corta a atração obsessiva pela raiz.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Dead Animal Around the Neck (MN 20):</strong> A handsome youth fond of ornaments would be utterly horrified and disgusted if the carcass of a snake or dog were hung around his neck, shaking it off instantly.</p>",
+                      "pt": "<p><strong>A Carcaça no Pescoço (MN 20):</strong> Um jovem elegante apreciador de adornos ficaria horrorizado e tomado de repulsa se a carcaça de uma cobra ou cão morto fosse pendurada em seu pescoço, sacudindo-a fora num sobressalto.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Asati-amanasikāra",
+                "title": {
+                      "en": "3. Conscious Non-Attention & Ignoring",
+                      "pt": "3. Não-Atenção Consciente & Ignorar Deliberado"
+                },
+                "desc": {
+                      "en": "If the thoughts continue, cultivate non-attention and deliberate unmindfulness towards them. Refuse to engage, argue, or supply mental fuel to the narrative.",
+                      "pt": "Se os pensamentos ainda continuarem, cultive a não-atenção deliberada. Recuse-se a debater, dialogar ou fornecer combustível mental à narrativa."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Starving the Thought of Attention:</strong> Treat obsessive thoughts like background radio chatter. Do not fight them; simply redirect 100% of interest back to physical breath sensations.</p>",
+                      "pt": "<p><strong>Privando o Pensamento de Combustível:</strong> Encare o diálogo mental como um rádio chiando ao fundo. Não debata; redirecione 100% do interesse para a sensação física da respiração.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 20 §5</strong>: Depriving thoughts of attention starves their fueling condition (<em>āhāra</em>).</p>",
+                      "pt": "<p><strong>MN 20 §5</strong>: Negar atenção aos pensamentos retira seu alimento condicional (<em>āhāra</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Closing the Eyes or Looking Away (MN 20):</strong> A person with good eyesight who does not want to see forms in their visual field simply closes their eyes or looks in another direction.</p>",
+                      "pt": "<p><strong>Fechar os Olhos ou Virar o Rosto (MN 20):</strong> Uma pessoa de boa visão que não deseja contemplar uma cena desagradável diante de si simplesmente fecha as pálpebras ou vira o rosto para o outro lado.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Vitakka-saṅkhāra-saṇṭhāna",
+                "title": {
+                      "en": "4. Quieting the Thought-Formations to Their Origin",
+                      "pt": "4. Acalmando as Formações de Pensamento na Origem"
+                },
+                "desc": {
+                      "en": "Attend to relaxing and stilling the root mental construction: 'What is the cause of this thought? What fuels it? Why am I thinking this?' Progressively de-escalating mental momentum.",
+                      "pt": "Atente para pacificar a estrutura do pensamento: 'Qual a causa raiz deste pensamento? O que o propulsiona? Por que estou pensando isto?' Desacelerando gradualmente a inércia mental."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>De-Escalating Mental Momentum:</strong> Notice the mental urgency. Deliberately slow down the speed of mental syllables until the thought dissolves into silent space.</p>",
+                      "pt": "<p><strong>Desaceleração Gradual da Inércia:</strong> Perceba a urgência ansiosa. Reduza deliberadamente a velocidade das palavras internas até que a frase se dissipe no silêncio.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 20 §6</strong>: Investigating the causal chain of mental formations allows thoughts to unwind organically.</p>",
+                      "pt": "<p><strong>MN 20 §6</strong>: Investigar a cadeia causal das formações mentais permite que o diálogo interno desmonte suavemente.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>From Running to Lying Down (MN 20):</strong> A person walking fast thinks: 'Why am I running? I could walk slow.' Walking slow: 'Why walk? I could stand.' Standing: 'Why stand? I could sit.' Sitting: 'Why sit? I could lie down.' Progressively calming action.</p>",
+                      "pt": "<p><strong>Do Correr ao Deitar (MN 20):</strong> Um homem correndo reflete: 'Por que corro? Posso andar devagar.' Andando: 'Por que andar? Posso parar em pé.' De pé: 'Por que em pé? Posso sentar.' Sentado: 'Por que sentar? Posso deitar.' Desacelerando a ação até a quietude.</p>"
+                }
+          },
+          {
+                "step": 5,
+                "pali": "Abhiniggaṇhana",
+                "title": {
+                      "en": "5. Forceful Subjugation with Clenched Teeth",
+                      "pt": "5. Contenção Enérgica com Dentes Cerrados"
+                },
+                "desc": {
+                      "en": "As an emergency last resort: with teeth clenched and tongue pressed against the roof of the mouth, beat down, restrain, and crush the unwholesome mind with awareness.",
+                      "pt": "Como último recurso de emergência: com dentes cerrados e a língua pressionada contra o palato, contenha, esmague e subjugue a mente nociva com firmeza resoluta."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Emergency Intervention:</strong> Use physical determination to halt destructive downward spirals. Press the tongue firmly to the palate, take a firm posture, and mentally declare: 'NO! This thought will not rule me.'</p>",
+                      "pt": "<p><strong>Intervenção de Emergência:</strong> Use determinação física para travar espirais destrutivas. Pressione a língua no céu da boca, firme a postura e declare interiormente: 'NÃO! Este pensamento não governará minha mente.'</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 20 §7</strong>: The Buddha's ultimate tactical measure to protect the mind from being overwhelmed.</p>",
+                      "pt": "<p><strong>MN 20 §7</strong>: A medida tática extrema do Buda para blindar a mente contra o colapso moral.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Strong Wrestler Pinning a Weaker Opponent (MN 20):</strong> Just as a strong wrestler seizes a weaker man by the head and shoulders, pins him down, and subdues him, so the mind masters the unwholesome impulse.</p>",
+                      "pt": "<p><strong>O Lutador Vigoroso Imobilizando o Adversário (MN 20):</strong> Tal como um lutador forte agarra um homem frágil pela cabeça e ombros, imobilizando-o no chão com firmeza, a mente lúcida subjuga o impulso nocivo.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "This is the ultimate toolkit for ending nighttime insomnia, rumination over work disputes, or intrusive spirals of anxiety. Never jump directly to willpower (Step 5); always start with replacement (Step 1) or stepping down the kinetic energy (Step 4). When replaying an angry argument in bed, immediately ask: 'Why am I running? Can I walk? Can I simply lie still?'",
@@ -1013,54 +1385,102 @@ const MEDITATION_LINEAGES = [
       "pt": "O Yuganaddha Sutta (AN 4.170) é a autoridade canônica máxima que pacifica o debate histórico entre Samatha (calma/absorção) e Vipassanā (insight/discernimento). Proferido pelo Ven. Ānanda, companheiro íntimo do Buda, o discurso atesta que todos os praticantes que alcançaram a iluminação o fizeram por uma de quatro vias autênticas: 1. O insight precedido pela calma (cultivando primeiro a quietude profunda dos jhānas e depois dissecando a inconstância da mente); 2. A calma precedida pelo insight (investigando a transitoriedade e o não-eu até que a mente, desiludida do apego, pouse em profundo samādhi); 3. Calma e insight pareados em uníssono (yuganaddha, conduzidos como uma parelha de bois em perfeita harmonia); e 4. A pacificação da agitação doutrinária (para praticantes aflitos por excesso de estudo ou ansiedade espiritual, cuja mente finalmente silencia). O sutta comprova que a meditação budista é um equilíbrio dinâmico e flexível, e não um dogma estreito."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Samathapubbaṅgamaṁ Vipassanaṁ",
-        "title": {
-          "en": "Path 1: Insight Preceded by Tranquility",
-          "pt": "Via 1: O Insight Precedido pela Calma"
-        },
-        "desc": {
-          "en": "First, one cultivates deep concentration, calming the breath and mental chatter until reaching absorption. Emerging from stillness, one examines the 5 aggregates with laser clarity as impermanent, unsatisfactory, and not-self.",
-          "pt": "Primeiro, cultiva-se profunda concentração e silêncio até a absorção. Emergindo da quietude, disseca-se os 5 agregados com clareza cristalina como inconstantes, insatisfatórios e desprovidos de um eu."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Vipassanāpubbaṅgamaṁ Samathaṁ",
-        "title": {
-          "en": "Path 2: Tranquility Preceded by Insight",
-          "pt": "Via 2: A Calma Precedida pelo Insight"
-        },
-        "desc": {
-          "en": "First, one contemplates the immediate rise and fall of physical sensations and thoughts. As clinging is severed by insight, the mind drops its burdens and naturally collapses into deep, unforced samādhi.",
-          "pt": "Primeiro, contempla-se o fluxo contínuo de sensações e pensamentos. Conforme o apego é cortado pela lucidez, a mente solta seus fardos e pousa naturalmente em profundo e espontâneo samādhi."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Samathavipassanaṁ Yuganaddhaṁ",
-        "title": {
-          "en": "Path 3: Tranquility & Insight in Tandem",
-          "pt": "Via 3: Calma & Insight em Pareamento"
-        },
-        "desc": {
-          "en": "Developing both wings simultaneously: whenever the mind becomes scattered, one applies tranquility; whenever the mind becomes dull or stagnant, one applies investigation. The two work together like two hands washing each other.",
-          "pt": "Desenvolvem-se as duas asas simultaneamente: quando a mente dispersa, ancora-se na calma; quando a mente estagna, aciona-se a investigação. Ambas operam juntas como duas mãos lavando-se mutuamente."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Dhammuddhacca-vūpasama",
-        "title": {
-          "en": "Path 4: Calming Agitation About the Dhamma",
-          "pt": "Via 4: Pacificando a Inquietação Doutrinária"
-        },
-        "desc": {
-          "en": "When a meditator's mind is seized by restlessness concerning experiences, lights, or philosophical theories, they drop all analysis and let the mind settle in its natural stillness until unified focus is born.",
-          "pt": "Quando o praticante é tomado por agitação sobre luzes meditativas, teorias ou dúvidas doutrinárias, abandona-se toda análise e permite-se que a mente repouse na quietude pura até que o foco se unifique."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Samatha-pubbaṅgamaṁ vipassanaṁ bhāveti",
+                "title": {
+                      "en": "1. Insight Preceded by Tranquility",
+                      "pt": "1. O Insight Precedido pela Calma"
+                },
+                "desc": {
+                      "en": "First unifying the mind in deep samādhi or absorption, then emerging to dissect the constituent factors of experience as impermanent, unsatisfactory, and non-self.",
+                      "pt": "Primeiro unifica-se a mente em samādhi profundo ou absorção, emergindo em seguida para examinar os fatores constituintes da experiência como impermanentes, insatisfatórios e impessoais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Tranquility as the Launchpad:</strong> Anchor firmly in the breath until access concentration or Jhāna stabilizes. Upon emerging, do not jump into thinking; maintain the serene lens and observe the impermanence of mental factors.</p>",
+                      "pt": "<p><strong>Tranquilidade como Base de Lançamento:</strong> Ancore na respiração até estabilizar o samādhi. Ao emergir, não caia no diálogo disperso; use a lente lúcida da calma para contemplar o perecimento dos fatores mentais.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.170 §2</strong>: The classical route described by Ven. Ānanda where calm leads directly to liberating vision.</p>",
+                      "pt": "<p><strong>AN 4.170 §2</strong>: A rota clássica elucidada pelo Ven. Ānanda onde a calma profunda gera a clareza para o discernimento.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lantern in the Dark Cave:</strong> A person carrying a steady, windless lantern into a dark cave sees carvings on the rock walls with unmistakable clarity.</p>",
+                      "pt": "<p><strong>A Lanterna na Caverna Escura:</strong> Uma pessoa carregando uma tocha protegida do vento dentro de uma caverna escura vê as pinturas na rocha com nitidez inconfundível.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Vipassanā-pubbaṅgamaṁ samathaṁ bhāveti",
+                "title": {
+                      "en": "2. Tranquility Preceded by Insight",
+                      "pt": "2. A Calma Precedida pelo Insight"
+                },
+                "desc": {
+                      "en": "Investigating the rising and falling of sensations and thoughts, observing their transparent emptiness. As the mind tires of chasing phenomena, it naturally settles into profound stillness.",
+                      "pt": "Investigando o surgir e o cessar das sensações e pensamentos, reconhecendo sua vacuidade. À medida que a mente se desilude das aparências, decanta espontaneamente em quietude profunda."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Insight Driving Calming:</strong> Scan experiences for the 3 marks (<em>anicca, dukkha, anattā</em>). When the futility of clinging becomes obvious, consciousness naturally relaxes into unified peace.</p>",
+                      "pt": "<p><strong>Sabedoria Conduzindo à Paz:</strong> Examine as experiências sob as 3 marcas da existência. Quando a futilidade de se apegar torna-se evidente, a consciência relaxa espontaneamente em paz unificada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.170 §3</strong>: Demonstrates that active wisdom can be the direct doorway into one-pointed concentration.</p>",
+                      "pt": "<p><strong>AN 4.170 §3</strong>: Demonstra que a investigação lúcida da sabedoria pode ser o portal direto para a concentração unificada.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Weary Runner Sitting in the Shade:</strong> Having actively explored every corner of a burning field, the traveler discerns its danger and sits motionless in the cool shade of a tree.</p>",
+                      "pt": "<p><strong>O Caminhante que Repousa sob a Sombra:</strong> Tendo inspecionado o perigo de um campo árido e escaldante, o viajante reconhece a desvantagem e senta-se imóvel sob a sombra fresca de uma árvore.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Samatha-vipassanaṁ yuganaddhaṁ bhāveti",
+                "title": {
+                      "en": "3. Tranquility & Insight Yoked in Tandem",
+                      "pt": "3. Calma & Insight Pareados em Harmonia"
+                },
+                "desc": {
+                      "en": "Calm and insight operate simultaneously in balanced partnership: stillness supports sharp seeing, and sharp seeing deepens stillness. Neither lagging behind the other.",
+                      "pt": "Calma e insight operam simultaneamente em harmonia mútua: a quietude sustenta a visão penetrante, e a visão penetrante aprofunda a quietude. Nenhuma faculdade atrasa ou sobrepuja a outra."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Seamless Dynamic Balance:</strong> When noticing agitation, lean slightly into the tranquil anchor; when noticing dullness or lack of clarity, lean into mindful investigation (<em>dhammavicaya</em>).</p>",
+                      "pt": "<p><strong>Equilíbrio Dinâmico Fluido:</strong> Ao notar agitação, incline-se na âncora de calma; ao notar torpor ou falta de discernimento, incline-se na investigação dos fenômenos (<em>dhammavicaya</em>).</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.170 §4</strong>: The balanced synthesis (<em>yuganaddha</em>) that brings the Noble Eightfold Path to swift fulfillment.</p>",
+                      "pt": "<p><strong>AN 4.170 §4</strong>: A síntese perfeita (<em>yuganaddha</em>) que conduz o Nobre Caminho Óctuplo ao rápido amadurecimento.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Pair of Strong Bullocks Yoked to the Cart:</strong> Two matched oxen pull the laden cart in perfect rhythm, moving smoothly forward without veering left or right.</p>",
+                      "pt": "<p><strong>A Parelha de Bois Conduzindo a Carreta:</strong> Dois bois fortes atados ao mesmo jugo puxam a carreta em ritmo compassado, avançando em linha reta sem descarrilar.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Dhammuddhacca-viggahitaṁ mānasaṁ hoti",
+                "title": {
+                      "en": "4. Resolving High Spiritual Agitation",
+                      "pt": "4. Pacificando a Inquietação pelo Dhamma"
+                },
+                "desc": {
+                      "en": "When the mind is dazzled or agitated by powerful spiritual insights, lights, or intense zeal, one recognizes this subtle agitation, calms internal excitement, and settles into liberation.",
+                      "pt": "Quando a mente fica deslumbrada ou inquieta com intuições espirituais elevadas, luzes ou excesso de fervor, reconhece-se essa agitação sutil, aquietando a excitação para atingir a libertação."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Cooling Spiritual Euphoria:</strong> Do not mistake meditative visions, lights, or profound intellectual epiphanies for final awakening. Anchor back in bare presence until all conceptual fireworks subside.</p>",
+                      "pt": "<p><strong>Resfriando a Euforia Espiritual:</strong> Não confunda visões luminosas, raptos ou grandes epifanias teóricas com o despertar final. Reancore na presença pura até que todo o entusiasmo conceitual serene.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.170 §5</strong>: Explains how meditators overcome spiritual over-excitement (<em>dhammuddhacca</em>) to attain Arahantship.</p>",
+                      "pt": "<p><strong>AN 4.170 §5</strong>: Explica como o praticante vence a exaltação espiritual sutil (<em>dhammuddhacca</em>) para alcançar o despertar definitivo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Swift Ship Reaching Harbor Waters:</strong> After racing through turbulent high seas, the sailing ship enters the calm inner harbor, drops anchor, and rests motionless on the still tide.</p>",
+                      "pt": "<p><strong>O Veleiro que Entra nas Águas Calmas do Porto:</strong> Tendo singrado mares bravios com ímpeto, a embarcação cruza as muralhas do porto seguro, recolhe as velas e repousa serena na água mansa.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Household meditators often fall into the trap of forcing their sit into a single rigid template. Yuganaddha teaches intelligent diagnosis: if you arrive home with an exhausted, stressed nervous system, do not force analytical insight—nurture Samatha (Path 1). If you are calm but daydreaming, stimulate active contemplation of impermanence (Path 2).",
@@ -1139,54 +1559,102 @@ const MEDITATION_LINEAGES = [
       "pt": "No Samādhibhāvanā Sutta (AN 4.41), o Buda elimina ambiguidades sobre o propósito da meditação ao mapear a concentração em quatro modos práticos, cada qual com um objetivo espiritual específico: 1. Concentração para o viver feliz no presente momento (diṭṭhadhammasukhavihāra): os quatro Jhānas, que proporcionam regeneração física, alívio de estresse e recolhimento sereno; 2. Concentração para o conhecimento e a visão intuitiva (ñāṇadassanapaṭilābha): cultivando a percepção da luminosidade (ālokasaññā) de dia e de noite; 3. Concentração para a atenção plena e discernimento situacional (satisampajaññāya): rastreando em tempo real as sensações, percepções e pensamentos à medida que surgem, permanecem e cessam; e 4. Concentração para a erradicação dos contaminantes mentais (āsavānaṁ khayāya): contemplando o constante nascer e fenecer dos Cinco Agregados do Apego. O sutta é uma bússola de clareza indispensável para o praticante."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Diṭṭhadhammasukhavihāra",
-        "title": {
-          "en": "1. For Pleasant Abiding (The 4 Jhānas)",
-          "pt": "1. Para o Bem-Estar Presente (Os 4 Jhānas)"
-        },
-        "desc": {
-          "en": "Secluded from unwholesome states, one enters and abides in the 1st, 2nd, 3rd, and 4th Jhānas. Cultivated to heal stress, stabilize the nervous system, and rest the heart in sacred tranquility.",
-          "pt": "Afaste-se das impurezas e repouse nos 4 Jhānas. Praticado para curar o estresse, acalmar o sistema nervoso e descansar o coração em serenidade sagrada."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Ñāṇadassanapaṭilābha",
-        "title": {
-          "en": "2. For Knowledge & Vision (Luminous Perception)",
-          "pt": "2. Para Conhecimento e Visão (A Luz Interior)"
-        },
-        "desc": {
-          "en": "One attends to the perception of light (ālokasaññā) and establishes the perception of daytime by day and night alike. The mind becomes bright, radiant, and open, overcoming sluggish darkness.",
-          "pt": "Foque na percepção da luminosidade (ālokasaññā) e estabeleça a clareza do dia tanto durante o dia quanto à noite. A mente torna-se radiante, límpida e desobstruída."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Satisampajañña",
-        "title": {
-          "en": "3. For Mindfulness & Precision (Real-Time Tracking)",
-          "pt": "3. Para a Lucidez Rápida (Rastreamento em Tempo Real)"
-        },
-        "desc": {
-          "en": "One observes: 'Such are feelings as they arise, such as they are known, such as they fade; such are perceptions; such are thoughts.' Tracking the microscopic trajectory of mental events without entanglement.",
-          "pt": "Observe com precisão: 'Assim surgem as sensações, assim são conhecidas, assim desaparecem; assim são as percepções e os pensamentos.' Registre o nascimento e o fim de cada evento mental."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Āsavānaṁ Khaya",
-        "title": {
-          "en": "4. For the Destruction of the Taints (The 5 Aggregates)",
-          "pt": "4. Para a Extinção dos Grilhões (Os 5 Agregados)"
-        },
-        "desc": {
-          "en": "One dwells contemplating the rise and fall of the 5 clinging-aggregates: 'Such is form, its origination, its passing away; such is feeling... perception... volitions... consciousness.' Realizing that nothing is 'me' or 'mine'.",
-          "pt": "Contemple o surgir e cessar dos 5 agregados: 'Assim é o corpo, sua origem e seu fim; assim é a sensação... a percepção... as formações... a consciência.' Reconhecendo que nada é 'eu' ou 'meu'."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Diṭṭhadhammasukhavihārāya",
+                "title": {
+                      "en": "1. Concentration for Abiding in Present Ease",
+                      "pt": "1. Concentração para o Viver em Bem-Estar no Presente"
+                },
+                "desc": {
+                      "en": "Developing the 4 Jhānas to provide nourishing, stress-free shelter for mind and body in this very life, free from the scorching fires of sensuality.",
+                      "pt": "Desenvolvendo os 4 Jhānas como refúgio nutritivo e desanuviado para a mente e o corpo nesta mesma vida, a salvo das fogueiras do desejo sensorial."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Seclusion-Born Peace:</strong> Cultivate Jhānas as a wholesome sanctuary. Replenish mental vitality without grasping onto the bliss as an eternal refuge.</p>",
+                      "pt": "<p><strong>Repousando na Paz do Recolhimento:</strong> Cultive os Jhānas como um santuário salutar. Restaure a vitalidade da mente sem transformar o êxtase num refúgio eterno.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.41 §2</strong>: Identifies the 4 Jhānas as the supreme present-life ease (<em>diṭṭhadhammasukhavihāra</em>).</p>",
+                      "pt": "<p><strong>AN 4.41 §2</strong>: Define os 4 Jhānas como a morada suprema de bem-estar na vida presente (<em>diṭṭhadhammasukhavihāra</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Shaded Pavilion in Midday Heat:</strong> Stepping out of a blazing tropical sun into an airy marble pavilion with cool fountains.</p>",
+                      "pt": "<p><strong>O Pavilhão Sombreado ao Meio-Dia:</strong> Sair do sol tórrido do meio-dia e adentrar um pavilhão arejado de mármore fresco com fontes cristalinas.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Ñāṇadassanapaṭilābhāya",
+                "title": {
+                      "en": "2. Concentration for Knowledge & Luminous Vision",
+                      "pt": "2. Concentração para a Obtenção do Conhecimento & Visão"
+                },
+                "desc": {
+                      "en": "Attending to the perception of light (ālokasaññā) and fixing on the perception of daytime by day and by night. Developing an open, radiant, uncluttered mind.",
+                      "pt": "Atentando para a percepção da luz (ālokasaññā) e estabelecendo a percepção diurna tanto de dia quanto à noite. Desenvolvendo uma mente aberta, radiante e desobstruída."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Cultivating Inner Illumination:</strong> Direct attention to brightness in the visual field with eyes closed. Dispel sluggishness and heaviness by cultivating an expansive, sunlit awareness.</p>",
+                      "pt": "<p><strong>Cultivando a Claridade Interior:</strong> Projete a atenção na luminosidade sutil no campo mental de olhos fechados. Dissipe a letargia mantendo a mente banhada em claridade solar.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.41 §3</strong>: The training in perception of light (<em>ālokasaññā</em>) to eliminate sloth and torpor.</p>",
+                      "pt": "<p><strong>AN 4.41 §3</strong>: O treinamento na percepção da claridade (<em>ālokasaññā</em>) para erradicar o torpor e a sonolência.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Full Moon in a Cloudless Night Sky:</strong> Shining bright and unclouded, shedding pure silvery illumination over the entire earth.</p>",
+                      "pt": "<p><strong>A Lua Cheia no Céu sem Nuvens:</strong> Brilhando pura e desimpedida, derramando iluminação prateada sobre toda a extensão da terra.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Satisampajaññāya",
+                "title": {
+                      "en": "3. Concentration for Mindfulness & Clear Comprehension",
+                      "pt": "3. Concentração para a Atenção Plena & Clara Compreensão"
+                },
+                "desc": {
+                      "en": "Knowing feelings as they arise, persist, and vanish; knowing perceptions as they arise, persist, and vanish; knowing thoughts as they arise, persist, and vanish.",
+                      "pt": "Conhecendo as sensações à medida que surgem, permanecem e fenecem; conhecendo as percepções ao nascer, persistir e passar; conhecendo os pensamentos ao brotar, durar e cessar."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Tracking the Life Cycle of Mind-Moments:</strong> Focus on the exact boundaries of experiential events. Witness their birth, momentary plateau, and inevitable dissolution.</p>",
+                      "pt": "<p><strong>Mapeando o Ciclo de Vida dos Estados Mentais:</strong> Foque nos limites temporais dos eventos mentais. Testemunhe seu nascimento, breve estabilização e inevitável dissolução.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.41 §4</strong>: The specific cultivation of concentration that powers microscopic satipaṭṭhāna discernment.</p>",
+                      "pt": "<p><strong>AN 4.41 §4</strong>: O desenvolvimento meditativo que capacita a atenção plena microscópica de satipaṭṭhāna.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Stationmaster Watching Passing Trains:</strong> Standing on the platform, clearly seeing each carriage approach, halt at the station, and roll away down the tracks.</p>",
+                      "pt": "<p><strong>O Inspetor na Estação Ferroviária:</strong> De pé na plataforma, observando cada vagão se aproximar, parar na estação e partir pelos trilhos rumo ao horizonte.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Āsavānaṁ khayāya",
+                "title": {
+                      "en": "4. Concentration for the Destruction of Taints",
+                      "pt": "4. Concentração para a Extinção das Contaminações"
+                },
+                "desc": {
+                      "en": "Abiding contemplating the arising and falling of the Five Clinging Aggregates: form, feeling, perception, choices, and consciousness. Direct breakthrough to Arahantship.",
+                      "pt": "Permanecendo na contemplação do surgir e cessar dos Cinco Agregados do Apego: matéria, sensação, percepção, volições e consciência. Rompimento direto rumo à libertação final."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Deconstructing the Five Bundles:</strong> Discern: 'Such is form, such its arising, such its disappearance; such is feeling... perception... volitions... consciousness.' Realizing none is self.</p>",
+                      "pt": "<p><strong>Desconstruindo os Cinco Fardos:</strong> Discerne: 'Assim é a matéria, assim seu surgir, assim seu passar; assim é a sensação... percepção... volições... consciência.' Notando que nenhum deles é o 'eu'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 4.41 §5</strong>: The crowning goal of Buddhist mental development, culminating in full enlightenment.</p>",
+                      "pt": "<p><strong>AN 4.41 §5</strong>: A meta suprema do treinamento mental budista, culminando na libertação definitiva.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lightning Flash Slicing Through Midnight (AN 3.25):</strong> A dazzling flash of lightning illuminates every crevice of the dark landscape in an instantaneous revelation of reality.</p>",
+                      "pt": "<p><strong>O Relâmpago Cortando a Noite Escura (AN 3.25):</strong> Um clarão fulminante de relâmpago ilumina cada detalhe da paisagem noturna numa revelação instantânea da realidade.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "This discourse provides a clear diagnostic map for daily life: When burned out or physically exhausted from family and corporate pressure, utilize Mode 1 (sitting purely for restorative jhanic ease). When feeling sleepy or mentally foggy, utilize Mode 2 (perception of light). When dealing with emotional flare-ups, utilize Mode 3 (watching feelings rise and fade). When seeking spiritual breakthrough, practice Mode 4.",
@@ -1265,66 +1733,126 @@ const MEDITATION_LINEAGES = [
       "pt": "O Girimānanda Sutta (AN 10.60) é um dos discursos de cura mais reverenciados da tradição Theravāda. Quando o monge Girimānanda caiu gravemente enfermo, afligido por dores intensas, o Buda encarregou o Ven. Ānanda de visitá-lo e recitar dez contemplações profundas (dasa saññā). Ao ouvi-las e contemplá-las com atenção plena, o sofrimento físico de Girimānanda foi apaziguado e ele se levantou curado de sua enfermidade. As dez contemplações formam um curso completo de libertação: 1. A percepção da inconstância (aniccasaññā); 2. A percepção do não-eu (anattasaññā); 3. A percepção da natureza orgânica perecível (asubhasaññā); 4. A percepção do perigo e vulnerabilidade do corpo (ādīnavasaññā, reconhecendo suas inúmeras fragilidades); 5. A percepção do abandono de pensamentos tóxicos (pahānasaññā); 6. A percepção do desapego (virāgasaññā); 7. A percepção da cessação (nirodhasaññā); 8. A percepção do desencanto com as vaidades mundanas (sabbaloke anabhiratasaññā); 9. A percepção da transitoriedade em todas as coisas condicionadas (sabbasaṅkhāresu aniccasaññā); e 10. A atenção plena na respiração (ānāpānasati em seus 16 passos). Mostra como a sabedoria converte a dor física em liberação espiritual."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Anicca & Anatta Saññā",
-        "title": {
-          "en": "1. Impermanence & Non-Self Foundations",
-          "pt": "1. Fundamentos da Inconstância e do Não-Eu"
-        },
-        "desc": {
-          "en": "Contemplate the 5 aggregates (form, feeling, perception, volitions, consciousness) as constantly changing, devoid of lasting essence, and unable to be owned as 'me' or 'mine'.",
-          "pt": "Contemple os 5 agregados (forma, sensação, percepção, formações, consciência) como mutáveis, sem núcleo permanente e incapazes de serem reivindicados como 'eu' ou 'meu'."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Ādīnavasaññā (The Vulnerability of the Body)",
-        "title": {
-          "en": "2. Contemplating the Vulnerability of Flesh",
-          "pt": "2. Contemplando a Fragilidade da Carne"
-        },
-        "desc": {
-          "en": "Recognize that this body is a home of afflictions: prone to eye diseases, ear diseases, headaches, arthritis, fever, and decay. Seeing illness not as a personal failure, but as the natural condition of flesh.",
-          "pt": "Reconheça que este corpo é suscetível a incontáveis fragilidades: dores de cabeça, febres, problemas articulares e desgastes. Enxergue a dor não como culpa pessoal, mas como condição natural da matéria."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Virāga & Nirodha Saññā",
-        "title": {
-          "en": "3. Dispassion & The Stillness of Cessation",
-          "pt": "3. O Desapego e o Silêncio da Cessação"
-        },
-        "desc": {
-          "en": "Contemplate the complete fading away of lust and feverish clinging (virāga). Savor the peaceful stillness of cessation (nirodha): 'This is peaceful, this is sublime: the stilling of all formations, Nibbāna.'",
-          "pt": "Contemple o desvanecimento completo do apego e da febre de controle (virāga). Saboreie o silêncio sereno da cessação: 'Isto é a paz sublime: o acalmar de todas as formações, Nibbāna.'"
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Sabbaloke Anabhirata",
-        "title": {
-          "en": "4. Non-Delight in the World",
-          "pt": "4. O Desencanto com as Vaidades do Mundo"
-        },
-        "desc": {
-          "en": "Abandon all fascination with worldly prestige, comparisons, arguments, and ephemeral acquisitions. The heart steps outside the noisy game of society.",
-          "pt": "Abandone o apego ao prestígio social, disputas, comparações e acúmulos transitórios. O coração dá um passo atrás do teatro ruidoso das vaidades humanas."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Pāripūrī Ānāpānasati",
-        "title": {
-          "en": "5. Integration with the Breath Roadmap",
-          "pt": "5. Integração com a Respiração Consciente"
-        },
-        "desc": {
-          "en": "Ground all nine previous insights into the smooth rhythm of the breath: calming bodily tension, experiencing joy and peace, steadying the mind, and contemplating relinquishment with every in-and-out breath.",
-          "pt": "Enraíze os nove insights anteriores no ritmo orgânico da respiração: acalmando tensões, vivenciando o alívio sereno e soltando o apego a cada inspiração e expiração."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Anicca & Anatta Saññā",
+                "title": {
+                      "en": "1. Perceptions of Impermanence & Non-Self",
+                      "pt": "1. Percepções da Impermanência & Não-Eu"
+                },
+                "desc": {
+                      "en": "Contemplating the five aggregates as fleeting and impersonal. Seeing that this body and mind are conditioned, changing processes without an enduring owner or soul.",
+                      "pt": "Contemplando os cinco agregados como processos fugazes e impessoais. Enxergando que este corpo e esta mente são dinâmicas condicionadas em mutação, sem dono ou alma eterna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Somatic Disentanglement:</strong> In moments of bodily distress, observe sensations with the reflection: 'This pain is impermanent; it is not mine, not me, not my self.' This removes psychological panic from physical pain.</p>",
+                      "pt": "<p><strong>Desatamento Somático:</strong> Em momentos de desconforto físico, observe as sensações com a reflexão: 'Esta dor é impermanente; não é minha, não sou eu, não é meu eu'. Isso dissipa o desespero psicológico da dor física.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 10.60 §2–3</strong>: The Buddha sends Ven. Ānanda to recite these perceptions to heal Ven. Girimānanda of severe illness.</p>",
+                      "pt": "<p><strong>AN 10.60 §2–3</strong>: O Buda envia o Ven. Ānanda para transmitir estas reflexões para curar o Ven. Girimānanda de enfermidade grave.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Mirage in Desert Heat:</strong> A shimmering mirage appears to be water from afar, but on closer inspection, dissolves into bare refraction.</p>",
+                      "pt": "<p><strong>A Miragem no Deserto:</strong> Uma miragem reluzente parece ser água ao longe, mas sob inspeção lúcida desfaz-se em mera refração do ar.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Asubha & Ādīnava Saññā",
+                "title": {
+                      "en": "2. Perceptions of the Anatomical Reality & Peril",
+                      "pt": "2. Percepções da Anatomia Biológica & Desvantagem"
+                },
+                "desc": {
+                      "en": "Reviewing the 31 bodily parts full of impurities, and reflecting on the body as a site of manifold afflictions, diseases, and vulnerabilities.",
+                      "pt": "Examinando as 31 partes anatômicas repletas de substâncias biológicas e contemplando o corpo como morada de inúmeras aflições, doenças e vulnerabilidades."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Healing Realism:</strong> Accept physical illness without moral shame or anger. The body is an organism composed of elements subject to wear, fever, and decay.</p>",
+                      "pt": "<p><strong>Realismo Terapêutico:</strong> Encare a doença sem revolta ou vergonha. O organismo é um composto biológico naturalmente sujeito a desgastes, febres e declínio.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 10.60 §4–5</strong>: Enumerates the bodily parts and the long canonical list of physical illnesses.</p>",
+                      "pt": "<p><strong>AN 10.60 §4–5</strong>: Enumera as partes do corpo e o extenso catálogo canônico de enfermidades físicas.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Clay Vessel Prone to Cracking:</strong> A delicate ceramic pot carried over rocky paths is inherently fragile; caring for it gently without delusion.</p>",
+                      "pt": "<p><strong>O Vaso de Argila Frágil:</strong> Um jarro cerâmico carregado por trilhas rochosas é naturalmente frágil; cuidando dele com carinho sem ilusão de solidez eterna.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Pahāna & Virāga Saññā",
+                "title": {
+                      "en": "3. Perceptions of Abandoning & Dispassion",
+                      "pt": "3. Percepções do Abandono & Desapego"
+                },
+                "desc": {
+                      "en": "Actively renouncing thoughts of sensuality, resentment, and cruelty as soon as they arise, and delighting in the dispassionate cooling of mental craving.",
+                      "pt": "Renunciando ativamente a pensamentos de sensualidade, ressentimento e crueldade no instante em que brotam, encontrando deleite no desapego e no resfriamento do apego."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Renouncing the Toxic Spark:</strong> Instantly cast out thoughts of bitterness or retaliation before they poison your mental health. Rest in the cooling ease of forgiveness.</p>",
+                      "pt": "<p><strong>Extinguindo a Fagulha Tóxica:</strong> Expulse de pronto pensamentos de mágoa ou revide antes que envenenem sua saúde mental. Repouse no alívio revigorante do perdão.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 10.60 §6–7</strong>: Emphasizes that abandoning unwholesome thoughts relieves psychosomatic stress.</p>",
+                      "pt": "<p><strong>AN 10.60 §6–7</strong>: Enfatiza que o abandono de pensamentos hostis alivia o estresse psicossomático do corpo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Water Falling on a Red-Hot Pan (MN 66):</strong> When water drops on a searing iron griddle, it boils up, hisses, and vanishes in an instant. So too abandon toxic thoughts.</p>",
+                      "pt": "<p><strong>A Gota de Água na Chapa Incandescente (MN 66):</strong> Quando uma gota toca o ferro em brasa, ferve, chia e desaparece num piscar de olhos. Assim devem ser dissipados os rancores.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Nirodha & Sabbaloke Anabhirata Saññā",
+                "title": {
+                      "en": "4. Perceptions of Cessation & Worldly Disenchantment",
+                      "pt": "4. Percepções da Cessação & Desencanto pelo Mundo"
+                },
+                "desc": {
+                      "en": "Contemplating the complete cessation of all suffering and conditioning, and letting go of entanglement with worldly gossip, status, and transient drama.",
+                      "pt": "Contemplando a cessação definitiva de todo sofrimento e condicionalidade, desprendendo-se de dramas passageiros, disputas de status e ruídos mundanos."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Releasing Worldly Entanglement:</strong> Notice the compulsive urge to be affirmed by society. Deliberately step back, realizing the peace of non-involvement.</p>",
+                      "pt": "<p><strong>Soltando o Enredo Mundano:</strong> Observe a compulsão de ser aprovado pelo mundo. Dê um passo atrás deliberadamente, desfrutando da paz do desprendimento.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 10.60 §8–9</strong>: Contemplating the tranquil end of construction (<em>sabbasaṅkhārasamatha</em>).</p>",
+                      "pt": "<p><strong>AN 10.60 §8–9</strong>: Contemplando o fim pacificado de todas as construções (<em>sabbasaṅkhārasamatha</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Traveler Escaping a Burning City:</strong> Leaving behind the noise, smoke, and blazing rooftops to breathe pure air on open rolling hills.</p>",
+                      "pt": "<p><strong>O Viajante que Deixa a Cidade em Chamas:</strong> Deixando para trás a fumaça, o clamor e os telhados em brasas para respirar o ar puro nas colinas verdejantes.</p>"
+                }
+          },
+          {
+                "step": 5,
+                "pali": "Sabbasaṅkhāresu Aniccasaññā & Ānāpānasati",
+                "title": {
+                      "en": "5. Universal Impermanence & Healing Breath",
+                      "pt": "5. Impermanência Universal & Respiração Curativa"
+                },
+                "desc": {
+                      "en": "Seeing all conditioned things as impermanent, and returning to the sixteen stages of mindful breathing to integrate somatic healing and spiritual deliverance.",
+                      "pt": "Reconhecendo todas as formações condicionadas como impermanentes e retornando à atenção plena na respiração para integrar cura somática e libertação espiritual."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Integrative Healing Sitting:</strong> Breathe in, soothing both pain and emotion. Upon hearing these ten contemplations, Ven. Girimānanda's illness was completely cured.</p>",
+                      "pt": "<p><strong>Sentada de Cura Integrativa:</strong> Respire suavemente, acalmando tanto as sensações físicas quanto as dores emocionais. Ao ouvir estas 10 percepções, a doença do Ven. Girimānanda foi curada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 10.60 §10–12</strong>: Concludes with Ānāpānasati, after which Girimānanda rose completely healed.</p>",
+                      "pt": "<p><strong>AN 10.60 §10–12</strong>: Conclui com a respiração consciente, após a qual Girimānanda ergueu-se curado.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Medicine Revitalizing a Fainting Warrior:</strong> Just as potent nectar revives a wounded warrior on the field, these contemplations restore vigor and clarity to mind and body.</p>",
+                      "pt": "<p><strong>O Elixir Restaurando o Guerreiro Ferido:</strong> Tal como um bálsamo reanima o soldado exausto no campo de batalha, estas contemplações restauram o vigor e a serenidade do corpo e da mente.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "This is the premier Buddhist practice to rely upon during illness, chronic pain, medical hospitalizations, or caring for aging parents. Instead of viewing bodily pain with anger or self-pity ('Why is this happening to me?'), apply Ādīnavasaññā: understand that pain is simply the natural behavior of an organic physical body. Couple this with the 4th step of Ānāpānasati: consciously calming physical tension on the exhalation.",
@@ -1403,54 +1931,102 @@ const MEDITATION_LINEAGES = [
       "pt": "No Jhāna Sutta (AN 9.36), o Buda oferece uma clarificação cirúrgica que pacifica séculos de debates doutrinários sobre a relação entre concentração e sabedoria. Algumas escolas afirmam que os Jhānas são desnecessários; outras sustentam que não é possível investigar enquanto há absorção. No AN 9.36, o Buda demonstra que, apoiado em qualquer nível de absorção — do 1º Jhāna até a Dimensão do Nada —, o praticante examina os fenômenos ali presentes: forma física, sensações agradáveis, percepção, formações mentais e consciência. O meditador contempla esses fatores através de sete lentes de insight: como inconstantes (anicca), dolorosos (dukkha), uma doença (roga), uma chaga (gaṇḍa), uma flecha (salla), vazios (suñña) e desprovidos de um eu (anattā). Ao desviar o coração desses fatores condicionados, volta a mente para o Elemento Imorredouro (amata-dhātu): 'Isto é a paz suprema: o silenciar de todas as formações, Nibbāna.' Por essa via direta, o praticante alcança os frutos da libertação."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Samādhi-uppatti",
-        "title": {
-          "en": "1. Entering Stable Absorption",
-          "pt": "1. Estabelecendo a Absorção Estável"
-        },
-        "desc": {
-          "en": "Establish full seclusion from sensory distractions, entering the 1st, 2nd, 3rd, or 4th Jhāna. Allow the mind to dwell in radiant, concentrated stability.",
-          "pt": "Alcance o recolhimento das distrações dos sentidos, ingressando no 1º, 2º, 3º ou 4º Jhāna. Deixe a mente repousar em firmeza e luminosidade serena."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Khandha-pariggaha",
-        "title": {
-          "en": "2. Dissecting the Absorption Factors",
-          "pt": "2. Dissecando os Componentes da Absorção"
-        },
-        "desc": {
-          "en": "Notice the components making up this state: physical posture/breath (form), blissful rapture (feeling), meditative markers (perception), applied intention (formations), and knowing awareness (consciousness).",
-          "pt": "Reconheça os elementos que compõem este estado: o corpo físico (forma), o êxtase ou paz (sensação), os marcos mentais (percepção), a intenção sustentada (formações) e o saber presente (consciência)."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Sattākāra-anupassanā",
-        "title": {
-          "en": "3. Applying the Sevenfold Insight Diagnostic",
-          "pt": "3. Aplicando a Lente Analítica Sétupla"
-        },
-        "desc": {
-          "en": "Contemplate these absorption factors: they are conditioned; dependent on causes; impermanent; liable to vanish; an arrow; alien; empty; and not a permanent self. Even sublime bliss is impermanent.",
-          "pt": "Contemple os fatores da absorção: são condicionados por causas; transitórios; sujeitos a cessar; vazios de um eu independente. Mesmo o êxtase mais sublime é inconstante."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Amatadhātu-adhimutti",
-        "title": {
-          "en": "4. Turning the Heart to the Deathless",
-          "pt": "4. Voltando o Coração para o Imorredouro"
-        },
-        "desc": {
-          "en": "Turning the mind away from all conditioned formations, one inclines toward the unconditioned: 'This is peace: the stilling of all fabrications, the relinquishment of all clinging, Nibbāna.'",
-          "pt": "Desviando a atenção de todas as formações condicionadas, incline o coração para o incondicionado: 'Isto é a paz: o silenciar de todas as fabricações, a renúncia de todo apego, Nibbāna.'"
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Jhānasamāpatti",
+                "title": {
+                      "en": "1. Entering Absorption Free of Hindrances",
+                      "pt": "1. Acessando a Absorção Livre de Obstáculos"
+                },
+                "desc": {
+                      "en": "Secluded from sensual desires, secluded from unwholesome states, one enters and dwells in the 1st, 2nd, 3rd, or 4th Jhāna, establishing unshakeable mental clarity.",
+                      "pt": "Afastado dos desejos sensuais e estados prejudiciais, entra-se e permanece-se no 1º, 2º, 3º ou 4º Jhāna, consolidando uma estabilidade mental imperturbável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Establishing Stability:</strong> Settle attention on your anchor until mental wandering ceases and the mind is luminous, steady, and peaceful.</p>",
+                      "pt": "<p><strong>Estabelecendo a Estabilidade:</strong> Fixe a atenção na âncora até que as dispersões cessem e a mente fique radiante, serena e estável.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 9.36 (Jhāna Sutta)</strong> and <strong>MN 52 (Aṭṭhakanāgara Sutta)</strong>: The canonical blueprint for using Jhāna as the basis for Awakening.</p>",
+                      "pt": "<p><strong>AN 9.36 (Jhāna Sutta)</strong> e <strong>MN 52 (Aṭṭhakanāgara Sutta)</strong>: O mapa canônico para utilizar os Jhānas como plataforma direta para o despertar.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Secure High Lookout Tower:</strong> From an elevated, fortified stone tower, a person looks down upon the surrounding plain with clear, unobstructed panoramic vision.</p>",
+                      "pt": "<p><strong>A Torre Alta de Vigia:</strong> Do alto de uma torre de pedra sólida e protegida, uma pessoa contempla toda a planície ao redor com visão panorâmica desobstruída.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Dhammavavatthāna",
+                "title": {
+                      "en": "2. Dissecting the Constituent Factors of Absorption",
+                      "pt": "2. Decompondo os Fatores Constituintes do Jhāna"
+                },
+                "desc": {
+                      "en": "Stepping back to inspect the absorption: whatever phenomena are present—applied thought, joy, pleasure, one-pointedness, or equanimity—one regards them with detached wisdom.",
+                      "pt": "Dando um passo atrás para examinar o estado: quaisquer fenômenos presentes—pensamento aplicado, êxtase, paz, unificação ou equanimidade—são contemplados com discernimento desapegado."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Reflective Observation:</strong> Without falling into agitation, discern the distinct mental components sustaining the state. See that absorption is an assembled composite.</p>",
+                      "pt": "<p><strong>Observação Reflexiva:</strong> Sem perder a calma, discirna os diferentes componentes mentais que mantêm o estado. Reconheça que a absorção é uma estrutura montada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 9.36 §2</strong>: Ven. Sāriputta's method of factor-by-factor discernment detailed also in <strong>MN 111 (Anupada Sutta)</strong>.</p>",
+                      "pt": "<p><strong>AN 9.36 §2</strong>: O método de discernimento passo a passo do Ven. Sāriputta detalhado também no <strong>MN 111 (Anupada Sutta)</strong>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Expert Jeweler Inspecting Stones:</strong> An expert gemologist examining cut jewels under bright light discerns each facet, clarity, and setting with total precision.</p>",
+                      "pt": "<p><strong>O Joalheiro Inspecionando as Gemas:</strong> Um especialista examinando pedras preciosas sob luz brilhante identifica cada faceta, pureza e engaste com precisão cirúrgica.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Tilakkhaṇa-anupassanā",
+                "title": {
+                      "en": "3. Applying the Three Marks within the Jhāna",
+                      "pt": "3. Aplicando as Três Marcas da Existência no Jhāna"
+                },
+                "desc": {
+                      "en": "One reflects: 'Even this sublime state of Jhāna is conditioned, produced by volitional effort, impermanent, and subject to cessation.' Shattering subtle clinging to meditative bliss.",
+                      "pt": "Reflete-se com lucidez: 'Mesmo este estado sublime de Jhāna é condicionado, produzido por esforço volitivo, impermanente e sujeito à cessação.' Desfazendo o apego sutil ao êxtase meditativo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Seeing the Construct:</strong> Recognize that bliss and stillness are conditioned phenomena. Do not take absorption to be a permanent 'True Self' or cosmic soul.</p>",
+                      "pt": "<p><strong>Enxergando a Estrutura Condicionada:</strong> Reconheça que mesmo a paz mais sublime é um fenômeno condicionado. Não tome a absorção como um 'Eu Cósmico' ou alma eterna.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 52 §4</strong>: 'He understands: This first jhāna is conditioned and volitionally produced; whatever is conditioned is impermanent.'</p>",
+                      "pt": "<p><strong>MN 52 §4</strong>: 'Ele compreende: Este primeiro jhāna é condicionado e produzido pela volição; tudo o que é condicionado é impermanente.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Royal Palace Made of Assembled Beams:</strong> Even the most magnificent palace rests on mortal timbers and nails that will eventually weather and decay.</p>",
+                      "pt": "<p><strong>O Palácio Real de Vigas Encaixadas:</strong> Mesmo o castelo mais imponente e suntuoso depende de madeiras e encaixes que um dia envelhecerão e fenecerão.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Amatadhātu-adhigama",
+                "title": {
+                      "en": "4. The Archer Simile & Reaching the Deathless",
+                      "pt": "4. O Símile do Arqueiro & Atingindo o Imortal (Nibbāna)"
+                },
+                "desc": {
+                      "en": "Firmly grounded in the insight of impermanence, the mind turns away from all conditioned formations and inclines towards the Unconditioned Element: the stilling of all formations, Nibbāna.",
+                      "pt": "Firme no discernimento da impermanência, a mente desvia-se de todas as construções condicionadas e inclina-se para o Elemento Incondicionado: a cessação de todas as formações, Nibbāna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Liberating Pivot:</strong> In deep calm, release all clinging to states of becoming. Let consciousness pivot towards the silent, unconditioned peace of cessation.</p>",
+                      "pt": "<p><strong>A Virada Libertadora:</strong> Em profunda quietude, solte todo apego a estados de devir. Deixe a consciência inclinar-se para a paz incondicionada da cessação.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 9.36 §3</strong> and <strong>MN 64 §9–12</strong> (Mahāmālukya Sutta): The standard canonical breakthrough to non-returning (<em>anāgāmitā</em>) or arahantship.</p>",
+                      "pt": "<p><strong>AN 9.36 §3</strong> e <strong>MN 64 §9–12</strong> (Mahāmālukya Sutta): A fórmula canônica para o salto decisivo rumo ao não-retorno ou libertação completa.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Archer Training at the Target (AN 9.36):</strong> An archer or his apprentice trains upon a straw dummy or clay target until his arrows strike with flawless precision; so the meditator strikes the Deathless by turning from formations.</p>",
+                      "pt": "<p><strong>O Arqueiro Treinando no Alvo (AN 9.36):</strong> Um arqueiro atira flechas repetidamente contra um alvo de palha até que seus disparos atinjam o centro com perfeição infalível; assim o meditador atinge o Imortal ao voltar-se contra as formações condicionadas.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Do not get trapped in spiritual addiction to peaceful sitting sessions. When you experience profound tranquility, calmness, or joy during a sit, do not grasp at it as 'my achievement' or try to freeze it in time. Instead, immediately run the insight diagnostic: observe that even this magnificent tranquility is conditioned and transient. This protects you from spiritual pride and transforms calm into wisdom.",
@@ -1529,66 +2105,126 @@ const MEDITATION_LINEAGES = [
       "pt": "No Cūḷasuññata Sutta (MN 121), o Buda explica ao Ven. Ānanda a prática autêntica e descomplicada da Vacuidade (suññatāvihāra). Em vez de abordá-la como abstração filosófica, o Buda a ensina como uma redução meditativa progressiva — como alguém que entra num salão e nota que ele está vazio de elefantes, cavalos e multidões ruidosas, mas não está vazio dos praticantes sentados em silêncio. O meditador começa soltando as preocupações com cidades e relações sociais, repousando na percepção da floresta serena. Em seguida, descarta a irregularidade da vegetação e das colinas, mantendo apenas a percepção uniforme do elemento terra. Gradualmente, o praticante descasca a percepção: mergulhando no Espaço Infinito, Consciência Infinita, Nada, Nem-Percepção-Nem-Não-Percepção e, por fim, na Concentração Sem Sinais (animitta cetosamādhi). Em cada etapa, observa com lucidez: 'As perturbações anteriores estão agora ausentes; resta apenas este grau sutil de presença.' Por fim, reconhecendo que até o estado sem sinais é fabricado, a mente liberta-se dos contaminantes da cobiça e da ignorância, alcançando o vazio supremo da libertação."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Araññasaññā",
-        "title": {
-          "en": "1. Empty of Urban Noise (Perceiving the Wilderness)",
-          "pt": "1. Vazio de Ruídos Sociais (A Percepção da Floresta)"
-        },
-        "desc": {
-          "en": "Drop all memories, tasks, and conflicts regarding society, family, and marketplace. Dwell in the perception of the forest: notice that the mind is empty of social turbulence.",
-          "pt": "Abandone memórias, tarefas e atritos sociais e familiares. Repouse na percepção da floresta serena: reconheça que a mente esvaziou-se do ruído urbano."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Paṭhavīsaññā",
-        "title": {
-          "en": "2. Empty of Diversity (Perceiving Pure Earth)",
-          "pt": "2. Vazio de Irregularidades (A Percepção da Terra Pura)"
-        },
-        "desc": {
-          "en": "Subdue perception of hills, valleys, thorns, and trees, attending only to the open, flat expanse of the earth element, like a bull's hide stretched without wrinkles.",
-          "pt": "Abaixe a percepção de colinas, árvores e irregularidades, focando apenas na vastidão contínua do elemento terra, como um couro esticado sem dobras."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Āruppa-saññā",
-        "title": {
-          "en": "3. Stripping Immaterial Perceptions",
-          "pt": "3. Descascando Percepções Imateriais"
-        },
-        "desc": {
-          "en": "Progressively ascend: from earth to Infinite Space (empty of physical form); from Space to Infinite Consciousness (empty of spatial limits); from Consciousness to Nothingness (empty of mental objects).",
-          "pt": "Ascenda gradualmente: da terra ao Espaço Infinito (vazio de matéria física); do Espaço à Consciência Infinita (vazia de limites espaciais); ao Nada (vazio de objetos mentais)."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Animitta Cetosamādhi",
-        "title": {
-          "en": "4. The Signless Immersion",
-          "pt": "4. A Imersão Sem Sinais (Animitta)"
-        },
-        "desc": {
-          "en": "Not attending to any sensory sign or feature, one enters signless concentration of the mind. Notice: it is empty of the taints of lust, becoming, and ignorance.",
-          "pt": "Sem apegar-se a qualquer sinal visual ou conceitual, ingresse na concentração sem sinais. Observe: a mente está vazia das perturbações da cobiça e do apego ao vir-a-ser."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Paramānuttarā Suññatā",
-        "title": {
-          "en": "5. The Unsurpassable Ultimate Emptiness",
-          "pt": "5. A Vacuidade Suprema e Insuperável"
-        },
-        "desc": {
-          "en": "Discern that even this Signless state is conditioned and volitionally produced. Knowing this, the mind is fully released: 'Birth is destroyed, the holy life is lived, there is no more returning to this state.'",
-          "pt": "Reconheça que até mesmo o estado sem sinais é condicionado e sustentado pela volição. Compreendendo isso, a mente liberta-se totalmente: 'Destruído está o renascimento, cumprida a nobre tarefa.'"
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Araññasaññā",
+                "title": {
+                      "en": "1. The Perception of the Wilderness (Absence of Urban Agitation)",
+                      "pt": "1. A Percepção da Selva (Ausência do Clamor Urbano)"
+                },
+                "desc": {
+                      "en": "One does not attend to the perception of the village, people, or buildings; one attends single-mindedly to the perception of wilderness. Seeing what is absent and what remains present.",
+                      "pt": "Não se atenta para a agitação da cidade, multidões ou afazeres; atenta-se exclusivamente para a solitude da selva. Reconhecendo o que está ausente e o que permanece presente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Contemplating the Relief of Absence:</strong> Notice the silence when worldly noise ceases. Reflect: 'Whatever distress existed based on urban commotion is absent here; only the simple disturbance of nature remains.'</p>",
+                      "pt": "<p><strong>Contemplando o Alívio da Ausência:</strong> Observe o silêncio quando cessa o tumulto mundano. Reflita: 'Todo o estresse da agitação urbana está ausente aqui; resta apenas a simplicidade da natureza.'</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 121 §4</strong>: The opening stage of the Buddha's gradual entry into voidness (<em>suññatāvihāra</em>).</p>",
+                      "pt": "<p><strong>MN 121 §4</strong>: O estágio inicial da entrada gradual do Buda na vacuidade sublime (<em>suññatāvihāra</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Quiet Palace of Migāra's Mother (MN 121):</strong> Just as the lecture hall is empty of cattle, horses, and gold, and only contains the community of monks, one sees what is absent and what is present.</p>",
+                      "pt": "<p><strong>O Palácio de Migāra (MN 121):</strong> Assim como o salão está vazio de gado, cavalos e ouro, contendo apenas a comunidade monástica, reconhece-se o que está ausente e o que persiste.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Pathavīsaññā",
+                "title": {
+                      "en": "2. The Perception of Earth as Pure Horizon",
+                      "pt": "2. A Percepção da Terra como Puro Horizonte"
+                },
+                "desc": {
+                      "en": "Setting aside perceptions of trees, rivers, and mountains; one attends single-mindedly to the perception of earth: vast, flat, and unbounded.",
+                      "pt": "Deixando de lado árvores, rios, desfiladeiros e montanhas; atenta-se exclusivamente para a percepção da terra: vasta, plana e ilimitada."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Smoothing Internal Complexities:</strong> Visualize the earth stretched out smoothly in all directions. Let mental clutter flatten into vast, open ground.</p>",
+                      "pt": "<p><strong>Nivelando as Complexidades Mentais:</strong> Visualize a terra estendida suavemente em todas as direções. Permita que as rugosidades mentais se aplainem num horizonte aberto.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 121 §5</strong>: Progressing from external solitude to internal spatial unification.</p>",
+                      "pt": "<p><strong>MN 121 §5</strong>: Progredindo da solitude física externa para a unificação espacial interior.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Stretched Bull's Hide Free of Wrinkles (MN 121):</strong> Just as a bull's hide staked out with pegs is pulled taut and flat, freed of all folds and creases.</p>",
+                      "pt": "<p><strong>O Couro de Boi Esticado (MN 121):</strong> Assim como um couro de boi fincado com estacas é puxado até ficar perfeitamente liso e plano, sem pregas ou dobras.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Ārūppa-samāpatti",
+                "title": {
+                      "en": "3. Ascending through the Immaterial Spheres",
+                      "pt": "3. Ascendendo pelas Esferas Imateriais"
+                },
+                "desc": {
+                      "en": "Stepping progressively from Infinite Space, to Infinite Consciousness, to Nothingness, to Neither-Perception-Nor-Non-Perception. Discarding coarser layers of perception at each step.",
+                      "pt": "Avançando do Espaço Infinito para a Consciência Infinita, o Nada e Nem-Percepção-Nem-Não-Percepção. Abandonando camadas mais grosseiras de percepção a cada passo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Progressive Subtraction:</strong> At each stage, notice what layer of mental construction has dropped away and enjoy the increasing lightness of non-manifestation.</p>",
+                      "pt": "<p><strong>Subtração Progressiva:</strong> A cada estágio, observe qual camada de fabricação mental caiu e desfrute da leveza crescente da não-manifestação.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 121 §6–9</strong>: The ascent through the four formless dimensions (<em>ārūppā</em>).</p>",
+                      "pt": "<p><strong>MN 121 §6–9</strong>: A ascensão através das quatro dimensões imateriais (<em>ārūppā</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Ascending Above the Clouds in Flight:</strong> Rising above ground, above weather, above the atmosphere into the pure, silent void of starry space.</p>",
+                      "pt": "<p><strong>Subindo Acima das Nuvens:</strong> Elevando-se acima do solo, acima das tempestades e da atmosfera, penetrando o vácuo silencioso do espaço sideral.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Animitta-cetosamādhi",
+                "title": {
+                      "en": "4. The Theme-less Concentration of the Mind",
+                      "pt": "4. A Concentração da Mente Sem Sinais (Animitta)"
+                },
+                "desc": {
+                      "en": "Setting aside all signs and perceptual markers. Attending solely to the signless immersion of consciousness.",
+                      "pt": "Deixando de lado todas as representações e sinais conceituais. Atentando exclusivamente para a imersão da consciência livre de sinais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Dropping All Mental Markers:</strong> Rest in the gap where no signs (color, shape, concept, boundary) are grasped. Notice: 'Even this signless state is constructed and conditioned.'</p>",
+                      "pt": "<p><strong>Soltando os Marcadores Mentais:</strong> Repouse no espaço onde nenhum sinal (cor, forma, conceito, fronteira) é retido. Reconheça: 'Mesmo esta ausência de sinais é condicionada.'</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 121 §10</strong>: The signless immersion (<em>animitta cetosamādhi</em>) as the threshold of liberating insight.</p>",
+                      "pt": "<p><strong>MN 121 §10</strong>: A imersão sem sinais (<em>animitta cetosamādhi</em>) como o limiar do insight libertador.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Boundless Ocean Without Shoreline:</strong> Water extending infinitely in all directions without a single island, landmark, or navigation buoy.</p>",
+                      "pt": "<p><strong>O Oceano Imenso Sem Margens:</strong> Águas azuis estendendo-se ao infinito sem uma única ilha, farol ou boia de demarcação.</p>"
+                }
+          },
+          {
+                "step": 5,
+                "pali": "Paramānuttarā Suññatā",
+                "title": {
+                      "en": "5. Genuine, Supreme, Undistorted Emptiness",
+                      "pt": "5. A Vacuidade Genuína, Suprema e Inquestionável"
+                },
+                "desc": {
+                      "en": "Discerning the destruction of the taints: the mind is empty of sensual desire, empty of becoming, empty of ignorance. Knowing: 'This body alive with six senses remains, but it is empty of self, mine, and craving.'",
+                      "pt": "Discernindo a extinção definitiva das contaminações: a mente está vazia de desejo, vazia de devir, vazia de ignorância. Sabe-se: 'Este corpo vivo dotado de seis sentidos permanece, mas está inteiramente vazio de um eu, de meu e de cobiça'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Final Clean Void:</strong> Live and function in everyday reality knowing that everything is completely empty of personal ownership. Total freedom in the midst of life.</p>",
+                      "pt": "<p><strong>A Vacuidade Viva Cotidiana:</strong> Viva e atue no mundo sabendo que tudo está totalmente vazio de posse pessoal ou substância permanente. Liberdade absoluta no coração da vida.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 121 §11–12</strong>: The supreme, undistorted realization of voidness (<em>paramānuttarā suññatā</em>).</p>",
+                      "pt": "<p><strong>MN 121 §11–12</strong>: A realização suprema e imaculada da vacuidade (<em>paramānuttarā suññatā</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Spotless Transparent Crystal Globe:</strong> Perfectly clear, transmitting light freely in every direction without casting a shadow or trapping dust.</p>",
+                      "pt": "<p><strong>A Esfera de Cristal Puro Translúcido:</strong> Perfeitamente límpida, transmitindo a luz em todas as direções sem projetar sombra nem reter poeira.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Whenever your apartment, home, or office feels overwhelmingly noisy, crowded, or chaotic, do not fight the external clutter. Close your eyes and run the reduction method: look at the room and deliberately register what is absent (there are no wild tigers, no bombs falling, no war). Notice the empty space between the furniture. This immediately calms nervous system overwhelm.",
@@ -1667,54 +2303,102 @@ const MEDITATION_LINEAGES = [
       "pt": "No Nirāmisa Sutta (SN 36.31), o Buda esclarece um dos pontos mais mal interpretados da prática espiritual: a natureza do prazer e da alegria. Extremistas ascéticos historicamente defendiam que todo prazer deveria ser combatido e erradicado. O Buda corrige esse engano ao categorizar as sensações (vedanā) em três ordens progressivas: 1. Sensações mundanas (sāmisa vedanā): prazeres, dores ou neutralidades atrelados aos cinco sentidos (alimentos, entretenimento, elogios, sensualidade), que alimentam a dependência e a frustração; 2. Sensações espirituais (nirāmisa vedanā): o arrebatamento (pīti), bem-estar (sukha) e equanimidade profunda nascidos do recolhimento e dos quatro Jhānas. O Buda ordena expressamente que essa felicidade espiritual seja cultivada, repetida e desenvolvida com frequência, pois ela sacia a mente sem alimentar os venenos da cobiça; e 3. Sensações mais espirituais que as espirituais (nirāmisatarā): a serenidade inabalável do sábio que contempla sua mente completamente livre de amarras e delírios."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Sāmisa Vedanā-Pariññā",
-        "title": {
-          "en": "1. Recognizing Worldly Sensations",
-          "pt": "1. Reconhecendo as Sensações Mundanas"
-        },
-        "desc": {
-          "en": "Notice feelings tied to the 5 senses: pleasant flavors, flattering compliments, visual beauty, and their opposites (harsh criticism, bodily discomfort). Observe how they trigger craving or aversion.",
-          "pt": "Identifique as sensações atreladas aos 5 sentidos: sabores apetitosos, elogios, beleza visual e seus contrários (críticas, desconfortos). Observe como disparam cobiça ou irritação."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Nirāmisa Vedanā-Bhāvanā",
-        "title": {
-          "en": "2. Cultivating Unworldly Meditative Pleasure",
-          "pt": "2. Cultivando a Felicidade Espiritual (Nirāmisa Sukha)"
-        },
-        "desc": {
-          "en": "Sit in quiet seclusion. Through breath and mindfulness, welcome the joy (pīti) and peaceful ease (sukha) of the Jhānas. Understand: this is sacred, clean pleasure that nourishes spiritual momentum.",
-          "pt": "Recolha-se em silêncio. Através da respiração e da presença, acolha o êxtase e a paz dos Jhānas. Compreenda: este é um prazer limpo e sagrado que fortalece a energia meditativa."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Nirāmisa Upekkhā",
-        "title": {
-          "en": "3. Cultivating Unworldly Equanimity",
-          "pt": "3. Cultivando a Equanimidade Espiritual"
-        },
-        "desc": {
-          "en": "Advance beyond emotional volatility into the 4th Jhāna: unworldly neutral feeling (nirāmisa adukkham-asukha). A pristine, unshakable balance untouched by the worldly winds of gain and loss.",
-          "pt": "Avance além da montanha-russa emocional rumo ao 4º Jhāna: a equanimidade espiritual (nirāmisa upekkhā). Um equilíbrio inabalável diante dos ventos mundanos de ganho e perda."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Nirāmisatarā Vimutti",
-        "title": {
-          "en": "4. The Ultra-Unworldly Bliss of Liberation",
-          "pt": "4. O Êxtase Transmundano da Libertação"
-        },
-        "desc": {
-          "en": "Reviewing a mind freed from the shackles of craving, fear, and ego-clinging, the practitioner experiences the highest unworldly bliss: the peace of liberation (vimuttisukha).",
-          "pt": "Ao contemplar a mente despojada de grilhões, medos e apegos do ego, vivencia-se a mais alta felicidade espiritual: a paz inabalável da libertação (vimuttisukha)."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Sāmisa-vedanā",
+                "title": {
+                      "en": "1. Recognizing Worldly Sensation",
+                      "pt": "1. Reconhecendo as Sensações Mundanas"
+                },
+                "desc": {
+                      "en": "Discerning pleasant, painful, or neutral feelings that are rooted in the pursuit of sensual sights, sounds, flavors, and material attachments.",
+                      "pt": "Discernindo sensações agradáveis, dolorosas ou neutras que estão atadas à busca por estímulos sensoriais, sabores, aparências e posses materiais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Diagnosing Sensory Enslavement:</strong> Notice how worldly pleasure is always shadowed by fear of loss, and how worldly pain triggers reactive anger. See their instability.</p>",
+                      "pt": "<p><strong>Diagnosticando a Dependência Sensorial:</strong> Observe como o prazer mundano é sempre assombrado pelo medo da perda, e como a dor mundana gera aversão reativa. Veja sua instabilidade.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.31 §2</strong>: Defining sensory pleasure (<em>sāmisa-sukha</em>) dependent on material stimuli.</p>",
+                      "pt": "<p><strong>SN 36.31 §2</strong>: Definindo o prazer dos sentidos (<em>sāmisa-sukha</em>) dependente de estímulos materiais.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Meat Scrap Thrown to a Hungry Dog (MN 54):</strong> A dog chewing on a dry, blood-smeared bone gets only exhaustion and hunger without real nourishment.</p>",
+                      "pt": "<p><strong>O Osso Seco Atirado ao Cão Faminto (MN 54):</strong> Um cão roendo um osso seco e desprovido de carne ganha apenas cansaço e dentes feridos sem nutrição real.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Nirāmisa-vedanā",
+                "title": {
+                      "en": "2. Cultivating Unworldly Spiritual Ease",
+                      "pt": "2. Cultivando o Bem-Estar Espiritual Imaterial"
+                },
+                "desc": {
+                      "en": "Cultivating pleasant, peaceful feelings that arise from renunciation, solitude, ethical blamelessness, and the meditative absorptions (Jhāna).",
+                      "pt": "Cultivando sensações de paz e júbilo que brotam da renúncia, da solitude, da conduta ética e das absorções meditativas (Jhānas)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Nourishing with Pure Joy:</strong> Allow the mind to feed on the wholesome joy of meditation. This unworldly joy gives you the strength to abandon worldly addictions.</p>",
+                      "pt": "<p><strong>Nutrindo-se da Alegria Pura:</strong> Permita que a mente se sacie na alegria salutar da meditação. Esse conforto imaterial dá forças para romper vícios mundanos.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.31 §3</strong>: Defining the bliss born of seclusion in the first three Jhānas.</p>",
+                      "pt": "<p><strong>SN 36.31 §3</strong>: Definindo o bem-estar nascido do recolhimento nos três primeiros Jhānas.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Cool Mountain Spring Water:</strong> Drinking clear, pure water from a remote mountain stream, free from urban chemical runoff.</p>",
+                      "pt": "<p><strong>A Água Límpida da Nascente da Montanha:</strong> Bebendo da água pura e cristalina de um riacho remoto, livre de qualquer poluição urbana.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Nirāmisatarā-vedanā",
+                "title": {
+                      "en": "3. Experiencing Ultra-Unworldly Stillness",
+                      "pt": "3. Vivenciando a Serenidade Ultra-Imaterial"
+                },
+                "desc": {
+                      "en": "The sublime peace that arises when looking back on a mind that has extinguished greed, hatred, and delusion. The ease of liberated awareness.",
+                      "pt": "A paz sublime que surge ao contemplar a mente que extinguiu a cobiça, a aversão e a ilusão. O bem-estar supremo da consciência libertada."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Freedom:</strong> Experience the profound relief of having no cravings, no defenses, and no mental grasping. Rest in pristine liberation.</p>",
+                      "pt": "<p><strong>Repousando na Liberdade:</strong> Experimente o alívio profundo de não ter exigências, defesas nem apegos mentais. Descanse na pureza da libertação.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.31 §4</strong>: Explaining the supreme unworldly ease of the taint-free noble one.</p>",
+                      "pt": "<p><strong>SN 36.31 §4</strong>: Elucidando a paz inigualável do nobre desperto livre de contaminações.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Prisoner Walking Out the Gates:</strong> Stepping outside the prison walls into open air, feeling the shackles fall away forever.</p>",
+                      "pt": "<p><strong>O Prisioneiro Atravessando os Portões:</strong> Cruzando as muralhas da prisão para o ar livre, vendo os grilhões de ferro caírem no chão para sempre.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Saññāvedayitanirodha",
+                "title": {
+                      "en": "4. The Ultimate Surpassing of All Feeling",
+                      "pt": "4. A Superação Definitiva de Toda Sensação"
+                },
+                "desc": {
+                      "en": "Transcending even subtle feelings in the attainment of the cessation of perception and feeling (nirodha-samāpatti). The unconditioned peace of Nibbāna.",
+                      "pt": "Transcendendo até mesmo as sensações mais sutis ao tocar a cessação da percepção e sensação (nirodha-samāpatti). A paz incondicionada de Nibbāna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Absolute Quenching:</strong> Let go of all interest in sensory signals. Surrender everything to the unconditioned cessation where suffering is extinguished.</p>",
+                      "pt": "<p><strong>A Extinção Absoluta:</strong> Desapegue-se de qualquer interesse por sinais sensoriais. Entregue tudo à cessação incondicionada onde todo sofrimento falece.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.31 §5</strong>: The Buddha's declaration that non-feeling in cessation is higher than all pleasant sensations.</p>",
+                      "pt": "<p><strong>SN 36.31 §5</strong>: A declaração do Buda de que a não-sensação na cessação é superior a qualquer sensação agradável.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Flame Gone Out:</strong> Total cooling, where no heat, no smoke, and no disturbance remain.</p>",
+                      "pt": "<p><strong>A Fogueira Apagada:</strong> Resfriamento total, onde não restam calor, fumaça nem qualquer perturbação.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "This teaching rescues practitioners from ascetic guilt: you do not need to feel guilty for enjoying the peace, stillness, and rapture of your meditation cushion! That is Nirāmisa Sukha (unworldly pleasure). Cultivating daily meditation pleasure is precisely what protects you from seeking cheap, addictive worldly dopamine hits (junk food, compulsive scrolling, impulse purchases) during the workday.",
@@ -1793,54 +2477,102 @@ const MEDITATION_LINEAGES = [
       "pt": "No Upakkilesa Sutta (MN 128), o Buda visita os veneráveis Anuruddha, Nandiya e Kimbila que praticavam no Parque dos Bambus. O Ven. Anuruddha relata um obstáculo sutil: 'Senhor, enquanto meditamos, percebemos uma luz resplandecente (obhāsa) e formas luminosas; mas logo essa luz desaparece. Por que isso ocorre?' Em resposta, o Buda revela suas próprias experiências anteriores ao despertar e cataloga as Onze Corrupções Sutis (upakkilesa) que fazem o nimitta esmaecer: 1. A dúvida (vicikicchā); 2. A desatenção (amanasikāra); 3. A moleza e o torpor (thīnamiddha); 4. O medo ou susto (chambhitatta); 5. A euforia (ubbilāvita, empolgar-se quando a luz surge); 6. A inércia pesada (duṭṭhulla); 7. O excesso de esforço (accāraddhavīriya, segurar a luz com tanta força que a esmaga); 8. O esforço frouxo (atilīnavīriya, deixando a mente divagar); 9. A expectativa ansiosa (abhijappā); 10. A percepção da diversidade (nānattasaññā, distrair-se com variações); e 11. O excesso de análise sobre as formas (atidijjhāyitatta). Como um ourives que purifica o ouro (AN 3.100), o praticante elimina essas impurezas até que a mente se torne maleável, radiante e inabalavelmente absorvida."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Obhāsa-Nimitta Upāda",
-        "title": {
-          "en": "1. The Arising of the Luminous Sign",
-          "pt": "1. O Surgimento do Sinal Luminoso"
-        },
-        "desc": {
-          "en": "As breath and thought settle, subtle internal brightness (obhāsa) and mental forms arise. Learn to recognize this threshold without leaping into excited conceptual evaluation.",
-          "pt": "Conforme respiração e pensamentos aquietam, surgem lampejos de claridade interna (obhāsa) e nimittas luminosos. Reconheça esse limiar sem disparar análises mentais excitadas."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Ekādasa Upakkilesa-Pariññā",
-        "title": {
-          "en": "2. Diagnosing the 11 Subtle Distortions",
-          "pt": "2. Diagnosticando as 11 Corrupções Sutis"
-        },
-        "desc": {
-          "en": "Notice why the light collapses: Did you get excited (elation)? Did you grasp at it too hard (excess energy)? Did you start daydreaming (diversity)? Name the specific corruption and release it.",
-          "pt": "Perceba por que a luminosidade sumiu: houve euforia? Houve esforço tenso demais? Houve divagação mental? Identifique a corrupção exata e solte a atitude reativa."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Suvaṇṇakāra-Upamā",
-        "title": {
-          "en": "3. Tuning Energy Like a Master Goldsmith",
-          "pt": "3. Ajustando a Energia como um Ourives"
-        },
-        "desc": {
-          "en": "Alternate skillfully: heat the gold with effort when sluggish; cool it with water when agitated; blow on it with equanimity when balanced. Master the middle path of effort.",
-          "pt": "Alterne com sabedoria: aqueça o metal com energia quando letárgico; resfrie com calma quando agitado; observe com equanimidade quando equilibrado. Domine o caminho do meio do esforço."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Pariyo-dāta Samādhi",
-        "title": {
-          "en": "4. Stainless, Radiant Absorption",
-          "pt": "4. Absorção Resplandecente e Imaculada"
-        },
-        "desc": {
-          "en": "With all 11 corruptions eradicated, the light remains steady, unified, and limitless. The mind enters unwavering absorption (samādhi) ready for direct liberation.",
-          "pt": "Com as 11 corrupções dissolvidas, a luz permanece firme, homogênea e límpida. A mente ingressa em absorção inabalável pronta para o despertar."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Obhāsa & Rūpadassana",
+                "title": {
+                      "en": "1. Establishing Inner Light & Vision",
+                      "pt": "1. Estabelecendo a Luz Interior & Visão"
+                },
+                "desc": {
+                      "en": "Cultivating meditative light (obhāsa) and the vision of forms. The mind becomes bright and luminous as mental clarity consolidates.",
+                      "pt": "Cultivando a luminosidade meditativa (obhāsa) e a visão lúcida de formas. A mente torna-se clara e radiante conforme a estabilidade se firma."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Opening to Radiance:</strong> Allow the inner field of awareness to become bright. Do not grasp at lights; let them shine naturally as a sign of mental purification.</p>",
+                      "pt": "<p><strong>Abrindo-se para a Claridade:</strong> Deixe o campo interior da consciência iluminar-se. Não se apegue aos clarões; permita que brilhem naturalmente como reflexo da pureza mental.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 128 §15</strong>: Ven. Anuruddha reports experiencing meditative light and visions that suddenly vanish.</p>",
+                      "pt": "<p><strong>MN 128 §15</strong>: O Ven. Anuruddha relata ao Buda que experienciava luzes e visões sublimes que repentinamente sumiam.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Morning Sun Rising Over Mist:</strong> The sun's golden rays cut through morning valley fog, revealing the landscape in vibrant detail.</p>",
+                      "pt": "<p><strong>O Sol Matinal Dissolvendo a Névoa:</strong> Raios dourados rompem o nevoeiro do vale, revelando a paisagem com nitidez vibrante.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Ekādasa Upakkilesā",
+                "title": {
+                      "en": "2. Diagnosing the 11 Corruptions of Concentration",
+                      "pt": "2. Diagnosticando as 11 Corrupções da Concentração"
+                },
+                "desc": {
+                      "en": "Identifying the 11 subtle obstacles that cause light and vision to disappear: doubt, inattention, sluggishness, fear, elation, inertia, excessive energy, slack energy, longing, perception of diversity, and excessive fascination.",
+                      "pt": "Identificando os 11 obstáculos sutis que fazem a luz e a visão se apagarem: dúvida, desatenção, torpor, medo, euforia, inércia, excesso de esforço, frouxidão, anseio, dispersão da diversidade e fascínio excessivo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Subtle Obstacle Elimination:</strong> If the light fades, check: Did I get excited (elation)? Did I push too hard (excessive energy)? Did I become slack? Balance effort with precision.</p>",
+                      "pt": "<p><strong>Eliminação de Obstáculos Sutis:</strong> Se a claridade sumir, investigue: Houve euforia? Pressionei com força demais? Fiquei desatento? Ajuste o esforço com precisão milimétrica.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 128 §16–26</strong>: The Buddha's masterclass in troubleshooting refined concentration.</p>",
+                      "pt": "<p><strong>MN 128 §16–26</strong>: A aula magna do Buda sobre diagnóstico de falhas na concentração refinada.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Stringing of the Lute (AN 6.55):</strong> If lute strings are too tight, they snap; if too loose, they cannot produce melody. Tuned just right, music flows effortlessly.</p>",
+                      "pt": "<p><strong>A Afinação do Alaúde (AN 6.55):</strong> Se as cordas do alaúde estiverem muito esticadas, arrebentam; se muito frouxas, não emitem som. Afinadas no ponto justo, a música ressoa perfeita.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Kammāra-dhātu-sobhana",
+                "title": {
+                      "en": "3. The Goldsmith Refining Pure Gold",
+                      "pt": "3. O Ourives Purificando o Ouro Maciço"
+                },
+                "desc": {
+                      "en": "Just as a skilled goldsmith heats the crucible, blows on the fire, sprinkles water to cool, and inspects the molten ore, the meditator balances energy, calm, and equanimity.",
+                      "pt": "Tal como um ourives experiente aquece o cadinho, sopra o fogo, borrifa água para resfriar e examina o metal fundido, o meditador calibra energia, calma e equanimidade."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Mastering the Three Faculties:</strong> When the mind is sluggish, apply energy (blow on the fire); when agitated, apply calming (sprinkle water); when balanced, abide in equanimity (inspect the gold).</p>",
+                      "pt": "<p><strong>Dominando as Três Faculdades:</strong> Se a mente esmorecer, aplique energia (sopre o fogo); se agitar, aplique calma (borrife água); se equilibrada, permaneça em equanimidade (contemple o ouro).</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 128 §27</strong> and <strong>AN 3.100</strong>: The goldsmith simile demonstrating dynamic meditative modulation.</p>",
+                      "pt": "<p><strong>MN 128 §27</strong> e <strong>AN 3.100</strong>: O símile do ourives demonstrando a modulação meditativa dinâmica.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Pure Pliable Gold (AN 3.100):</strong> Cleansed of dross, the gold becomes radiant, malleable, and ready to be fashioned into any exquisite ornament.</p>",
+                      "pt": "<p><strong>O Ouro Maleável e Puro (AN 3.100):</strong> Purificado de escórias, o ouro torna-se radiante, dúctil e pronto para ser trabalhado em qualquer ornamento nobre.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Tividha-samādhi",
+                "title": {
+                      "en": "4. The Threefold Unshakeable Concentration",
+                      "pt": "4. A Concentração Tríplice Inabalável"
+                },
+                "desc": {
+                      "en": "Mastering concentration with applied and sustained thought, without applied thought but with sustained thought, and free of both. Unshakeable liberation and supreme vision.",
+                      "pt": "Dominando a concentração com pensamento aplicado e sustentado, sem pensamento aplicado mas com sustentação, e livre de ambos. Libertação inabalável e visão suprema."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Effortless Absorption Mastery:</strong> Abide steadily in any degree of absorption without losing clarity or falling into subtle corruptions. Total meditative sovereignty.</p>",
+                      "pt": "<p><strong>Domínio Espontâneo da Absorção:</strong> Permaneça firme em qualquer nível de absorção sem perder a lucidez nem cair em corrupções sutis. Soberania meditativa total.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 128 §30–32</strong>: Ven. Anuruddha attains arahantship, becoming foremost in the divine eye (<em>dibbacakkhu</em>).</p>",
+                      "pt": "<p><strong>MN 128 §30–32</strong>: O Ven. Anuruddha atinge o estado de Arahant, tornando-se o discípulo supremo na visão divina (<em>dibbacakkhu</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Great Diamond Crown:</strong> Cut with exquisite symmetry, flashing brilliant light in all directions, impossible to scratch or shatter.</p>",
+                      "pt": "<p><strong>A Coroa de Diamantes Puros:</strong> Lapidada com simetria impecável, emitindo clarões brilhantes em todas as direções, impossível de riscar ou quebrar.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "This discourse provides the golden rule for meditation effort: whenever a meditator begins experiencing light, tingles, or profound calm, the instinct is to try to 'hold onto it' or get excited ('Wow, it's working!'). That sudden surge of grasping and elation is precisely what destroys the state. Treat meditative signs like a butterfly resting on your open palm: if you close your fist to grasp it, you crush it; remain utterly still and let it rest.",
@@ -1919,54 +2651,102 @@ const MEDITATION_LINEAGES = [
       "pt": "O Khaggavisāṇa Sutta é reverenciado na tradição das florestas como a carta de alforria do praticante solitário. Ven. Ajahn Mun enviava seus discípulos para cavernas e florestas ermas precisamente para romper o vício da validação social e da fala fútil. Para o leigo contemporâneo, este sutta fornece uma couraça psicológica indispensável contra a sobrecarga digital, as redes sociais e o pânico de ficar de fora."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Saṁsagga-Pahāna",
-        "title": {
-          "en": "1. Cutting Entangling Association",
-          "pt": "1. Romper Emaranhados Sociais"
-        },
-        "desc": {
-          "en": "Identify where you waste spiritual energy in empty gossip, social flattery, and digital scrolling. Intentionally step back into quietness.",
-          "pt": "Identifique onde você drena energia em fofocas, vaidades e rolagem de telas. Dê um passo deliberado para trás, em direção ao silêncio."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Kāya-Viveka",
-        "title": {
-          "en": "2. Finding Physical Seclusion",
-          "pt": "2. Estabelecer o Isolamento Físico"
-        },
-        "desc": {
-          "en": "Create a sanctified space of solitude—a quiet room, a forest trail, or an early morning hour free from family and workplace demands.",
-          "pt": "Crie um espaço sagrado de solitude — um quarto silencioso, uma trilha na natureza ou a madrugada, livre de demandas familiares e profissionais."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Khaggavisāṇa-Vihāra",
-        "title": {
-          "en": "3. Abiding Like the Rhinoceros Horn",
-          "pt": "3. Repousar como o Chifre do Rinoceronte"
-        },
-        "desc": {
-          "en": "Sit completely self-contained. The rhinoceros has one horn, unified and sturdy. Anchor your mind within your own heart without leaning on anyone.",
-          "pt": "Sente-se em total inteireza. O rinoceronte possui um único chifre, firme e resoluto. Ancore a mente no próprio coração, sem se apoiar em ninguém."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Citta-Viveka",
-        "title": {
-          "en": "4. Mental Seclusion & Delight in Dhamma",
-          "pt": "4. Quietude Mental & Deleite no Dhamma"
-        },
-        "desc": {
-          "en": "Experience the sublime relief of not needing to impress anyone. The quiet heart rejoices in inner stillness as superior to worldly fellowship.",
-          "pt": "Experimente o alívio sublime de não precisar impressionar ninguém. O coração sereno descobre que a quietude interior supera qualquer festa mundana."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Saṁsagga-dosa-dassana",
+                "title": {
+                      "en": "1. Discerning the Peril of Social Enmeshment",
+                      "pt": "1. Discernindo o Perigo do Enredamento Social"
+                },
+                "desc": {
+                      "en": "Recognizing that social entanglements bring affection, affection brings attachment, and attachment brings grief. Resolving to cultivate inner solitude like a rhinoceros horn.",
+                      "pt": "Reconhecendo que o enredamento social gera apego, o apego gera dependência e a dependência gera aflição. Resolvendo caminhar com solitude serena como o chifre do rinoceronte."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Psychological Independence:</strong> Step back from the compulsive need for validation and endless social chatter. Cultivate comfortable, grounded inner silence.</p>",
+                      "pt": "<p><strong>Independência Psicológica:</strong> Dê um passo atrás da compulsão por validação e ruído social. Cultive um silêncio interior calmo e autossuficiente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Sutta Nipāta 1.3 §35–40</strong>: The foundational EBT anthem on solitary wilderness asceticism.</p>",
+                      "pt": "<p><strong>Sutta Nipāta 1.3 §35–40</strong>: O clássico hino do Budismo Antigo sobre a solitude monástica na floresta.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Two Golden Bangles Clashing (Snp 1.3 §48):</strong> Two golden bangles on a wrist constantly clash and jingle; a single bangle rests in perfect silence.</p>",
+                      "pt": "<p><strong>Os Dois Braceletes de Ouro (Snp 1.3 §48):</strong> Dois braceletes no pulso chocam-se e tilintam sem cessar; um único bracelete repousa em silêncio absoluto.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Pahāna-saṅga",
+                "title": {
+                      "en": "2. Severing the Nets of Sensual Attachment",
+                      "pt": "2. Rompendo as Redes do Desejo Sensual"
+                },
+                "desc": {
+                      "en": "Seeing through sensual pleasures: sweet, captivating, yet churning the mind with craving. Breaking free like an elephant in rut tearing its chains.",
+                      "pt": "Enxergando a armadilha dos prazeres dos sentidos: sedutores, mas que agitam a mente com cobiça. Libertando-se como um elefante em fúria arrebentando as amarras."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Cutting Habitual Loops:</strong> When a sensory craving pulls at your mind, cut the mental leash immediately. Do not bargain with addiction.</p>",
+                      "pt": "<p><strong>Cortando Hábitos Compulsivos:</strong> Quando o desejo sensorial puxar sua atenção, corte a corda imediatamente. Não negocie com o vício mental.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Snp 1.3 §45–50</strong>: Emphasizes that sensual pleasures are disguised hooks leading to bondage.</p>",
+                      "pt": "<p><strong>Snp 1.3 §45–50</strong>: Enfatiza que os prazeres sensoriais são anzóis disfarçados que aprisionam a mente.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Fish Tearing the Net (Snp 1.3 §62):</strong> Just as a powerful fish bursts through the fisherman's mesh into the open river, one shatters the nets of craving.</p>",
+                      "pt": "<p><strong>O Peixe Rompendo a Rede (Snp 1.3 §62):</strong> Tal como um peixe vigoroso rasga a malha do pescador e mergulha no rio aberto, o meditador rasga as redes do apego.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Mettā-karuṇā-vihāra",
+                "title": {
+                      "en": "3. Boundless Benevolence from Solitude",
+                      "pt": "3. Benevolência Ilimitada a Partir da Solitude"
+                },
+                "desc": {
+                      "en": "Abiding in seclusion does not mean cold cynicism. One radiates loving-kindness, compassion, sympathetic joy, and equanimity to all living beings in all directions.",
+                      "pt": "Habitar em solitude não significa cinismo ou frieza. Irradia-se bondade amorosa, compaixão, alegria altruísta e equanimidade a todos os seres em todas as direções."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Warm Heart, Still Mind:</strong> Bathe the world in unconditional goodwill. True solitude is warm, luminous, and completely harmless.</p>",
+                      "pt": "<p><strong>Coração Acolhedor, Mente em Paz:</strong> Banhe o mundo em boa vontade incondicional. A solitude verdadeira é calorosa, luminosa e inofensiva.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Snp 1.3 §73</strong>: Balancing fierce solitude with the four Brahma-vihāras.</p>",
+                      "pt": "<p><strong>Snp 1.3 §73</strong>: Equilibrando a solitude rigorosa com as quatro moradas divinas (Brahma-vihāras).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Wind Blowing Freely Through the Trees (Snp 1.3 §71):</strong> Like wind unobstructed by nets, benevolent awareness moves everywhere without snagging.</p>",
+                      "pt": "<p><strong>O Vento Soprando Livre pelas Árvores (Snp 1.3 §71):</strong> Como o vento que não fica preso em redes, a consciência benevolente permeia tudo sem se apegar.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Khaggavisāṇa-kappa",
+                "title": {
+                      "en": "4. Wandering Free Like the Rhinoceros Horn",
+                      "pt": "4. Vagueando Livre como o Chifre do Rinoceronte"
+                },
+                "desc": {
+                      "en": "Firmly established in awakening, unshaken by storms, blame, or praise. Wandering alone, unattached, fearless, and liberated.",
+                      "pt": "Firmemente estabelecido no despertar, inabalável diante de tempestades, louvores ou censuras. Vagueando solitário, livre de amarras e em paz suprema."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Self-Luminous Sovereignty:</strong> Abide with zero spiritual dependency. The mind is its own island, resting in the unconditioned.</p>",
+                      "pt": "<p><strong>Repousando na Soberania Luminosa:</strong> Permaneça sem dependência psicológica. A mente é sua própria ilha, ancorada no incondicionado.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Snp 1.3 §75</strong>: The crowning verse concluding the Rhinoceros Horn Discourse.</p>",
+                      "pt": "<p><strong>Snp 1.3 §75</strong>: O verso culminante que coroa o Discurso do Chifre do Rinoceronte.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Solitary Rhinoceros Horn:</strong> Single, upright, unbending, and solid; walking through the dense jungle without entangled branches.</p>",
+                      "pt": "<p><strong>O Chifre Solitário do Rinoceronte:</strong> Único, ereto, inflexível e sólido; caminhando pela selva espessa sem se prender nos galhos.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "High Samādhi & Non-Clinging to Social Identity (Anattā)",
@@ -2062,54 +2842,102 @@ const MEDITATION_LINEAGES = [
       "pt": "No MN 19, o Buda relata seu treinamento pré-despertar nas selvas de Magadha. Sentado sob copas de árvores, dividiu os pensamentos emergentes em duas classes: os destrutivos (desejo sensual, aversão, crueldade) e os luminosos (renúncia, benevolência, não-violência). Ajahn Chah usava este sutta como instrução mestra para lidar com pensamentos obsessivos: não declare guerra aos pensamentos; apenas veja para onde inclinam seu coração e cesse de alimentar o que envenena sua mente."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Dvedhā Vibhajana",
-        "title": {
-          "en": "1. Partitioning Thoughts into Two Sides",
-          "pt": "1. Dividir os Pensamentos em Duas Classes"
-        },
-        "desc": {
-          "en": "Observe thoughts as they arise. Sort them cleanly: Does this thought stem from greed, anger, or vanity? Or does it stem from renunciation, goodwill, and peace?",
-          "pt": "Observe os pensamentos surgindo. Separe-os claramente: este pensamento nasce da cobiça, raiva ou vaidade? Ou provém da renúncia, benevolência e paz?"
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Ādīnava-Dassana",
-        "title": {
-          "en": "2. Seeing the Peril of Destructive Thoughts",
-          "pt": "2. Enxergar o Perigo dos Pensamentos Nocivos"
-        },
-        "desc": {
-          "en": "When an angry or lustful thought arises, recognize: 'This leads to my own harm, to others' harm, and to the destruction of wisdom.' It immediately loses its glamour.",
-          "pt": "Quando surgir um pensamento rancoroso ou sensual desmedido, reconheça: 'Isto leva à minha ruína, fere os outros e cega a sabedoria.' O pensamento perde seu encanto na hora."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Sati-Gopaka",
-        "title": {
-          "en": "3. Resting Like the Autumn Herdsman",
-          "pt": "3. Descansar como o Pastor de Outono"
-        },
-        "desc": {
-          "en": "When cows graze on a barren plain after harvest, the herdsman sits relaxed under a tree, just watching from afar. Watch your wholesome thoughts gently subside without meddling.",
-          "pt": "Após a colheita, quando as vacas pastam num campo aberto, o pastor senta-se tranquilo sob a árvore, apenas vigiando. Observe os pensamentos benéficos assentarem sozinhos."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Vūpasama & Jhāna",
-        "title": {
-          "en": "4. Stillness of the Bounded Thinking",
-          "pt": "4. Quietude Total do Pensamento (Samādhi)"
-        },
-        "desc": {
-          "en": "Even noble thinking tires the physical brain. Gently quiet wholesome thinking into undivided, silent presence, opening the gate to 1st Jhāna.",
-          "pt": "Mesmo pensar em coisas nobres cansa o cérebro. Acalme o pensamento deliberado na presença silenciosa, abrindo os portões do primeiro Jhāna."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Dvedhā-vitakka-vibhāga",
+                "title": {
+                      "en": "1. Sorting Thoughts into Two Streams",
+                      "pt": "1. Dividindo os Pensamentos em Dois Fluxos"
+                },
+                "desc": {
+                      "en": "The Bodhisatta's discovery: dividing thoughts into two classes—those rooted in sensuality, ill will, and harm vs those rooted in renunciation, good will, and harmlessness.",
+                      "pt": "A descoberta fundamental do Bodhisatta: separar pensamentos em duas classes—os arraigados no desejo, má vontade e crueldade contra os de renúncia, benevolência e não-violência."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Dual-Stream Mental Sorting:</strong> When a thought arises, label its ethical root immediately: 'Is this greed/aversion, or is this wholesome letting-go?'</p>",
+                      "pt": "<p><strong>Triagem de Fluxo Duplo:</strong> Ao notar um pensamento surgindo, rotule sua raiz ética: 'Isto é cobiça/aversão, ou é renúncia e bondade?'</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 19 §3</strong>: The historical Bodhisatta's method prior to his full Awakening under the Bodhi tree.</p>",
+                      "pt": "<p><strong>MN 19 §3</strong>: O método empregado pelo Bodhisatta antes de alcançar a Iluminação sob a árvore Bodhi.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Cowherd in Autumn Guarding the Crops (MN 19 §4):</strong> A cowherd with a stick taps and prods cows away from ripe corn crops to prevent them from eating the farmer's grain.</p>",
+                      "pt": "<p><strong>O Pastor Vigiando a Lavoura no Outono (MN 19 §4):</strong> Um pastor com um cajado enxota as vacas para longe dos trigais maduros para impedir que destruam as colheitas alheias.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Vitakka-vūpasama",
+                "title": {
+                      "en": "2. Stilling Even Wholesome Thoughts",
+                      "pt": "2. Pacificando Até os Pensamentos Salutares"
+                },
+                "desc": {
+                      "en": "Even thoughts of renunciation and harmlessness, when indulged in for too long, tire the body and agitate the mind. Stilling thought-formations into noble silence.",
+                      "pt": "Mesmo pensamentos nobres e compassivos, quando prolongados em excesso, cansam o corpo e desgastam a mente. Pacificando o diálogo interno no silêncio nobre."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Stepping from Good Thinking into Stillness:</strong> Do not just collect good thoughts; let thinking itself rest. Drop discourse and enter silent presence.</p>",
+                      "pt": "<p><strong>Passando do Bom Pensamento para a Quietude:</strong> Não fique apenas colecionando boas ideias; permita que o pensar descanse. Largue o diálogo e entre na quietude pura.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 19 §6–7</strong>: 'Too much thinking and evaluating tires the body; when the body is tired, the mind is perturbed.'</p>",
+                      "pt": "<p><strong>MN 19 §6–7</strong>: 'Pensar e avaliar em demasia cansa o corpo; com o corpo cansado, a mente se perturba.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Cowherd Resting Under the Tree in Summer (MN 19 §8):</strong> In summer, when crops are harvested, the cowherd sits comfortably under a tree, mindful only: 'The cows are there.'</p>",
+                      "pt": "<p><strong>O Pastor Repousando sob a Árvore no Verão (MN 19 §8):</strong> No verão, colhidos os grãos, o pastor senta-se tranquilo à sombra de uma árvore, apenas ciente: 'O gado está ali.'</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Dutiyajjhāna-pavesa",
+                "title": {
+                      "en": "3. Entering the Second Jhāna (Noble Silence)",
+                      "pt": "3. Acessando o Segundo Jhāna (Silêncio Nobre)"
+                },
+                "desc": {
+                      "en": "With the stilling of applied and sustained thought, one enters and abides in the 2nd Jhāna, with internal confidence, unification of mind, and joy born of concentration.",
+                      "pt": "Com a cessação do pensamento aplicado e sustentado, adentra-se e permanece-se no 2º Jhāna, com confiança interior, unificação mental e êxtase nascido do samādhi."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Sinking into Noble Silence:</strong> Enjoy the sweet relief of a mind with zero inner verbalization. Rest in the pure glow of samādhi.</p>",
+                      "pt": "<p><strong>Mergulhando no Silêncio Nobre:</strong> Desfrute do alívio sublime de uma mente sem qualquer diálogo interno. Repouse na luminosidade do samādhi.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 19 §11–13</strong>: Traces the progression from moral thought regulation into the deep Jhānas.</p>",
+                      "pt": "<p><strong>MN 19 §11–13</strong>: Traça a progressão direta da regulação dos pensamentos para as absorções dos Jhānas.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Deep Spring Lake without Incoming Rivers:</strong> Feeding on its own subterranean cool waters in untroubled peace.</p>",
+                      "pt": "<p><strong>O Lago Profundo sem Afluentes:</strong> Alimentado por suas próprias águas límpidas subterrâneas em paz cristalina.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Tevijjā-sacchikiriya",
+                "title": {
+                      "en": "4. Breakthrough to the Three True Knowledges",
+                      "pt": "4. Concretização dos Três Conhecimentos Supremos"
+                },
+                "desc": {
+                      "en": "From unwavering concentration, the mind penetrates past lives, the rebirth of beings according to kamma, and the destruction of the taints, attaining full awakening.",
+                      "pt": "A partir da concentração inabalável, a mente penetra vidas passadas, a transmigração dos seres pelo kamma e a destruição das contaminações, atingindo a Iluminação plena."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Penetrating Reality:</strong> Turn the concentrated, diamond-sharp mind towards the Four Noble Truths, seeing origin and cessation directly.</p>",
+                      "pt": "<p><strong>Penetrando a Realidade:</strong> Incline a mente afiada como diamante para as Quatro Nobres Verdades, contemplando a origem e a cessação diretamente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 19 §15–27</strong>: The Bodhisatta's night of Awakening under the Bodhi tree.</p>",
+                      "pt": "<p><strong>MN 19 §15–27</strong>: A vigília noturna da Iluminação do Bodhisatta sob a árvore Bodhi.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Clear Mountain Stream Displaying All Pebbles (MN 19):</strong> All secrets of conditioning and liberation revealed in spotless lucidity.</p>",
+                      "pt": "<p><strong>O Riacho da Montanha Revelando Cada Seixo (MN 19):</strong> Todos os segredos do sofrimento e da libertação revelados em transparência imaculada.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of Vitakka/Vicāra and 1st Jhāna Absorption",
@@ -2205,54 +3033,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Na tradição das florestas, todo monge ao raspar a cabeça recebe do preceptor cinco palavras em Pāli: Kesā (cabelos), Lomā (pelos), Nakhā (unhas), Dantā (dentes), Taco (pele). Este é o Mūla-Kammaṭṭhāna (Objeto Raiz de Meditação). Ajahn Mun ensinava que toda paixão romântica cega e a compulsão sexual repousam sobre uma ilusão de ótica: nós só enxergamos a fração de milímetro da pele externa. Ao treinar a mente para visualizar o crânio sob o rosto, os dentes e os órgãos internos, a luxúria é extirpada e o medo da velhice evapora."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Mūla-Kammaṭṭhāna",
-        "title": {
-          "en": "1. The Five Root Components",
-          "pt": "1. As Cinco Partes Raiz (Kesā, Lomā...)"
-        },
-        "desc": {
-          "en": "Recite and visualize forward and reverse: Kesā (hair), Lomā (body hair), Nakhā (nails), Dantā (teeth), Taco (skin). See them detached from vanity.",
-          "pt": "Recite e visualize de ida e volta: Kesā (cabelos), Lomā (pelos), Nakhā (unhas), Dantā (dentes), Taco (pele). Veja-os desprovidos de vaidade."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Dvattiṁsākāra",
-        "title": {
-          "en": "2. The 32 Anatomical Parts",
-          "pt": "2. O Escaneamento das 32 Partes"
-        },
-        "desc": {
-          "en": "Mentally open the torso: liver, kidneys, lungs, heart, intestines, stomach with digested food, bile, phlegm, marrow. A sack of groceries with various grains.",
-          "pt": "Abra mentalmente o tronco: fígado, rins, pulmões, coração, intestinos, estômago com comida digerida, bile, fleuma e medula. Como um saco cheio de grãos diversos."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Aṭṭhi-Kammaṭṭhāna",
-        "title": {
-          "en": "3. The White Bone Skeleton",
-          "pt": "3. A Visualização do Esqueleto Branco"
-        },
-        "desc": {
-          "en": "Peel away the meat and skin in your mind. See your own skull, jaw, ribs, and spine gleaming white. Rest in the pure neutrality of bone.",
-          "pt": "Remova a carne e a pele na visão mental. Veja seu crânio, costelas e coluna brilhando como marfim branco. Repouse na neutralidade pura dos ossos."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Rāga-Vūpasama",
-        "title": {
-          "en": "4. The Cooling of Sensual Fever",
-          "pt": "4. O Arrefecimento da Luxúria"
-        },
-        "desc": {
-          "en": "Observe how sexual obsession immediately cools. The mind feels immense lightness, cleanliness, and sober joy, entering peaceful Jhāna.",
-          "pt": "Observe como a obsessão sensual esfria na hora. A mente experimenta uma leveza imensa, limpidez e sobriedade, entrando em Jhāna sereno."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Tacamattapañcaka",
+                "title": {
+                      "en": "1. The Five Hair-and-Skin Roots (Mūla-Kammaṭṭhāna)",
+                      "pt": "1. As Cinco Raízes de Pele e Cabelo (Mūla-Kammaṭṭhāna)"
+                },
+                "desc": {
+                      "en": "The five foundational meditation themes given at ordination in the Thai Forest tradition: head hairs, body hairs, nails, teeth, skin. Reciting and visualizing them to undo physical vanity.",
+                      "pt": "Os cinco temas dados na ordenação na tradição tailandesa: cabelos, pelos, unhas, dentes e pele. Recitando-os e visualizando-os para dissolver a vaidade física."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Ordination Pentad Recitation:</strong> Mentally sweep: <em>kesā, lomā, nakhā, dantā, taco</em> — and reverse: <em>taco, dantā, nakhā, lomā, kesā</em>. Notice that removed from the body, none of these are considered attractive.</p>",
+                      "pt": "<p><strong>Recitação da Pêntade:</strong> Percorra mentalmente: <em>kesā, lomā, nakhā, dantā, taco</em> — e reverso: <em>taco, dantā, nakhā, lomā, kesā</em>. Note que arrancados do corpo, nenhum deles é atraente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §7</strong> and Thai Forest Vinaya ordination liturgy.</p>",
+                      "pt": "<p><strong>MN 119 §7</strong> e a liturgia de ordenação do Vinaya na Floresta Tailandesa.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Paint on a Clay Doll:</strong> Scraping off the thin layer of pigment on a painted doll reveals only damp mud underneath.</p>",
+                      "pt": "<p><strong>A Tinta no Boneco de Argila:</strong> Raspando a fina película de tinta colorida de um boneco, encontra-se apenas barro úmido por baixo.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Aṭṭhika-saññā",
+                "title": {
+                      "en": "2. The Bone Skeleton Meditation",
+                      "pt": "2. A Meditação no Esqueleto Ósseo"
+                },
+                "desc": {
+                      "en": "Penetrating beneath the flesh to see the calcium skeleton: skull, jaw, ribs, vertebrae, pelvis, and limbs. A mechanical armature held together by sinews.",
+                      "pt": "Penetrando abaixo da carne para enxergar o esqueleto de cálcio: crânio, mandíbula, costelas, coluna e membros. Uma armadura mecânica sustentada por tendões."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Internal X-Ray Visualization:</strong> While sitting or walking, view yourself as an articulated skeleton walking through space. Observe people without seeing gender or status, only walking bone-frameworks.</p>",
+                      "pt": "<p><strong>Visão Radiográfica Interior:</strong> Ao sentar ou andar, contemple-se como um esqueleto articulado movendo-se no espaço. Olhe para as pessoas vendo armações ósseas sem fetiches de gênero ou vaidade.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 5.61 (Aṭṭhikasaññā Sutta)</strong>: The bone meditation producing profound detachment from sensual lust.</p>",
+                      "pt": "<p><strong>AN 5.61 (Aṭṭhikasaññā Sutta)</strong>: A meditação no esqueleto como antídoto fulminante contra a cobiça erótica.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Ven. Mahā-Tissa and the Laughing Woman (Visuddhimagga I):</strong> A monk seeing a woman laugh did not see a woman, but a set of white teeth in a skull, attaining arahantship on the spot.</p>",
+                      "pt": "<p><strong>O Ven. Mahā-Tissa e a Mulher que Sorriu (Visuddhimagga I):</strong> Um monge ao ver uma mulher sorrir não viu uma mulher, mas dentes brancos brilhando num crânio, atingindo o despertar naquele instante.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Sīvathikā-manasikāra",
+                "title": {
+                      "en": "3. Charnel Ground Reflections on Mortality",
+                      "pt": "3. Reflexões no Cemitério sobre a Mortalidade"
+                },
+                "desc": {
+                      "en": "Contemplating bodies decaying in the cemetery: bloated, discolored, festering, stripped to bones scattered in all directions. Applying this directly: 'This body too will become like that.'",
+                      "pt": "Contemplando corpos decompondo-se no crematório: inchados, azulados, roídos por vermes e reduzidos a ossos espalhados. Aplicando a si: 'Este meu corpo também tem essa natureza e terá esse mesmo fim'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Ego Mortality Confrontation:</strong> Face the unvarnished biological destiny of your organism. Free yourself from the terror of aging and physical decline.</p>",
+                      "pt": "<p><strong>Confronto com a Finitude:</strong> Encare o destino biológico inevitável do seu corpo. Liberte-se do pavor da velhice e da decadência física.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §9–14</strong> and <strong>MN 10 §14–24</strong> (The Nine Charnel Ground Contemplations).</p>",
+                      "pt": "<p><strong>MN 119 §9–14</strong> e <strong>MN 10 §14–24</strong> (As Nove Contemplações do Cemitério).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Decaying Log Cast into the Ditch:</strong> Once lifeless, the body is discarded like a piece of rotten driftwood, worthless and abandoned.</p>",
+                      "pt": "<p><strong>O Tronco Podre Lançado na Vala:</strong> Sem vida, o corpo é abandonado como madeira carcomida levada pela correnteza, desprovido de valor.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Rāgakkhaya & Citta-visuddhi",
+                "title": {
+                      "en": "4. Total Destruction of Lust & Radiant Purity",
+                      "pt": "4. Destruição Total da Cobiça & Pureza Radiante"
+                },
+                "desc": {
+                      "en": "Through relentless investigation of the unattractive, the fever of sensual craving breaks. The mind rests in radiant, immaculate clarity, untouched by lust or repulsion.",
+                      "pt": "Pela contemplação profunda do corpo nu, a febre do apego sensual se extingue. A mente repousa em claridade pura e imaculada, intocada pela cobiça ou repulsa."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Abiding in Pristine Coolness:</strong> Experience the liberation of having no sexual obsessions or bodily insecurities. Rest in the luminous freedom of the natural mind.</p>",
+                      "pt": "<p><strong>Repousando no Frescor Puro:</strong> Experimente o alívio supremo de estar livre de obsessões eróticas e inseguranças estéticas. Descanse na pureza luminosa da mente natural.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §17</strong>: Subduing attraction and revulsion completely (<em>aratiratisaho</em>).</p>",
+                      "pt": "<p><strong>MN 119 §17</strong>: Superação definitiva de todo apego e aversão corpórea (<em>aratiratisaho</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lotus Blossom Untouched by Muddy Water:</strong> Born from the mud and growing through murky water, the white blossom rests above the surface, spotless and pure.</p>",
+                      "pt": "<p><strong>A Flor de Lótus Intocada pelo Lodo:</strong> Nascida na lama e crescendo na água turva, a flor branca desabrocha acima da superfície, imaculada e resplandecente.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Subjugation of Kāmarāga (Sensual Lust) & Anāgāmī Insight",
@@ -2347,54 +3223,102 @@ const MEDITATION_LINEAGES = [
       "pt": "O ensinamento de Ajahn Chah vai direto à raiz da ilusão. Em vez de isolar a meditação em almofadas silenciosas, ele insistia que a sabedoria é forjada no calor das frustrações diárias e do trabalho manual. Sua metáfora da 'Água Parada que Flui' reconcilia tranquilidade e insight: a mente repousa em serenidade inabalável, mas flui dinamicamente para responder à realidade. Tudo o que surge é acolhido com a expressão mestra: 'Mai nae' (Isto é incerto)."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Phū Rū",
-        "title": {
-          "en": "1. Finding the 'One Who Knows'",
-          "pt": "1. Despertar 'Aquele que Sabe'"
-        },
-        "desc": {
-          "en": "Step back from the movie of thinking. Become the impartial witness that notices thinking. The thoughts are not you; they are natural events passing through.",
-          "pt": "Dê um passo atrás do filme mental. Torne-se a testemunha imparcial que percebe o pensamento. Os pensamentos não são você; são eventos que passam."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Mai Nae (Anicca)",
-        "title": {
-          "en": "2. The Universal Universal Mantra: 'It's Uncertain'",
-          "pt": "2. O Mantra Universal: 'Não é Certo'"
-        },
-        "desc": {
-          "en": "Whenever greed, frustration, panic, or pride arises, apply the needle of wisdom: 'Mai nae' (It's uncertain / It's impermanent). This cuts the root of attachment instantly.",
-          "pt": "Quando surgir desejo, raiva, pânico ou orgulho, aplique o corte da sabedoria: 'Mai nae' (Isto não é permanente). Corta-se o apego imediatamente."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Cāga / Paṭinissagga",
-        "title": {
-          "en": "3. Radical Letting Go",
-          "pt": "3. O Soltar Radical"
-        },
-        "desc": {
-          "en": "Don't try to become anything. Don't try to become a meditator or an enlightened being. Just sit like a dead leaf falling on the ground.",
-          "pt": "Não tente se tornar nada. Não tente ser um 'grande meditador'. Apenas sente-se como uma folha seca que repousa no chão."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Yuganaddha in Action",
-        "title": {
-          "en": "4. Still Flowing Water in Daily Life",
-          "pt": "4. Água Parada que Flui no Cotidiano"
-        },
-        "desc": {
-          "en": "Engage fully with household duties, cleaning, family, and conversations without accumulating mental residue. Do the work and leave no tracks.",
-          "pt": "Engaje-se com afinco nas tarefas familiares e profissionais sem acumular resíduo mental. Trabalhe e não deixe rastros de queixa."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Poo Roo (The One Who Knows)",
+                "title": {
+                      "en": "1. Resting in the 'One Who Knows' (Natural Awareness)",
+                      "pt": "1. Repousando no 'Aquele Que Sabe' (Consciência Natural)"
+                },
+                "desc": {
+                      "en": "Shifting identity from thoughts and emotions to bare awareness itself. Becoming the spectator of mental events rather than the actor caught in the drama.",
+                      "pt": "Deslocando a identidade dos pensamentos e humores para a consciência testemunha pura. Tornando-se o espectador dos eventos mentais em vez de protagonista do drama."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Neutral Observer:</strong> Whatever arises—anger, joy, boredom—recognize: 'This is just a visitor passing through.' Do not welcome them, do not fight them; simply know.</p>",
+                      "pt": "<p><strong>O Observador Imparcial:</strong> Seja o que for que brote—raiva, euforia, tédio—reconheça: 'Isto é apenas um visitante que passa'. Não convide para o chá nem brigue; apenas saiba.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Core teaching of Ajahn Chah: resting in the unconstructed knower (<em>buddho / poo roo</em>).</p>",
+                      "pt": "<p>Ensinamento basilar de Ajahn Chah: descansar no conhecedor espontâneo (<em>buddho / poo roo</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Still Forest Pool (Ajahn Chah):</strong> A clear, still pool in the deep jungle: all kinds of wonderful and strange animals come to drink; you sit quietly under a tree and see them clearly without moving.</p>",
+                      "pt": "<p><strong>A Lagoa Serena na Selva (Ajahn Chah):</strong> Uma lagoa límpida e mansa na floresta profunda: todos os animais selvagens e raros vêm beber de suas águas; você permanece sentado quieto sob a árvore e vê tudo sem se mover.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Mai Nae (Uncertainty / Anicca)",
+                "title": {
+                      "en": "2. The Universal Mantra: 'It's Not Certain' (Mai Nae)",
+                      "pt": "2. O Mantra Universal: 'Não é Certo' (Mai Nae)"
+                },
+                "desc": {
+                      "en": "Whenever the mind forms a rigid opinion, expectation, desire, or complaint, meet it instantly with Ajahn Chah's master key: 'Not sure!' (Mai Nae). Shattering dogmatism.",
+                      "pt": "Sempre que a mente formar uma opinião rígida, queixa, expectativa ou apego, confronte-a na hora com a chave-mestra de Ajahn Chah: 'Não é certo!' (Mai Nae). Desfazendo o dogmatismo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Disarming Mental Certainty:</strong> When you think 'I love this' or 'I hate this', apply: 'Mai Nae—it's impermanent, not certain.' Watch the emotional charge instantly deflate.</p>",
+                      "pt": "<p><strong>Desarmando Certezas Rígidas:</strong> Quando pensar 'eu amo isto' ou 'não suporto aquilo', aplique: 'Mai Nae—isto não é certo, é impermanente'. Veja a carga emocional desinchar no mesmo instante.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Direct colloquial Thai rendering of the canonical truth of <em>anicca</em> (AN 3.136).</p>",
+                      "pt": "<p>Tradução coloquial e direta da verdade canônica de <em>anicca</em> (AN 3.136).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Picking Up a Poisonous Snake:</strong> Grasping at anything in the world as 'mine' is like picking up a venomous cobra by the tail; if you don't drop it immediately, it bites.</p>",
+                      "pt": "<p><strong>Agarrar a Cobra Venenosa:</strong> Agarrar-se a qualquer coisa no mundo como 'minha' é como segurar uma cobra venenosa pelo rabo; se não soltá-la de imediato, ela morde.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Still Flowing Water",
+                "title": {
+                      "en": "3. Experiencing 'Still, Flowing Water'",
+                      "pt": "3. Vivenciando 'A Água Serena que Flui'"
+                },
+                "desc": {
+                      "en": "Ajahn Chah's central paradox: have you ever seen still water? Yes. Have you ever seen flowing water? Yes. But have you ever seen still, flowing water? Still from within, flowing with conditions.",
+                      "pt": "O paradoxo central de Ajahn Chah: você já viu água parada? Sim. Já viu água fluindo? Sim. Mas já viu água parada fluindo? Imóvel por dentro, fluindo com as circunstâncias."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Dynamic Equanimity in Action:</strong> The mind remains tranquil like deep spring water, yet responds effortlessly to conversation, chores, and difficulties without getting stuck.</p>",
+                      "pt": "<p><strong>Equanimidade Dinâmica em Ação:</strong> A mente permanece mansa como água profunda de poço, mas responde sem esforço a conversas, tarefas e imprevistos sem ficar presa em nada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The integration of samatha (stillness) and vipassanā (flow) in everyday activity.</p>",
+                      "pt": "<p>A integração viva de samatha (quietude) e vipassanā (fluxo) nas ações do cotidiano.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Still Flowing Water (Ajahn Chah):</strong> Wisdom arises right here: awareness is completely motionless, yet sights, sounds, and feelings flow smoothly through it like a stream over pebbles.</p>",
+                      "pt": "<p><strong>A Água Serena que Flui (Ajahn Chah):</strong> A sabedoria brota aqui: a consciência está totalmente imóvel, enquanto visões, sons e sensações fluem por ela como um riacho sobre pedras lisas.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Dhammata (The Broken Glass)",
+                "title": {
+                      "en": "4. Seeing the Glass as Already Broken",
+                      "pt": "4. Enxergando o Copo como Já Quebrado"
+                },
+                "desc": {
+                      "en": "Ajahn Chah's celebrated glass contemplation: 'You see this drinking glass? To me, it is already broken. I enjoy it, I drink from it, but when the wind knocks it over, I say: Of course. It was already broken from the start.'",
+                      "pt": "A célebre contemplação do copo de Ajahn Chah: 'Vê este copo de vidro? Para mim, ele já está quebrado. Eu o uso, bebo dele, mas quando o vento o derruba e ele se espatifa, eu digo: Claro. Desde o início ele já estava quebrado'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Preemptive Radical Acceptance:</strong> Apply this to your possessions, health, relationships, and body: seeing their finite, fragile nature allows you to love and care for them fully without grasping.</p>",
+                      "pt": "<p><strong>Aceitação Radical Antecipada:</strong> Aplique isto aos seus pertences, saúde, laços e corpo: ver sua natureza frágil permite cuidar e amar com plenitude, livre do desespero do apego.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The ultimate fruition of <em>khayavayānupassanā</em> (contemplating dissolution).</p>",
+                      "pt": "<p>O fruto maduro de <em>khayavayānupassanā</em> (a contemplação profunda da dissolução dos fenômenos).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Broken Glass (Ajahn Chah):</strong> When you understand that the glass is already broken, every moment drinking from it is precious, and its breaking brings zero grief.</p>",
+                      "pt": "<p><strong>O Copo Já Quebrado (Ajahn Chah):</strong> Ao compreender que o copo já carrega sua quebra inevitável, cada gole bebido nele é precioso, e sua quebra não traz lágrima alguma.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Whenever your partner, child, or coworker behaves unexpectedly, drop the urge to control: whisper 'Mai nae' (uncertain). Treat household cleaning, washing dishes, and commuting as equal arenas of meditation. Keep your mind like a spittoon: things fall in, but you don't own them.",
@@ -2470,54 +3394,102 @@ const MEDITATION_LINEAGES = [
       "pt": "O MN 4 é a carta sagrada do monge peregrino da selva (Thudong). Os discípulos de Ajahn Mun eram enviados para florestas densas povoadas por tigres, cobras venenosas e mitos sobre espíritos. A instrução do Buda neste sutta é absoluta: se o pânico surgir enquanto você caminha, continue caminhando até que ele cesse; se surgir sentado, não mova um músculo até que o tremor se desfaça. Quando o medo morre, a intrepidez assume o seu lugar."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Parisuddha-Sīla",
-        "title": {
-          "en": "1. The Armor of Pure Ethics",
-          "pt": "1. A Armadura da Ética Pura"
-        },
-        "desc": {
-          "en": "Fear feeds on guilt. Ensure your moral conduct is blameless: you harm no one, lie to no one, and steal nothing. Pure virtue is unassailable armor.",
-          "pt": "O pavor se alimenta da culpa inconsciente. Assegure uma conduta ética impecável: você não fere ninguém, não mente e não rouba. A pureza moral é uma couraça impenetrável."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Bhayābhibhū",
-        "title": {
-          "en": "2. The Posture Vow: Do Not Flee",
-          "pt": "2. O Voto de Postura: Jamais Fugir"
-        },
-        "desc": {
-          "en": "When panic or terror surges in darkness, freeze the physical body. If walking, keep walking; if sitting, do not stand up. Refuse to let the body obey fear.",
-          "pt": "Quando o pânico ou o terror assaltar no escuro, congele o corpo físico. Se estiver caminhando, continue o passo; se estiver sentado, não se levante. Recuse-se a deixar o corpo obedecer ao medo."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Sabbabhāva-Pariññā",
-        "title": {
-          "en": "3. Dissecting the Somatic Tremor",
-          "pt": "3. Dissecar o Tremor Somático"
-        },
-        "desc": {
-          "en": "Bring awareness directly into the pounding heart, tight throat, and chills. It is just heat, pulse, and electrical sensation. The watcher is not trembling.",
-          "pt": "Traga a atenção direto para o coração acelerado, o nó na garganta e os arrepios. São apenas calor, pulsação e descargas elétricas. Aquele que sabe não está tremendo."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Abhaya-Samādhi",
-        "title": {
-          "en": "4. The Breakthrough into Fearlessness",
-          "pt": "4. O Despertar da Intrepidez (Abhaya)"
-        },
-        "desc": {
-          "en": "Suddenly, the panic burns itself out. A wave of cool, luminous courage washes through the heart. The mind enters diamond-hard absorption.",
-          "pt": "De repente, o pânico se esgota por falta de combustível mental. Uma onda de coragem límpida e serena inunda o coração. A mente entra em samādhi diamantino."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Arañña-senāsana",
+                "title": {
+                      "en": "1. Dwelling in Deep, Haunting Jungle Solitude",
+                      "pt": "1. Habitando na Solitude Assombrosa da Selva"
+                },
+                "desc": {
+                      "en": "Entering remote jungle tracts on terrifying nights—the new moon, the fourteenth, the full moon—to face raw primal fear and psychological dread directly.",
+                      "pt": "Penetrando clareiras remotas da selva em noites apavorantes—lua nova, décimo quarto dia e lua cheia—para confrontar o terror primal e o pânico psicológico de frente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Stepping into the Edge:</strong> Do not run away from discomfort or fear. Choose moments of quiet darkness to sit face-to-face with anxiety.</p>",
+                      "pt": "<p><strong>Dando um Passo no Limite:</strong> Não fuja do desconforto ou do medo. Escolha momentos de silêncio e escuridão para sentar-se cara a cara com a ansiedade.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 4 §3–5</strong>: The Buddha describes his pre-Awakening ascetic jungle trials.</p>",
+                      "pt": "<p><strong>MN 4 §3–5</strong>: O Buda relata suas provas ascéticas na selva pré-Iluminação.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Twig Snapping in the Dark Jungle (MN 4 §20):</strong> A peacock breaks a twig, the wind rustles leaves, or an animal scurries: the fearful mind screams: 'Here comes the demon!'</p>",
+                      "pt": "<p><strong>O Galho que Estala na Escuridão (MN 4 §20):</strong> Um pavão quebra um galho, o vento agita folhas ou um bicho corre: a mente apavorada grita: 'Lá vem o demônio!'</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Iriyāpatha-adhitthāna",
+                "title": {
+                      "en": "2. Freezing in the Exact Posture When Terror Strikes",
+                      "pt": "2. Mantendo a Mesma Postura Quando o Pânico Ataca"
+                },
+                "desc": {
+                      "en": "The Buddha's iron rule of fearlessness: 'If fear and dread came upon me while walking, I would not sit, stand, or lie down until I had subdued that fear and dread while walking.'",
+                      "pt": "A regra de ferro do Buda contra o medo: 'Se o medo e o pavor me sobreviessem caminhando, eu não sentava, parava ou deitava até ter subjugado aquele medo caminhando'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Non-Reactive Somatic Resolve:</strong> If fear strikes while sitting, remain sitting! Do not fidget, reach for your phone, or pace. Hold your ground until panic burns out its own fuel.</p>",
+                      "pt": "<p><strong>Determinação Somática Firme:</strong> Se o pânico bater enquanto você está sentado, continue sentado! Não mexa no celular nem fuja. Fique firme até que o medo queime todo o combustível.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 4 §20</strong>: The Bodhisatta's supreme somatic confrontation with fear across the four postures.</p>",
+                      "pt": "<p><strong>MN 4 §20</strong>: O método somático inabalável do Bodhisatta enfrentando o medo nas quatro posturas.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Immovable Boulder in the Gale:</strong> A giant granite boulder resting on bedrock does not shudder, lean, or roll away when lashed by gale-force winds.</p>",
+                      "pt": "<p><strong>O Rochedo de Granito na Vendaval:</strong> Um rochedo maciço fincado na rocha viva não treme, inclina ou rola ao ser chicoteado por ventos uivantes.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Parisuddha-sīla & Akodhata",
+                "title": {
+                      "en": "3. Conquering Fear through Inward Purity & Goodwill",
+                      "pt": "3. Vencendo o Medo pela Pureza Interior & Benevolência"
+                },
+                "desc": {
+                      "en": "Investigating the root of dread: fear only grips those with unpurified ethics, unabandoned cruelty, covetousness, or dullness. Pure ethics and boundless loving-kindness make the heart lion-like.",
+                      "pt": "Investigando a raiz do pânico: o terror só subjuga quem tem conduta manchada, rancores não abandonados ou cobiça. A integridade ética e a benevolência tornam o coração corajoso como o do leão."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Shield of Harmlessness:</strong> Radiate pure love toward the wilderness and all creatures. Harmlessness removes the biological anticipation of retaliation.</p>",
+                      "pt": "<p><strong>O Escudo da Não-Violência:</strong> Irradie afeto puro para a selva e todos os seres. Não cultivar ódio elimina o medo visceral de revide.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 4 §6–19</strong>: Analyzing the sixteen psychological flaws that make forest dwellers cowardly.</p>",
+                      "pt": "<p><strong>MN 4 §6–19</strong>: Analisando as dezesseis falhas mentais que tornam o eremita medroso.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lion Roaring in the Jungle (AN 10.21):</strong> The lion steps out of its lair, looks around fearlessly, and roars three times without dread of any beast.</p>",
+                      "pt": "<p><strong>O Rugido do Leão na Selva (AN 10.21):</strong> O leão sai de sua caverna, olha ao redor sem susto e ruge três vezes sem temer qualquer predador da floresta.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Catuttha-jhāna & Tevijjā",
+                "title": {
+                      "en": "4. The 4th Jhāna & The Threefold True Knowledge",
+                      "pt": "4. O 4º Jhāna & O Triplo Conhecimento Supremo"
+                },
+                "desc": {
+                      "en": "With fear totally subdued and energy unflagging, mindfulness becomes pure and equanimous in the 4th Jhāna. The mind breaks through into the three transcendent knowledges.",
+                      "pt": "Com o medo totalmente subjugado e a determinação inabalável, a atenção torna-se pura e equânime no 4º Jhāna. A mente rompe rumo aos três conhecimentos transcendentais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Reaping the Fruits of Courage:</strong> The energy previously consumed by anxiety is now harnessed for diamond-like samādhi and penetrating insight.</p>",
+                      "pt": "<p><strong>Colhendo a Vitória da Coragem:</strong> A energia antes drenada pelo pânico é agora convertida em foco afiado e discernimento libertador.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 4 §27–34</strong>: Detailed account of the Bodhisatta entering the 4 Jhānas and attaining Awakening.</p>",
+                      "pt": "<p><strong>MN 4 §27–34</strong>: O relato detalhado do Bodhisatta adentrando os 4 Jhānas e realizando a Iluminação.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Sunrise Banishing All Shadows:</strong> The sun climbs over the mountain peak, flooding the darkest jungle valleys with blazing light and warmth.</p>",
+                      "pt": "<p><strong>A Aurora Dissipando Todas as Sombras:</strong> O sol ergue-se sobre o cume da montanha, inundando os vales mais escuros com luz dourada e calor.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Complete Eradication of Terror & Access to 4th Jhāna",
@@ -2613,54 +3585,102 @@ const MEDITATION_LINEAGES = [
       "pt": "No MN 36, o Buda relata os seis anos de austeridades extremas na selva de Uruvelā: trincar os dentes até escorrer suor, prender a respiração até sentir a cabeça furada e jejuar até sua coluna parecer um colar de contas. Percebendo que isso só gerava exaustão corporal sem sabedoria, ele recordou quando, menino, sentou-se à sombra fresca de uma macieira-rosa e atingiu espontaneamente o 1º Jhāna. Fez a pergunta histórica: 'Seria este o caminho para o despertar?' Ajahn Brahm e os mestres da floresta tratam este sutta como o antídoto à queima espiritual e à meditação austera amarga."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Attakilamatha-Pahāna",
-        "title": {
-          "en": "1. Dropping Spiritual Aggression",
-          "pt": "1. Abandonar a Auto-Agressão"
-        },
-        "desc": {
-          "en": "Notice if you meditate with clenched jaws, furrowed brow, or aggressive will-power. Drop the struggle; awakening is not attained through violence against yourself.",
-          "pt": "Perceba se você medita com dentes cerrados, testa franzida ou força de vontade agressiva. Solte a luta; o despertar não vem da violência contra si mesmo."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Jambu-Rukkha-Sati",
-        "title": {
-          "en": "2. Remembering the Rose-Apple Tree",
-          "pt": "2. O Princípio da Macieira-Rosa"
-        },
-        "desc": {
-          "en": "Recall a moment of effortless, innocent presence in nature. Allow the mind to settle into that same fresh, gentle, unforced awareness.",
-          "pt": "Recorde um momento de presença inocente e natural na infância ou na natureza. Permita que a mente pouse nessa mesma clareza leve e sem esforço."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Nirāmisa Sukha",
-        "title": {
-          "en": "3. Welcoming Blameless Joy",
-          "pt": "3. Acolher a Alegria Pura (Sukha)"
-        },
-        "desc": {
-          "en": "Do not fear meditative bliss. Joy born of seclusion harms no one, costs nothing, and glues the mind to stillness without craving.",
-          "pt": "Não tenha medo da alegria meditativa. A alegria nascida do silêncio não fere ninguém, não custa nada e ancora a mente na paz sem apego."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Jhāna-Magga",
-        "title": {
-          "en": "4. The Golden Gate of Jhāna",
-          "pt": "4. A Entrada Dourada nos Jhānas"
-        },
-        "desc": {
-          "en": "Allow peaceful joy to mature into unified absorption. The mind becomes completely still, radiant, and malleable for deep liberating insight.",
-          "pt": "Deixe a alegria amadurecer em absorção unificada. A mente torna-se totalmente quieta, luminosa e maleável para o insight libertador."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Attakilamathānuyoga-pahāna",
+                "title": {
+                      "en": "1. The Futility of Severe Bodily Mortification",
+                      "pt": "1. A Futilidade da Mortificação Corpórea Extrema"
+                },
+                "desc": {
+                      "en": "The Bodhisatta pushes physical asceticism to the brink: teeth clenching, non-breathing meditation, extreme starvation until skin sticks to spine. Realizing: this is not the path to awakening.",
+                      "pt": "O Bodhisatta leva a mortificação ao limite: travar mandíbulas, reter a respiração, jejuar até a pele colar na espinha. Reconhecendo: este não é o caminho da libertação."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Abandoning Ascetic Aggression:</strong> Recognize that punishing the body through harsh tension does not destroy spiritual ignorance. Release mechanical self-torture.</p>",
+                      "pt": "<p><strong>Abandonando a Agressividade Ascética:</strong> Compreenda que punir o corpo com tensão rígida não extingue a ignorância. Abandone a autoflagelação mecânica.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 36 §20–30</strong>: The three similes of lighting fire with wet saplings vs dry wood on dry ground.</p>",
+                      "pt": "<p><strong>MN 36 §20–30</strong>: Os três símiles de tentar acender fogo com gravetos úmidos na água versus madeira seca em terra firme.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Wet Sapling in Water (MN 36 §17):</strong> Trying to light a fire by rubbing a damp stick retrieved from water; only exhaustion and smoke result.</p>",
+                      "pt": "<p><strong>O Graveto Molhado na Água (MN 36 §17):</strong> Tentar produzir fogo friccionando um pedaço de madeira verde recém-tirado da água; só colhe cansaço e fumaça.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Jambu-cchāyā-jhāna",
+                "title": {
+                      "en": "2. The Rose-Apple Tree Jhāna Epiphany",
+                      "pt": "2. A Epifania do Jhāna sob a Macieira-Rosa"
+                },
+                "desc": {
+                      "en": "Recalling the spontaneous childhood experience sitting under the cool shade of the rose-apple tree: entering the 1st Jhāna effortlessly. 'Could this be the true path to Awakening?'",
+                      "pt": "Rememorando a experiência espontânea de infância sob a sombra fresca da macieira-rosa: entrando no 1º Jhāna sem esforço violento. 'Seria este o verdadeiro caminho do Despertar?'"
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Reconnecting with Natural Joy:</strong> Allow concentration to be sweet, spacious, and organic rather than forced and strained. Joy born of seclusion is the gateway.</p>",
+                      "pt": "<p><strong>Reconectando com a Alegria Natural:</strong> Permita que a concentração seja doce, espaçosa e orgânica, não rígida. O júbilo do recolhimento é a porta de entrada.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 36 §31</strong>: 'Following that memory came the realization: That is the path to Awakening.'</p>",
+                      "pt": "<p><strong>MN 36 §31</strong>: 'Seguindo aquela memória veio a certeza: Esse é o verdadeiro caminho para a Iluminação.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Shade of the Rose-Apple Tree:</strong> Sheltered from the burning midday sun while the king plowed the fields; pure, gentle, and refreshing stillness.</p>",
+                      "pt": "<p><strong>A Sombra da Macieira-Rosa:</strong> Abrigado do sol incandescente do meio-dia enquanto os lavradores aravam a terra; quietude suave e revigorante.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Sukha-anallīnatā",
+                "title": {
+                      "en": "3. Embracing the Blameless Bliss of Seclusion",
+                      "pt": "3. Abraçando o Bem-Estar Imaculado do Recolhimento"
+                },
+                "desc": {
+                      "en": "The Bodhisatta overcomes his fear of pleasure: 'Why should I fear that pleasure that has nothing to do with sensual desire and unwholesome states?' Nourishing the body with solid food.",
+                      "pt": "O Bodhisatta supera o medo do bem-estar meditativo: 'Por que temeria eu esse bem-estar que nada tem a ver com cobiça sensual ou estados nocivos?' Nutrindo o corpo com alimento."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Befriending Meditation Joy:</strong> Do not be afraid of feeling joy, peaceful bliss, and emotional warmth in sitting. This blameless ease is your greatest ally.</p>",
+                      "pt": "<p><strong>Acolhendo o Conforto Meditativo:</strong> Não tema sentir alegria e bem-estar na prática. Essa paz sem culpa é a maior aliada para aprofundar o silêncio.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 36 §32–33</strong>: Abandoning the ascetic neurosis against pleasure.</p>",
+                      "pt": "<p><strong>MN 36 §32–33</strong>: Abandonando a aversão neurótica ascética contra o bem-estar espiritual.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Dry Stick on Dry Land (MN 36 §19):</strong> Rubbing dry wood on dry land easily kindles bright, pure, warming flames.</p>",
+                      "pt": "<p><strong>A Madeira Seca em Terra Firme (MN 36 §19):</strong> Friccionando gravetos secos longe da umidade, acende-se facilmente uma chama pura e calorosa.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Majjhimā-paṭipadā-bodhi",
+                "title": {
+                      "en": "4. The Middle Way & Supreme Awakening",
+                      "pt": "4. O Caminho do Meio & O Despertar Supremo"
+                },
+                "desc": {
+                      "en": "Ascending through the 4 Jhānas, applying the unified mind to the 3 True Knowledges: remembering past lives, divine eye of kamma, and destroying the taints.",
+                      "pt": "Ascendendo pelos 4 Jhānas, aplicando a mente unificada aos Três Conhecimentos: vidas passadas, olho divino do kamma e destruição das contaminações."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Balanced Liberation:</strong> Walk the Middle Path avoiding both sensual self-indulgence and aggressive self-mortification. Rest in awakened freedom.</p>",
+                      "pt": "<p><strong>Libertação Equilibrada:</strong> Trilhe o Caminho do Meio evitando tanto a indulgência sensorial quanto a autoflagelação agressiva. Repouse na sabedoria desperta.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 36 §34–44</strong>: The comprehensive canonical narrative of Siddhartha Gautama's full enlightenment.</p>",
+                      "pt": "<p><strong>MN 36 §34–44</strong>: O relato canônico completo da Iluminação de Siddhartha Gautama.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Full Moon Emerging from Behind Dark Clouds:</strong> Pure, untroubled, illuminating all world systems in flawless equanimity.</p>",
+                      "pt": "<p><strong>A Lua Cheia Emergindo de Nuvens Escuras:</strong> Pura, inabalável, iluminando o universo com serenidade absoluta.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of 4 Jhānas & Realization of the Middle Way",
@@ -2755,54 +3775,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ajahn Lee Dhammadharo, eminente discípulo de Ajahn Mun, revolucionou a meditação da respiração ao tratá-la não apenas como ar nas narinas, mas como energia vital dinâmica (vāyo) que permeia o corpo inteiro. Em seu célebre 'Método 2', o praticante aprende a direcionar a respiração pela coluna, cérebro, peito, órgãos internos e extremidades. Isso elimina a fadiga física, dissolve couraças corporais e estabelece uma base inabalável para os Jhānas."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Vitakka-Vicāra Ānāpāna",
-        "title": {
-          "en": "1. Three Long Deep Reset Breaths",
-          "pt": "1. Três Respirações Longas e Profundas"
-        },
-        "desc": {
-          "en": "Take a few long, deep in-and-out breaths, keeping the mind focused on the sensation. If comfortable, continue; if strained, adjust length.",
-          "pt": "Dê algumas respirações bem profundas e lentas. Se for confortável, mantenha; se houver opressão, ajuste o ritmo para maior alívio."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Thāna-Vavatthāna",
-        "title": {
-          "en": "2. Locating the Base Energy Resting Spot",
-          "pt": "2. Escolhendo a Base Energética"
-        },
-        "desc": {
-          "en": "Choose a comfortable resting point for attention: the tip of the nose, the center of the forehead, the base of the skull, the throat, or the solar plexus.",
-          "pt": "Escolha um centro de descanso confortável: ponta do nariz, centro da testa, nuca, garganta ou plexo solar."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Vāyo-Pharaṇa",
-        "title": {
-          "en": "3. Spreading Breath Down the Spine & Nerves",
-          "pt": "3. Irradiando a Respiração pela Coluna e Nervos"
-        },
-        "desc": {
-          "en": "Let the soothing, buoyant quality of the breath spread down the neck, through each vertebra of the spine, down into the pelvis, legs, and feet.",
-          "pt": "Deixe a qualidade suave e relaxante da respiração descer pelo pescoço, passar por cada vértebra da coluna e irradiar até os pés."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Sabbakāya-Paripuṇṇa",
-        "title": {
-          "en": "4. The Whole-Body Cocoon of Breath",
-          "pt": "4. O Casulo de Respiração no Corpo Inteiro"
-        },
-        "desc": {
-          "en": "Experience the body as a porous sponge: every pore breathing in and out simultaneously. Sensations of rapture (pīti) and ease (sukha) fill every cell.",
-          "pt": "Sinta o corpo como uma esponja porosa: cada poro respirando em uníssono. Sensações de alegria (pīti) e bem-estar (sukha) preenchem todas as células."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Satta-kāyānupassanā-ṭhāna",
+                "title": {
+                      "en": "1. Locating the 7 Primary Breath Centers",
+                      "pt": "1. Localizando os 7 Centros Primários da Respiração"
+                },
+                "desc": {
+                      "en": "Ajahn Lee's Method 2: anchoring awareness at 7 subtle breath hubs in the body: base of the skull, middle of the head, palate/throat, solar plexus, navel, base of spine, chest.",
+                      "pt": "O Método 2 de Ajahn Lee: ancorar a atenção em 7 centros sutis de energia no corpo: base do crânio, centro da cabeça, garganta, plexo solar, umbigo, base da coluna e peito."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Breath Hub Grounding:</strong> Choose one base center (e.g. the solar plexus or base of skull). Breathe in and out gently, establishing a comfortable warmth and softness at that spot.</p>",
+                      "pt": "<p><strong>Ancoragem nos Centros:</strong> Escolha um ponto base (ex.: plexo solar ou base do crânio). Respire suavemente, estabelecendo calor e maciez naquele ponto exato.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ajahn Lee Dhammadharo's master manual: <em>Keeping the Breath in Mind & Lessons in Samādhi</em>.</p>",
+                      "pt": "<p>O clássico manual de Ajahn Lee Dhammadharo: <em>Guardando a Respiração na Mente & Lições de Samādhi</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Weaver Connecting the Threads:</strong> Carefully tying the warp and weft threads together on the loom so the cloth forms without gaps or tears.</p>",
+                      "pt": "<p><strong>O Tecelão Unindo os Fios:</strong> Entrelaçando os fios no tear com precisão para que o tecido se forme macio e sem falhas.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Assāsa-passāsa-samatā",
+                "title": {
+                      "en": "2. Refining & Balancing the In-and-Out Breath",
+                      "pt": "2. Refinando & Harmonizando o Fôlego"
+                },
+                "desc": {
+                      "en": "Experimenting with breath textures: long in and long out; short in and short out; long in and short out; heavy, light, cool, warm. Tuning until the breath is completely harmonious.",
+                      "pt": "Experimentando texturas respiratórias: longo e longo; curto e curto; longo e curto; leve, denso, fresco ou quente. Ajustando até o fôlego fluir em harmonia total."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Somatic Airflow Calibration:</strong> Do not force an uncomfortable rhythm. Find the exact depth and speed that makes the heart and lungs feel nourished and at ease.</p>",
+                      "pt": "<p><strong>Calibração Somática do Fôlego:</strong> Não force ritmos artificiais. Encontre a profundidade que nutre o peito e traz alívio imediato ao sistema nervoso.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Steps 1–4 of Ānāpānasati Sutta (MN 118) applied as practical internal bio-energetic calibration.</p>",
+                      "pt": "<p>Passos 1 a 4 do Ānāpānasati Sutta (MN 118) aplicados como calibração bioenergética prática.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Adjusting the Tuning Pegs of a Violin:</strong> Turning the pegs micro-millimeter by micro-millimeter until every string sounds in resonant, sweet concord.</p>",
+                      "pt": "<p><strong>Ajustando as Cravelhas do Violino:</strong> Girando milímetro a milímetro até que cada corda vibre em harmonia doce e perfeita.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Vāyodhātu-vitthārikā",
+                "title": {
+                      "en": "3. Spreading Breath Energy Through the Whole Body",
+                      "pt": "3. Irradiando a Energia da Respiração por Todo o Corpo"
+                },
+                "desc": {
+                      "en": "Guiding the refined breath energy from the spine out through nerves, down shoulders, arms, hands, fingers, hips, legs, feet, and toes. Permeating every organ with oxygenated vitality.",
+                      "pt": "Conduzindo a energia sutil da respiração da coluna para os nervos, ombros, braços, mãos, quadris, pernas e pés. Permeando cada órgão com vitalidade oxigenada."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Whole-Body Breath Circulation:</strong> Direct the pleasant sensations along nerve channels like irrigation water flooding parched soil. Dissolve blockages, knots, and headaches.</p>",
+                      "pt": "<p><strong>Circulação Energética Plena:</strong> Conduza a sensação agradável pelos canais nervosos como água irrigando terra ressecada. Desfaça nós musculares e dores de cabeça.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §18</strong>: The first Jhāna simile of water kneaded into bath powder until all parts are moistened.</p>",
+                      "pt": "<p><strong>MN 119 §18</strong>: O símile do 1º Jhāna da água sovada no pó de banho até permeá-lo por completo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Water Flowing Through Irrigation Canals:</strong> Sluice gates open in the paddy fields, and water streams smoothly into every thirsty furrow.</p>",
+                      "pt": "<p><strong>A Água Fluindo pelos Canais de Irrigação:</strong> As comportas se abrem e a água fresca irriga cada sulco da plantação ressecada.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Ekībhāva & Citta-samādhi",
+                "title": {
+                      "en": "4. Merging into Pristine Porous Stillness",
+                      "pt": "4. Fundindo-se na Quietude Pura e Translúcida"
+                },
+                "desc": {
+                      "en": "Coarse inhalation and exhalation quiet down completely. The body breathes effortlessly through every pore. Consciousness merges with an all-pervading, radiant field of peace.",
+                      "pt": "A inspiração e expiração grosseiras silenciam por completo. O corpo parece respirar suavemente pelos poros. A consciência funde-se num campo radiante de paz profunda."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Effortless Absorption:</strong> Stop manipulating the breath. Rest in the luminous spaciousness of the unified mind (<em>samādhi</em>).</p>",
+                      "pt": "<p><strong>Absorção sem Esforço:</strong> Cesse qualquer controle da respiração. Repouse na amplitude luminosa da mente unificada (<em>samādhi</em>).</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The 4th Jhāna where in-and-out breath ceases (<em>assāsapassāsā niruddhā honti</em>, SN 36.11).</p>",
+                      "pt": "<p>O 4º Jhāna onde a respiração física pulmonar aquieta-se por completo (SN 36.11).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Luminous Moon Reflected in a Mountain Lake:</strong> Still, bright, vast, and utterly untroubled by currents.</p>",
+                      "pt": "<p><strong>O Luar Refletido no Lago da Montanha:</strong> Imóvel, translúcido, imenso e sem qualquer ondulação perturbadora.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Ideal for relieving physical exhaustion, headaches, and computer fatigue. Before sitting down to meditate after work, spend 10 minutes intentionally sweeping warm, gentle breath energy through tense neck and shoulder muscles.",
@@ -2877,90 +3945,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ajahn Brahm estruturou um dos mapas mais didáticos e célebres para acessar o Samādhi profundo e os quatro Jhānas. Enfatizando a 'atenção gentil' (kindfulness — atenção plena aliada à bondade incondicional), ele aborda a prática como um soltar de fardos e não como luta. Não se força a mente à quietude; torna-se a quietude tão deleitosa que a mente não deseja sair dela. Por meio de sete estágios graduais, solta-se o passado, o futuro, a fala interna e o corpo, até o surgimento do Nimitta luminoso."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Paccuppannānupassanā",
-        "title": {
-          "en": "Stage 1: Present Moment Awareness",
-          "pt": "Estágio 1: Atenção ao Momento Presente"
-        },
-        "desc": {
-          "en": "Drop the heavy baggage of the past (guilt, memories) and the future (anxiety, plans). Settle into the reality of right here, right now.",
-          "pt": "Abandone o fardo do passado (remorsos, histórias) e do futuro (projetos, ansiedades). Descanse plenamente no agora."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Tunhībhāva",
-        "title": {
-          "en": "Stage 2: Silent Present Moment Awareness",
-          "pt": "Estágio 2: Presença Silenciosa"
-        },
-        "desc": {
-          "en": "Cease the inner commentator. Experience this moment without putting words, labels, or judgments onto it. Silence deepens confidence.",
-          "pt": "Desligue a tagarelice interna. Vivencie o momento sem etiquetar nem julgar. O silêncio gera enorme autoconfiança."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Ānāpāna-Sati",
-        "title": {
-          "en": "Stage 3: Silent Present Breath Awareness",
-          "pt": "Estágio 3: Consciência Silenciosa da Respiração"
-        },
-        "desc": {
-          "en": "When silence is stable, gently welcome the breath. Don't look for it; let the breath float naturally into the illuminated space of stillness.",
-          "pt": "Com o silêncio estável, acolha a respiração suavemente. Não a persiga; deixe-a surgir no espaço sereno da atenção."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Ānāpāna-Satata",
-        "title": {
-          "en": "Stage 4: Full Sustained Breath Awareness",
-          "pt": "Estágio 4: Consciência Sustentada da Respiração"
-        },
-        "desc": {
-          "en": "Attention tracks every millimeter of the in-breath and out-breath unbroken, from start to pause to finish, like a mother watching her sleeping child.",
-          "pt": "Atenção contínua e sem interrupções em cada milímetro do ciclo respiratório, como uma mãe atenta que vela o sono do filho."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "Sobhana-Assāsa",
-        "title": {
-          "en": "Stage 5: The Beautiful Breath",
-          "pt": "Estágio 5: A Respiração Bela"
-        },
-        "desc": {
-          "en": "Effort falls away completely. The breath transforms into a golden, delicious sensation. The mind experiences ecstatic peaceful joy (sukha).",
-          "pt": "Todo esforço cessa. A respiração transforma-se numa experiência dourada e deliciosa. A mente transborda de paz e júbilo."
-        }
-      },
-      {
-        "step": 6,
-        "pali": "Obhāsa-Nimitta",
-        "title": {
-          "en": "Stage 6: The Luminous Nimitta",
-          "pt": "Estágio 6: O Nimitta Luminoso"
-        },
-        "desc": {
-          "en": "As the physical breath disappears, an inner light or radiance shines in the mental field. Do not grab it; surrender completely to the light.",
-          "pt": "Ao cessar a percepção da respiração física, uma luz ou radiância pura brilha na mente. Não a agarre; renda-se docemente à luz."
-        }
-      },
-      {
-        "step": 7,
-        "pali": "Appanā-Jhāna",
-        "title": {
-          "en": "Stage 7: Absorption (The Jhānas)",
-          "pt": "Estágio 7: Absorção (Os Jhānas)"
-        },
-        "desc": {
-          "en": "The mind sinks effortlessly into the center of the Nimitta. Entry into the First, Second, Third, and Fourth Jhānas with unshakeable stillness.",
-          "pt": "A mente mergulha sem esforço no coração do Nimitta. Entrada estável nos Jhānas com imobilidade mental plena e arrebatadora."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Paccuppannaddhā-sati",
+                "title": {
+                      "en": "1. Present-Moment Awareness & Silent Presence",
+                      "pt": "1. Consciência do Momento Presente & Presença Silenciosa"
+                },
+                "desc": {
+                      "en": "Stages 1 & 2 of Ajahn Brahm's method: leaving behind past memories and future plans. Abandoning inner commentary and resting in silent awareness of the here and now.",
+                      "pt": "Estágios 1 e 2 do método de Ajahn Brahm: largar o passado e planos futuros. Abandonar o diálogo interno e descansar na presença silenciosa do aqui e agora."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Turning Off the Inner Narrator:</strong> Realize that commentary about life is not life itself. Drop luggage from the past, lay down anxiety for the future, and enjoy silent presence.</p>",
+                      "pt": "<p><strong>Desligando a Tagarelice Interna:</strong> Perceba que comentar sobre a vida não é viver. Largue as malas do passado, solte o futuro e desfrute do silêncio lúcido.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ajahn Brahm's manual: <em>Mindfulness, Bliss, and Beyond: A Meditator's Handbook</em>.</p>",
+                      "pt": "<p>O manual de Ajahn Brahm: <em>Mindfulness, Bliss, and Beyond (O Manual do Meditador)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Throwing Away the Heavy Luggage:</strong> A weary hiker takes off a 50kg backpack at the mountain cabin and exhales in blissful lightness.</p>",
+                      "pt": "<p><strong>Largando a Mochila Pesada:</strong> O caminhante exausto retira a mochila de 50kg ao chegar no chalé e suspira em alívio indescritível.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Sati-samanvesanā",
+                "title": {
+                      "en": "2. Sustained Awareness of the Natural Breath",
+                      "pt": "2. Conexão Sustentada com a Respiração Natural"
+                },
+                "desc": {
+                      "en": "Stage 3 & 4: connecting awareness smoothly with the natural breath. Following every breath from birth to finish without gaps or force.",
+                      "pt": "Estágios 3 e 4: conectando a atenção continuamente com o fôlego natural. Acompanhando cada ciclo do início ao fim sem lapsos ou força."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Gentle Gliding Attention:</strong> Do not pounce on the breath like an eagle; glide alongside it like an albatross riding warm thermal air currents.</p>",
+                      "pt": "<p><strong>Atenção Flutuante e Suave:</strong> Não ataque o fôlego como uma águia; plane ao lado dele como um albatroz deslizando nas correntes de ar térmico.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Corresponds to the 3rd and 4th steps of Ānāpānasati (MN 118).</p>",
+                      "pt": "<p>Corresponde aos passos 3 e 4 de Ānāpānasati (MN 118).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Driver on the Highway:</strong> Seamlessly keeping hands relaxed on the steering wheel while the car glides smoothly down an empty highway.</p>",
+                      "pt": "<p><strong>O Motorista na Estrada Aberta:</strong> Mãos relaxadas no volante enquanto o carro desliza suavemente pela rodovia vazia ao entardecer.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Kalyāṇa-assāsa (The Beautiful Breath)",
+                "title": {
+                      "en": "3. Savoring the 'Beautiful Breath'",
+                      "pt": "3. Saboreando a 'Respiração Encantadora'"
+                },
+                "desc": {
+                      "en": "Stage 5: the breath becomes delicious, sweet, and enchanting. Effort dissolves as the mind is magnetically drawn to the joy of respiration.",
+                      "pt": "Estágio 5: o fôlego torna-se doce, encantador e prazeroso. O esforço se dissolve conforme a mente é atraída magneticamente pela beleza do ar."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Effortless Attraction:</strong> You no longer have to 'try' to watch the breath; the beauty of the breath holds the mind effortlessly spellbound.</p>",
+                      "pt": "<p><strong>Atração Espontânea:</strong> Você não precisa mais 'tentar' prestar atenção; a beleza do fôlego fascina a mente sem esforço volitivo.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The awakening of <em>pīti</em> and <em>sukha</em> in the 2nd Tetrad of MN 118.</p>",
+                      "pt": "<p>O despertar de <em>pīti</em> e <em>sukha</em> na 2ª Tétrade do MN 118.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Child Listening to a Magic Story:</strong> Leaning forward in wonder, completely captivated, unwilling to look away for even a second.</p>",
+                      "pt": "<p><strong>A Criança Ouvindo um Conto Mágico:</strong> Inclinando-se encantada, completamente fascinada, sem querer desviar o olhar por um segundo sequer.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Obhāsa-nimitta & Jhānas",
+                "title": {
+                      "en": "4. The Luminous Nimitta & Deep Jhānas",
+                      "pt": "4. O Nimitta Luminoso & Os Jhānas Profundos"
+                },
+                "desc": {
+                      "en": "Stages 6 & 7: the breath disappears into a dazzling sphere of mental light (the nimitta). Releasing the doer completely, falling into the ocean of Jhāna bliss.",
+                      "pt": "Estágios 6 e 7: a respiração física desaparece numa esfera radiante de luz mental (o nimitta). Soltando o controlador por completo, mergulhando no oceano de êxtase dos Jhānas."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Surrendering the Doer:</strong> Do not touch the nimitta or try to control its brightness. Let go of all doing. Allow the mind to be swallowed up in bliss.</p>",
+                      "pt": "<p><strong>Entregando o Controlador:</strong> Não tente manipular o nimitta ou clarear sua luz. Largue todo controle e permita que a mente mergulhe no êxtase da absorção.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Classical formulation of samādhi leading into the form absorptions (<em>rūpajjhānā</em>).</p>",
+                      "pt": "<p>Formulação clássica de samādhi culminando nas absorções da forma (<em>rūpajjhānā</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Falling into a Feather Bed:</strong> Leaping backwards off a cliff and landing gently on a cloud of velvet feathers.</p>",
+                      "pt": "<p><strong>Caindo num Leito de Penas:</strong> Lançar-se de costas e aterrissar suavemente sobre uma nuvem aveludada de conforto indescritível.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Never begin a meditation session with willpower or frustration. Spend the first 5 minutes practicing 'kindfulness': smiling inward to yourself, thanking your body for carrying you all day, and giving yourself permission to put down all adult responsibilities.",
@@ -3036,54 +4116,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Na olaria de um artesão durante a noite, o Buda encontra o peregrino Pukkusāti e ensina um dos discursos mais profundos do Cânone Pāli. Conduz o discípulo pela dissolução de toda a experiência nos seis elementos: Terra (solidez), Água (coesão/líquidos), Fogo (calor/temperatura), Vento (movimento/ar), Espaço (vacuidade) e Consciência. Ajahn Lee utilizou este sutta para estruturar suas famosas purificações elementais, capacitando o meditador a transcender dores físicas intensas e despertar a serenidade radiante."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Rūpa-Dhātu Vibhajana",
-        "title": {
-          "en": "1. The 4 Material Elements",
-          "pt": "1. Os 4 Elementos Materiais"
-        },
-        "desc": {
-          "en": "Scan the body: Hardness/weight is Earth; saliva/blood is Water; body heat is Fire; respiration and nerve energy is Wind. They are simply nature.",
-          "pt": "Escaneie o corpo: peso/solidez é Terra; saliva/sangue é Água; calor corporal é Fogo; respiração e impulsos nervosos são Vento. É pura natureza."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Ākāsa-Dhātu",
-        "title": {
-          "en": "2. Dissolving into Space",
-          "pt": "2. Dissolução no Elemento Espaço"
-        },
-        "desc": {
-          "en": "Feel the space inside your ears, mouth, chest, and between cells. Allow physical boundaries to dissolve like a mist into infinite open space.",
-          "pt": "Perceba o espaço dentro dos ouvidos, na boca, nos pulmões e entre as células. Deixe os contornos do corpo se desfazerem como névoa no espaço aberto."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Viññāṇa-Dhātu",
-        "title": {
-          "en": "3. The Pure Element of Knowing",
-          "pt": "3. O Elemento Puro da Consciência"
-        },
-        "desc": {
-          "en": "What knows the space? Turn around to the knowing consciousness itself. It is pristine, unbordered, and independent of physical sensations.",
-          "pt": "O que percebe o espaço? Volte-se para a própria consciência que sabe. Ela é límpida, sem fronteiras e independente do corpo de carne."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Upekkhā-Pārisuddhi",
-        "title": {
-          "en": "4. Unshakeable Noble Stillness",
-          "pt": "4. A Quietude Nobre Inabalável"
-        },
-        "desc": {
-          "en": "Rest in the purified equanimity that neither clings to life nor craves death. The mind rests in the supreme noble truth: unconditioned peace.",
-          "pt": "Repouse na equanimidade purificada que não se agarra à vida nem teme a morte. A mente descansa na nobreza suprema da paz incondicionada."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Catu-dhātu-vavatthāna",
+                "title": {
+                      "en": "1. The Four Great Physical Elements",
+                      "pt": "1. Os Quatro Grandes Elementos Físicos"
+                },
+                "desc": {
+                      "en": "Investigating the internal and external earth (solidity), water (cohesion), fire (temperature), and wind (pressure/movement). Deconstructing bodily ownership.",
+                      "pt": "Investigando os elementos internos e externos: terra (solidez), água (coesão), fogo (temperatura) e ar (movimento). Desconstruindo a posse do corpo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Impersonal Matter Realization:</strong> Recognize: 'This earth element inside is of the same nature as the mountains outside. Neither is mine, neither is my self.'</p>",
+                      "pt": "<p><strong>Percepção da Matéria Impessoal:</strong> Reconheça: 'Este elemento terra dentro de mim é da mesma natureza das rochas externas. Nenhum é meu, nenhum é meu eu.'</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 140 §8–12</strong>: Discoursed to Pukkusāti in the potter's shed on an unshakeable night.</p>",
+                      "pt": "<p><strong>MN 140 §8–12</strong>: Ensinado a Pukkusāti na olaria numa vigília noturna inabalável.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Master Butcher at the Crossroads:</strong> Having slaughtered a cow and cut it into portions, there is no longer a 'cow', only piles of meat.</p>",
+                      "pt": "<p><strong>O Açougueiro no Cruzamento:</strong> Tendo fatiado a vaca em porções, não há mais a ilusão de 'vaca', apenas pedaços de carne dispostos no chão.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Ākāsa-dhātu",
+                "title": {
+                      "en": "2. The Fifth Element: Space (Ākāsa)",
+                      "pt": "2. O Quinto Elemento: O Espaço (Ākāsa)"
+                },
+                "desc": {
+                      "en": "Discerning the cavities within: ear canals, nostrils, mouth, throat, digestive tract, and the microscopic emptiness separating atoms. Seeing that matter is mostly void.",
+                      "pt": "Discernindo as cavidades internas: ouvidos, narinas, esôfago, estômago e o vazio microscópico entre as partículas. Enxergando que a matéria é majoritariamente espaço."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Somatic De-Solidification:</strong> Tune into the hollow interior of the body. Feel the body become airy, transparent, and weightless like a woven reed basket.</p>",
+                      "pt": "<p><strong>Dessolidificação Somática:</strong> Sintonize o interior oco do corpo. Sinta a estrutura tornar-se arejada e transparente como um cesto de vime aberto ao vento.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 140 §13</strong>: Discerning the internal space element (<em>ajjhattikā ākāsadhātu</em>).</p>",
+                      "pt": "<p><strong>MN 140 §13</strong>: Discernindo o elemento espaço interior (<em>ajjhattikā ākāsadhātu</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bird Flying in Open Sky:</strong> Space has no markers, leaves no footprints, and cannot be captured or wounded by a sword.</p>",
+                      "pt": "<p><strong>O Pássaro Voando no Céu Aberto:</strong> O espaço não deixa pegadas, não tem fronteiras e não pode ser ferido por espada alguma.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Viññāṇa-dhātu",
+                "title": {
+                      "en": "3. The Sixth Element: Consciousness (Viññāṇa)",
+                      "pt": "3. O Sexto Elemento: A Consciência (Viññāṇa)"
+                },
+                "desc": {
+                      "en": "Discerning consciousness as dependently arisen: consciousness arises based on eye and form, ear and sound, mind and thought. It is not an eternal soul, but a stream of knowing.",
+                      "pt": "Discernindo a consciência como condicionada e dependente: ela brota do contato entre olho e forma, ouvido e som, mente e ideia. Não é uma alma, mas um fluxo vivo de cognição."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Witnessing the Stream:</strong> Observe that consciousness itself arises and dies with every sensory impact. Consciousness too is impermanent and not-self.</p>",
+                      "pt": "<p><strong>Testemunhando o Fluxo:</strong> Observe que a consciência surge e fenece a cada faísca sensorial. A própria consciência é impermanente e vazia de um 'eu'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 140 §14–17</strong>: Transitioning from the material elements to the breakdown of the observer.</p>",
+                      "pt": "<p><strong>MN 140 §14–17</strong>: Transição dos elementos materiais para o desmonte do próprio observador.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Fire Dependent on Fuel (MN 38):</strong> A fire burning dependent on logs is called a log fire; dependent on grass, a grass fire. So too consciousness depends on conditions.</p>",
+                      "pt": "<p><strong>O Fogo Dependente da Lenha (MN 38):</strong> O fogo alimentado por toras chama-se fogo de lenha; alimentado por capim, fogo de capim. Assim a consciência depende das bases sensoriais.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Asmimāna-samugghāta",
+                "title": {
+                      "en": "4. Uprooting the Conceit 'I Am' (Asmīti)",
+                      "pt": "4. Erradicando o Conceito 'Eu Sou' (Asmīti)"
+                },
+                "desc": {
+                      "en": "When all six elements are seen as not mine, not I, not my self, the root conceit 'I am' is uprooted forever. The sage of peace (muni santa) dwells in the unshakeable truth.",
+                      "pt": "Quando os seis elementos são vistos como não meus, não eu, não meu eu, o conceito básico 'eu sou' é arrancado pela raiz. O sábio da paz (muni santa) repousa na verdade inabalável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Final Dissolution of Identity:</strong> 'He does not construct, he does not will for becoming or non-becoming.' Abide as the pure unconditioned peace of Nibbāna.</p>",
+                      "pt": "<p><strong>A Dissolução Final da Identidade:</strong> 'Ele não fabrica mais nada, não projeta devir nem aniquilação.' Repouse na paz inabalável do Nibbāna.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 140 §18–29</strong>: 'The sage at peace is not born, does not age, does not die, is not agitated, does not crave.'</p>",
+                      "pt": "<p><strong>MN 140 §18–29</strong>: 'O sábio pacificado não nasce, não envelhece, não morre, não se agita nem anseia por nada.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Oil Lamp Going Out When Fuel is Exhausted (MN 140 §24):</strong> Just as an oil lamp burns out when the oil and wick are finished, feelings cool down in the body.</p>",
+                      "pt": "<p><strong>A Lâmpada de Óleo que se Apaga (MN 140 §24):</strong> Assim como a lamparina se apaga quando o óleo e o pavio chegam ao fim, todas as sensações resfriam no corpo.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Transcendence of Pain, 4th Jhāna & Non-Clinging Consciousness",
@@ -3179,54 +4307,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Nos Udānas 8.1 e 8.3, o Buda pronuncia um dos seus mais solenes versos sobre o fruto supremo do caminho. Afirma que além de todos os reinos da matéria, da mente e da imaginação, existe uma dimensão onde não há vinda nem ida, nem permanência nem morte — o Não-Nascido (Ajāta), o Incondicionado (Asaṅkhata). Ven. Ajahn Mun e Ven. Ajahn Maha Boowa citavam estes versos constantemente para descrever a mente liberta que destruiu a casca da ignorância primordial (avijjā)."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Saṅkhata-Dassana",
-        "title": {
-          "en": "1. Disillusionment with Fabrications",
-          "pt": "1. Desencanto com o Condicionado"
-        },
-        "desc": {
-          "en": "See that all thoughts, emotions, bodies, and cosmic realms are constructed (saṅkhata), fragile, and bound to dissolve. Let go of seeking permanent safety in them.",
-          "pt": "Veja que todos os pensamentos, emoções, corpos e mundos são fabricados (saṅkhata), frágeis e fadados ao fim. Pare de buscar segurança eterna neles."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Nirodha-Gāminī",
-        "title": {
-          "en": "2. The Inward Flow Toward Cessation",
-          "pt": "2. O Fluxo em Direção à Cessação"
-        },
-        "desc": {
-          "en": "Stop creating thoughts. Stop projecting the future. Stop clinging to the past. Let the mental currents wind down into total stillness.",
-          "pt": "Cesse de projetar o futuro. Cesse de ruminar o passado. Cesse de fabricar narrativas. Deixe as correntes mentais desacelerarem até a quietude absoluta."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Ajāta-Paccavekkhaṇa",
-        "title": {
-          "en": "3. Directing the Mind to the Unborn",
-          "pt": "3. Voltar-se para o Não-Nascido"
-        },
-        "desc": {
-          "en": "Notice that which is not born of thinking. The stillness is not an idea; it is the natural cessation of craving and defilement.",
-          "pt": "Perceba aquilo que não é filho do pensamento. O silêncio supremo não é uma ideia filosófica; é a cessação natural da sede e da ignorância."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Amata-Dhātu",
-        "title": {
-          "en": "4. Resting in the Deathless",
-          "pt": "4. Repouso no Imortal (Amata)"
-        },
-        "desc": {
-          "en": "The mind steps off the wheel of becoming. Experiencing the peace of Nibbāna—cool, unshakeable, sorrowless, and supreme.",
-          "pt": "A mente desembarca da roda do vir-a-ser (saṁsāra). Experimenta a paz de Nibbāna — fresca, inabalável, sem lágrimas e suprema."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Saṅkhata-ādīnava-dassana",
+                "title": {
+                      "en": "1. Discerning the Inherent Fragility of All Formations",
+                      "pt": "1. Discernindo a Fragilidade de Todas as Construções"
+                },
+                "desc": {
+                      "en": "Investigating whatever is born, created, constructed, and conditioned. Seeing that all conditioned states are unstable, prone to breakup, and inherently unsatisfactory.",
+                      "pt": "Investigando tudo o que é nascido, criado, construído e condicionado. Reconhecendo que todas as construções são instáveis, sujeitas ao colapso e insatisfatórias."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Seeing the Structural Flaw:</strong> Observe that anything that has a beginning must have an ending. Stop seeking permanent security in transient things.</p>",
+                      "pt": "<p><strong>Enxergando a Falha Estrutural:</strong> Reconheça que tudo o que teve um começo inevitavelmente terá um fim. Não procure segurança eterna em coisas que mudam.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Udāna 8.1–8.3</strong>: The Buddha's solemn declarations on the Unconditioned realm (<em>asaṅkhata-dhātu</em>).</p>",
+                      "pt": "<p><strong>Udāna 8.1–8.3</strong>: As proclamações solenes do Buda sobre a dimensão incondicionada (<em>asaṅkhata-dhātu</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The House of Cards in a Breeze:</strong> No matter how intricately balanced, the first gentle draft sends it tumbling to the table.</p>",
+                      "pt": "<p><strong>O Castelo de Cartas na Brisa:</strong> Não importa quão meticuloso seja o equilíbrio, a primeira brisa faz desabar toda a estrutura sobre a mesa.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Ajāta-abhūta-saññā",
+                "title": {
+                      "en": "2. The Unborn, Unbecome, Unmade & Unconditioned",
+                      "pt": "2. O Não-Nascido, Não-Devir, Não-Criado & Incondicionado"
+                },
+                "desc": {
+                      "en": "'There is, mendicants, an unborn, unbecome, unmade, unconditioned. If there were not, no escape would be known from what is born, become, made, and conditioned.'",
+                      "pt": "'Há, ó monges, o não-nascido, o não-devir, o não-criado, o incondicionado. Se não houvesse, não se discerniria escape algum do que nasce, fenece e é condicionado'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Opening to the Deathless:</strong> In meditation, look for that which is not produced by causes, not moving, and not disappearing. Rest in that pristine stillness.</p>",
+                      "pt": "<p><strong>Abrindo-se para o Imortal:</strong> Na meditação, atente para aquilo que não é fabricado por causas, que não se move nem perece. Descanse nessa quietude pura.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Udāna 8.3 (Tatiya Nibbāna Sutta)</strong>: The definitive philosophical anchor of Nibbāna as a real attainment.</p>",
+                      "pt": "<p><strong>Udāna 8.3 (Tatiya Nibbāna Sutta)</strong>: A âncora filosófica definitiva de Nibbāna como uma realização tangível e suprema.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bedrock Underneath the Shifting Sand:</strong> While dunes shift with the desert winds, the ancient bedrock beneath remains untouched and immovable.</p>",
+                      "pt": "<p><strong>A Rocha Matriz sob a Areia Movediça:</strong> Enquanto as dunas se deslocam ao sabor das tempestades, a rocha sólida por baixo permanece intocada e firme.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Appatiṭṭha-vimokkha",
+                "title": {
+                      "en": "3. The Dimension Without Coming, Going, or Standing",
+                      "pt": "3. A Dimensão Sem Idas, Vindas ou Apoio"
+                },
+                "desc": {
+                      "en": "'There is a dimension where there is neither earth, nor water, nor fire, nor wind... neither this world nor the next... no coming, no going, no standing. It is without support.'",
+                      "pt": "'Há uma dimensão onde não há terra, nem água, nem fogo, nem ar... nem este mundo nem o outro... nem vir, nem ir, nem parar. É sem apoio, sem devir, o fim do sofrimento'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Letting Go of Footholds:</strong> Release every conceptual foothold. Do not grasp onto 'being' or 'non-being'. Pure unconditioned awareness.</p>",
+                      "pt": "<p><strong>Soltando os Apoios Mentais:</strong> Largue qualquer suporte conceitual. Não se apegue a noções de 'existência' ou 'não-existência'. Consciência liberta.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Udāna 8.1 (Paṭhama Nibbāna Sutta)</strong>: The negative dialectic describing Nibbāna beyond sensory dimensionality.</p>",
+                      "pt": "<p><strong>Udāna 8.1 (Paṭhama Nibbāna Sutta)</strong>: A dialética apofática descrevendo Nibbāna além das dimensões sensoriais.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Sunlight Not Striking Any Wall (SN 12.64):</strong> A ray of sunlight entering through a window in an open field strikes no wall, no post, no ground; it is unestablished.</p>",
+                      "pt": "<p><strong>O Raio de Sol que Não Toca Parede Alguma (SN 12.64):</strong> Um raio solar cruzando uma janela numa planície aberta não atinge parede, poste ou chão; permanece sem apoio.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Dukkhass'anta-sacchikiriya",
+                "title": {
+                      "en": "4. The Ultimate Ending of Suffering (Nibbāna)",
+                      "pt": "4. A Concretização do Fim Definitivo do Sofrimento"
+                },
+                "desc": {
+                      "en": "With craving extinguished, consciousness is unfettered. The cycle of saṁsāra is severed. The mind abides in the supreme, unshakeable freedom of Nibbāna.",
+                      "pt": "Com a extinção da sede de devir, a mente é desatada. O ciclo do saṁsāra é partido. Permanece-se na liberdade incondicionada e imutável de Nibbāna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Living the Unconditioned:</strong> Walk through daily life with zero craving and zero fear. Total inner peace in the midst of worldly storms.</p>",
+                      "pt": "<p><strong>Vivendo o Incondicionado:</strong> Caminhe pelo mundo com zero dependência e zero medo. Paz interior definitiva no meio de todas as tempestades.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Udāna 8.4</strong>: 'For one who clings, there is movement; for one who does not cling, there is no movement... this is the end of suffering.'</p>",
+                      "pt": "<p><strong>Udāna 8.4</strong>: 'Para quem se apega, há oscilação; para quem não se apega, não há oscilação... este é o fim do sofrimento.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Island Safe from the Raging Flood (Snp 5.11):</strong> In the midst of terrifying floods sweeping away villages, a solid high granite island stands safe, dry, and immovable.</p>",
+                      "pt": "<p><strong>A Ilha Inabalável na Torrente Furiosa (Snp 5.11):</strong> No meio de inundações assustadoras que arrastam vilarejos, uma ilha sólida de granito permanece seca e segura.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Realization of Nibbāna & Uprooting of All Asavas",
@@ -3322,54 +4498,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Phra Ācariya Mun Bhūridatto (1870–1949) é o gigante do Theravāda moderno. Numa época em que as autoridades eclesiásticas de Bangkok declaravam que o caminho para Jhānas e Iluminação estava extinto, Ajahn Mun caminhou descalço para as florestas selvagens de Isan, Laos e Birmânia levando apenas uma tigela e três mantos. Convivendo com tigres e malária, redescobriu o caminho direto do Buda: pureza moral absoluta, meditação sentada e caminhando até a madrugada, e a investigação cortante do corpo e da mente. Seus discípulos fundaram os mosteiros mais respeitados do mundo budista."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Thudong-Vata",
-        "title": {
-          "en": "1. The Ascetic Wilderness Vows",
-          "pt": "1. Os Votos Ascéticos de Floresta"
-        },
-        "desc": {
-          "en": "Simplify life to bare essentials. Eat one meal a day, sleep minimally, renounce luxury, and welcome physical discomfort as a sharpening stone.",
-          "pt": "Simplifique a vida ao essencial. Coma moderadamente, durma pouco, renuncie ao luxo e abrace o desconforto físico como pedra de amolar a mente."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Buddho-Parikamma",
-        "title": {
-          "en": "2. The Unbreakable Buddho Mantra",
-          "pt": "2. A Espada do Mantra Buddho"
-        },
-        "desc": {
-          "en": "Inhale 'Bud', exhale 'Dho'. Let no other thought squeeze in between. Repeat it thousands of times until it repeats itself continuously in the heart.",
-          "pt": "Inspire 'Bud', expire 'Dho'. Não deixe nenhum outro pensamento se intrometer. Repita milhares de vezes até que o mantra ressoe sozinho no peito."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Cankama-Vīriya",
-        "title": {
-          "en": "3. Vigorous Walking Meditation",
-          "pt": "3. Caminhada Meditativa Vigorosa"
-        },
-        "desc": {
-          "en": "Walk back and forth on a 30-pace path for hours. Feel every footstep grounding awareness into the earth, burning away drowsiness and restlessness.",
-          "pt": "Caminhe de um lado para o outro numa trilha de 30 passos por horas. Sinta cada passo aterrando a atenção no solo, queimando a sonolência e o torpor."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Pabhassara-Citta",
-        "title": {
-          "en": "4. Uncovering the Radiant Mind",
-          "pt": "4. Desvelar a Mente Radiante"
-        },
-        "desc": {
-          "en": "The wandering defilements are stripped away. The natural, unadulterated radiance of the knowing Citta emerges in pure, unshakable liberation.",
-          "pt": "As impurezas errantes são desfeitas. A radiância natural e imaculada do Citta desperta em libertação pura, soberana e inabalável."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Dhutaṅga-cariyā",
+                "title": {
+                      "en": "1. The 13 Forest Ascetic Resolves (Dhutaṅga)",
+                      "pt": "1. Os 13 Votos Ascéticos da Selva (Dhutaṅga)"
+                },
+                "desc": {
+                      "en": "Phra Ācariya Mun's relentless discipline: dwelling at tree-roots, wearing cast-off rags, eating one meal a day from the alms bowl, refusing luxury and soft living.",
+                      "pt": "A disciplina implacável de Phra Ācariya Mun: habitar ao pé de árvores, vestir mantos de trapos remendados, comer uma só refeição diária na tigela e recusar comodidades."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Radical Simplicity:</strong> Cut down worldly clutter. Train yourself to be content with whatever requisites are present without complaint.</p>",
+                      "pt": "<p><strong>Simplicidade Radical:</strong> Reduza o excesso de pertences. Acostume-se a estar satisfeito com o essencial sem queixas ou exigências de conforto.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The 13 canonical ascetic practices (<em>dhutaṅga</em>) detailed in <em>Visuddhimagga</em> Ch. II.</p>",
+                      "pt": "<p>As 13 práticas ascéticas canônicas (<em>dhutaṅga</em>) detalhadas no <em>Visuddhimagga</em> Cap. II.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Wild Boar in the Forest:</strong> Free, resilient, feeding on roots, needing no palace or human shelter to survive with vigor.</p>",
+                      "pt": "<p><strong>O Javali na Floresta Selvagem:</strong> Livre, robusto, alimentando-se de raízes, sem precisar de palácios ou confortos para viver com vigor.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Mūla-Kammaṭṭhāna-vicāra",
+                "title": {
+                      "en": "2. The Five Body Roots as the Sword of Wisdom",
+                      "pt": "2. As Cinco Raízes do Corpo como Espada de Sabedoria"
+                },
+                "desc": {
+                      "en": "Ajahn Mun's primary weapon: meditating on hair, nails, teeth, skin, and bones until the illusion of gender, beauty, and physical pride is completely pulverized.",
+                      "pt": "A arma primária de Ajahn Mun: meditar em cabelos, unhas, dentes, pele e ossos até que a fascinação estética e o apego corpóreo sejam totalmente pulverizados."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Incinerating Vanity:</strong> Direct the mind to the internal bones and organs with fierce determination until desire loses its footing.</p>",
+                      "pt": "<p><strong>Incinerando a Vaidade:</strong> Projete a mente nos ossos e órgãos com foco cirúrgico até que o apego carnal perca todo o apoio.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ajahn Mun's teachings recorded in <em>Mutodaya (A Heart Released)</em>.</p>",
+                      "pt": "<p>Os ensinamentos de Ajahn Mun registrados em <em>Mutodaya (Um Coração Liberto)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Sharp Diamond Drill Slicing Granite:</strong> Drilling straight through the outer stone to expose the core beneath.</p>",
+                      "pt": "<p><strong>A Broca de Diamante Perfurando o Granito:</strong> Cortando a rocha dura sem hesitação para revelar o interior desprovido de encanto.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Pabhassara-citta",
+                "title": {
+                      "en": "3. The Radiant Mind & The Pitfall of Light",
+                      "pt": "3. A Mente Radiante & A Armadilha da Luz"
+                },
+                "desc": {
+                      "en": "As hindrances fall away, the mind shines with staggering, supernatural radiance (pabhassara citta). Ajahn Mun warned: do not mistake this golden light for Nibbāna!",
+                      "pt": "Conforme os obstáculos desabam, a mente reluz com claridade sobrenatural (pabhassara citta). Ajahn Mun alertava: não tome esta luz dourada como Nibbāna!"
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Shattering the Luminous Ego:</strong> When extraordinary brilliance arises in samādhi, realize: 'Even this radiance is impermanent and conditioned!' Do not cling to the light.</p>",
+                      "pt": "<p><strong>Desfazendo o Ego Luminoso:</strong> Ao notar um clarão sublime em samādhi, compreenda: 'Mesmo esta luz dourada é condicionada!' Não se apegue ao espetáculo interior.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 1.49</strong>: 'Luminous is this mind, but it is defiled by visiting defilements.'</p>",
+                      "pt": "<p><strong>AN 1.49</strong>: 'Luminosa é esta mente, mas ela é maculada por contaminações adventícias.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Golden Cocoon (Ajahn Mun):</strong> The silkworm spins a dazzling golden thread around itself, but if it stays inside admiring the cocoon, it perishes; it must break free to fly.</p>",
+                      "pt": "<p><strong>O Casulo Dourado (Ajahn Mun):</strong> O bicho-da-seda tece um casulo reluzente ao redor de si, mas se ficar dentro admirando o ouro morre asfixiado; é preciso rompê-lo para voar livre.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Mutodaya (A Heart Released)",
+                "title": {
+                      "en": "4. Mutodaya: The Heart Released in Absolute Truth",
+                      "pt": "4. Mutodaya: O Coração Desperto na Verdade Absoluta"
+                },
+                "desc": {
+                      "en": "Shattering the final delusion of the knowing mind itself. The unconditioned heart stands free of all cosmic coordinates: birth is ended, the holy life fulfilled.",
+                      "pt": "Estilhaçando a última ilusão do próprio 'conhecedor' interior. O coração incondicionado ergue-se livre de amarras: findou-se a ilusão, plena é a paz."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Total Liberation:</strong> The observer and the observed dissolve into unshakeable truth. Rest as the deathless Dhamma itself.</p>",
+                      "pt": "<p><strong>Libertação Plena:</strong> O observador e o observado dissolvem-se na verdade pura. Repouse na paz definitiva do Dhamma imutável.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The historical life and attainments of Phra Ācariya Mun Bhūridatto (1870–1949).</p>",
+                      "pt": "<p>A vida e realizações espirituais de Phra Ācariya Mun Bhūridatto (1870–1949).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lightning Strike Shattering the Mountain Peak:</strong> In a single blinding flash, the boulder of ignorance is disintegrated into dust that blows away forever.</p>",
+                      "pt": "<p><strong>O Raio que Fragmenta o Cume da Montanha:</strong> Num clarão definitivo, o rochedo da ignorância é pulverizado em poeira dispersa pelo vento para sempre.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Complete Arahantship (Arahattaphala)",
@@ -3464,42 +4688,78 @@ const MEDITATION_LINEAGES = [
       "pt": "Ajahn Maha Boowa representa a ala resoluta e heroica da Tradição das Florestas. Célebre por suas vigílias noturnas dissecando dores atrozes com bisturi analítico, seu método utiliza o mantram Buddho para domar o elefante selvagem da mente mundana. Quando a dor severa surge, ele ensina a não fugir nem trocar de postura, mas inquirir: 'Onde está a dor? O osso é a dor? A carne é a dor? A consciência que sabe é a dor?' Por essa investigação, a mente liberta-se da identificação com o sofrimento somático."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Parikamma-Buddho",
-        "title": {
-          "en": "1. Repeating the Buddho Anchor",
-          "pt": "1. Repetição do Mantram Buddho"
-        },
-        "desc": {
-          "en": "Inhale 'Bud-', exhale '-dho'. Do not allow a single second of mental gap where a stray thought could sneak in.",
-          "pt": "Inspire 'Bud-', expire '-dho'. Não conceda um único instante de hiato para a intrusão de devaneios."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Citta-Samatikkama",
-        "title": {
-          "en": "2. The Mind Drops into Stillness",
-          "pt": "2. O Mergulho da Mente na Calma"
-        },
-        "desc": {
-          "en": "Eventually, the mantra dissolves. The citta drops into a profound luminous well of peace inside the chest, isolated from sense impressions.",
-          "pt": "O mantram dissolve-se naturalmente. A citta mergulha num manancial límpido de paz no peito, desacoplada das sensações externas."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Vedanā-Vibhāga",
-        "title": {
-          "en": "3. Dissecting Severe Pain",
-          "pt": "3. Dissecação Anatômica da Dor"
-        },
-        "desc": {
-          "en": "When pain burns in the knees or back, confront it directly. Ask: Does the knee know it hurts? No, it's just physical matter. The knowing mind is separate.",
-          "pt": "Ao queimar dor nos joelhos ou costas, confronte-a: O joelho sabe que dói? Não, é matéria inanimada. A mente que sabe é distinta da sensação."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Buddho-parikamma",
+                "title": {
+                      "en": "1. Relentless Repetition of the Mantra 'Bud-dho'",
+                      "pt": "1. Repetição Incansável do Mantra 'Bud-dho'"
+                },
+                "desc": {
+                      "en": "Ajahn Maha Boowa's fierce starting method: gluing the mind to the inner repetition of 'Bud-' on the in-breath and '-dho' on the out-breath with zero gaps for discursive thought.",
+                      "pt": "O método vigoroso de Ajahn Maha Boowa: atar a mente à repetição interior de 'Bud-' ao inalar e '-dho' ao exalar, sem deixar um milissegundo livre para pensamentos dispersos."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Relentless Focus:</strong> Do not allow the mind to wander for even a second. Repeat 'Buddho' with total earnestness until thoughts are pinned down and stillness arrives.</p>",
+                      "pt": "<p><strong>Foco Implacável:</strong> Não permita que a mente divague por um segundo. Repita 'Buddho' com seriedade total até que os devaneios cessem e o silêncio se estabeleça.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ajahn Maha Boowa's classic guide: <em>To the Last Breath & Kammatthana</em>.</p>",
+                      "pt": "<p>A obra clássica de Ajahn Maha Boowa: <em>Até o Último Suspiro & Kammaṭṭhāna</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Iron Nail Driven with a Sledgehammer:</strong> Each repetition drives the spike deeper into the rock until it cannot be moved by any wind.</p>",
+                      "pt": "<p><strong>O Cravo de Ferro Marretado na Rocha:</strong> Cada repetição crava a estaca mais fundo até que nenhum vendaval consiga movê-la.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Vedanā-pariccheda",
+                "title": {
+                      "en": "2. Dissecting Severe Pain (Sitting through the Fire)",
+                      "pt": "2. Dissecando a Dor Intensa (Sentando Através do Fogo)"
+                },
+                "desc": {
+                      "en": "Ajahn Maha Boowa's legendary all-night sits through excruciating pain: dissecting pain into three distinct realities—the physical body, the feeling (vedanā), and the knowing mind.",
+                      "pt": "As sentadas noturnas de Ajahn Maha Boowa enfrentando dores agudas: dissecando a dor em três realidades separadas—o corpo físico, a sensação (vedanā) e a mente conhecedora."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Surgical Scalpel of Wisdom:</strong> Ask: 'Is the bone in pain? No, bone has no awareness. Is the flesh in pain? No. Is the feeling the mind? No, feeling arises and dies, while the mind knows it.' Pain loses its sting.</p>",
+                      "pt": "<p><strong>O Bisturi Cirúrgico da Sabedoria:</strong> Pergunte-se: 'O osso está doendo? Não, osso é matéria sem senciência. A carne sabe da dor? Não. A dor é a mente? Não, a sensação muda e a mente apenas sabe'. A dor perde o veneno.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.6</strong>: Dissecting the physical sensation from the psychological reaction.</p>",
+                      "pt": "<p><strong>SN 36.6</strong>: Separando o dado físico da sensação da reação psicológica de aversão.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Blacksmith Holding Glowing Red Iron in Tongs:</strong> The iron is red hot, but the smith holds it securely with long tongs and suffers zero burns.</p>",
+                      "pt": "<p><strong>O Ferreiro Segurando o Ferro em Brasa com a Tenaz:</strong> A barra de ferro incandesce em brasa viva, mas o ferreiro a manipula com a tenaz de aço e não sofre queimadura alguma.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Avijjā-bhedana",
+                "title": {
+                      "en": "3. Shattering the Core of Avijjā in the Citta",
+                      "pt": "3. Estilhaçando o Núcleo da Ignorância (Avijjā) no Citta"
+                },
+                "desc": {
+                      "en": "Turning the weapon of wisdom inward to examine the luminous, radiant 'One Who Knows' itself. Recognizing that this brilliant center is the ultimate hiding place of subtle delusion.",
+                      "pt": "Voltando a espada da sabedoria para examinar o próprio 'Conhecedor' radiante. Reconhecendo que esse ponto reluzente e fascinante é o último esconderijo da ignorância sutil."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Shattering the Final Seed:</strong> Recognize: 'Even this radiant knower is a construct, a point of delusion.' In a flash of insight, the center shatters, and unconditioned liberation bursts forth.</p>",
+                      "pt": "<p><strong>Destruindo a Semente Final:</strong> Reconheça: 'Mesmo este conhecedor reluzente é uma construção, o ponto central do apego.' Num raio de clareza, o núcleo se desfaz e a liberdade absoluta resplandece.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ajahn Maha Boowa's autobiographical account of his breakthrough on the mountain peak of Wat Doi Dhammachedi.</p>",
+                      "pt": "<p>O relato autobiográfico de Ajahn Maha Boowa sobre sua libertação final no cume da montanha em Wat Doi Dhammachedi.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Light Bulb Shattering into Pure Space:</strong> The brilliant glass filament shatters; light is no longer confined to a bulb, but merges with the boundless cosmos.</p>",
+                      "pt": "<p><strong>O Bulbo de Vidro que Estilhaça no Espaço Aberto:</strong> O filamento luminoso da lâmpada quebra-se; a luz deixa de estar presa a um bulbo e funde-se com a imensidão do cosmos.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Whenever acute panic, anger, or acute physical illness strikes in daily life, replace the frantic inner narrative with continuous, steady repetition of 'Buddho, Buddho, Buddho' until mental equilibrium is restored.",
@@ -3574,42 +4834,78 @@ const MEDITATION_LINEAGES = [
       "pt": "Sayadaw U Tejaniya, tendo vivido como comerciante leigo antes do monacato, criou uma abordagem libertadora para os tempos atuais. Em vez de forçar a mente em um único ponto, ele enfatiza a observação da própria mente (cittānupassanā). O segredo capital é a 'Atitude Correta': não se medita para eliminar pensamentos ou impurezas, mas para compreendê-los. Quando a cobiça ou irritação surgem, ele indaga: 'Você consegue saber que a raiva está presente sem odiar a raiva?' Isso torna a prática contínua do acordar ao dormir."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Yoniso Manasikāra",
-        "title": {
-          "en": "1. Checking the Attitude",
-          "pt": "1. Calibrar a Atitude"
-        },
-        "desc": {
-          "en": "Before sitting or working, ask: What does the mind expect? Am I trying to make something happen, or am I simply acknowledging what is?",
-          "pt": "Antes de sentar ou trabalhar, cheque: O que a mente espera? Estou tentando forçar a paz ou estou apenas ciente da realidade?"
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Adosa-Samācāra",
-        "title": {
-          "en": "2. No Rejection of Defilements",
-          "pt": "2. Não Rejeitar as Impurezas"
-        },
-        "desc": {
-          "en": "Do not fight thoughts or restlessness. A defilement is just a natural phenomenon (dhamma), not 'you'. Observe it like a scientist observing weather.",
-          "pt": "Não lute contra distrações. Uma impureza é apenas um fenômeno da natureza condicionado, não 'você'. Observe-a como quem observa o clima."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Satata-Sampajañña",
-        "title": {
-          "en": "3. Continuous Effortless Awareness",
-          "pt": "3. Continuidade sem Esforço"
-        },
-        "desc": {
-          "en": "Keep reminding yourself gently throughout the day: 'Is the mind aware right now?' Maintain the relaxed posture of knowing.",
-          "pt": "Lembre-se suavemente ao longo do dia: 'A mente está ciente agora?' Mantenha a presença serena sem tensão física."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Sammā-Diṭṭhi & Citta-santāna",
+                "title": {
+                      "en": "1. Right Attitude & Relaxed Presence",
+                      "pt": "1. Atitude Correta & Presença Descontraída"
+                },
+                "desc": {
+                      "en": "Sayadaw U Tejaniya's primary foundation: checking the attitude of the mind before meditating. 'Is there greed to get something? Is there aversion to what is here? If there is tension, there is wrong view.'",
+                      "pt": "O alicerce de Sayadaw U Tejaniya: checar a atitude da mente antes de meditar. 'Há cobiça querendo um estado sublime? Há aversão ao que está presente? Se houver tensão, há visão errônea'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Checking the Mind's Posture:</strong> Relax the body and check: 'How is the mind approaching this moment?' Meditate with a light, curious touch. Do not try to make anything happen.</p>",
+                      "pt": "<p><strong>Checando a Postura Mental:</strong> Relaxe o corpo e investigue: 'Com que atitude a mente encara este momento?' Pratique com leveza e curiosidade. Não tente fabricar nada especial.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Teachings from <em>Don't Look at the Light: What is the Mind Doing?</em> by Sayadaw U Tejaniya.</p>",
+                      "pt": "<p>Ensinamentos da obra <em>Don't Look at the Light: What is the Mind Doing?</em> de Sayadaw U Tejaniya.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Scientist in the Laboratory:</strong> Looking through the microscope without cheering for pleasant bacteria or crying over unpleasant ones; simply recording data.</p>",
+                      "pt": "<p><strong>O Cientista no Laboratório:</strong> Olhando pelas lentes do microscópio sem torcer pelas bactérias bonitas nem lamentar as feias; apenas registrando dados neutros.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Satata-sati",
+                "title": {
+                      "en": "2. Continuous Natural Awareness in Daily Life",
+                      "pt": "2. Atenção Contínua e Natural no Cotidiano"
+                },
+                "desc": {
+                      "en": "Awareness should not be confined to a cushion. Cultivating continuous mindfulness while eating, showering, driving, conversing, and working, with relaxed open eyes.",
+                      "pt": "A atenção plena não deve ficar restrita à almofada. Cultivando presença ininterrupta ao comer, tomar banho, dirigir, conversar e trabalhar, de olhos abertos e postura natural."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Micro-Check Reminder:</strong> Frequently ask during the day: 'Is the mind aware right now?' The moment you ask, awareness is already present.</p>",
+                      "pt": "<p><strong>Lembrete de Micro-Checagem:</strong> Pergunte-se com frequência durante o dia: 'A mente está consciente agora?' No instante em que você pergunta, a presença já despertou.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Direct application of <em>sampajañña-pabba</em> in MN 10 for householder practice.</p>",
+                      "pt": "<p>Aplicação direta do <em>sampajañña-pabba</em> do MN 10 para a vida diária leiga.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Gentle Dripping Water Filling a Giant Jar:</strong> Drop by drop, continuous gentle dripping fills a massive ceramic cistern until it overflows.</p>",
+                      "pt": "<p><strong>O Gotejar Contínuo Enchendo o Jarro:</strong> Gota a gota, o gotejar constante enche um tonel imenso de cerâmica até transbordar de água pura.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Dhammatā-ñāṇa",
+                "title": {
+                      "en": "3. Discerning Mind as an Impersonal Nature",
+                      "pt": "3. Discernindo a Mente como Natureza Impessoal"
+                },
+                "desc": {
+                      "en": "Understanding that thoughts, sensations, and consciousness itself are nature (Dhamma), operating according to conditions. They do not belong to you; they are not an 'I'.",
+                      "pt": "Compreendendo que pensamentos, sensações e a própria consciência são processos naturais (Dhamma) regidos por condições. Não pertencem a você; não são um 'eu'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>De-Personalizing Experience:</strong> When anger arises, note: 'Anger is nature arising due to causes.' Do not identify with it: 'I am angry'. Rest in unshakeable understanding.</p>",
+                      "pt": "<p><strong>Despersonalizando a Experiência:</strong> Quando a raiva surgir, veja: 'A raiva é uma natureza que brotou por causas'. Não tome posse: 'Eu estou com raiva'. Repouse na sabedoria impessoal.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 12.20</strong>: The fixed law of dependent origination (<em>dhammatā / dhammaniyāmatā</em>).</p>",
+                      "pt": "<p><strong>SN 12.20</strong>: A lei imutável da originação dependente (<em>dhammatā / dhammaniyāmatā</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Leaves Falling from Autumn Trees:</strong> Watching leaves fall in the wind; you don't feel grief or responsibility for the falling of each leaf, for it is simply nature.</p>",
+                      "pt": "<p><strong>Folhas Caindo das Árvores no Outono:</strong> Vendo as folhas voarem ao vento; você não sente culpa nem se apega a cada folha que cai, pois é apenas a natureza atuando.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "The single best method for busy professionals. You don't need a meditation room to check your attitude during a corporate meeting, while cooking dinner, or during an argument. Ask: 'What is the quality of the knowing mind right now?'",
@@ -3685,54 +4981,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Webu Sayādaw era reverenciado em toda Mianmar como um arahant autêntico da era moderna. Vivendo em cabanas simples de bambu e caminhando a pé pelas vilas, pregava uma única mensagem: não desperdice sua existência humana. Mantendo a mente ancorada no toque físico do ar ao sentar, caminhar, comer e trabalhar, a mente dissolve toda conceituação e penetra a inconstância, o sofrimento e a ausência de um Eu."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Phassa-Sati",
-        "title": {
-          "en": "1. Locating the Touch Point",
-          "pt": "1. Localizar o Ponto de Toque"
-        },
-        "desc": {
-          "en": "Find the precise spot at the nostrils or upper lip where you feel the cool incoming air and warm outgoing air. Glue your attention there.",
-          "pt": "Localize o ponto exato nas narinas ou lábio superior onde o ar fresco entra e o ar morno sai. Fixe a atenção como cola nesse ponto."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Avippavāsa",
-        "title": {
-          "en": "2. Not Losing a Single Breath",
-          "pt": "2. Não Perder Nenhuma Respiração"
-        },
-        "desc": {
-          "en": "Vow to let zero breaths slip past unnoticed. Even if thoughts whisper, do not follow them; hold the sensation of touch continuously.",
-          "pt": "Faça o voto de não deixar nenhuma respiração passar despercebida. Mesmo que pensamentos sussurrem, não os siga; mantenha o toque sensorial."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Santati-Samatha",
-        "title": {
-          "en": "3. Continuity Across Postures",
-          "pt": "3. Continuidade em Todas as Posturas"
-        },
-        "desc": {
-          "en": "Stand up, walk, wash dishes, open doors—never abandon the touch point. Continuity turns ordinary minutes into unbroken meditation.",
-          "pt": "Levante-se, caminhe, lave a louça, abra portas — jamais abandone o ponto de contato. A continuidade converte o dia comum em retiro ininterrupto."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Anicca-Pativedha",
-        "title": {
-          "en": "4. Direct Realization of Impermanence",
-          "pt": "4. Penetração Direta de Anicca"
-        },
-        "desc": {
-          "en": "The solid breath dissolves into rapid, ceaseless arising and vanishing vibrations. The illusion of a permanent breather shatters.",
-          "pt": "A respiração sólida se desfaz em vibrações incessantes de surgimento e cessação. A ilusão de alguém permanente que respira se desintegra."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Nāsikagga-nimitta",
+                "title": {
+                      "en": "1. Pinpoint Focus at the Nostril Tip",
+                      "pt": "1. Foco Preciso na Ponta das Narinas"
+                },
+                "desc": {
+                      "en": "Webu Sayādaw's uncompromising anchor: anchoring attention exclusively at the small spot on the upper lip or nostril rim where the breath strikes physically.",
+                      "pt": "A âncora rigorosa de Webu Sayādaw: fixar a atenção exclusivamente no pequeno ponto do lábio superior ou narinas onde o fôlego toca fisicamente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Point-Blank Physical Contact:</strong> Feel the direct impact of air touching the skin. Do not follow the breath into the body or out into the room; stay at the gatepost.</p>",
+                      "pt": "<p><strong>Contato Físico Direto:</strong> Sinta o toque imediato do ar na pele. Não acompanhe o fôlego para dentro dos pulmões nem para o exterior; permaneça firme no portal.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Webu Sayādaw's discourses in <em>The Essential Practice</em>.</p>",
+                      "pt": "<p>Os discursos de Webu Sayādaw reunidos em <em>The Essential Practice</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Gatekeeper at the City Gate (Visuddhimagga):</strong> The gatekeeper does not wander into the city or roam into the countryside; he inspects people right as they pass the gate.</p>",
+                      "pt": "<p><strong>O Guarda no Portão da Cidade (Visuddhimagga):</strong> O sentinela não entra nas ruas da cidade nem vagueia pelos campos; inspeciona cada viajante exatamente no limiar do portão.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Avicchindana-sati",
+                "title": {
+                      "en": "2. Unbroken Vigilance without Missing a Breath",
+                      "pt": "2. Vigilância Ininterrupta sem Perder uma Respiração"
+                },
+                "desc": {
+                      "en": "Webu Sayādaw's famous challenge: 'Can you keep your mind on the breath for just three consecutive in-and-out breaths without a single stray thought?' Building up unbroken continuity.",
+                      "pt": "O célebre desafio de Webu Sayādaw: 'Você consegue manter a mente no fôlego por apenas três respirações consecutivas sem um único devaneio?' Forjando continuidade inquebrantável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Consecutive Vigilance:</strong> Count 1, 2, 3 breaths with 100% focus. If attention wanders, start over immediately. Train the mind like an iron soldier.</p>",
+                      "pt": "<p><strong>Vigilância Consecutiva:</strong> Conte 1, 2, 3 ciclos com foco absoluto. Se a mente escapar, recomece na hora. Treine a determinação como um soldado de aço.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The canonical requirement of unbroken ardency (<em>ātāpī sampajāno satimā</em>, MN 10).</p>",
+                      "pt": "<p>A exigência canônica de esforço contínuo e ardente (<em>ātāpī sampajāno satimā</em>, MN 10).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Rubbing Two Firesticks Without Pausing:</strong> If you stop rubbing for even a moment to rest, the heat dissipates and fire is never born.</p>",
+                      "pt": "<p><strong>Friccionando Gravetos de Fogo sem Pausas:</strong> Se você parar de esfregar a madeira por um segundo sequer para descansar, o calor se perde e a chama nunca acende.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Adhivāsana-khantī",
+                "title": {
+                      "en": "3. Enduring Severe Physical Agony Without Shifting",
+                      "pt": "3. Suportando Dores Agudas sem Mudar de Posição"
+                },
+                "desc": {
+                      "en": "When burning knee, hip, or back pain arrives during long sits, do not shift or fidget! Stand your ground with the breath. Witness pain reach a crescendo and disintegrate.",
+                      "pt": "Quando dores ardentes nos joelhos ou coluna surgirem, não mude a postura! Mantenha a guarda na respiração. Testemunhe a dor atingir o pico e desintegrar-se."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Immovable Discipline:</strong> Lock the posture like a bronze statue. Let the pain burn without adding mental resentment. Pain is just sensations arising and passing.</p>",
+                      "pt": "<p><strong>Disciplina Imóvel:</strong> Firme a postura como uma estátua de bronze. Deixe a dor queimar sem adicionar queixa mental. A dor é apenas vibração passageira.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §33</strong>: Enduring acute, piercing, racking bodily pains without dismay.</p>",
+                      "pt": "<p><strong>MN 119 §33</strong>: Suportando dores lancinantes e agudas sem perturbação da mente.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Battle Elephant Receiving Arrows:</strong> The royal tusker marching straight into the barrage of enemy arrows without flinching or turning back.</p>",
+                      "pt": "<p><strong>O Elefante Real Sob Chuva de Flechas:</strong> O poderoso elefante de batalha marchando em linha reta sob a tempestade de dardos inimigos sem recuar um milímetro.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Khippābhiññā-phala",
+                "title": {
+                      "en": "4. Seizing the Immediate Fruit of Awakening",
+                      "pt": "4. Colhendo o Fruto Imediato do Despertar"
+                },
+                "desc": {
+                      "en": "Webu Sayādaw's urgent plea: 'The Buddha's teaching is right here! Why postpone your freedom to future lives? Practice with your whole heart and cross over now!'",
+                      "pt": "O apelo urgente de Webu Sayādaw: 'O ensinamento do Buda está vivo aqui e agora! Por que adiar a liberdade para vidas futuras? Pratique com todo o coração e liberte-se já!'"
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Urgent Determination:</strong> Realize the precious rarity of human birth and the Dhamma. Practice every sitting as if it were your last hour on earth.</p>",
+                      "pt": "<p><strong>Determinação Urgente:</strong> Compreenda a raridade preciosa da vida humana e do Dhamma. Pratique cada sentada como se fosse sua última hora nesta terra.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 6.20 (Maraṇassati Sutta)</strong>: Mindfulness of death practiced with urgency.</p>",
+                      "pt": "<p><strong>AN 6.20 (Maraṇassati Sutta)</strong>: A atenção plena na morte praticada com urgência salvífica.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Extinguishing Fire on Your Clothes (MN 63):</strong> If your turban or hair caught fire, with what lightning urgency would you extinguish it? Practice with that same resolve.</p>",
+                      "pt": "<p><strong>Extinguindo o Fogo no Próprio Turbante (MN 63):</strong> Se suas roupas ou cabelos pegassem fogo, com que rapidez fulminante você apagaria as chamas? Pratique com essa mesma determinação.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "High Samādhi & Penetration of the 3 Characteristics",
@@ -3819,54 +5163,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ressuscitada pelo Ven. Ledi Sayādaw para democratizar o Dhamma e difundida mundialmente por S.N. Goenka, esta técnica eleva a sensação corporal (vedanā) ao papel de elo primordial onde o anseio (taṇhā) se engatilha no Surgimento Dependente. Por meio de varreduras minuciosas do topo da cabeça à ponta dos pés, o meditador dissolve a ilusão da solidez corpórea (ghanasaññā), sentindo o corpo como um fluxo de vibrações subatômicas transitórias (bhaṅga). Compreender anicca a nível celular extingue a reatividade inconsciente."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Ānāpāna-Ekaggatā",
-        "title": {
-          "en": "1. Three Days of Respiration Focus",
-          "pt": "1. Três Dias de Foco Respiratório"
-        },
-        "desc": {
-          "en": "Focus exclusively on the breath passing through the nostrils and above the upper lip. Sharpen concentration until subtle sensations can be felt.",
-          "pt": "Foque exclusivamente no ar tocando as narinas e o buço. Afie a atenção até perceber sensações sutis de temperatura e formigamento."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Vedanā-Vicāraṇa",
-        "title": {
-          "en": "2. Systematic Part-by-Part Sweep",
-          "pt": "2. Varredura Minuciosa Parte a Parte"
-        },
-        "desc": {
-          "en": "Move attention systematically: top of the head, scalp, face, neck, shoulders, arms, chest, back, abdomen, pelvis, thighs, knees, calves, feet.",
-          "pt": "Mova a atenção de forma metódica: topo da cabeça, couro cabeludo, rosto, pescoço, braços, peito, costas, abdômen, pernas e pés."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Upekkhā-Bhāvanā",
-        "title": {
-          "en": "3. Unshakable Equanimity",
-          "pt": "3. Equanimidade Inabalável"
-        },
-        "desc": {
-          "en": "Whether sensations are coarse and painful (grosso) or subtle and tingling (sūkshma), do not react. Know that this sensation too will pass.",
-          "pt": "Seja a sensação dolorosa ou agradável, permaneça impassível. Testemunhe a verdade inegociável de que ela também irá cessar."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Bhaṅga-Ñāṇa",
-        "title": {
-          "en": "4. Experiencing Dissolution (Bhaṅga)",
-          "pt": "4. Vivência da Dissolução (Bhaṅga)"
-        },
-        "desc": {
-          "en": "Gross physical blockages dissolve into a free-flowing wave of subtle vibrations throughout the body, shattering the illusion of self.",
-          "pt": "A solidez corpórea dissolve-se num fluxo livre de vibrações sutis, desmoronando a ilusão de um ego autônomo e permanente."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Ānāpāna-samādhi",
+                "title": {
+                      "en": "1. Three Days of Focused Nostril Ānāpāna",
+                      "pt": "1. Três Dias de Ānāpāna Focado nas Narinas"
+                },
+                "desc": {
+                      "en": "The first phase of the 10-day retreat: focusing exclusively on natural breath sensations within the triangular zone from the bridge of the nose down to the upper lip.",
+                      "pt": "A primeira fase do retiro de 10 dias: concentrando a mente exclusivamente na área triangular entre a raiz do nariz e o lábio superior, aguçando a sensibilidade tátil."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Refining the Surgical Knife:</strong> Notice subtle sensations: touch, temperature, perspiration, tingling, itching. Sharpen attention from gross sensations to refined subtle data.</p>",
+                      "pt": "<p><strong>Afiando o Bisturi da Atenção:</strong> Perceba sensações sutis: toque, temperatura, cócegas, suor, vibração. Refine a atenção do dado grosseiro para o micro-sutil.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>S.N. Goenka's 10-day Vipassanā discourse curriculum based on Ven. Ledi Sayādaw's lineage.</p>",
+                      "pt": "<p>O currículo de discursos de 10 dias de S.N. Goenka baseado na linhagem do Ven. Ledi Sayādaw.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Sharpening a Razor on an Oily Stone:</strong> Honing the blade back and forth until it can slice a hair floating on water.</p>",
+                      "pt": "<p><strong>Afiando a Navalha na Pedra de Óleo:</strong> Esfregando a lâmina com firmeza até que consiga cortar um fio de cabelo flutuando na água.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Kāyānupassanā & Vedanā-vicāra",
+                "title": {
+                      "en": "2. Systematic Body Sweeping (Part by Part)",
+                      "pt": "2. Varredura Corporal Sistemática (Parte por Parte)"
+                },
+                "desc": {
+                      "en": "Day 4 onwards: moving attention systematically from the top of the head down to the tips of the toes, and from toes up to the crown, observing sensations without reaction.",
+                      "pt": "Do 4º dia em diante: movendo a atenção metodicamente do topo da cabeça até a ponta dos pés, e dos pés ao topo da cabeça, observando todas as sensações sem reagir."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Methodical Somatic Survey:</strong> Cover every square inch of skin. Don't jump around. If there is pain, observe it; if numbness, wait patiently until a sensation is felt.</p>",
+                      "pt": "<p><strong>Varredura Metódica:</strong> Cubra cada centímetro de pele. Não salte áreas. Se houver dor intensa, observe; se houver dormência, aguarde com paciência até sentir o toque.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.11</strong>: Tracing feeling throughout the material aggregate.</p>",
+                      "pt": "<p><strong>SN 36.11</strong>: Mapeando as sensações através de todo o agregado material.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Beam of Sunlight Scanning a Room:</strong> Shining slowly from ceiling to floor, illuminating every dust particle without getting snagged on any object.</p>",
+                      "pt": "<p><strong>O Facho de Luz Varrendo o Aposento:</strong> Iluminando lentamente do teto ao chão, revelando cada partícula de poeira sem ficar preso em móvel algum.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Bhaṅga-ñāṇa",
+                "title": {
+                      "en": "3. Dissolution of Solid Matter (Bhaṅga-ñāṇa)",
+                      "pt": "3. Dissolução da Matéria Sólida (Bhaṅga-ñāṇa)"
+                },
+                "desc": {
+                      "en": "As concentration deepens, the gross solidity of the body dissolves. One experiences a rapid, free-flowing stream of subtle electrical vibrations throughout the whole organism.",
+                      "pt": "Conforme a mente refina, a compacidade sólida do corpo colapsa. Vivencia-se um fluxo contínuo de microvibrações bioelétricas sutis permeando todo o organismo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Experiencing Microscopic Impermanence:</strong> Witness the body as a cloud of subatomic particles arising and bursting. Do not crave this blissful vibration!</p>",
+                      "pt": "<p><strong>Vivenciando a Impermanência Atômica:</strong> Contemple o corpo como uma nuvem de partículas brotando e estourando. Não se apegue a essa vibração prazerosa!</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Stage 6 of the classical 16 Visuddhiñāṇas (Knowledge of Dissolution).</p>",
+                      "pt": "<p>Estágio 6 dos 16 estágios clássicos de insight (Conhecimento da Dissolução - Bhaṅga-ñāṇa).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Ice Sculpture Melting in the Desert Sun:</strong> The solid, carved shape of ice loses its form, melting completely into flowing, sparkling water.</p>",
+                      "pt": "<p><strong>A Escultura de Gelo Derretendo ao Sol:</strong> A forma sólida de gelo perde suas bordas, desfazendo-se inteiramente em água corrente cintilante.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Upekkhā & Saṅkhārakkhiya",
+                "title": {
+                      "en": "4. Absolute Equanimity & Eradication of Saṅkhāras",
+                      "pt": "4. Equanimidade Absoluta & Erradicação de Saṅkhāras"
+                },
+                "desc": {
+                      "en": "The master lesson of Goenka's path: observing pleasant sensations without craving (rāga) and painful sensations without aversion (dosa). Breaking the automatic cycle of conditioning.",
+                      "pt": "A lição mestra do método Goenka: observar sensações agradáveis sem apego (rāga) e dores sem aversão (dosa). Quebrando o ciclo condicionado de reações cegas (saṅkhāras)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Sitting with Strong Determination (Adhiṭṭhāna):</strong> Sit for one hour without moving a single finger. Treat sensation as sensation, knowing: 'Anicca, anicca—this too will change.'</p>",
+                      "pt": "<p><strong>Sentada de Firme Determinação (Adhiṭṭhāna):</strong> Sente-se por uma hora sem mover um dedo sequer. Trate sensação como sensação, sabendo: 'Anicca, anicca—isto também mudará'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.6</strong>: Severing the habit of reacting to feelings with craving and aversion.</p>",
+                      "pt": "<p><strong>SN 36.6</strong>: Rompendo o hábito atávico de reagir às sensações com cobiça e revolta.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Line Drawn on Water (SN 22.84):</strong> Reaction in an untrained mind is like a line carved in stone (lasts years); in an equanimous mind, it is like a line drawn on water (vanishes instantly).</p>",
+                      "pt": "<p><strong>A Linha Traçada na Água (SN 22.84):</strong> A reação na mente comum é como uma linha gravada na pedra (dura eras); na mente equânime, é como um risco traçado na água (some no mesmo instante).</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Whenever emotional stress or anger manifests as physical constriction (tight chest, clenched jaw, knot in the stomach), bypass the mental drama. Scan the physical knot directly and let it vibrate and dissipate under the light of objective equanimity.",
@@ -3941,54 +5333,102 @@ const MEDITATION_LINEAGES = [
       "pt": "O método de Mahāsi Sayādaw é indiscutivelmente o mais influente da era contemporânea. Ao ancorar a mente na subida e descida abdominal e aplicar rótulos mentais precisos ('noting'), forja-se uma concentração momentânea contínua e penetrante. Conforme a atenção ganha velocidade, o praticante distingue matéria (rūpa) de mente (nāma), desvenda causa e efeito, atravessa o eufórico Conhecimento do Surgimento e Fim (udayabbaya-ñāṇa), enfrenta as purificadoras fases da noite escura (dukkha-ñāṇas), atinge a Equanimidade ante as Formações e alcança o fruto de Nibbāna."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Vāyodhātu-Olokana",
-        "title": {
-          "en": "1. Primary Abdominal Anchor",
-          "pt": "1. Âncora Primária Abdominal"
-        },
-        "desc": {
-          "en": "Place awareness at the abdomen. When it expands on inhalation, mentally note 'rising'. When it recedes on exhalation, note 'falling'.",
-          "pt": "Foque no abdômen. Quando inflar na inspiração, rotule mentalmente 'subindo'. Quando recuar na expiração, rotule 'descendo'."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Sabbanimitta-Vavatthāna",
-        "title": {
-          "en": "2. Secondary Noting",
-          "pt": "2. Rotulação Secundária"
-        },
-        "desc": {
-          "en": "When a distinct sensation, itch, sound, or thought interrupts the breath, shift attention to it and note it three times ('thinking, thinking, thinking'), then return to rising/falling.",
-          "pt": "Quando um som, coceira, dor ou pensamento desviar a atenção, encare-o e rotule ('pensando, pensando'), retornando em seguida ao abdômen."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Caṅkama-Sati",
-        "title": {
-          "en": "3. Slow Walking Meditation",
-          "pt": "3. Meditação Andando Meticulosa"
-        },
-        "desc": {
-          "en": "Divide each footstep into distinct phases: 'lifting', 'moving', 'placing'. Observe the physical sensations of lightness, pressure, and touch.",
-          "pt": "Decomponha cada passo: 'erguendo', 'avançando', 'pousando'. Observe as sensações de peso, deslocamento e contato com o solo."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Visuddhiñāṇa-Magga",
-        "title": {
-          "en": "4. The 16 Insight Stages",
-          "pt": "4. A Travessia dos 16 Ñāṇas"
-        },
-        "desc": {
-          "en": "Navigate the classical stages: Discerning Mind & Matter, Cause & Effect, Arising & Passing, Dissolution, Fear, Disgust, Desire for Release, and Equanimity.",
-          "pt": "Travessia dos estágios: Discernimento de Mente e Matéria, Causa e Efeito, Surgimento e Dissolução, Temor, Desencanto, Desejo de Libertação e Equanimidade."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Udara-vuṭṭhāna-nissita",
+                "title": {
+                      "en": "1. Primary Anchor: Noting the Abdomen Rising & Falling",
+                      "pt": "1. Âncora Primária: Notando o Subir e Descer do Abdômen"
+                },
+                "desc": {
+                      "en": "Focusing attention on the bodily movement of the abdomen during breathing. Silently mentally labeling: 'rising' as the belly expands, and 'falling' as it contracts.",
+                      "pt": "Focalizando o movimento físico do abdômen durante a respiração. Rotulando mentalmente em silêncio: 'subindo' quando a barriga expande, e 'descendo' quando contrai."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Precise Momentary Contact:</strong> Keep the mental note synchronized with the physical expansion. Do not visualize the stomach; feel the direct sensations of pressure and tension.</p>",
+                      "pt": "<p><strong>Sincronia Precisa:</strong> Mantenha o rótulo mental perfeitamente casado com a expansão física. Não visualize o estômago; sinta a pressão e a tensão muscular direta.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Mahāsi Sayādaw's <em>Practical Vipassanā Meditative Exercises</em> and <em>Manual of Insight</em>.</p>",
+                      "pt": "<p>A obra seminal de Mahāsi Sayādaw: <em>Manual of Insight (Tratado de Vipassanā Prática)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Stamping a Date on a Letter:</strong> Bringing down the stamp right on the paper at the precise moment it slides across the desk.</p>",
+                      "pt": "<p><strong>O Carimbo no Envelope:</strong> Batendo o carimbo no papel no segundo exato em que ele passa pela bancada de trabalho.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Āgantuka-lakkhaṇa-noting",
+                "title": {
+                      "en": "2. Secondary Noting: Tracking Stray Events",
+                      "pt": "2. Rotulação Secundária: Mapeando Distrações e Sons"
+                },
+                "desc": {
+                      "en": "When a distinct physical sensation, wandering thought, external sound, or emotion interrupts the abdominal rhythm, shift attention to it and note it: 'thinking, thinking', 'hearing, hearing', 'itching, itching'.",
+                      "pt": "Quando uma sensação forte, pensamento errante, som ou emoção interromper o ritmo abdominal, desloque o foco para lá e rotule: 'pensando, pensando', 'ouvindo, ouvindo', 'coçando, coçando'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Neutral Labeling:</strong> Label the intruder 2 or 3 times without frustration, witness its fading, then return smoothly to 'rising, falling'.</p>",
+                      "pt": "<p><strong>Rotulação Neutra:</strong> Rotule a distração duas ou três vezes com serenidade, veja-a desvanecer e retorne suavemente para 'subindo, descendo'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Continuous mindfulness across the four Satipaṭṭhānas using mental verbalization as an anchoring tether.</p>",
+                      "pt": "<p>Atenção contínua através dos quatro Satipaṭṭhānas usando o rótulo verbal como âncora estabilizadora.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Cat Watching the Mouse Hole:</strong> The cat sits motionless by the hole; the moment the mouse pokes its nose out, the cat pounces with laser precision.</p>",
+                      "pt": "<p><strong>O Gato à Espreita da Toca do Rato:</strong> O felino vigia imóvel o buraco; no milissegundo em que o rato põe o focinho para fora, ele dá o bote infalível.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Udayabbaya-ñāṇa & Bhaṅga",
+                "title": {
+                      "en": "3. Traversing the Arising & Passing of Phenomena",
+                      "pt": "3. Atravessando o Surgimento & Dissolução dos Fenômenos"
+                },
+                "desc": {
+                      "en": "Noting speeds up organically. One penetrates the 4th insight stage (udayabbaya-ñāṇa): seeing birth and death of mind-moments. Then entering dissolution (bhaṅga), where shapes vanish into flashing dissolutions.",
+                      "pt": "A rotulação acelera espontaneamente. Penetra-se o 4º estágio de insight (udayabbaya-ñāṇa): o nascimento e morte de cada microssegundo. Depois a dissolução (bhaṅga), onde as formas se desmancham."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Riding the Insight Wave:</strong> Do not get distracted by inner lights or spiritual joy (corruptions of insight). Keep noting through the rapid dissolution of reality.</p>",
+                      "pt": "<p><strong>Navegando na Onda de Insight:</strong> Não se deixe seduzir por luzes ou arrebatamentos passageiros. Continue notando através da rápida dissolução dos dados sensoriais.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Stages 4 to 6 of the classical 16 Visuddhiñāṇa system detailed in <em>Visuddhimagga</em> Ch. XX–XXI.</p>",
+                      "pt": "<p>Estágios 4 a 6 dos 16 estágios do <em>Visuddhimagga</em> Cap. XX–XXI.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Watching Raindrops Hitting a Pond:</strong> Each drop hits the water, makes a tiny ripple, and disappears instantly into the depths.</p>",
+                      "pt": "<p><strong>Pingos de Chuva no Lago:</strong> Cada gota atinge a superfície, forma uma ondulação efêmera e desaparece instantaneamente nas profundezas.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Saṅkhārupekkhā & Magga-Phala",
+                "title": {
+                      "en": "4. Equanimity Towards Formations & Stream-Entry",
+                      "pt": "4. Equanimidade com as Formações & Entrada na Corrente"
+                },
+                "desc": {
+                      "en": "Passing through the Dukkha-ñāṇas (fear, misery, desire for release) into supreme equanimity regarding all formations (saṅkhārupekkhā). The mind drops all noting and touches Nibbāna in the fruit of Sotāpanna.",
+                      "pt": "Superando os Dukkha-ñāṇas (medo, perigo e desencanto) rumo à equanimidade suprema diante de todas as formações (saṅkhārupekkhā). A mente cessa os rótulos e toca Nibbāna na Entrada na Corrente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Effortless Equanimous Surrender:</strong> Effort drops away completely. The mind sits balanced, indifferent to pleasure and pain, until consciousness pivots to the Unconditioned.</p>",
+                      "pt": "<p><strong>Entrega Equânime sem Esforço:</strong> O esforço cessa por completo. A mente permanece em equilíbrio absoluto, até que a consciência salta para o Incondicionado.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Stages 11–14 of the 16 Insight Knowledges culminating in path and fruition (<em>magga-phala</em>).</p>",
+                      "pt": "<p>Estágios 11 a 14 dos 16 estágios de insight culminando no caminho e fruto de nobreza (<em>magga-phala</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Crow Released from the Sea Ship (DN 11):</strong> Sailors launch a crow to find land; it flies in all directions, finds no shore, and returns. Finally, it spots the coast and flies straight to freedom.</p>",
+                      "pt": "<p><strong>O Corvo Solto da Caravela no Oceano (DN 11):</strong> Marinheiros soltam um corvo; ele voa para todos os lados sem achar terra e volta. Quando avista a praia, voa em linha reta e não retorna mais ao navio.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Noting provides an instant brake against runaway mental storylines during the day. When irritation flares in traffic, note: 'annoyed, annoyed, annoyed'. Labeling immediately dis-identifies the ego from the emotional storm.",
@@ -4064,54 +5504,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Sunlun Sayādaw era um agricultor simples que atingiu elevado despertar através da meditação crua e destemida. A técnica Sunlun inicia com 45 minutos de respiração vigorosa e ritmada pelas narinas, elevando a energia mental. Em seguida, cessa-se o esforço e senta-se em imobilidade de pedra, acolhendo queimações, dores e pulsações sem mover um dedo. Ao recusar a fuga do desconforto, a mente penetra além da dor e atinge a libertação pura."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Balavā Ānāpāna",
-        "title": {
-          "en": "1. Rapid, Forceful Respiration",
-          "pt": "1. Respiração Vigorosa & Rítmica"
-        },
-        "desc": {
-          "en": "Breathe rapidly, firmly, and rhythmically through the nostrils without panting or forcing the belly. Focus entirely on the friction of the touch.",
-          "pt": "Respire com firmeza, rapidez e ritmo pelas narinas. Foque inteiramente no som e no atrito do ar, limpando qualquer torpor mental."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Niscala-Kāya",
-        "title": {
-          "en": "2. Stone-Like Freezing of Posture",
-          "pt": "2. Imobilidade Estátua"
-        },
-        "desc": {
-          "en": "At the end of the rapid breathing phase, immediately stop. Do not move an inch, do not adjust your legs, do not scratch an itch.",
-          "pt": "Ao cessar o ciclo respiratório rápido, congele. Não ajeite as pernas, não coce, não mude de postura por motivo algum."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Vedanā-Pavesana",
-        "title": {
-          "en": "3. Piercing the Core of Sensation",
-          "pt": "3. Penetrar o Olho da Dor"
-        },
-        "desc": {
-          "en": "Wherever burning, pressure, or throbbing peaks in your knees or back, plunge awareness directly inside it. Drop the word 'pain'. It is pure energy vibrating.",
-          "pt": "Onde a queimação ou a pressão pulsar nos joelhos ou costas, mergulhe a atenção lá dentro. Abandone a palavra 'dor'; é apenas energia vibrando."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Mocana-Ñāṇa",
-        "title": {
-          "en": "4. The Release of Resistance",
-          "pt": "4. A Rendição da Resistência"
-        },
-        "desc": {
-          "en": "Suddenly the psychological resistance snaps. The sensation breaks apart into dancing particles. The mind emerges victorious, fearless, and serene.",
-          "pt": "De repente, a aversão psicológica se rompe. A dor se dissolve em partículas de luz dançantes. A mente emerge vitoriosa, destemida e serena."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Balavā-vāyo-samanvesanā",
+                "title": {
+                      "en": "1. Rapid, Forceful Respiration (Breath of Steel)",
+                      "pt": "1. Respiração Rápida e Vigorosa (Fôlego de Aço)"
+                },
+                "desc": {
+                      "en": "Sunlun Sayādaw's vigorous entry: breathing forcefully, rapidly, and rhythmically through the nose like a roaring blacksmith's bellows, generating immense bio-electric energy and concentration.",
+                      "pt": "A entrada vigorosa de Sunlun Sayādaw: respirar com força, rapidez e ritmo pelas narinas como o fole de uma forja incandescente, gerando tremenda energia e concentração."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Aggressive Sensory Awakening:</strong> Keep the rhythm steady and fearless. Let the friction of the breath ignite intense heat at the nostrils, blasting away all sluggishness.</p>",
+                      "pt": "<p><strong>Despertar Sensorial Vigoroso:</strong> Mantenha o ritmo firme e destemido. Deixe a fricção do ar inflamar calor nas narinas, varrendo qualquer rastro de torpor.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Sunlun Sayādaw's method of using strong tactile friction to establish instantaneous access samādhi.</p>",
+                      "pt": "<p>O método de Sunlun Sayādaw utilizando forte fricção tátil para forjar concentração de acesso imediata.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Locomotive Building Up Full Steam:</strong> Churning power into the boilers until the train surges forward at top speed, unstoppable by obstacles.</p>",
+                      "pt": "<p><strong>A Locomotiva Acumulando Pressão Total:</strong> Alimentando a caldeira de vapor até que o trem avance com potência máxima, imparável por qualquer barreira.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Thambhana & Vedanā-pavesa",
+                "title": {
+                      "en": "2. Sudden Halting & Dropping into the Sensation",
+                      "pt": "2. Parada Abrupta & Mergulho na Sensação Crua"
+                },
+                "desc": {
+                      "en": "When the breath reaches maximum intensity, halt completely! Do not relax; drop attention like an anchor directly into the most severe sensation or piercing pain in the body.",
+                      "pt": "Quando o fôlego atingir a intensidade máxima, pare abruptamente! Não relaxe; lance a atenção como uma âncora pesada diretamente na dor ou sensação mais intensa do corpo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Direct Impact:</strong> Do not retreat into fantasy. Meet the pain head-on at the exact center of its burning core with unblinking vigilance.</p>",
+                      "pt": "<p><strong>Impacto Frontal:</strong> Não fuja para devaneios. Encare a dor de frente exatamente no epicentro do fogo, com vigilância sem piscar.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Direct confrontation with <em>dukkha-vedanā</em> as taught in the Sunlun tradition.</p>",
+                      "pt": "<p>O confronto direto com <em>dukkha-vedanā</em> preconizado na linhagem de Sunlun.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Diver Plunging into Icy Waters:</strong> Leaping straight off the rocky cliff into the freezing mountain pool without hesitation.</p>",
+                      "pt": "<p><strong>O Mergulhador Saltando nas Águas Glaciais:</strong> Lançando-se do penhasco rochoso diretamente no lago gelado sem qualquer vacilo.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Accanta-adhivāsana",
+                "title": {
+                      "en": "3. No Flinching, No Avoidance, No Thinking",
+                      "pt": "3. Sem Esquivar, Sem Fugir, Sem Conceitualizar"
+                },
+                "desc": {
+                      "en": "Sunlun's iron discipline: do not shift the body, do not label, do not intellectualize. Hold fast inside the burning pain with unyielding courage.",
+                      "pt": "A disciplina de aço de Sunlun: não mude de postura, não rotule, não filosofe. Permaneça firme dentro da dor que queima com coragem inabalável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Stripping the Mental Story:</strong> Refuse to think: 'This is my leg; this pain is killing me.' Stay with the bare raw sensation until conceptual boundaries shatter.</p>",
+                      "pt": "<p><strong>Desnudando a Narrativa Mental:</strong> Recuse-se a pensar: 'Esta é minha perna; esta dor vai me matar'. Fique com o dado bruto até que as barreiras conceituais quebrem.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §33</strong>: Developing hero-like endurance (<em>adhivāsana-khantī</em>).</p>",
+                      "pt": "<p><strong>MN 119 §33</strong>: Desenvolvendo a paciência heroica (<em>adhivāsana-khantī</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Iron Anvil Under the Hammer:</strong> The heavy anvil receives thousands of crushing hammer blows without denting, complaining, or splitting.</p>",
+                      "pt": "<p><strong>A Bigorna de Ferro Sob o Martelo:</strong> A bigorna pesada recebe milhares de marretadas brutas sem amassar, reclamar ou partir-se ao meio.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Bhedana & Santi-adhigama",
+                "title": {
+                      "en": "4. Piercing the Pain into Sudden Liberation",
+                      "pt": "4. Perfurando a Dor Rumo à Libertação Repentina"
+                },
+                "desc": {
+                      "en": "As the meditator refuses to budge, the pain intensifies to an absolute crescendo, and then—in an instantaneous breakthrough—shatters completely into pristine, cooling liberation.",
+                      "pt": "Conforme o meditador recusa recuar, a dor atinge um clímax absoluto e então—num rompimento fulminante—estilhaça por completo numa paz fresca e indescritível."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Breakthrough:</strong> Experience the sudden disappearance of physical boundaries. The fire turns into crystalline coolness. Rest in triumphant freedom.</p>",
+                      "pt": "<p><strong>O Rompimento Libertador:</strong> Experimente o desaparecimento súbito das barreiras corpóreas. O fogo converte-se em frescor cristalino. Descanse na vitória da liberdade.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Sunlun Sayādaw's personal attainment of Arahantship through radical confrontation with vedanā.</p>",
+                      "pt": "<p>A realização espiritual de Sunlun Sayādaw alcançando a libertação pelo confronto visceral com a sensação.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Dam Bursting Open into Cool Valleys:</strong> The colossal pressure of the backed-up water bursts the concrete dam, flooding the dry valley with life-giving water.</p>",
+                      "pt": "<p><strong>A Barragem que Rompe e Irriga o Vale:</strong> A pressão colossal das águas represadas rompe a barreira, inundando a planície sedenta com rios de alívio e vida.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Uprooting of Dosa (Aversion) & Arising of Bhanga-Ñāṇa (Dissolution)",
@@ -4199,54 +5687,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Mogok Sayādaw é célebre por seu diagrama circular de Paṭiccasamuppāda. Demonstrou que, embora não possamos evitar o contato dos sentidos (os olhos veem, os ouvidos ouvem), temos total soberania na encruzilhada onde a Sensação (Vedanā) dá à luz o Desejo (Taṇhā). Observando a sensação agradável com sabedoria em vez de apego, e a desagradável sem aversão, a roda de renascimentos do sofrimento cessa de girar."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Citta-Pariññā",
-        "title": {
-          "en": "1. Recognizing the Arising Mind",
-          "pt": "1. Reconhecer a Mente Presente"
-        },
-        "desc": {
-          "en": "Notice which mind-state is active: greedy mind, angry mind, wandering mind, or tranquil mind. Know it simply as a conditioned event.",
-          "pt": "Identifique o estado presente: mente cobiçosa, irritada, dispersa ou serena. Reconheça como um evento puramente condicionado."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Khaya-Vaya-Dassana",
-        "title": {
-          "en": "2. Witnessing Immediate Dissolution",
-          "pt": "2. Testemunhar a Dissolução Imediata"
-        },
-        "desc": {
-          "en": "Watch the mind-state vanish. It appeared because of causes; when the cause ceases, it dies. Nothing stays.",
-          "pt": "Observe o estado mental se dissolver. Ele surgiu por causas; cessada a causa, ele perece. Nada permanece."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Taṇhā-Nirodha",
-        "title": {
-          "en": "3. Severing the Link to Craving",
-          "pt": "3. Cortar o Elo do Desejo (Taṇhā)"
-        },
-        "desc": {
-          "en": "Because the feeling is dead the moment it appears, there is nothing solid left to cling to or run from. Craving finds no purchase.",
-          "pt": "Como a sensação já está morta no instante em que brilha, não resta nada sólido para agarrar ou repelir. O desejo não encontra onde se apoiar."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Saṁsāra-Bhaṅga",
-        "title": {
-          "en": "4. Breaking the Cycle of Becoming",
-          "pt": "4. Romper o Ciclo do Devir"
-        },
-        "desc": {
-          "en": "Without craving, grasping (Upādāna) does not arise; without grasping, new karmic becoming (Bhava) ceases. Resting in profound freedom.",
-          "pt": "Sem desejo, o apego não se forma; sem apego, cessa o novo vir-a-ser cármico. Repouse na paz sublime da não-fabricação."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Paṭiccasamuppāda-ñāṇa",
+                "title": {
+                      "en": "1. Mapping the 12 Links of Dependent Origination",
+                      "pt": "1. Mapeando os 12 Elos da Originação Dependente"
+                },
+                "desc": {
+                      "en": "Studying Mogok Sayādaw's circular diagram: seeing how ignorance (avijjā) drives volitional formations, which condition consciousness, mentality-materiality, sense bases, contact, and feeling.",
+                      "pt": "Estudando o diagrama circular de Mogok Sayādaw: compreendendo como a ignorância (avijjā) propulsiona as volições, que condicionam consciência, mente-matéria, sentidos, contato e sensação."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Structural Understanding:</strong> Do not view your life as a random drama. Recognize the exact mechanical gears driving your rebirth and emotional suffering.</p>",
+                      "pt": "<p><strong>Compreensão Estrutural:</strong> Não encare sua vida como um drama aleatório. Reconheça as engrenagens precisas que produzem seu renascimento e angústia.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 12.1 (Paṭiccasamuppāda Sutta)</strong> as expounded in Mogok Sayādaw's discourses.</p>",
+                      "pt": "<p><strong>SN 12.1 (Paṭiccasamuppāda Sutta)</strong> conforme exposto nos ensinamentos de Mogok Sayādaw.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Interlocking Clockwork Gears:</strong> Turn gear A (ignorance), and gear B (formations) turns gear C (consciousness) with mechanical inevitability.</p>",
+                      "pt": "<p><strong>As Engrenagens do Relógio de Precisão:</strong> Ao girar a roda A (ignorância), a roda B (volições) gira a roda C (consciência) com exatidão mecânica.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Vedanā-taṇhā-viccheda",
+                "title": {
+                      "en": "2. Severing the Link Between Feeling and Craving",
+                      "pt": "2. Rompendo o Elo Entre Sensação e Cobiça"
+                },
+                "desc": {
+                      "en": "Mogok Sayādaw's crucial pivot: feeling (vedanā) inevitably arises from past kamma, but craving (taṇhā) is the choice made in the present. Inserting wisdom right here severs the wheel.",
+                      "pt": "O pivô fundamental de Mogok Sayādaw: a sensação (vedanā) brota inevitavelmente do kamma passado, mas o apego (taṇhā) é uma escolha do presente. Inserir sabedoria aqui parte a roda."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Tactical Interception:</strong> When a feeling arises (pleasant or painful), do not let craving grab it. See it as anicca; craving starves and dies.</p>",
+                      "pt": "<p><strong>A Intercepção Tática:</strong> Quando uma sensação brotar (boa ou ruim), não deixe o desejo abraçá-la. Enxergue sua impermanência; o apego definha sem alimento.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 12.2</strong>: The specific link where saṁsāra can be dismantled in real-time meditation.</p>",
+                      "pt": "<p><strong>SN 12.2</strong>: O elo estratégico exato onde o saṁsāra pode ser desmontado na meditação em tempo real.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Severing the Wire of the Bomb:</strong> Slicing the single colored wire that detonates the explosive charge, rendering the entire apparatus completely inert.</p>",
+                      "pt": "<p><strong>Cortando o Fio do Pavio:</strong> Cortando o fio preciso que detonaria a carga explosiva, desativando todo o mecanismo num instante.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Citta-aniccānupassanā",
+                "title": {
+                      "en": "3. Catching the Death of Every Mind-State",
+                      "pt": "3. Flagrando a Morte de Cada Estado Mental"
+                },
+                "desc": {
+                      "en": "Observing that whatever mind arises—greed-mind, anger-mind, wandering-mind—dies before the next mind arises. Consciousness is not a solid person; it is a relay of births and deaths.",
+                      "pt": "Observando que todo estado mental—mente com cobiça, mente com raiva, mente dispersa—morre antes que o próximo estado nasça. A consciência não é uma pessoa sólida, mas um revezamento de vidas e mortes."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Catching the Passing Moment:</strong> When a thought vanishes, clearly register: 'It died!' Witnessing universal cessation shatters the illusion of continuity.</p>",
+                      "pt": "<p><strong>Registrando o Fim do Pensamento:</strong> Ao notar um pensamento sumir, registre com clareza: 'Morreu!' Testemunhar o cessar contínuo quebra a ilusão de um eu eterno.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 22.95</strong>: Contemplating the dissolution of consciousness.</p>",
+                      "pt": "<p><strong>SN 22.95</strong>: A contemplação da dissolução ininterrupta da consciência.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Sparks Flying from a Grinding Wheel:</strong> Glowing sparks fly off, shine for a fraction of a second, and vanish into darkness.</p>",
+                      "pt": "<p><strong>Fagulhas Saindo do Esmeril:</strong> Centelhas incandescentes saltam da lâmina, brilham por uma fração de segundo e desaparecem no escuro.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Saṁsāra-cakka-bhedana",
+                "title": {
+                      "en": "4. Shattering the Wheel of Rebirth",
+                      "pt": "4. Quebrando a Roda do Renascimento"
+                },
+                "desc": {
+                      "en": "With the cessation of craving, clinging ceases; with the cessation of clinging, becoming ceases; with the cessation of becoming, birth, aging, and death cease. Total liberation.",
+                      "pt": "Cessando o apego, cessa a apropriação; cessando a apropriação, cessa o devir; cessando o devir, cessa o renascimento, velhice e morte. Libertação definitiva."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Freedom:</strong> Experience the stopping of the cosmic wheel. The burden is laid down; Nibbāna is realized.</p>",
+                      "pt": "<p><strong>Repousando na Vitória:</strong> Experimente o travamento da roda do sofrimento. O fardo foi deposto; Nibbāna é realizado com clareza cristalina.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Udāna 1.1–1.3</strong>: The Buddha's joyful victory song at the foot of the Bodhi tree.</p>",
+                      "pt": "<p><strong>Udāna 1.1–1.3</strong>: O hino de triunfo do Buda ao desvendar a Originação Dependente sob a árvore Bodhi.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Wagon Wheel Smashed to Kindling:</strong> The axle is snapped, spokes are broken, and the cart can never roll forward into danger again.</p>",
+                      "pt": "<p><strong>A Roda da Carreta Desfeita em Gravetos:</strong> O eixo partiu-se, os raios quebraram e a roda nunca mais poderá rodar rumo ao abismo.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of Paṭiccasamuppāda & Sotāpatti Realization",
@@ -4338,54 +5874,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Ledi Sayādaw é uma das figuras mais influentes da história budista moderna. No final do século XIX, percebendo que o colonialismo ameaçava a transmissão do Dhamma, tomou uma decisão revolucionária: passou a escrever manuais (Dīpanīs) em linguagem acessível para leigos e fundou os primeiros centros de meditação para cidadãos comuns. Sua linhagem formou Saya Thet Gyi, U Ba Khin e S.N. Goenka, semeando Vipassanā em todos os continentes."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Paññatti-Paramattha",
-        "title": {
-          "en": "1. Piercing the Screen of Concepts",
-          "pt": "1. Rasgar o Véu dos Conceitos"
-        },
-        "desc": {
-          "en": "Distinguish between conventional labels ('my knee', 'my hand') and raw physical reality (hardness, heat, motion). Focus only on the raw reality.",
-          "pt": "Distinga o rótulo convencional ('meu joelho', 'minha mão') da realidade bruta (dureza, calor, movimento). Foque apenas na realidade nua."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Anicca-Bodhi",
-        "title": {
-          "en": "2. The Contemplation of Impermanence",
-          "pt": "2. A Contemplação da Inconstância"
-        },
-        "desc": {
-          "en": "Observe that sensations do not last even for the snap of a finger. They arise and dissolve at lightning speed. Anchor firmly in Anicca.",
-          "pt": "Observe que nenhuma sensação dura o estalar de dedos. Elas surgem e morrem em velocidade relampejante. Ancore-se na certeza de Anicca."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Bodhipakkhiya-Bhāvanā",
-        "title": {
-          "en": "3. Cultivating the 37 Requisites",
-          "pt": "3. Cultivar os 37 Fatores do Despertar"
-        },
-        "desc": {
-          "en": "Integrate Mindfulness, Energy, Investigation, Joy, Tranquility, Concentration, and Equanimity into a balanced spiritual engine.",
-          "pt": "Integre Atenção Plena, Energia, Investigação, Alegria, Serenidade, Concentração e Equanimidade em um motor espiritual equilibrado."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Paramattha-Nibbāna",
-        "title": {
-          "en": "4. Direct Realization of the Unconditioned",
-          "pt": "4. Realização do Dhamma Último"
-        },
-        "desc": {
-          "en": "When all conditioned flux is known thoroughly without grasping, the mind touches the Unconditioned Element (Asaṅkhata Dhātu).",
-          "pt": "Quando todo o fluxo condicionado é discernido sem apego, a mente toca o Elemento Incondicionado e liberta-se para sempre."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Paramattha-vibhāga",
+                "title": {
+                      "en": "1. Distinguishing Concept from Ultimate Reality",
+                      "pt": "1. Distinguindo Conceito de Realidade Última"
+                },
+                "desc": {
+                      "en": "Ven. Ledi Sayādaw's analytical rigor: stripping away conventional labels (paññatti: 'man, woman, table, tree') to penetrate the four ultimate realities (paramattha: citta, cetasika, rūpa, Nibbāna).",
+                      "pt": "O rigor analítico do Ven. Ledi Sayādaw: rasgar os rótulos convencionais (paññatti: 'homem, mulher, mesa, corpo') para penetrar as quatro realidades últimas (paramattha: citta, cetasika, rūpa e Nibbāna)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Conceptual Deconstruction:</strong> When touching a table, see that 'table' is a concept; the direct reality is hardness (earth element) and temperature (fire element).</p>",
+                      "pt": "<p><strong>Desconstrução Conceitual:</strong> Ao tocar um móvel, compreenda que 'madeira' é um rótulo; a realidade crua é dureza (terra) e temperatura (fogo).</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Ledi Sayādaw's <em>Paramattha Dīpanī</em> and Abhidhammattha Saṅgaha commentaries.</p>",
+                      "pt": "<p>A obra monumental <em>Paramattha Dīpanī</em> do Ven. Ledi Sayādaw.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Dismantled Chariot (SN 5.10):</strong> Just as with an assemblage of parts the word 'chariot' is used, so when aggregates are present, convention says 'a person'.</p>",
+                      "pt": "<p><strong>A Carruagem Desmontada (SN 5.10):</strong> Tal como pela junção de rodas, eixo e rédeas usa-se a palavra 'carruagem', pela junção dos agregados diz-se 'um ser'.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Catu-vīsa-rūpa-vicāra",
+                "title": {
+                      "en": "2. Analyzing the 28 Material Phenomena",
+                      "pt": "2. Analisando os 28 Fenômenos Materiais"
+                },
+                "desc": {
+                      "en": "Investigating the 4 primary elements (solidity, cohesion, heat, motion) and the 24 derived material phenomena (eye-sensitivity, ear-sensitivity, nutritive essence, physical life faculty).",
+                      "pt": "Investigando os 4 elementos fundamentais e os 24 fenômenos materiais derivados (sensibilidade ocular, auditiva, essência nutritiva e faculdade de vida física)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Microscopic Somatic Inspection:</strong> Scan bodily sensory faculties: see that eyesight is merely sensitive nerve matter meeting light rays. No soul resides within the eyeball.</p>",
+                      "pt": "<p><strong>Inspeção Somática Precisa:</strong> Examine as bases sensoriais: perceba que a visão é apenas matéria nervosa sensível em contato com fótons. Nenhuma alma habita o globo ocular.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Abhidhamma material classification detailed in Ledi Sayādaw's <em>Rūpa Dīpanī</em>.</p>",
+                      "pt": "<p>Classificação do Abhidhamma detalhada no <em>Rūpa Dīpanī</em> de Ledi Sayādaw.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Clockmaker Inspecting Tiny Screws:</strong> Laying out every spring, cog, and pin on velvet; none of them is the 'time', yet together they produce ticking.</p>",
+                      "pt": "<p><strong>O Relojoeiro Examinando os Parafusos:</strong> Dispondo cada engrenagem, mola e pino sobre o veludo; nenhum deles é o 'tempo', mas juntos produzem o tique-taque.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Rūpa-kalāpa-pariccheda",
+                "title": {
+                      "en": "3. Discerning Subatomic Kalāpa Units",
+                      "pt": "3. Discernindo as Unidades Subatômicas (Kalāpas)"
+                },
+                "desc": {
+                      "en": "Penetrating the compact illusion of matter (ghana): discerning that matter is made of microscopic packets called kalāpas, flashing into existence and decaying billions of times per second.",
+                      "pt": "Penetrando a ilusão de solidez da matéria (ghana): discernindo que o corpo físico é composto de pacotes microscópicos chamados kalāpas, surgindo e morrendo bilhões de vezes por segundo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Breaking the Ghana:</strong> Observe physical sensations dissolving into rapid micro-quivering particles. The solid body becomes transparent and fluid.</p>",
+                      "pt": "<p><strong>Rompendo a Compacidade:</strong> Observe a solidez física dissolvendo-se em micropartículas oscilantes. O corpo rígido torna-se translúcido e fluido.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ledi Sayādaw's <em>Vipassanā Dīpanī (The Manual of Insight)</em>.</p>",
+                      "pt": "<p>O clássico <em>Vipassanā Dīpanī (Manual do Insight)</em> de Ledi Sayādaw.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Cinema Film Frame:</strong> Individual static frames flash past so rapidly that the eye hallucinates continuous fluid motion on screen.</p>",
+                      "pt": "<p><strong>Os Fotogramas do Projetor de Cinema:</strong> Imagens estáticas passam pela lâmpada com tanta velocidade que o olho projeta a ilusão de movimento contínuo na tela.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Magga-ñāṇa-dīpanī",
+                "title": {
+                      "en": "4. The Brilliant Light of Liberating Insight",
+                      "pt": "4. A Luz Radiante do Insight Libertador"
+                },
+                "desc": {
+                      "en": "With all illusions of self, permanence, and compactness shattered, the practitioner breaks through into the supramundane path knowledge (magga-ñāṇa), securing the deathless peace of Nibbāna.",
+                      "pt": "Com todas as ilusões de um eu, permanência e solidez pulverizadas, o praticante alcança o conhecimento supramundano do caminho (magga-ñāṇa), colhendo a paz imortal de Nibbāna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Noble Fruition:</strong> The mind rests in the destruction of delusion. You have verified the Buddha's Dhamma with your own direct vision.</p>",
+                      "pt": "<p><strong>Repousando no Nobre Fruto:</strong> A mente repousa na extinção da ilusão. Você comprovou o Dhamma do Buda por sua própria visão direta.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Ledi Sayādaw's historic role reviving lay insight practice throughout modern Asia.</p>",
+                      "pt": "<p>O papel histórico do Ven. Ledi Sayādaw revitalizando a prática meditativa leiga na Ásia moderna.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lightning Flash Striking the Midnight Sky:</strong> Piercing the darkness, revealing the entire mountain range in flawless daylight clarity.</p>",
+                      "pt": "<p><strong>O Relâmpago Cortando o Céu da Meia-Noite:</strong> Rasgando as trevas e revelando toda a cadeia de montanhas em claridade diurna absoluta.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of Paramattha Dhamma & Noble Path Attainment",
@@ -4476,54 +6060,102 @@ const MEDITATION_LINEAGES = [
       "pt": "A tradição Pa-Auk é respeitada internacionalmente pela fidelidade irrestrita ao tratado do Visuddhimagga. Recusando atalhos, o método guia o praticante no desenvolvimento de absorção profunda pela respiração até a consolidação do signo luminoso translúcido (paṭibhāga-nimitta). Após dominar os quatro Jhānas materiais e quatro imateriais, aplica-se a meditação dos Quatro Elementos para decompor o corpo em partículas subatômicas chamadas rūpa-kalāpas, dissecando fatores mentais e as vidas passadas no Surgimento Dependente."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Paṭibhāga-Nimitta",
-        "title": {
-          "en": "1. The White Luminous Sign",
-          "pt": "1. O Signo Luminoso Translúcido"
-        },
-        "desc": {
-          "en": "Focus on the breath touch until the greyish uggaha-nimitta clarifies into a brilliant, crystal-clear paṭibhāga-nimitta. Merge into Jhāna.",
-          "pt": "Estabilize o foco na respiração até que a luz cinzenta se transforme em um paṭibhāga-nimitta brilhante como cristal. Mergulhe no Jhāna."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Aṭṭhasamāpatti",
-        "title": {
-          "en": "2. The Eight Classical Absorptions",
-          "pt": "2. As Oito Absorções Clássicas"
-        },
-        "desc": {
-          "en": "Master the 4 Rūpa Jhānas and 4 Arūpa Jhānas with the five masteries: entering, determining length, exiting, adverting, and reviewing.",
-          "pt": "Domine os 4 Jhānas da forma e os 4 Jhānas sem forma com as cinco mestrias: entrar à vontade, sustentar, sair, focar e revisar os fatores."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Kalāpa-Vibhedana",
-        "title": {
-          "en": "3. Discerning Rūpa-Kalāpas",
-          "pt": "3. Discernimento dos Rūpa-Kalāpas"
-        },
-        "desc": {
-          "en": "Using the luminous light of Jhāna, examine the 4 elements in the body until matter breaks down into kalāpas, analyzing earth, water, fire, wind, color, smell, taste, and nutritive essence.",
-          "pt": "Com a luz do Jhāna, examine os 4 elementos até a matéria se decompor em kalāpas, analisando os 8 ou 10 fatores materiais constituintes."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Nāma-Rūpa-Pariggahe",
-        "title": {
-          "en": "4. Discerning Nāma and Dependent Arising",
-          "pt": "4. Discernimento de Nāma e Causalidade"
-        },
-        "desc": {
-          "en": "Analyze every consciousness moment (citta) and mental concomitant (cetasika), then trace conditions back into past lives to verify Dependent Arising.",
-          "pt": "Analise cada momento de consciência e fatores mentais associados, rastreando as causas e condições pelas vidas pregressas."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Jhāna-vasi-bhāvanā",
+                "title": {
+                      "en": "1. Mastering the Four Rūpa Jhānas with Kasina Light",
+                      "pt": "1. Dominando os Quatro Rūpa Jhānas com a Luz Kasina"
+                },
+                "desc": {
+                      "en": "Pa-Auk Sayādaw's classical Visuddhimagga foundation: cultivating deep samādhi through Ānāpānasati or white kasina until brilliant dazzling light arises, entering the 1st through 4th Jhānas.",
+                      "pt": "O alicerce clássico do Visuddhimagga segundo Pa-Auk Sayādaw: cultivar samādhi profundo na respiração ou kasina branco até brotar luz brilhante, dominando do 1º ao 4º Jhānas."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Five Jhāna Masteries:</strong> Train in the 5 masteries: entering absorption at will (<em>samāpajjana</em>), staying as long as determined (<em>adhiṭṭhāna</em>), emerging instantly (<em>vuṭṭhāna</em>), adverting (<em>āvajjana</em>), and reviewing (<em>paccavekkhaṇa</em>).</p>",
+                      "pt": "<p><strong>Os Cinco Domínios dos Jhānas:</strong> Treine os 5 domínios: entrar na absorção à vontade, permanecer pelo tempo determinado, emergir na hora marcada, inclinar a mente e revisar os fatores.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Pa-Auk Sayādaw's master manual: <em>Knowing and Seeing</em> and <em>Visuddhimagga</em> Ch. IV–V.</p>",
+                      "pt": "<p>O tratado <em>Knowing and Seeing (Conhecendo e Vendo)</em> de Pa-Auk Sayādaw e <em>Visuddhimagga</em> Cap. IV–V.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Royal Archer Hitting the Bullseye Every Time:</strong> Drawing the heavy bow and hitting a distant silver coin in the dark with effortless mastery.</p>",
+                      "pt": "<p><strong>O Arqueiro Real Acertando o Centro do Alvo:</strong> Puxando o arco pesado e atingindo uma moeda de prata distante no escuro com precisão impecável.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Rūpa-kammatthāna (Kalāpa Dissection)",
+                "title": {
+                      "en": "2. Dissecting Material Kalāpas under Jhāna Light",
+                      "pt": "2. Dissecando Kalāpas Materiais sob a Luz do Jhāna"
+                },
+                "desc": {
+                      "en": "Emerging from 4th Jhāna with dazzling mental light, the meditator turns this light onto the 32 parts of the body, dissecting the body down into microscopic particles called kalāpas.",
+                      "pt": "Emergindo do 4º Jhāna com luz mental deslumbrante, o meditador projeta esse facho nas 32 partes do corpo, dissecando a matéria em partículas microscópicas (kalāpas)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Elemental Subatomic Analysis:</strong> Analyze each kalāpa: see the 8 basic properties (earth, water, fire, wind, color, smell, taste, nutritive essence). Break the compactness of matter forever.</p>",
+                      "pt": "<p><strong>Análise Subatômica dos Elementos:</strong> Examine cada kalāpa: identifique as 8 qualidades básicas (terra, água, fogo, ar, cor, cheiro, sabor e nutrição). Quebre a ilusão da matéria para sempre.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><em>Visuddhimagga</em> Ch. XI and <em>Sammohavinodanī</em> (Abhidhamma commentary).</p>",
+                      "pt": "<p><em>Visuddhimagga</em> Cap. XI e <em>Sammohavinodanī</em> (comentário do Abhidhamma).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The High-Powered Electron Microscope:</strong> Turning on the focused beam of radiation to resolve crystalline atomic lattices with crystal-clear magnification.</p>",
+                      "pt": "<p><strong>O Microscópio Eletrônico de Alta Potência:</strong> Ligando o feixe focado de elétrons para revelar as redes cristalinas dos átomos com ampliação cristalina.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Nāma-kammatthāna (Citta-vīthi Dissection)",
+                "title": {
+                      "en": "3. Dissecting Mental Cognitive Series (Citta-Vīthi)",
+                      "pt": "3. Dissecando as Séries Cognitivas Mentais (Citta-Vīthi)"
+                },
+                "desc": {
+                      "en": "Tracking the microscopic sequence of 17 mind-moments (citta-vīthi) occurring at every eye, ear, and mind-door contact. Analyzing every single consciousness and its co-arising mental factors (cetasikas).",
+                      "pt": "Mapeando a sequência microscópica de 17 momentos mentais (citta-vīthi) disparados a cada contato nos olhos, ouvidos e mente. Analisando cada consciência e seus fatores mentais (cetasikas)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Microscopic Psychological Deconstruction:</strong> See contact, feeling, perception, intention, and one-pointedness arise and perish in a nanosecond. No soul exists anywhere in the mind.</p>",
+                      "pt": "<p><strong>Desconstrução Psicológica Microscópica:</strong> Veja contato, sensação, percepção, volição e atenção nascerem e morrerem num nanossegundo. Nenhuma alma existe na mente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><em>Visuddhimagga</em> Ch. XIV and <em>Abhidhammattha Saṅgaha</em> Ch. IV.</p>",
+                      "pt": "<p><em>Visuddhimagga</em> Cap. XIV e <em>Abhidhammattha Saṅgaha</em> Cap. IV.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Slow-Motion High-Speed Film of a Hummingbird:</strong> Slowing down thousands of frames per second to see each individual flutter of the wing that is invisible to the naked eye.</p>",
+                      "pt": "<p><strong>Câmera Lenta de Alta Velocidade Filmando o Beija-Flor:</strong> Desacelerando milhares de quadros por segundo para enxergar cada batimento de asa invisível a olho nu.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Paccaya-pariggaha & Tilakkhaṇa",
+                "title": {
+                      "en": "4. Tracing Past Lives Kamma & The 16 Insight Stages",
+                      "pt": "4. Rastreando o Kamma das Vidas Passadas & Os 16 Estágios de Insight"
+                },
+                "desc": {
+                      "en": "Using Jhāna light to trace the causes of current life into past lives through Dependent Origination (paccaya-pariggaha-ñāṇa), then applying the 3 marks to all formations to attain noble fruition.",
+                      "pt": "Usando a luz do Jhāna para rastrear as causas da vida presente em vidas passadas através da Originação Dependente (paccaya-pariggaha), aplicando as 3 marcas para alcançar o despertar."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Final Breakthrough:</strong> Having investigated past, present, and future mind-and-matter, apply impermanence, suffering, and non-self until the mind touches Nibbāna.</p>",
+                      "pt": "<p><strong>O Salto Final:</strong> Tendo inspecionado mente e matéria no passado, presente e futuro, aplique anicca, dukkha e anattā até que a consciência salte para Nibbāna.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Full classical completion of the Seven Purifications (<em>Satta Visuddhi</em>) in Pa-Auk monasteries.</p>",
+                      "pt": "<p>A realização clássica completa das Sete Purificações (<em>Satta Visuddhi</em>) nos mosteiros de Pa-Auk.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Master Key Unlocking Every Chamber of the Castle:</strong> Inserting the golden key into the inner sanctum, throwing open the doors to boundless, unshakeable peace.</p>",
+                      "pt": "<p><strong>A Chave-Mestra Abrindo o Santuário do Castelo:</strong> Inserindo a chave de ouro na última porta secreta, escancarando os portões para a paz inabalável e eterna.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Even for busy householders who cannot spend years in forest seclusion, Pa-Auk's Four Elements meditation (detecting hardness, softness, warmth, cooling, motion, tension) can be practiced anywhere to immediately break the hallucination of bodily ego.",
@@ -4599,54 +6231,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Nos famosos eremitérios da ilha do Sri Lanka (como Polgasduwa e Meetirigala), os versos do Bhaddekaratta são cantados diariamente como bússola da vida na floresta. O Buda chama aquele que permanece ardentemente ancorado no presente, sem devaneios temporais, de 'o eremita que viveu uma noite auspiciosa' (bhaddekaratto). Para o leigo contemporâneo, é o remédio definitivo contra a fadiga de planejamento e a ruminação depressiva."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Atīta-Vossagga",
-        "title": {
-          "en": "1. Releasing the Past",
-          "pt": "1. Soltar o Passado"
-        },
-        "desc": {
-          "en": "Observe when the mind drifts into memories, past injuries, or nostalgias. Declare: 'The past is a phantom that no longer exists.' Let it dissolve.",
-          "pt": "Perceba quando a mente viaja para memórias, mágoas passadas ou nostalgias. Declare: 'O passado é um fantasma extinto.' Deixe-o se desfazer."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Anāgata-Pahāna",
-        "title": {
-          "en": "2. Abandoning Future Projections",
-          "pt": "2. Desarmar o Futuro"
-        },
-        "desc": {
-          "en": "Watch the mind fabricate scenarios, to-do lists, and worries. Recognize: 'The future has not arrived; why suffer it in advance?'",
-          "pt": "Observe a mente projetando cenários, listas de tarefas e temores. Reconheça: 'O futuro não chegou; por que sofrer antecipadamente?'"
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Paccuppanna-Vipassanā",
-        "title": {
-          "en": "3. Direct Seeing of the Present State",
-          "pt": "3. Ver com Clareza o Presente"
-        },
-        "desc": {
-          "en": "Anchor completely in what is happening right now: the breath flowing, sounds vibrating, sensations arising. See them without grasping.",
-          "pt": "Ancore-se no que acontece exatamente agora: a respiração fluindo, os sons vibrando, as sensações surgindo. Veja tudo sem se apegar."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Asaṁhīra-Vihāra",
-        "title": {
-          "en": "4. The Unshakable, Independent Heart",
-          "pt": "4. O Repouso Inabalável (Asaṁhīra)"
-        },
-        "desc": {
-          "en": "Experience the majestic peace of living outside the trap of time. This is true solitude (ekavihārī) and the bliss of one fine night.",
-          "pt": "Experimente a paz majestosa de viver fora da armadilha do tempo psicológico. Esta é a verdadeira solitude e o alívio supremo de viver no agora."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Atītaṁ nānvāgameyya",
+                "title": {
+                      "en": "1. Do Not Chase After the Past",
+                      "pt": "1. Não Persiga o Passado Morto"
+                },
+                "desc": {
+                      "en": "'One should not chase after the past, for what is past is left behind and gone.' Releasing memories, nostalgia, old grievances, and bygone identities.",
+                      "pt": "'Não se deve perseguir o passado, pois o passado já se foi e foi deixado para trás.' Libertando-se de nostalgias, mágoas antigas, arrependimentos e identidades caducas."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Dropping Memory Loops:</strong> Whenever the mind replays past dialogues, triumphs, or humiliations, declare: 'That is dead and finished.' Return attention to the immediate breath.</p>",
+                      "pt": "<p><strong>Abandonando Ruminações:</strong> Sempre que a mente reprisar diálogos antigos, vitórias ou humilhações, declare: 'Isto morreu e acabou'. Retorne à respiração presente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 131 §3</strong>: The opening verse of the Bhaddekaratta Sutta on non-entanglement with time.</p>",
+                      "pt": "<p><strong>MN 131 §3</strong>: O verso de abertura do Bhaddekaratta Sutta sobre o desatamento temporal.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Dream Vanishing Upon Waking (Snp 4.6):</strong> Just as a vivid dream of flying vanishes into nothingness when opening the eyes, the past is bare mental mist.</p>",
+                      "pt": "<p><strong>O Sonho que Desvanece ao Despertar (Snp 4.6):</strong> Tal como um sonho nítido em que se voava desaparece no nada ao abrir os olhos, o passado é mera névoa mental.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Nappaṭikaṅkhe anāgataṁ",
+                "title": {
+                      "en": "2. Do Not Yearn for the Unarrived Future",
+                      "pt": "2. Não Crie Expectativas pelo Futuro que Não Chegou"
+                },
+                "desc": {
+                      "en": "'Nor build expectations on the future, for what is future has not yet arrived.' Laying down anxious forecasting, hypothetical planning, and anticipatory worry.",
+                      "pt": "'Nem crie expectativas pelo futuro, pois o futuro ainda não chegou.' Largando projeções ansiosas, planejamentos obsessivos e cenários hipotéticos de preocupação."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Halting Future Projections:</strong> Recognize that 99% of future anxieties are fictional phantoms created by the unquiet mind. Ground in the physical weight of your posture.</p>",
+                      "pt": "<p><strong>Travando Projeções Ansiosas:</strong> Reconheça que a maioria das ansiedades futuras são fantasmas criados pela mente inquieta. Ancore no peso do corpo no solo.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 131 §3</strong>: Cutting the second temporal chain that binds consciousness to saṁsāra.</p>",
+                      "pt": "<p><strong>MN 131 §3</strong>: Cortando o segundo grilhão temporal que aprisiona a consciência no sofrimento.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Mirage in the Distance:</strong> Chasing after water glistening on the distant road; the closer you run, the farther the illusion recedes.</p>",
+                      "pt": "<p><strong>A Miragem no Horizonte:</strong> Correndo atrás da água cintilante na estrada árida; quanto mais você corre, mais a ilusão recua.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Paccuppanna-dhamma-vipassanā",
+                "title": {
+                      "en": "3. Discerning the Present Phenomenon with Laser Clarity",
+                      "pt": "3. Discernindo o Fenômeno Presente com Clareza Cirúrgica"
+                },
+                "desc": {
+                      "en": "'Whatever phenomenon is present right here, right now, one discerns that with insight—invulnerable, unshakeable, undefeated.' Abiding in diamond-like present presence.",
+                      "pt": "'O fenômeno que está presente aqui e agora, esse o meditador investiga com insight—invulnerável, inabalável, sem hesitação.' Repousando na presença lúcida inquebrantável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Laser of the Present:</strong> Cut through mental drift. Feel the immediate sensation, the sound, the breath right in this microsecond. Unconquered by distraction.</p>",
+                      "pt": "<p><strong>O Foco do Agora:</strong> Rompa a dispersão. Sinta a sensação tátil, o som ambiente, o fôlego neste exato microssegundo. Imbatível pela distração.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 131 §3</strong>: The heart formula of the Bhaddekaratta Sutta.</p>",
+                      "pt": "<p><strong>MN 131 §3</strong>: A fórmula central que dá título e poder ao Bhaddekaratta Sutta.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Skilled Swordsman Parrying an Arrow:</strong> Slicing the incoming arrow out of the air at the exact moment of impact with flawless reflex.</p>",
+                      "pt": "<p><strong>O Espadachim Aparando a Flecha:</strong> Cortando a flecha que se aproxima em pleno ar no instante exato do impacto com reflexo perfeito.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Ajjeva kiccamātappaṁ",
+                "title": {
+                      "en": "4. Ardent Urgency Today: 'One Fine Night'",
+                      "pt": "4. Esforço Ardente Hoje: 'Uma Noite Sublime'"
+                },
+                "desc": {
+                      "en": "'Today the effort must be made; who knows if death will strike tomorrow? There is no bargaining with the great host of death.' One who lives thus ardent is praised as having lived One Fine Night.",
+                      "pt": "'Hoje o esforço deve ser feito; quem sabe se a morte virá amanhã? Não há negociação com o exército da morte.' Quem assim vive com ardor é louvado como tendo vivido Uma Noite Sublime."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Final Dedicated Resolve:</strong> Practice this very session as if death stood at the door. Live awake, harmless, lucid, and liberated.</p>",
+                      "pt": "<p><strong>Determinação Nobre Final:</strong> Pratique esta sentada como se a morte estivesse à espreita na porta. Viva desperto, inofensivo, lúcido e liberto.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 131 §4–5</strong>: The definition of the Bhaddekaratta: a solitary contemplative who masters time.</p>",
+                      "pt": "<p><strong>MN 131 §4–5</strong>: A definição de Bhaddekaratta: o contemplativo que transcendeu as algemas do tempo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Lone Lamp Burning Through the Night in a Storm:</strong> A solitary brass lamp resting sheltered in a mountain cave, burning with bright, untroubled flame until dawn.</p>",
+                      "pt": "<p><strong>A Lâmpada Solitária Queimando na Tempestade:</strong> Uma lamparina de bronze abrigada numa caverna de pedra, queimando com chama dourada e imperturbável até o alvorecer.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Access to 1st/2nd Jhāna & Freedom from Temporal Anxiety",
@@ -4734,54 +6414,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Nyanaponika foi um monge e erudito de origem alemã que viveu por mais de cinco décadas nos eremitérios de floresta do Sri Lanka e presidiu a renomada Buddhist Publication Society (BPS). Sua obra-prima, 'O Coração da Meditação Budista', é considerada uma das exposições mais lúcidas de Satipaṭṭhāna já escritas. Ele cunhou o termo 'Atenção Nua': treinar a mente para atuar como um espelho límpido, refletindo as coisas exatamente como são, sem distorções, julgamentos ou autocrítica."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Yathābhūta-Dassana",
-        "title": {
-          "en": "1. The Clean Mirror Principle",
-          "pt": "1. O Princípio do Espelho Limpo"
-        },
-        "desc": {
-          "en": "Sit quietly and observe your mind. Treat awareness like a mirror: a mirror does not cling to a flower, nor does it complain about garbage. It just reflects.",
-          "pt": "Sente-se em silêncio. Trate a mente como um espelho: o espelho não se apega a uma flor nem se ofende com o lixo. Ele apenas reflete com neutralidade."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Viniggaha",
-        "title": {
-          "en": "2. Suspending Value Judgments",
-          "pt": "2. Suspender os Julgamentos de Valor"
-        },
-        "desc": {
-          "en": "When a painful emotion arises, do not say: 'I am a failure.' Simply register: 'Unpleasant feeling has arisen.' Drop the self-judgment.",
-          "pt": "Quando surgir uma emoção dolorosa, não diga: 'Eu sou um fracasso.' Apenas registre: 'Uma sensação desagradável surgiu.' Abandone a autocrítica."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Tathatā-Sati",
-        "title": {
-          "en": "3. Registering the Raw Sensation",
-          "pt": "3. Registrar a Sensação Crua"
-        },
-        "desc": {
-          "en": "Notice the difference between the physical sensation and the mental story. Feel the tightening of muscles or heat without believing the catastrophic narrative.",
-          "pt": "Perceba a diferença entre a sensação física bruta e a narrativa mental. Sinta a tensão muscular ou o calor sem acreditar na história dramática da mente."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Sampajañña-Vihāra",
-        "title": {
-          "en": "4. Clear Comprehension in Action",
-          "pt": "4. Clara Compreensão em Ação"
-        },
-        "desc": {
-          "en": "Carry Bare Attention into daily speech and work. Pause before responding to an email or speaking in anger; let bare awareness give you space to act wisely.",
-          "pt": "Leve a Atenção Nua para as conversas e o trabalho. Faça uma pausa antes de responder a um e-mail com raiva; a atenção dá o espaço para agir com sabedoria."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Sakkā-sati (Bare Attention)",
+                "title": {
+                      "en": "1. Establishing Bare Attention (The Clear Mirror)",
+                      "pt": "1. Estabelecendo a Atenção Pura (O Espelho Límpido)"
+                },
+                "desc": {
+                      "en": "Ven. Nyanaponika Mahāthera's fundamental technique: observing facts as bare facts without adding personal opinions, emotional reactions, condemnation, or praise.",
+                      "pt": "A técnica clássica do Ven. Nyanaponika Mahāthera: observar os fatos como fatos nus, sem adicionar opiniões pessoais, reações emocionais, censuras ou louvores."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Mirror of Awareness:</strong> A mirror reflects the beautiful and the ugly without rejoicing or rejecting. Cultivate that same pure, non-reactive registration of sensory contact.</p>",
+                      "pt": "<p><strong>O Espelho da Consciência:</strong> O espelho reflete o belo e o feio sem se alegrar nem rejeitar. Cultive esse mesmo registro puro e imparcial diante do contato sensorial.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Nyanaponika's seminal classic: <em>The Heart of Buddhist Meditation</em>.</p>",
+                      "pt": "<p>A obra-prima seminal do Ven. Nyanaponika: <em>The Heart of Buddhist Meditation (O Coração da Meditação Budista)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Pristine Mirror (Nyanaponika):</strong> The mirror lets images enter, clearly depicts them, and remains entirely unstained when they depart.</p>",
+                      "pt": "<p><strong>O Espelho Imaculado (Nyanaponika):</strong> O espelho permite que as imagens cheguem, reflete-as com nitidez e permanece absolutamente limpo quando partem.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Mita-nāma-saññā",
+                "title": {
+                      "en": "2. Restrained Mental Labeling",
+                      "pt": "2. Rotulação Mental Sóbria & Contida"
+                },
+                "desc": {
+                      "en": "Using silent verbal notes sparingly: applying simple, non-philosophical tags ('hearing', 'tightness', 'wandering') only to steady attention, and dropping the words as soon as presence stabilizes.",
+                      "pt": "Usando rótulos verbais com sobriedade: aplicando notas simples ('ouvindo', 'tensão', 'dispersão') apenas para ancorar o foco, soltando as palavras assim que a presença se firmar."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Words as Stepping Stones:</strong> Do not turn meditation into an internal monologue. Use the label as a light finger touch, then rest in direct non-verbal perception.</p>",
+                      "pt": "<p><strong>Palavras como Pontes Provisórias:</strong> Não transforme a prática em monólogo interior. Use o rótulo como um toque leve, repousando na percepção direta não-verbal.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The distinction between conventional designation (<em>paññatti</em>) and direct tactile reality in the Theravāda Abhidhamma.</p>",
+                      "pt": "<p>A distinção entre designação convencional (<em>paññatti</em>) e percepção tátil direta no Abhidhamma Theravāda.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Walking Stick on a Rocky Slope:</strong> You use the walking stick for balance when stepping over loose stones, but carry it lightly when walking on smooth turf.</p>",
+                      "pt": "<p><strong>A Bengala na Trilha Rochosa:</strong> Usa-se o bordão para apoio ao pisar em cascalho solto, mas caminha-se livremente ao pisar na grama macia.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "The Great Pause (Non-Action)",
+                "title": {
+                      "en": "3. The 'Great Pause' & Restraint of Impulse",
+                      "pt": "3. A 'Grande Pausa' & Contenção do Impulso Reativo"
+                },
+                "desc": {
+                      "en": "Introducing a conscious, non-acting pause between sensory impact and muscular reaction. Breaking the robotic loop of habitual impulsiveness.",
+                      "pt": "Inserindo uma pausa consciente e sem ação entre o impacto sensorial e a reação muscular. Quebrando o reflexo automático da impulsividade habitual."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Intercepting Pause:</strong> When triggered by an annoying remark or sudden craving, freeze for 3 seconds. Watch the fiery impulse without acting. The fire starves.</p>",
+                      "pt": "<p><strong>A Pausa que Salva:</strong> Ao ser provocado por um comentário hostil ou impulso urgente, pause por 3 segundos. Observe a queimação sem reagir. O fogo apaga sem combustível.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Nyanaponika's famous chapter: <em>The Power of Mindfulness: The Great Pause</em>.</p>",
+                      "pt": "<p>O famoso capítulo de Nyanaponika: <em>The Power of Mindfulness: The Great Pause (O Poder da Atenção: A Grande Pausa)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Breakwaters Taming the Ocean Surge:</strong> Heavy concrete sea-walls absorb the violent crashing waves, turning chaotic surf into gentle harbor waters.</p>",
+                      "pt": "<p><strong>Os Quebra-Mares Amansando as Ondas:</strong> Paredões maciços de concreto absorvem a violência das ondas furiosas, transformando a ressaca em mar calmo no porto.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Anattā-ñāṇa-bodhi",
+                "title": {
+                      "en": "4. Direct Realization of Non-Self (Anattā)",
+                      "pt": "4. Realização Direta do Não-Eu (Anattā)"
+                },
+                "desc": {
+                      "en": "Through relentless bare attention, one sees that there is no 'thinker' behind the thought, no 'feeler' behind the sensation. Consciousness is an impersonal, transparent river.",
+                      "pt": "Através da atenção nua ininterrupta, enxerga-se que não há um 'pensador' por trás do pensamento, nem um 'senciente' por trás da dor. A consciência é um rio impessoal e transparente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Selfless Reality:</strong> 'In the seen, only the seen; in the heard, only the heard.' No ego to defend, no self to bruise. Complete peace.</p>",
+                      "pt": "<p><strong>Repousando na Realidade Sem Ego:</strong> 'No visto, apenas o visto; no ouvido, apenas o ouvido.' Nenhum ego para defender ou magoar. Paz profunda.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>Udāna 1.10 (Bāhiya Sutta)</strong> as interpreted by Ven. Nyanaponika.</p>",
+                      "pt": "<p><strong>Udāna 1.10 (Bāhiya Sutta)</strong> conforme interpretado pelo Ven. Nyanaponika.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Pure Blue Sky After Thunderstorms:</strong> All dark clouds have drifted away; the vast blue expanse remains untouched, luminous, and boundless.</p>",
+                      "pt": "<p><strong>O Céu Azul Após a Tempestade:</strong> Todas as nuvens pesadas se dissiparam; a abóbada azul celeste permanece intocada, luminosa e sem limites.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of Sati (Mindfulness) & Emotional Freedom",
@@ -4869,54 +6597,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Nyanatiloka foi um violinista virtuoso alemão que abandonou a Europa em 1903 para se tornar o primeiro monge Theravāda ordenado da Europa continental. Em 1911, remou um pequeno barco pela lagoa de Dodanduwa, no Sri Lanka, e fundou o lendário Eremitério da Ilha (Polgasduwa). Defendia que a meditação devia retornar aos Textos Budistas Antigos genuínos, eliminando superstições e escolásticas tardias. Seus discípulos tornaram-se os tradutores mais brilhantes do cânone no Ocidente."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Sīla-Visuddhi",
-        "title": {
-          "en": "1. The Clean Foundation of Ethics",
-          "pt": "1. A Base Imaculada da Ética"
-        },
-        "desc": {
-          "en": "Establish spotless morality. Freedom from remorse (avippatisāra) is the psychological rocket fuel that launches the mind into calm.",
-          "pt": "Estabeleça uma conduta moral irrepreensível. A ausência de remorso é o combustível psicológico que impulsiona a mente rumo à serenidade."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Samādhi-Parikkāra",
-        "title": {
-          "en": "2. The Equipment for Concentration",
-          "pt": "2. O Instrumental para a Concentração"
-        },
-        "desc": {
-          "en": "Restrain the senses; abandon frivolous speech. Direct the mind to an authentic canonical object—breath, elements, or loving-kindness.",
-          "pt": "Guarde os sentidos; silencie conversas supérfluas. Direcione a mente a um objeto canônico autêntico — respiração, elementos ou bondade amorosa."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Jhāna-Vibhāga",
-        "title": {
-          "en": "3. The 4 Canonical Jhānas",
-          "pt": "3. Os 4 Jhānas Canônicos"
-        },
-        "desc": {
-          "en": "Progress through the 1st, 2nd, 3rd, and 4th Jhānas as described in the Suttas. The mind becomes still, radiant, and diamond-pure.",
-          "pt": "Avance pelos quatro estágios de Jhāna tal como descritos nos Suttas. A mente torna-se imóvel, radiante e de pureza diamantina."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Vimutti-Magga",
-        "title": {
-          "en": "4. The Deliverance of Wisdom",
-          "pt": "4. A Libertação pela Sabedoria"
-        },
-        "desc": {
-          "en": "Turn this unshakeable stillness to inspect the five aggregates (form, feeling, perception, choices, consciousness). Realize they are anattā; awaken.",
-          "pt": "Utilize essa quietude profunda para examinar os cinco agregados (forma, sensação, percepção, volição, consciência). Realize anattā e desperte."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Polgasduwa-sīla",
+                "title": {
+                      "en": "1. Island Hermitage Ethical Discipline",
+                      "pt": "1. Disciplina Ética do Eremitério da Ilha"
+                },
+                "desc": {
+                      "en": "Ven. Nyanatiloka's hermitage standard on the lake island of Polgasduwa: strict monastic silence, renouncing social visits, establishing the stainless foundation of virtue.",
+                      "pt": "O padrão ascético do Ven. Nyanatiloka na ilha lacustre de Polgasduwa: silêncio estrito, renúncia a visitas sociais e consolidação de uma integridade moral inabalável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Setting Sacred Boundaries:</strong> Protect your meditation space from digital interruptions and casual chatter. Virtue is the bedrock of mental focus.</p>",
+                      "pt": "<p><strong>Estabelecendo Limites Sagrados:</strong> Blinde seu refúgio de prática contra distrações digitais e conversas vazias. A virtude é o alicerce de todo samādhi.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Nyanatiloka's manual: <em>The Path to Deliverance</em> and <em>Buddhist Dictionary</em>.</p>",
+                      "pt": "<p>As obras capitais do Ven. Nyanatiloka: <em>The Path to Deliverance (O Caminho para a Libertação)</em> e o <em>Buddhist Dictionary</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Stone Foundation of the Temple:</strong> Sunk deep into bedrock, capable of bearing the massive weight of pillars and gilded roofs without settling.</p>",
+                      "pt": "<p><strong>O Alicerce de Pedra do Templo:</strong> Fincado fundo na rocha matriz, capaz de sustentar o peso monumental de colunas e telhados sem ceder um milímetro.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Samādhi-kammaṭṭhāna",
+                "title": {
+                      "en": "2. Systematic Purification of Consciousness",
+                      "pt": "2. Purificação Sistemática da Consciência (Samādhi)"
+                },
+                "desc": {
+                      "en": "Cultivating one-pointed absorption using the classical forty subjects (kammaṭṭhāna), subduing the 5 hindrances and purifying consciousness into pristine calm.",
+                      "pt": "Cultivando a absorção unificada através dos quarenta temas clássicos (kammaṭṭhāna), subjugando os 5 obstáculos e purificando a mente em serenidade límpida."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>One-Pointed Deepening:</strong> Select your primary meditation object (breath, kasina, or mettā). Hold the object until the mind unifies in effortless absorption.</p>",
+                      "pt": "<p><strong>Aprofundamento Unificado:</strong> Escolha seu objeto primário (respiração, kasina ou mettā). Sustente a atenção até que a mente unifique em absorção estável.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><em>Visuddhimagga</em> Ch. III–XI as translated and systematized by Nyanatiloka.</p>",
+                      "pt": "<p><em>Visuddhimagga</em> Cap. III–XI conforme traduzido e estruturado por Nyanatiloka.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Filtering Muddy Water with Alum:</strong> Stirring the cloudy water; the sediment settles to the bottom, leaving the upper water crystal clear.</p>",
+                      "pt": "<p><strong>Decantando a Água com Alúmen:</strong> Agitando a água turva; a terra assenta no fundo do cântaro, deixando a água superior perfeitamente translúcida.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Diṭṭhi-visuddhi (Anattā)",
+                "title": {
+                      "en": "3. Purification of View: The Anatomy of Anattā",
+                      "pt": "3. Purificação da Visão: A Anatomia de Anattā"
+                },
+                "desc": {
+                      "en": "Nyanatiloka's defining scholarly and experiential insight: 'Whosoever does not understand Anattā does not understand the Buddha's Dhamma.' Dissecting mind-and-matter into bare impersonal phenomena.",
+                      "pt": "O insight definitivo do Ven. Nyanatiloka: 'Quem não compreende Anattā não compreende o Dhamma do Buda.' Decompondo mente e matéria em processos puramente impessoais."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Seeing the Impersonal Machine:</strong> Recognize: 'No agent walks; there is only walking. No thinker thinks; there are only thoughts.' Destroy the phantom of selfhood.</p>",
+                      "pt": "<p><strong>Enxergando a Máquina Impessoal:</strong> Reconheça: 'Ninguém caminha; há apenas o caminhar. Nenhum pensador pensa; há apenas pensamentos.' Desfaça a ilusão do 'eu'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Nyanatiloka's famous essay: <em>Anattā: The Central Conception of Buddhism</em>.</p>",
+                      "pt": "<p>O famoso tratado de Nyanatiloka: <em>Anattā: O Conceito Central do Budismo</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Marionette Puppet:</strong> Wood, strings, and cloth dancing on stage; children believe it is alive, but the wise person sees only string tensions and wooden levers.</p>",
+                      "pt": "<p><strong>O Boneco de Marionete:</strong> Madeira, barbantes e panos dançando no palco; crianças acham que tem vida própria, mas o sábio vê apenas alavancas e cordinhas puxadas.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Satta-visuddhi-niṭṭhāna",
+                "title": {
+                      "en": "4. Completing the Seven Purifications to Deliverance",
+                      "pt": "4. Conclusão das Sete Purificações Rumo à Libertação"
+                },
+                "desc": {
+                      "en": "Traversing the 7 stages of purification: virtue, mind, view, overcoming doubt, knowledge of path and non-path, knowledge of practice, and knowledge and vision. Touching the Deathless.",
+                      "pt": "Percorrendo as 7 etapas de purificação: virtude, mente, visão, superação da dúvida, discernimento do caminho, discernimento da prática e visão libertadora. Realizando o Imortal."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Final Relay:</strong> Step from one purification to the next until the chariot relay reaches the final destination of Nibbāna.</p>",
+                      "pt": "<p><strong>O Revezamento dos Carros:</strong> Avance de uma purificação à seguinte até que o revezamento das carruagens atinja o destino final de Nibbāna.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 24 (Rathavinīta Sutta)</strong>: The Relay Chariots framework structuring the entire <em>Visuddhimagga</em>.</p>",
+                      "pt": "<p><strong>MN 24 (Rathavinīta Sutta)</strong>: A parábola dos Carros de Revezamento que estrutura todo o <em>Visuddhimagga</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Seven Relay Chariots (MN 24):</strong> King Pasenadi rushes from Sāvatthī to Sāketa using seven relay chariots; each chariot carries him one stage closer to his goal.</p>",
+                      "pt": "<p><strong>As Sete Carruagens de Revezamento (MN 24):</strong> O rei viaja com urgência usando sete carruagens consecutivas; cada veículo o transporta por uma etapa até a meta final.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of the Noble Eightfold Path & Deliverance (Vimutti)",
@@ -5004,54 +6780,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Mātara Sri Ñāṇārāma Mahāthera foi o diretor espiritual de Meetirigala Nissarana Vanaya (O Eremitério da Libertação), o mais rigoroso mosteiro de meditação do Sri Lanka. Conhecido por sua vasta erudição e formidável realização meditativa, ensinava que concentração e insight são como as duas rodas de uma carruagem: se uma falhar, o veículo tomba. Seu tratado 'Os Sete Estágios de Purificação' permanece como manual mestre para diagnosticar estágios de sabedoria sem autoengano."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Sīla & Citta Visuddhi",
-        "title": {
-          "en": "1. Purification of Virtue & Mind",
-          "pt": "1. Purificação da Conduta & Mente"
-        },
-        "desc": {
-          "en": "Purify conduct, then unify the mind through breath meditation until gross hindrances drop away completely.",
-          "pt": "Purifique a conduta moral e unifique a mente na respiração até que os obstáculos grosseiros cessem por completo."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Diṭṭhi-Visuddhi",
-        "title": {
-          "en": "2. Purification of View (Nama-Rupa)",
-          "pt": "2. Purificação da Visão (Náma-Rúpa)"
-        },
-        "desc": {
-          "en": "Dissect experience into mentality (Nama) and materiality (Rupa). See that there is no 'person' behind the eye, only seeing and colors.",
-          "pt": "Separe a experiência em mente (Náma) e matéria (Rúpa). Veja que não há nenhuma 'pessoa' por trás do olho, apenas visão e cores."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Kaṅkhāvitaraṇa",
-        "title": {
-          "en": "3. Overcoming All Doubt by Causes",
-          "pt": "3. Superação das Dúvidas pelas Causas"
-        },
-        "desc": {
-          "en": "Trace how each state arises because of specific conditions. Realize that life is a causal flow, not a personal destiny controlled by ego.",
-          "pt": "Compreenda como cada estado surge por condições específicas. Perceba que a vida é um fluxo causal, e não um destino rígido do ego."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Paṭipadā-Ñāṇadassana",
-        "title": {
-          "en": "4. The Culmination in Noble Insight",
-          "pt": "4. O Ápice da Visão e Sabedoria"
-        },
-        "desc": {
-          "en": "Pass through dissolution, fear, disenchantment, and equanimity regarding formations (Saṅkhārupekkhā) into the realization of Nibbāna.",
-          "pt": "Atravesse a dissolução, o desencanto e a equanimidade suprema diante das formações até a realização definitiva de Nibbāna."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Arañña-samatha",
+                "title": {
+                      "en": "1. Forest Immersion in Nissarana Vanaya",
+                      "pt": "1. Imersão na Selva de Nissarana Vanaya"
+                },
+                "desc": {
+                      "en": "Ven. Mātara Sri Ñāṇārāma's hermitage sanctuary: establishing deep, undisturbed mindfulness under ancient trees in absolute forest silence, quelling the 5 hindrances.",
+                      "pt": "O santuário do Ven. Mātara Sri Ñāṇārāma: estabelecendo atenção profunda sob as copas das árvores na quietude da floresta cingalesa, silenciando os 5 obstáculos."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Jungle Grounding:</strong> Anchor deeply in the natural breath. Absorb the soothing stillness of the forest into the nervous system.</p>",
+                      "pt": "<p><strong>Enraizamento na Natureza:</strong> Ancore com serenidade na respiração natural. Permita que a tranquilidade profunda da floresta acalme seu sistema nervoso.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Ñāṇārāma's master handbook: <em>The Seven Stages of Purification and the Insight Knowledges</em>.</p>",
+                      "pt": "<p>O tratado clássico do Ven. Ñāṇārāma: <em>As Sete Etapas da Purificação e os Conhecimentos de Insight</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Anchor in Deep Ocean Sand:</strong> A heavy forged anchor bites deep into the ocean bed, keeping the ship rock-steady through the night.</p>",
+                      "pt": "<p><strong>A Âncora Fincada no Fundo do Oceano:</strong> A pesada âncora de ferro morde a areia profunda, mantendo a embarcação estável durante toda a noite.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Udayabbaya-pariggaha",
+                "title": {
+                      "en": "2. Microscopic Observation of Arising & Dissolution",
+                      "pt": "2. Observação Microscópica do Surgir & Dissolver"
+                },
+                "desc": {
+                      "en": "Refining Vipassanā to catch the micro-moments of arising (udaya) and passing away (vaya) of every physical sensation, breath pulse, and mind-state.",
+                      "pt": "Refinando a visão de Vipassanā para flagrar os micro-instantes de nascimento (udaya) e desaparecimento (vaya) de cada sensação corporal, pulso e pensamento."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Watching the Boundary:</strong> Track the exact instant a sensation appears, the peak of its duration, and its instantaneous dissolution. See universal impermanence in action.</p>",
+                      "pt": "<p><strong>Mapeando os Limiares:</strong> Acompanhe o segundo em que a sensação brota, o ápice da duração e sua dissolução instantânea. Veja a impermanência viva em ação.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Stage 4 of insight: <em>Udayabbaya-ñāṇa</em> as analyzed in Sri Lankan forest hermitage pedagogy.</p>",
+                      "pt": "<p>Estágio 4 de insight: <em>Udayabbaya-ñāṇa</em> conforme ensinado na pedagogia dos eremitérios do Sri Lanka.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Lightning Bugs Flashing in the Dark:</strong> Tiny fireflies flickering on for half a second and going dark, puncturing the night with momentary points of light.</p>",
+                      "pt": "<p><strong>Vaga-Lumes Cintilando na Noite:</strong> Pequenos vaga-lumes acendendo por meio segundo e apagando no breu, pontuando a escuridão com clarões efêmeros.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Dukkha-ñāṇa-taraṇa",
+                "title": {
+                      "en": "3. Navigating the Dukkha-Ñāṇas with Courage",
+                      "pt": "3. Atravessando os Estágios de Desencanto (Dukkha-Ñāṇas)"
+                },
+                "desc": {
+                      "en": "Crossing the formidable knowledges of fear (bhaya), misery (ādīnava), and disenchantment (nibbidā). Ven. Ñāṇārāma's compassionate map for enduring existential dark nights.",
+                      "pt": "Cruzando os estágios de terror (bhaya), perigo (ādīnava) e desencanto (nibbidā). O mapa compassivo de Ven. Ñāṇārāma para atravessar a noite escura existencial."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Equanimity in the Storm:</strong> When deep disillusionment with conditioned existence arrives, do not despair. This is not depression; this is the ego's house crumbling. Keep meditating!</p>",
+                      "pt": "<p><strong>Equanimidade no Deserto:</strong> Quando surgir profundo desespero com a impermanência do mundo, não desanime. Não é depressão; é a carcaça do ego caindo. Continue firme!</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The five knowledges of suffering (<em>dukkha-ñāṇā</em>) described in <em>Visuddhimagga</em> XXI.</p>",
+                      "pt": "<p>Os cinco conhecimentos do sofrimento (<em>dukkha-ñāṇā</em>) descritos no <em>Visuddhimagga</em> XXI.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Prisoner Crawling Through the Drainage Pipe:</strong> Crawling through mud and narrow darkness, knowing that daylight and open air await right at the exit.</p>",
+                      "pt": "<p><strong>O Prisioneiro no Túnel de Fuga:</strong> Rastejando no escuro e na poeira, sabendo com certeza que a luz do sol e o ar livre estão logo na saída.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Saṅkhārupekkhā-phala",
+                "title": {
+                      "en": "4. Equanimity Towards Formations & Noble Breakthrough",
+                      "pt": "4. Equanimidade com as Formações & Salto Libertador"
+                },
+                "desc": {
+                      "en": "Reaching supreme, effortless equanimity towards all formations (saṅkhārupekkhā). All spiritual struggle ends. The mind lets go, and Nibbāna is directly realized.",
+                      "pt": "Alcançando a equanimidade suprema e sem esforço diante de todas as construções (saṅkhārupekkhā). Toda a luta cessa. A mente solta tudo e Nibbāna é realizado diretamente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Effortless Rest:</strong> Abide as pure, unmoving peace. The mind has laid down every burden. Complete freedom.</p>",
+                      "pt": "<p><strong>Repouso sem Esforço:</strong> Permaneça como paz pura e imóvel. A mente depôs todo e qualquer fardo. Liberdade absoluta.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The final threshold before the attainment of Stream-Entry (<em>sotāpatti-magga</em>).</p>",
+                      "pt": "<p>O limiar supremo que antecede a Entrada na Corrente (<em>sotāpatti-magga</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Soaring Glider Catching the High Wind:</strong> The pilot turns off the engine; the glider rides silent thermals effortlessly above the mountain range.</p>",
+                      "pt": "<p><strong>O Planador nas Correntes de Ar Superior:</strong> O piloto desliga o motor; a aeronave flutua suavemente nas correntes térmicas acima de todas as cordilheiras.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Complete Mastery of the 16 Insight Knowledges (Visuddhiñāṇa)",
@@ -5139,54 +6963,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Quando um asceta arrogante desafia o Buda num pomar, o Buda responde com um enigma e se retira. Ao pedirem explicação a Ven. Mahākaccāna, ele elucida a célebre fórmula perceptiva do MN 18: Olho + Forma = Consciência Visual → Contato → Sensação → Percepção → Pensamento → Papañca (Proliferação Conceitual Incessante). Quando o Papañca assume o comando, a pessoa é assaltada por projeções, mágoas e medos. O Buda elogiou a explicação dizendo que era saborosa como uma 'bola de mel'. Ven. Ñāṇananda dedicou sua vida a ensinar este sutta como o antídoto definitivo para a ilusão e a guerra mental."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Phassa-Paccaya",
-        "title": {
-          "en": "1. Witnessing Bare Contact",
-          "pt": "1. Testemunhar o Contato Nu"
-        },
-        "desc": {
-          "en": "Notice sensory events as they arrive at the sense doors: colors hitting the retina, sounds hitting the ear drum. Keep it at the level of raw contact.",
-          "pt": "Perceba os eventos sensoriais ao tocarem os sentidos: cores atingindo a retina, vibrações sonoras no tímpano. Mantenha no nível do contato bruto."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Vedanā & Saññā",
-        "title": {
-          "en": "2. The Fork in the Road: Feeling & Label",
-          "pt": "2. A Encruzilhada: Sensação & Rótulo"
-        },
-        "desc": {
-          "en": "A feeling arises (pleasant, unpleasant, neutral), followed by a quick recognition label (saññā). Catch the mind right here before storytelling starts.",
-          "pt": "Surge uma sensação (boa, má ou neutra), seguida de um rótulo rápido (saññā). Flagre a mente exatamente aqui, antes que as histórias comecem."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Papañca-Virodha",
-        "title": {
-          "en": "3. Halting Conceptual Proliferation",
-          "pt": "3. Interromper a Proliferação (Papañca)"
-        },
-        "desc": {
-          "en": "Do not let thought say: 'He insulted ME; I must get revenge.' See thought as a runaway train and pull the emergency brake with mindful silence.",
-          "pt": "Não deixe o pensamento dizer: 'Ele me ofendeu; eu preciso revidar.' Enxergue o pensamento como um trem desgovernado e puxe o freio do silêncio."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Papañca-Nirodha",
-        "title": {
-          "en": "4. The Peace of Non-Proliferation",
-          "pt": "4. A Paz da Não-Proliferação"
-        },
-        "desc": {
-          "en": "Rest in perception free from 'I am'. The world remains vivid, beautiful, and functional, but totally devoid of neurotic suffering.",
-          "pt": "Repouse na percepção liberta da presunção do 'Eu'. O mundo permanece límpido e vívido, mas totalmente desprovido de drama neurótico."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Phassa-samudaya",
+                "title": {
+                      "en": "1. The Primary Spark: Contact & Sensation",
+                      "pt": "1. A Faísca Primária: Contato & Sensação"
+                },
+                "desc": {
+                      "en": "The Buddha's causal breakdown: eye and form meet → eye-consciousness arises; the meeting of the three is contact (phassa); conditioned by contact, feeling arises.",
+                      "pt": "A cadeia causal do Buda: olho e forma se encontram → a consciência visual desperta; a reunião dos três é o contato (phassa); do contato brota a sensação."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Tracking the Sensory Flash:</strong> Notice the bare moment of sensory contact before thoughts or stories begin. Recognize: 'This is just sensory contact and raw feeling.'</p>",
+                      "pt": "<p><strong>Mapeando o Contato Bruto:</strong> Perceba o milissegundo do contato sensorial antes que pensamentos ou julgamentos se formem. Reconheça: 'Isto é apenas contato e sensação'.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 18 §16</strong>: The famous epistemological chain expounded by Ven. Mahākaccāna.</p>",
+                      "pt": "<p><strong>MN 18 §16</strong>: A célebre cadeia epistemológica detalhada pelo Ven. Mahākaccāna.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Striking Flint Against Steel:</strong> The stone strikes the steel, and an instantaneous spark of fire jumps into the air.</p>",
+                      "pt": "<p><strong>A Pederneira Batendo no Aço:</strong> A pedra choca-se contra o ferro e uma fagulha instantânea de fogo salta no ar.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Papañca-pavaṭṭa",
+                "title": {
+                      "en": "2. The Runaway Proliferation of Thoughts (Papañca)",
+                      "pt": "2. A Proliferação Desenfreada de Pensamentos (Papañca)"
+                },
+                "desc": {
+                      "en": "'What one feels, one perceives; what one perceives, one thinks about; what one thinks about, one mentally proliferates (papañceti).' The avalanche of conceptual obsession.",
+                      "pt": "'O que se sente, percebe-se; o que se percebe, pensa-se a respeito; o que se pensa a respeito, prolifera-se mentalmente (papañceti).' A avalanche obsessiva de conceitos."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Catching the Avalanche:</strong> Watch how a simple sound or ache triggers an entire mental novel of grievance, worry, or fantasy. See how papañca enslaves the mind.</p>",
+                      "pt": "<p><strong>Flagrando a Avalanche:</strong> Veja como um mero barulho ou desconforto dispara um romance interior de queixa, medo ou fantasia. Veja como papañca escraviza a mente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 18 §16</strong>: 'What a person mentally proliferates assails him with conceptual memories past, future, and present.'</p>",
+                      "pt": "<p><strong>MN 18 §16</strong>: 'O que a pessoa prolifera assalta sua mente com memórias conceituais do passado, futuro e presente.'</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Tangle of Thorns (SN 1.23):</strong> A tangled thicket of briars in which every branch catches upon another until no passage is possible.</p>",
+                      "pt": "<p><strong>O Emaranhado de Espinheiros (SN 1.23):</strong> Uma moita espessa de espinhos onde cada galho enrosca no outro até bloquear qualquer passagem.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Papañca-nirodha",
+                "title": {
+                      "en": "3. Arresting Proliferation at the Sensory Gate",
+                      "pt": "3. Travando a Proliferação no Portal dos Sentidos"
+                },
+                "desc": {
+                      "en": "If one does not delight in, welcome, or cling to sensory feeling, then obsessive tendencies to lust, aversion, and conceit find no footing. Papañca is arrested at its birth.",
+                      "pt": "Se não nos deleitamos, acolhemos ou nos apegamos à sensação sensorial, as tendências de cobiça, aversão e vaidade não encontram solo. Papañca é abortada no nascimento."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Non-Proliferating Rest:</strong> In sensory contact, let perception be bare perception. Refuse to weave narratives around what is seen or heard. Snip the wire.</p>",
+                      "pt": "<p><strong>Repouso Não-Proliferativo:</strong> No contato sensorial, deixe o visto ser apenas o visto. Recuse-se a tecer histórias sobre o que foi ouvido ou sentido. Corte o fio.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 18 §17–19</strong>: The complete cessation of the latent tendencies (<em>anusaya-samugghāta</em>).</p>",
+                      "pt": "<p><strong>MN 18 §17–19</strong>: A cessação definitiva das tendências subjacentes latentes (<em>anusaya-samugghāta</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Snuffed Candle:</strong> Blowing out the match before it touches dry tinder; no forest fire can ever break out.</p>",
+                      "pt": "<p><strong>O Fósforo Apagado:</strong> Soprando o palito antes que toque o capim seco; nenhum incêndio florestal pode eclodir.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Madhupiṇḍika-rasa",
+                "title": {
+                      "en": "4. Savoring the Sweet Honeyball of Peace",
+                      "pt": "4. Saboreando a Doçura do Bolo de Mel (Nirvāṇa)"
+                },
+                "desc": {
+                      "en": "Resting in the unproliferated freedom of the Dhamma. Tasting the exquisite relief of a mind entirely free of conceptual agitation, pure like a delicious honey cake.",
+                      "pt": "Descansando na liberdade desanuviada do Dhamma. Saboreando o alívio supremo de uma mente totalmente livre da agitação conceitual, pura como um bolo de mel."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Tasting Freedom:</strong> Savor the stillness. When mental concepts cease, unconditioned peace is directly tasted.</p>",
+                      "pt": "<p><strong>Degustando a Liberdade:</strong> Saboreie a quietude. Quando os conceitos mentais calam, a paz incondicionada é saboreada diretamente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 18 §20</strong>: The Buddha names the sutta the 'Honeyball Discourse' (<em>Madhupiṇḍika Sutta</em>).</p>",
+                      "pt": "<p><strong>MN 18 §20</strong>: O Buda coroa o discurso nomeando-o 'O Símile do Bolo de Mel' (<em>Madhupiṇḍika Sutta</em>).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Delicious Honey Cake (MN 18 §20):</strong> A starving traveler comes upon a cake made of pure honey; from whatever side he nibbles it, he tastes only delicious sweetness.</p>",
+                      "pt": "<p><strong>O Delicioso Bolo de Mel (MN 18 §20):</strong> Um viajante faminto encontra um doce feito de mel puro; de qualquer lado que ele morda, saboreia apenas doçura deliciosa e nutritiva.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Cessation of Papañca & Insight into Emptiness (Suññatā)",
@@ -5273,42 +7145,78 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Kaṭukurunde Ñāṇananda foi um dos maiores monges contemplativos do Sri Lanka contemporâneo. Em seus 33 Sermões sobre Nibbāna, proferidos no eremitério de Nissarana Vanaya, ele desnudou a mecânica da proliferação conceitual (papañca): o contato sensorial engendra sensação, sensação engendra percepção, percepção engendra pensamento, e o pensamento prolifera numa teia avassaladora de ilusão do 'eu'. Seu método treina o discípulo a repousar no intervalo que antecede a cristalização dos conceitos, desarmando a ilusão de um 'observador'."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Papañca-Vibhāvana",
-        "title": {
-          "en": "1. Catching the Proliferation Spark",
-          "pt": "1. Flagrar o Estopim da Proliferação"
-        },
-        "desc": {
-          "en": "Notice how a raw sensory perception (a sound or sight) instantly triggers an avalanche of memory, projection, and self-concern. Catch the spark before the blaze.",
-          "pt": "Perceba como um contato sensorial puro (um som ou visão) engatilha instantaneamente memórias e queixas. Flagra-se a fagulha antes do incêndio."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Māyā-Viññāṇa",
-        "title": {
-          "en": "2. Exposing the Magician's Trick",
-          "pt": "2. Desmascarar o Truque da Mágica"
-        },
-        "desc": {
-          "en": "Contemplate consciousness (viññāṇa) according to the Buddha's simile: a magician creating apparitions in the public square. Do not trust mental appearances.",
-          "pt": "Contemple a consciência como um mágico exibindo ilusões na praça pública. Não tome as projeções mentais como verdades sólidas."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Suññatā-Vihāra",
-        "title": {
-          "en": "3. Abiding in Emptiness",
-          "pt": "3. Repouso na Vacuidade"
-        },
-        "desc": {
-          "en": "Rest in the empty nature of experience: devoid of an 'I', devoid of permanent substance, peaceful, unentangled, unconditioned.",
-          "pt": "Descanse na natureza vazia da experiência: desprovida de um 'eu', livre de substância permanente, serena e incondicionada."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Māyā-lakkhaṇa-dassana",
+                "title": {
+                      "en": "1. Deconstructing the Magic Show of Perception",
+                      "pt": "1. Desconstruindo o Espetáculo Mágico da Percepção"
+                },
+                "desc": {
+                      "en": "Ven. Kaṭukurunde Ñāṇananda's revolutionary insight: words and concepts are like a magician's trick. They project an illusion of permanent substances where there are only dependently arisen processes.",
+                      "pt": "O insight revolucionário do Ven. Kaṭukurunde Ñāṇananda: palavras e conceitos funcionam como truques de mágica. Projetam a ilusão de coisas sólidas onde há apenas processos condicionados."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Exposing the Mirage:</strong> Notice how naming an object creates a false sense of permanence. Strip away the label and see the trembling, momentary nature of sensory data.</p>",
+                      "pt": "<p><strong>Desmascarando a Miragem:</strong> Veja como rotular um objeto cria uma falsa ideia de solidez eterna. Rasgue o rótulo e veja o tremor impermanente dos dados sensoriais.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Ñāṇananda's master lectures: <em>Concept and Reality in Early Buddhist Thought</em> and <em>Nibbāna Sermons</em>.</p>",
+                      "pt": "<p>Os tratados seminais do Ven. Ñāṇananda: <em>Concept and Reality</em> e os 33 sermões de <em>Nibbāna</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Magician's Illusory Palace (SN 22.95):</strong> A magician conjures an illusory palace at a crossroads; fools believe it is real, while the wise know it is a trick of mirrors and light.</p>",
+                      "pt": "<p><strong>O Palácio Ilusório do Ilusionista (SN 22.95):</strong> Um mágico projeta um palácio de ouro num cruzamento; os tolos acreditam que é real, mas o sábio sabe que são espelhos e fumaça.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Papañca-vūpasama",
+                "title": {
+                      "en": "2. The Radical Stilling of Conceptual Proliferation",
+                      "pt": "2. A Pacificação Radical da Proliferação Conceitual"
+                },
+                "desc": {
+                      "en": "Severing the linguistic feedback loop that creates the split between 'I' (subject) and 'World' (object). Consciousness rests in non-proliferation (nippapañca).",
+                      "pt": "Cortando o circuito linguístico que fabrica a falsa cisão entre 'Eu' (sujeito) e 'Mundo' (objeto). A consciência repousa na não-proliferação (nippapañca)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Collapsing the Duality:</strong> Stop constructing an 'internal meditator' looking at an 'external breath'. There is only the knowing of sensation; no split exists.</p>",
+                      "pt": "<p><strong>Colapsando a Dualidade:</strong> Pare de construir um 'eu meditador' observando uma 'respiração externa'. Há apenas o conhecer da sensação; nenhuma cisão existe.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ven. Ñāṇananda's analysis of <em>papañca-saṅkhā-samudācaraṇa</em> in the Nikāyas.</p>",
+                      "pt": "<p>A análise do Ven. Ñāṇananda sobre <em>papañca-saṅkhā-samudācaraṇa</em> nos Nikāyas canônicos.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Echo in the Canyon:</strong> A person shouts into the canyon, hears the echo, and angrily shouts back at the 'other person' in the mountain, fighting their own voice.</p>",
+                      "pt": "<p><strong>O Eco no Desfiladeiro:</strong> Uma pessoa grita na garganta da montanha, ouve o eco e grita furiosa de volta contra a 'outra pessoa', brigando com a própria voz.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Anidassana-viññāṇa",
+                "title": {
+                      "en": "3. Non-Manifestative, Luminous Consciousness (Nibbāna)",
+                      "pt": "3. A Consciência Sem Sinais & Radiante (Nibbāna)"
+                },
+                "desc": {
+                      "en": "'Consciousness non-manifestative, infinite, luminous all around; here earth, water, fire, and wind find no footing; here name and form are completely cut off.' (DN 11).",
+                      "pt": "'Consciência não-manifestativa, infinita, luminosa em toda parte; aqui terra, água, fogo e ar não encontram apoio; aqui nome e forma são cortados sem deixar rastro.' (DN 11)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Resting in Unconditioned Awareness:</strong> Release all landing places for consciousness. Awareness does not cling, does not land, does not take birth. Total Nibbāna.</p>",
+                      "pt": "<p><strong>Repousando na Consciência Desatada:</strong> Solte qualquer ponto de aterrissagem para a mente. A consciência não pousa, não se apropria, não renasce. Nibbāna absoluto.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>DN 11 §85 (Kevaṭṭa Sutta)</strong> and <strong>MN 49 (Brahmanimantanika Sutta)</strong>.</p>",
+                      "pt": "<p><strong>DN 11 §85 (Kevaṭṭa Sutta)</strong> e <strong>MN 49 (Brahmanimantanika Sutta)</strong>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Sunbeam in the Void of Space:</strong> Beaming through empty outer space; because it hits no solid surface, it casts no shadow and is unestablished everywhere.</p>",
+                      "pt": "<p><strong>O Raio Solar no Vácuo do Espaço:</strong> Viajando pelo vácuo sideral; como não atinge nenhuma poeira ou parede, não projeta sombra e permanece sem apoio em toda parte.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Whenever your mind begins fabricating catastrophic future scenarios or obsessing over past conversations, recognize: 'This is papañca (proliferation)'. Stop fueling the story; return to raw sensory reality without the commentary.",
@@ -5384,54 +7292,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Bhante Henepola Gunaratana ('Bhante G') é uma lenda viva do budismo moderno. Ordenado monge no Sri Lanka aos 12 anos, viajou aos Estados Unidos na década de 1960 e fundou o mosteiro de floresta Bhavana Society nas montanhas de West Virginia. Seu livro seminal, 'Atenção Plena em Palavras Simples', despiu a prática de séculos de complexidades esotéricas, apresentando a meditação como uma faculdade natural humana. Sua continuação demonstrou que os Jhānas canônicos são perfeitamente acessíveis aos chefes de família contemporâneos."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Sukha-Āsana",
-        "title": {
-          "en": "1. Comfortable, Alert Posture",
-          "pt": "1. Postura Confortável e Alerta"
-        },
-        "desc": {
-          "en": "Sit with a straight, natural spine. Do not force an agonizing cross-legged pretzel; comfort and dignity are key.",
-          "pt": "Sente-se com a coluna ereta e natural. Não se force a posturas dolorosas de contorcionismo; conforto e dignidade são fundamentais."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Mettā-Pubbabhāga",
-        "title": {
-          "en": "2. The Warm-Up of Goodwill",
-          "pt": "2. O Aquecimento da Benevolência"
-        },
-        "desc": {
-          "en": "Begin by wishing yourself and all beings genuine well-being: 'May I be peaceful, may all beings be free from fear.' Goodwill softens the nervous system.",
-          "pt": "Comece desejando paz a si mesmo e aos outros: 'Que eu esteja em paz, que todos estejam livres do medo.' A benevolência acalma o sistema nervoso."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Assāsa-Passāsa Sati",
-        "title": {
-          "en": "3. Simple Breath Awareness",
-          "pt": "3. A Atenção Simples à Respiração"
-        },
-        "desc": {
-          "en": "Feel the breath touch the rim of the nostrils. Don't control it, don't deepen it. Just let the breath breathe itself and watch it like a friend.",
-          "pt": "Sinta o ar tocando a borda das narinas. Não controle, não force o ritmo. Deixe o corpo respirar a si mesmo e observe como um bom amigo."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Sati-Samādhi Yuganaddha",
-        "title": {
-          "en": "4. The Union of Calm & Insight",
-          "pt": "4. A União de Calma & Insight"
-        },
-        "desc": {
-          "en": "As calm deepens, notice that the breath is constantly changing (anicca). Concentration brings stillness; mindfulness brings liberating insight.",
-          "pt": "Conforme a calma se aprofunda, perceba que a respiração muda a cada milissegundo. A concentração traz quietude; a atenção traz sabedoria."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Avisārada-sati",
+                "title": {
+                      "en": "1. Sitting in Plain English (No Pretense)",
+                      "pt": "1. Praticando sem Rodeios (Sem Prepotência)"
+                },
+                "desc": {
+                      "en": "Bhante Gunaratana's core principle: approaching meditation without mystical inflation or rigid posturing. Finding a balanced, natural posture and cultivating friendly, patient mindfulness.",
+                      "pt": "O princípio de Bhante Gunaratana: abordar a meditação sem afetações místicas ou rigidez artificial. Encontrando uma postura equilibrada e cultivando atenção paciente e acolhedora."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Natural Posture:</strong> Sit upright without strain. Do not expect cosmic lights or instant bliss. Approach the sit with the simple attitude of making friends with your own mind.</p>",
+                      "pt": "<p><strong>Postura Natural:</strong> Sente-se ereto sem rigidez. Não exija clarões cósmicos ou êxtase imediato. Encare a prática como o simples ato de fazer amizade com a própria mente.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Bhante Gunaratana's worldwide bestseller: <em>Mindfulness in Plain English</em>.</p>",
+                      "pt": "<p>O best-seller clássico de Bhante Gunaratana: <em>Mindfulness in Plain English (Atenção Plena em Palavras Simples)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Gentle Friend Sitting Beside You:</strong> Listening without interrupting, without judging, without offering unsolicited advice; simply holding warm space.</p>",
+                      "pt": "<p><strong>O Amigo Sincero Sentado ao Lado:</strong> Escutando em silêncio, sem interromper, sem julgar, sem dar lições de moral; apenas presente com carinho.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Nāsikā-samphassa",
+                "title": {
+                      "en": "2. The Nostril Rim Touchpoint Anchor",
+                      "pt": "2. A Âncora no Ponto de Contato das Narinas"
+                },
+                "desc": {
+                      "en": "Focusing attention on the light, natural touch of air at the rim of the nostrils or upper lip. When the mind wanders, gently bringing it back without irritation.",
+                      "pt": "Focalizando o toque suave e natural do ar na borda das narinas ou lábio superior. Quando a mente divagar, trazendo-a de volta com gentileza e sem autocrítica."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Gentle Return:</strong> When you notice thinking, smile softly and think: 'Thinking, thinking', then return smoothly to the tactile breath. Never fight with thoughts.</p>",
+                      "pt": "<p><strong>O Retorno Gentil:</strong> Ao notar devaneios, sorria interiormente, pense 'pensando, pensando' e volte macio para a respiração. Nunca lute contra os pensamentos.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The foundational instructions of Ānāpānasati Sutta (MN 118) simplified for modern lay practitioners.</p>",
+                      "pt": "<p>As instruções basilares do Ānāpānasati Sutta (MN 118) desmistificadas para praticantes leigos.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Training a Lively Puppy to Sit:</strong> You place the puppy on the mat; it runs away; you gently pick it up and place it back on the mat 100 times with love until it rests.</p>",
+                      "pt": "<p><strong>Treinando o Filhote de Cachorro a Ficar:</strong> Você coloca o cachorrinho na almofada; ele corre; você o pega no colo com carinho e o coloca de volta 100 vezes até ele deitar.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Nīvaraṇa-paccavekkhaṇā",
+                "title": {
+                      "en": "3. Unmasking the Disguises of the Five Hindrances",
+                      "pt": "3. Desmascarando os Disfarces dos Cinco Obstáculos"
+                },
+                "desc": {
+                      "en": "Recognizing how the hindrances sneak in disguised as reasonable ideas: restlessness pretending to be 'important chores', doubt pretending to be 'philosophical scrutiny', and sleepiness as 'needing rest'.",
+                      "pt": "Reconhecendo como os obstáculos se infiltram disfarçados de ideias lógicas: a inquietação fingindo ser 'tarefa urgente', a dúvida fingindo ser 'análise crítica' e o sono fingindo ser 'cansaço'."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Catching the Impostors:</strong> When an urge whispers 'You should stop meditating and fix that email right now', recognize it: 'Ah, restlessness, I see your disguise!'</p>",
+                      "pt": "<p><strong>Flagrando o Impostor:</strong> Quando uma voz interior sussurrar 'Você precisa parar de meditar agora e responder aquele email', identifique: 'Ah, inquietação, reconheço seu disfarce!'</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Chapter on <em>Dealing with Distractions</em> in Bhante Gunaratana's practical manual.</p>",
+                      "pt": "<p>O capítulo sobre <em>Lidando com Distrações</em> no manual prático de Bhante Gunaratana.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Thief Dressed in a Monk's Robe:</strong> Approaching with an innocent greeting, but whose pockets are stuffed with stolen jewelry.</p>",
+                      "pt": "<p><strong>O Ladrão Disfarçado em Trajes Nobres:</strong> Aproximando-se com fala mansa e respeitosa, mas cujos bolsos estão cheios de joias surrupiadas.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Samatha-vipassanā-saṅgama",
+                "title": {
+                      "en": "4. Flowing from Calm into Clear Insight",
+                      "pt": "4. Fluindo da Calma para a Visão Clara (Vipassanā)"
+                },
+                "desc": {
+                      "en": "Once calm is steady, turning awareness onto the sensations themselves: noticing how every itch, pain, and joy rises, peaks, and dissolves. Seeing anicca, dukkha, and anattā in everyday life.",
+                      "pt": "Uma vez que a calma se estabilize, voltando a atenção para as próprias sensações: vendo como cada coceira, dor e alegria brota, atinge o auge e falece. Vendo anicca, dukkha e anattā no cotidiano."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Insight in the Kitchen:</strong> Wash dishes, listen to your family, walk to work with this same seeing. Meditation becomes the way you live your entire life.</p>",
+                      "pt": "<p><strong>Insight na Cozinha:</strong> Lave pratos, escute sua família, caminhe na rua com este mesmo olhar. A meditação torna-se o modo de viver a vida inteira.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Bhante Gunaratana's companion book: <em>Eight Mindful Steps to Happiness</em>.</p>",
+                      "pt": "<p>A obra complementar de Bhante Gunaratana: <em>Eight Mindful Steps to Happiness (Os Oito Passos da Atenção Plena para a Felicidade)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Gentle Spring Breeze Clearing the Sky:</strong> Blowing through the house, airing out stale rooms, leaving the entire atmosphere fresh, clean, and bright.</p>",
+                      "pt": "<p><strong>A Brisa Suave da Primavera Arejando a Casa:</strong> Soprando pelas janelas abertas, limpando o ar viciado dos quartos e deixando toda a atmosfera fresca, límpida e luminosa.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of 4 Jhānas & Plain English Vipassanā Insight",
@@ -5519,54 +7475,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ao visitar a cidade de Kesaputta, os cidadãos Kālāma procuraram o Buda em grande aflição: dezenas de sacerdotes e gurus passavam por ali, cada qual afirmando ter a verdade exclusiva e condenando os demais. O Buda proclamou um dos discursos mais revolucionários da história da humanidade. Estabeleceu dez critérios sobre o que NÃO deve ser base para a fé cega (tradição, escrituras, deduções lógicas, carisma de mestres) e entregou a regra científica: examine em sua própria mente se a prática extingue o ódio, a cobiça e a ilusão. Se produzir serenidade e bondade, adote-a."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Mā Anussavena",
-        "title": {
-          "en": "1. The 10 Criteria of Healthy Skepticism",
-          "pt": "1. Os 10 Critérios do Ceticismo Lúcido"
-        },
-        "desc": {
-          "en": "Do not believe simply because it is ancient tradition, recorded in sacred scripture, spoken by a famous teacher, or sounds logical. Suspend blind belief.",
-          "pt": "Não acredite apenas porque é tradição antiga, está em livros sagrados, foi dito por um mestre famoso ou parece lógico. Suspenda a crença cega."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Paccatta-Vedayitabba",
-        "title": {
-          "en": "2. The Empirical Laboratory of Mind",
-          "pt": "2. O Laboratório Empírico da Mente"
-        },
-        "desc": {
-          "en": "Observe: When anger takes over your mind, are you peaceful or tormented? When generosity arises, are you happy or miserable? Verify directly.",
-          "pt": "Observe: Quando a raiva domina sua mente, você fica em paz ou atormentado? Quando a generosidade nasce, há alívio ou aflição? Verifique por si mesmo."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Cattāro Assāsā",
-        "title": {
-          "en": "3. The Four Noble Solaces",
-          "pt": "3. Os Quatro Confortos Nobres"
-        },
-        "desc": {
-          "en": "Live with a blameless, loving heart. If there is an afterlife, you will fare well. If there is no afterlife, you live here and now happy and respected by all.",
-          "pt": "Viva com o coração puro e generoso. Se houver vida após a morte, colherá bons frutos. Se nada houver, viverá aqui e agora em paz, admirado e livre de remorsos."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Ehipassiko",
-        "title": {
-          "en": "4. The Invitation to 'Come and See'",
-          "pt": "4. O Convite ao 'Vinde e Vede' (Ehipassiko)"
-        },
-        "desc": {
-          "en": "Meditation is not a religion to join; it is a technology of inner freedom. Practice what works to end suffering; discard superstition.",
-          "pt": "A meditação não é uma religião para se converter; é uma tecnologia de libertação interior. Pratique o que dissipa o sofrimento e dispense o dogma."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Dasa-aṭṭhāna-pahāna",
+                "title": {
+                      "en": "1. The 10 Inadequate Grounds for Dogmatic Belief",
+                      "pt": "1. Os 10 Critérios Insuficientes para a Crença Cega"
+                },
+                "desc": {
+                      "en": "The Buddha's Charter of Free Inquiry: do not go upon oral tradition, lineage, hearsay, scripture, logical conjecture, probability, speculative theories, or the authority of a revered teacher.",
+                      "pt": "A Carta Magna da Livre Investigação do Buda: não creia por tradição oral, linhagem, boatos, textos sagrados, especulação lógica, probabilidades teóricas ou autoridade de um mestre."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Sovereign Critical Thinking:</strong> Question every spiritual claim. Do not accept dogmas because someone famous said so. Real truth must be verified directly in your own experience.</p>",
+                      "pt": "<p><strong>Pensamento Crítico Soberano:</strong> Questione todo dogma espiritual. Não aceite crenças cegas por tradição ou autoridade. A verdade real precisa ser comprovada na sua própria experiência.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 3.65 §3 (Kālāma Sutta / Kesamutti Sutta)</strong>: The definitive canonical charter of free intellectual inquiry.</p>",
+                      "pt": "<p><strong>AN 3.65 §3 (Kālāma Sutta / Kesamutti Sutta)</strong>: A proclamação canônica de livre exame e honestidade intelectual.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Testing Gold with Fire and Touchstone (Catuḥśataka):</strong> Just as an expert jeweler tests gold by burning it in fire, cutting it, and rubbing it on a touchstone, test the Dhamma before accepting it.</p>",
+                      "pt": "<p><strong>Testando o Ouro no Fogo e na Pedra de Toque:</strong> Tal como o ourives experiente testa o ouro aquecendo no fogo, cortando e raspando na pedra de toque, examine os ensinamentos antes de abraçá-los.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Paccatta-vedanīya-ñāṇa",
+                "title": {
+                      "en": "2. Direct Verification in Your Own Heart",
+                      "pt": "2. Verificação Direta no Próprio Coração"
+                },
+                "desc": {
+                      "en": "'When you know for yourselves: These things are unwholesome, blameworthy, censured by the wise, leading to harm and suffering—then abandon them. When wholesome, cultivate them.'",
+                      "pt": "'Quando souberdes por vós mesmos: Estas qualidades são nocivas, censuradas pelos sábios, conduzem ao sofrimento—então abandonai-as. Quando salutares, cultivai-as.'"
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Empirical Test:</strong> Observe in real time: When greed rules my mind, do I feel happy or anxious? When kindness rules, do I feel peaceful? Base your practice on direct evidence.</p>",
+                      "pt": "<p><strong>O Teste Empírico:</strong> Observe em tempo real: Quando a ganância me domina, sinto paz ou ansiedade? Quando a bondade brota, sinto serenidade? Firme sua prática na evidência direta.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 3.65 §4–14</strong>: The psychological dialogue between the Buddha and the Kālāmas of Kesaputta.</p>",
+                      "pt": "<p><strong>AN 3.65 §4–14</strong>: O diálogo psicológico do Buda com os Kālāmas de Kesaputta.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Tasting Fresh Water After Thirst:</strong> You don't need a philosopher to prove the water quenched your thirst; you know it by immediate bodily satisfaction.</p>",
+                      "pt": "<p><strong>Bebendo Água Fresca com Sede:</strong> Você não precisa de um filósofo para provar que a água saciou sua sede; você sabe pelo alívio imediato no corpo.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Cattāro Brahma-vihārā",
+                "title": {
+                      "en": "3. Radiating the Four Immeasurable States",
+                      "pt": "3. Irradiando as Quatro Moradas Divinas (Brahma-Vihāras)"
+                },
+                "desc": {
+                      "en": "Free from covetousness and ill will, the noble disciple radiates a mind imbued with loving-kindness, compassion, sympathetic joy, and equanimity to all directions without hostility.",
+                      "pt": "Livre de cobiça e rancores, o nobre discípulo irradia uma mente repleta de bondade amorosa, compaixão, alegria altruísta e equanimidade a todas as direções, sem hostilidade."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>All-Pervading Goodwill:</strong> Radiate warmth outward from the heart center: above, below, around, everywhere. A mind without enemies has nothing to fear.</p>",
+                      "pt": "<p><strong>Boa Vontade Abrangente:</strong> Irradie calor a partir do centro do peito: acima, abaixo, em redor, em toda parte. Uma mente sem inimigos nada tem a temer.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 3.65 §15</strong>: The systematic radiation of the 4 Brahma-vihāras in the Kālāma Sutta.</p>",
+                      "pt": "<p><strong>AN 3.65 §15</strong>: A irradiação dos 4 Brahma-vihāras como coroamento ético no Kālāma Sutta.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Powerful Horn-Blower (DN 13):</strong> A mighty trumpeter sounds a conch in all four directions, filling the valley with resonant sound without hindrance.</p>",
+                      "pt": "<p><strong>O Tocheiro na Noite Escura (DN 13):</strong> Um tocador vigoroso sopra a trombeta nas quatro direções, preenchendo o vale com som cristalino sem obstáculo algum.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Cattāro Assāsā",
+                "title": {
+                      "en": "4. The Four Assurances of the Noble Disciple",
+                      "pt": "4. As Quatro Garantias Inabaláveis do Nobre Discípulo"
+                },
+                "desc": {
+                      "en": "The Buddha's famous wager: if there is an afterlife and kamma, you will reap celestial joy; if there is no afterlife, you live here and now happy, blameless, and free from hostility.",
+                      "pt": "A célebre aposta do Buda: se houver além-túmulo e kamma, você colherá bem-estar sublime; se não houver pós-vida, você vive aqui e agora em paz, inocente e livre de rancor."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Fearless Present Living:</strong> Ethical goodness and mental purity are their own reward in the present moment, completely immune to theological anxiety about the afterlife.</p>",
+                      "pt": "<p><strong>Vida Destemida no Presente:</strong> A bondade ética e a pureza mental são sua própria recompensa no agora, imunes a neuroses e terrores teológicos sobre o além.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 3.65 §16–17</strong>: The Four Solaces (<em>cattāro assāsā</em>) of the untroubled mind.</p>",
+                      "pt": "<p><strong>AN 3.65 §16–17</strong>: Os Quatro Confortos (<em>cattāro assāsā</em>) da mente pacificada.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Invulnerable Castle on Granite:</strong> Built with deep roots and solid walls; whatever the weather outside, inside is warmth, light, and safety.</p>",
+                      "pt": "<p><strong>O Castelo de Granito Inexpugnável:</strong> Construído com alicerces profundos; seja qual for a tempestade externa, dentro há luz, lareira e segurança total.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Freedom from Dogmatic Attachment (Sīlabbata-parāmāsa Uprooted)",
@@ -5653,78 +7657,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Bhante Vimalaramsi resgatou o que considerava um elo negligenciado em muitos retiros modernos: o termo canônico 'passambhayaṁ' (relaxar e acalmar as tensões físicas). No sistema TWIM, quando surge uma distração, não se força a atenção. Aplica-se o ciclo dos 6Rs: Reconhecer a distração, Soltar (Release), RELAXAR a microtensão na cabeça e no peito, Re-sorrir, Retornar ao objeto (Mettā) e Repetir. A Bondade Amorosa é praticada como a via real capaz de conduzir a mente por todos os oito Jhānas até o despertar."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "1. Recognize (Pajānāti)",
-        "title": {
-          "en": "1. Recognize",
-          "pt": "1. Reconhecer (Recognize)"
-        },
-        "desc": {
-          "en": "Notice that the mind has drifted into thinking, restlessness, or craving.",
-          "pt": "Perceba com lucidez que a atenção se desviou para um pensamento ou anseio."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "2. Release (Pahāna)",
-        "title": {
-          "en": "2. Release",
-          "pt": "2. Soltar (Release)"
-        },
-        "desc": {
-          "en": "Do not continue feeding the thought. Gently allow it to be without getting tangled in it.",
-          "pt": "Pare de alimentar a história. Permita que ela fique sem alimentá-la."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "3. Relax (Passambhana)",
-        "title": {
-          "en": "3. Relax the Tightness",
-          "pt": "3. Relaxar a Microtensão (Relax)"
-        },
-        "desc": {
-          "en": "THE CRITICAL STEP: Feel the subtle physical tension or tightness in the head/brain and chest, and consciously relax it.",
-          "pt": "O PASSO CRÍTICO: Sinta a microtensão contraída no topo da cabeça/cérebro e solte-a conscientemente."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "4. Re-Smile (Hāsa)",
-        "title": {
-          "en": "4. Re-Smile",
-          "pt": "4. Re-sorrir (Re-smile)"
-        },
-        "desc": {
-          "en": "Smile gently with your eyes, mouth, and heart. A light smile uplifts dopamine, gladdens the citta, and dissolves frustration.",
-          "pt": "Sorria suavemente com os olhos e o coração. O sorriso eleva o ânimo, alegra a citta e extingue a frustração."
-        }
-      },
-      {
-        "step": 5,
-        "pali": "5. Return (Āgacchati)",
-        "title": {
-          "en": "5. Return",
-          "pt": "5. Retornar (Return)"
-        },
-        "desc": {
-          "en": "Gently bring your warm awareness back to your meditation object (radiating Mettā or peaceful breath).",
-          "pt": "Traga a atenção calorosa de volta ao objeto de meditação (irradiar Mettā ou respiração)."
-        }
-      },
-      {
-        "step": 6,
-        "pali": "6. Repeat (Punappunaṁ)",
-        "title": {
-          "en": "6. Repeat",
-          "pt": "6. Repetir (Repeat)"
-        },
-        "desc": {
-          "en": "Stay with the tranquil object. Whenever the next distraction arises, repeat the 6Rs without disappointment.",
-          "pt": "Permaneça com o objeto de tranquilidade. Se surgir nova distração, aplique os 6Rs com serenidade."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Mettā-ceto-vimutti",
+                "title": {
+                      "en": "1. Radiating Loving-Kindness at the Heart Center",
+                      "pt": "1. Irradiando Bondade Amorosa a Partir do Coração"
+                },
+                "desc": {
+                      "en": "Bhante Vimalaramsi's foundation: cultivating a warm, golden feeling of unconditional loving-kindness (mettā) in the physical chest, wishing oneself and a spiritual friend well.",
+                      "pt": "O alicerce de Bhante Vimalaramsi: cultivar uma sensação calorosa e dourada de bondade amorosa incondicional (mettā) no centro do peito, desejando paz a si e a um amigo espiritual."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Heart Spark:</strong> Remember a time you smiled with pure innocence. Feel that warmth expand across your chest like soft sunlight. Send it gently to your friend.</p>",
+                      "pt": "<p><strong>A Chama do Coração:</strong> Rememore um momento em que você sorriu com ternura pura. Sinta esse calor expandir pelo peito como luz suave. Envie ao seu amigo com carinho.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>TWIM (Tranquil Wisdom Insight Meditation) manual based on <em>Majjhima Nikāya</em> suttas.</p>",
+                      "pt": "<p>O manual TWIM (Tranquil Wisdom Insight Meditation) baseado estritamente nos suttas do <em>Majjhima Nikāya</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Mother Protecting Her Only Child (Karaniya Metta Sutta):</strong> Just as a mother shields her only child with her life, radiate boundless love to all beings.</p>",
+                      "pt": "<p><strong>A Mãe Protegendo o Filho Único (Karaniya Metta Sutta):</strong> Tal como uma mãe arriscaria a vida para proteger seu filho único, irradie amor irrestrito a todos os seres vivos.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "The 6Rs Protocol",
+                "title": {
+                      "en": "2. The 6Rs Tactical Harmonic Protocol",
+                      "pt": "2. O Protocolo Tático dos 6Rs"
+                },
+                "desc": {
+                      "en": "The hallmark technique of TWIM when distraction arises: 1. Recognize → 2. Release → 3. Relax → 4. Re-smile → 5. Return → 6. Repeat.",
+                      "pt": "A técnica clássica de TWIM ao notar distrações: 1. Reconhecer (Recognize) → 2. Liberar (Release) → 3. Relaxar (Relax) → 4. Re-sorrir (Re-smile) → 5. Retornar (Return) → 6. Repetir (Repeat)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Step-by-Step 6Rs Execution:</strong> When a thought distracts you: <strong>Recognize</strong> it; <strong>Release</strong> engagement; <strong>Relax</strong> tightness in your head; <strong>Re-smile</strong> with lips and eyes; <strong>Return</strong> to mettā; <strong>Repeat</strong> continuously.</p>",
+                      "pt": "<p><strong>Execução Prática dos 6Rs:</strong> Ao se distrair: <strong>Reconheça</strong> o pensamento; <strong>Solte</strong> a história; <strong>Relaxe</strong> a tensão na cabeça; <strong>Re-sorria</strong> suavemente; <strong>Retorne</strong> à bondade; <strong>Repita</strong> com leveza.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Corresponds to the 4th step of Ānāpānasati: calming the bodily formation (<em>passambhayaṁ kāyasaṅkhāraṁ</em>, MN 118).</p>",
+                      "pt": "<p>Corresponde ao 4º passo de Ānāpānasati: acalmar a formação corpórea (<em>passambhayaṁ kāyasaṅkhāraṁ</em>, MN 118).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Releasing a Taut Bowstring:</strong> Letting the tight string spring back into gentle slackness, ending all tension in the wooden bow.</p>",
+                      "pt": "<p><strong>Soltando a Corda Esticada do Arco:</strong> Deixando a corda retesada voltar à folga suave, desarmando toda a pressão na madeira.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Sīsakāyasaṅkhāra-vūpasama",
+                "title": {
+                      "en": "3. Releasing Cranial Tension (The Secret of 6Rs)",
+                      "pt": "3. Liberando a Micro-Tensão Craniana (O Segredo do Relax)"
+                },
+                "desc": {
+                      "en": "Bhante Vimalaramsi's crucial observation: whenever a thought arises, a subtle physical micro-contraction forms in the brain and meninges. Releasing this physical tightness dissolves the mental pull.",
+                      "pt": "A observação crucial de Bhante Vimalaramsi: todo pensamento cria uma microcontração física na cabeça e couro cabeludo. Relaxar essa tensão física desfaz o magnetismo do pensamento."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Softening the Brain:</strong> Deliberately feel the crown, scalp, temples, and forehead soften like melting butter on a warm plate. Watch the thought evaporate.</p>",
+                      "pt": "<p><strong>Amolecendo a Mente:</strong> Sinta deliberadamente o topo da cabeça, têmporas e testa amolecerem como manteiga no prato morno. Veja o pensamento evaporar no mesmo instante.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 111 (Anupada Sutta)</strong> on pacifying formations to achieve true mental liberation.</p>",
+                      "pt": "<p><strong>MN 111 (Anupada Sutta)</strong> sobre a pacificação das tensões corpóreas para libertar a mente.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Butter Melting in the Warm Pan:</strong> A hard cube of cold butter placed on a warm skillet softens instantly into clear, flowing liquid.</p>",
+                      "pt": "<p><strong>A Manteiga Derretendo na Frigideira:</strong> Um cubo rígido de manteiga gelada toca a panela morna e derrete em líquido dourado e fluido num instante.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Sutta-Jhāna-samāpatti",
+                "title": {
+                      "en": "4. Ascending Through Tranquil Sutta-Jhānas",
+                      "pt": "4. Ascendendo pelos Sutta-Jhānas Tranquilos"
+                },
+                "desc": {
+                      "en": "Unlike rigid one-pointed absorptions, Sutta-Jhānas are wide, open, relaxed states where awareness remains expansive and sensory perception is softly present without disturbance.",
+                      "pt": "Diferente de absorções fixas de um só ponto, os Sutta-Jhānas são estados amplos, descontraídos e luminosos, onde a consciência permanece aberta e em paz profunda."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Expansive Absorption:</strong> Let the joy and peace expand outward to fill the room, the neighborhood, the entire planet. Rest in effortless, smiling stillness.</p>",
+                      "pt": "<p><strong>Absorção Expansiva:</strong> Deixe a alegria e a paz expandirem para preencher o aposento, a cidade e todo o planeta. Repouse num silêncio sorridente e sem esforço.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Early Buddhist Text descriptions of Jhāna in MN 119, where awareness permeates the entire body.</p>",
+                      "pt": "<p>As descrições canônicas de Jhāna no MN 119, onde a lucidez permeia todo o corpo vivo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Wide Mountain Breeze:</strong> Blowing gently across sunny ridges, refreshing everything it touches without hitting any obstacle.</p>",
+                      "pt": "<p><strong>A Brisa Ampla da Colina:</strong> Soprando suave pelas montanhas ensolaradas, refrescando tudo o que toca sem encontrar resistência.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "The 6Rs are an extraordinary lay stress antidote. When an upsetting email arrives, don't react: Recognize irritation, Release the urge to type, RELAX your tense shoulders and forehead, Re-smile, and respond from wisdom.",
@@ -5800,54 +7828,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Em 1976, Joseph Goldstein, Jack Kornfield e Sharon Salzberg fundaram o Insight Meditation Society (IMS) em Barre, Massachusetts, após anos de treinamento na Birmânia e Tailândia com Mahāsi Sayādaw, Munindra e Ajahn Chah. Foram os arquitetos do movimento de Vipassanā no Ocidente, tornando retiros silenciosos acessíveis a cidadãos comuns sem necessidade de ordenação monástica. Sua maior contribuição foi integrar o insight espiritual à honestidade psicológica: compreender que não se pode curar feridas emocionais com espiritualismos superficiais."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Mettā-Parikamma",
-        "title": {
-          "en": "1. The Ground of Self-Compassion",
-          "pt": "1. A Base da Autocompaixão"
-        },
-        "desc": {
-          "en": "Begin by softening the heart toward yourself. Include your flaws, heartbreaks, and grief in a field of warm loving-kindness.",
-          "pt": "Comece suavizando o coração para consigo mesmo. Acolha suas imperfeições, dores e frustrações num campo de afeto incondicional."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Nāma-Rūpa Sati",
-        "title": {
-          "en": "2. Gentle Mental Labeling",
-          "pt": "2. Rotulação Mental Afetuosa"
-        },
-        "desc": {
-          "en": "As experiences arise, softly name them with a gentle whisper of the mind: 'Hearing, hearing', 'Tension, tension', 'Restlessness, restlessness'.",
-          "pt": "Conforme os fenômenos surgirem, nomeie-os com um sussurro interno gentil: 'Ouvindo, ouvindo', 'Tensão, tensão', 'Inquietação, inquietação'."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Anattā-Dassana",
-        "title": {
-          "en": "3. You Are Not the Movie",
-          "pt": "3. Você Não é o Filme Mental"
-        },
-        "desc": {
-          "en": "Realize that thoughts are not personal commands; they are simply conditioned suggestions. You do not have to buy every ticket to the movie.",
-          "pt": "Perceba que pensamentos não são ordens pessoais; são meras sugestões condicionadas. Você não precisa comprar ingresso para todos os filmes da mente."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Khantī-Upekkhā",
-        "title": {
-          "en": "4. The Capacity to Be with What Is",
-          "pt": "4. A Sabedoria de Estar com o Real"
-        },
-        "desc": {
-          "en": "Rest in the spacious, forgiving presence that can hold joys and sorrows alike without flinching or grasping. Live with a wise, open heart.",
-          "pt": "Repouse na presença espaçosa e tolerante que acolhe alegrias e dores com a mesma serenidade. Viva com o coração aberto e sábio."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Cetovimutti & Cittānupassanā",
+                "title": {
+                      "en": "1. Meeting the Visiting Guests with Compassion",
+                      "pt": "1. Acolhendo as Visitas Emocionais com Compaixão"
+                },
+                "desc": {
+                      "en": "Joseph Goldstein and Jack Kornfield's psychological synthesis: greeting emotional visitors—grief, fear, anxiety, unworthiness—with spacious friendliness rather than shame or suppression.",
+                      "pt": "A síntese psicológica de Joseph Goldstein e Jack Kornfield: acolher emoções difíceis—luto, medo, ansiedade, autocrítica—com compaixão espaçosa em vez de vergonha ou repressão."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Emotional Hospitality:</strong> When anxiety strikes, say to it: 'Welcome, I see you. You belong to the human condition.' Let it breathe in your open heart.</p>",
+                      "pt": "<p><strong>Hospitalidade Interior:</strong> Ao notar angústia, acolha: 'Bem-vinda, eu vejo você. Você faz parte da condição humana'. Deixe-a respirar no seu peito aberto.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>SN 36.14 (Āgantuka Sutta)</strong>: The sutta of the guest house where feelings arrive and depart.</p>",
+                      "pt": "<p><strong>SN 36.14 (Āgantuka Sutta)</strong>: A parábola da estalagem onde sensações chegam, hospedam-se e partem.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Rumi's Guest House:</strong> 'This being human is a guest house; every morning a new arrival: a joy, a depression, a meanness... Welcome and entertain them all!'</p>",
+                      "pt": "<p><strong>A Casa de Hóspedes de Rumi:</strong> 'O ser humano é uma estalagem; a cada manhã uma nova visita: alegria, tristeza, desânimo... Acolha e honre a todas!'</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Just This (Idam-sati)",
+                "title": {
+                      "en": "2. The 'Just This' Somatic Ground",
+                      "pt": "2. A Âncora do 'Apenas Isto' (Presença Somática)"
+                },
+                "desc": {
+                      "en": "Joseph Goldstein's minimalist mantra: whenever lost in conceptual labyrinth, return to 'Just This'—just this breath, just this pressure, just this hearing. Reality stripped of story.",
+                      "pt": "O mantra minimalista de Joseph Goldstein: ao se perder em labirintos mentais, retorne ao 'Apenas Isto'—apenas esta respiração, apenas este peso, apenas este som. A realidade nua."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Dropping the Novel:</strong> Ask: 'In this exact microsecond, stripped of thoughts about tomorrow, what is actually happening?' Just this.</p>",
+                      "pt": "<p><strong>Largando a Narrativa:</strong> Pergunte-se: 'Neste exato microssegundo, sem as histórias sobre amanhã, o que está realmente acontecendo?' Apenas isto.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Direct application of <em>diṭṭhe diṭṭhamattaṁ</em> (in the seen, only the seen, Ud 1.10).</p>",
+                      "pt": "<p>Aplicação direta de <em>diṭṭhe diṭṭhamattaṁ</em> (no visto, apenas o visto, Ud 1.10).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>A Droplet of Water on a Lotus Leaf:</strong> Resting purely on the leaf without soaking in, rolling freely without leaving a stain.</p>",
+                      "pt": "<p><strong>A Gota de Orvalho na Folha de Lótus:</strong> Repousando sobre a folha sem ensopá-la, deslizando livre sem deixar marca ou mancha.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Atta-vāda-vicāra",
+                "title": {
+                      "en": "3. Investigating the Architecture of 'Me'",
+                      "pt": "3. Investigando a Construção do 'Eu'"
+                },
+                "desc": {
+                      "en": "Inquiring into the sense of identity: 'Is this thought true? Who is the one who feels inadequate? Where is the permanent self located?' Deconstructing psychological conditioning.",
+                      "pt": "Inquirindo o senso de identidade: 'Este pensamento é verdadeiro? Quem é este que se sente inseguro? Onde está o eu permanente?' Desconstruindo o condicionamento psicológico."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Self-Inquiry:</strong> Look for the owner of the thoughts. You will find sensations, perceptions, and consciousness, but not a single solid 'self' inside.</p>",
+                      "pt": "<p><strong>Auto-Investigação Lúcida:</strong> Procure o proprietário dos pensamentos. Você encontrará sensações, ideias e consciência, mas nem um único 'eu' sólido lá dentro.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Joseph Goldstein's treatise: <em>Mindfulness: A Practical Guide to Awakening</em>.</p>",
+                      "pt": "<p>O tratado de Joseph Goldstein: <em>Mindfulness: A Practical Guide to Awakening</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Banana Tree Trunk (SN 22.95):</strong> Peeling away layer after layer of the trunk looking for solid heartwood, only to find it is completely hollow.</p>",
+                      "pt": "<p><strong>O Tronco da Bananeira (SN 22.95):</strong> Descascando camada após camada em busca de madeira maciça, descobrindo que o interior é inteiramente oco.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Lokiya-dhammānupassanā",
+                "title": {
+                      "en": "4. Living the Dhamma in Relationships & Work",
+                      "pt": "4. Vivendo o Dhamma no Trabalho & Relações"
+                },
+                "desc": {
+                      "en": "Taking wisdom off the cushion: practicing wise speech, deep listening, ethical livelihood, and meeting modern life's challenges with non-reactive presence.",
+                      "pt": "Levando a sabedoria para fora da almofada: praticando fala correta, escuta profunda, meios de vida éticos e encarando desafios cotidianos com presença lúcida."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Householder Dharma:</strong> In difficult conversations, stay grounded in your feet. Listen to others without mentally preparing your rebuttal. Act from kindness.</p>",
+                      "pt": "<p><strong>Dhamma na Vida Prática:</strong> Em conversas tensas, ancore no chão. Escute sem preparar respostas de revide na cabeça. Aja a partir da compaixão lúcida.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Jack Kornfield's celebrated classic: <em>A Path with Heart & After the Ecstasy, the Laundry</em>.</p>",
+                      "pt": "<p>Os clássicos de Jack Kornfield: <em>Um Caminho com o Coração & Depois do Êxtase, a Roupa Suja</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Tree Spreading Shade Over All Travelers:</strong> Standing tall, giving shade to the weary, the woodcutter, and the animals equally without discrimination.</p>",
+                      "pt": "<p><strong>A Árvore Frondosa Oferecendo Sombra a Todos:</strong> Erguendo-se frondosa, acolhendo o lenhador, o viajante e os pássaros com a mesma generosidade serena.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Psychological Maturation & Realization of Non-Self (Anattā)",
@@ -5935,54 +8011,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Ayya Khema, a lendária monja de origem alemã, foi pioneira em provar que os Jhānas não são estados míticos inalcançáveis restritos a cavernas medievais, mas o direito natural de qualquer meditador que pacifica a mente. Seu aluno Leigh Brasington formalizou o método em seu livro 'Right Concentration'. Uma vez alcançada a concentração de acesso na respiração, o praticante transfere a atenção para uma sensação física agradável (um sorriso suave, calor nas mãos ou no peito). Repousando no bem-estar sem avidez, a mente é absorvida naturalmente nos quatro Jhānas."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Upacāra-Samādhi",
-        "title": {
-          "en": "1. Establishing Access Concentration",
-          "pt": "1. Estabelecer a Concentração de Acesso"
-        },
-        "desc": {
-          "en": "Follow the breath until thoughts become distant whispers and your body feels thoroughly relaxed, still, and pleasant.",
-          "pt": "Acompanhe a respiração até os pensamentos se tornarem sussurros distantes e o corpo repousar em calma profunda e agradável."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Pīti-Gahaṇa",
-        "title": {
-          "en": "2. Locating Pleasant Sensation",
-          "pt": "2. Localizar a Sensação Agradável"
-        },
-        "desc": {
-          "en": "Scan for any pleasant sensation: a tingling in your palms, warmth in your chest, or a gentle smile on your lips. Shift attention to that feeling.",
-          "pt": "Localize qualquer sensação agradável no corpo: formigamento suave nas mãos, calor no peito ou um sorriso sutil nos lábios. Transfira o foco para aí."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Paṭhama-Jhāna",
-        "title": {
-          "en": "3. Entering the 1st Jhāna",
-          "pt": "3. Entrada no Primeiro Jhāna"
-        },
-        "desc": {
-          "en": "Surrender to the pleasant sensation. The joy expands like soap-powder saturating with water. Pīti (rapture) and Sukha (bliss) fill your whole awareness.",
-          "pt": "Renda-se ao deleite. A alegria se expande como a água no símile do sabão do Buda. Pīti (êxtase) e Sukha (bem-estar) preenchem toda a atenção."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Upekkhā-Jhāna",
-        "title": {
-          "en": "4. Quieting to 2nd, 3rd & 4th Jhānas",
-          "pt": "4. Avanço aos Jhānas 2, 3 e 4"
-        },
-        "desc": {
-          "en": "As rapture becomes too turbulent, let go of Pīti to rest in pure contentment (3rd Jhāna), then release joy into the crystal-clear stillness of equanimity (4th Jhāna).",
-          "pt": "Conforme o êxtase se agita, solte Pīti para repousar no contentamento quieto (3º Jhāna), e depois na imobilidade cristalina da equanimidade (4º Jhāna)."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Upacāra-samādhi-sukha",
+                "title": {
+                      "en": "1. Access Concentration via Pleasant Sensation",
+                      "pt": "1. Concentração de Acesso via Sensação Agradável"
+                },
+                "desc": {
+                      "en": "Leigh Brasington and Ayya Khema's method: watching the natural breath until discursive thinking calms down and an unmistakable, pleasant physical sensation (pīti/sukha) arises.",
+                      "pt": "O método de Leigh Brasington e Ayya Khema: observar a respiração natural até o diálogo interno silenciar e uma sensação física agradável evidente (pīti/sukha) brotar no corpo."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Locating the Pleasure Spark:</strong> Check your hands, face, or chest for a gentle tingle, cool breeze, or warm glow. Settle attention on that pleasant feeling.</p>",
+                      "pt": "<p><strong>Localizando a Faísca de Conforto:</strong> Observe as mãos, rosto ou coração; note um leve formigamento, frescor ou calor doce. Aqueça a atenção nessa sensação boa.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Leigh Brasington's manual: <em>Right Concentration: A Practical Guide to the Jhānas</em>.</p>",
+                      "pt": "<p>O guia de Leigh Brasington: <em>Right Concentration: A Practical Guide to the Jhānas</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Spotting the Golden Coin in the Sand:</strong> Sifting through gray river gravel until a bright gleam of pure gold catches the eye.</p>",
+                      "pt": "<p><strong>Avistando a Moeda de Ouro no Cascalho:</strong> Peneirando a areia do rio até que um brilho dourado e cintilante salte aos olhos.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Nimitta-pīti-pavesa",
+                "title": {
+                      "en": "2. Shifting Attention from Breath to Pleasure (1st Jhāna)",
+                      "pt": "2. Mudando o Foco do Ar para o Prazer (1º Jhāna)"
+                },
+                "desc": {
+                      "en": "The decisive leap: completely letting go of the breath! Shifting 100% of attention onto the pleasant sensation. Feeding it with gentle focus until it blooms into the 1st Jhāna.",
+                      "pt": "O salto decisivo: largar a respiração por completo! Transferir 100% do foco para a sensação agradável, alimentando-a com presença suave até que floresça no 1º Jhāna."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Leaping onto Pleasure:</strong> Forget the breath entirely. Bathe in the tingling, joyful energy. Let rapture (<em>pīti</em>) vibrate through every cell.</p>",
+                      "pt": "<p><strong>Mergulhando no Prazer:</strong> Esqueça o ar entrando e saindo. Banhe-se na vibração energética gostosa. Deixe o arrebatamento (<em>pīti</em>) ecoar pelas células.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>MN 119 §18</strong>: Seclusion-born rapture and pleasure pervading the whole body.</p>",
+                      "pt": "<p><strong>MN 119 §18</strong>: O êxtase e o bem-estar nascidos do recolhimento permeando todo o organismo.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Catching the Rolling Wave on a Surfboard:</strong> Paddling into position, feeling the ocean swell lift you, and riding the wave of joy with effortless balance.</p>",
+                      "pt": "<p><strong>Pegando a Onda na Prancha de Surf:</strong> Remando no ponto certo, sentindo a onda do oceano te erguer e deslizando na crista da alegria com equilíbrio leve.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Jhāna-saṅkama (1 to 4)",
+                "title": {
+                      "en": "3. Climbing the Jhāna Ladder (1st → 2nd → 3rd → 4th)",
+                      "pt": "3. Subindo a Escada dos Jhānas (1º → 2º → 3º → 4º)"
+                },
+                "desc": {
+                      "en": "Progressively refining the state: from physical rapture (1st), to emotional joy (2nd), to quiet restful peace (3rd), to spotless, neutral equanimity (4th).",
+                      "pt": "Refinando o estado progressivamente: do êxtase físico (1º) para a alegria emocional (2º), a paz descansada (3º) e a equanimidade neutra e pura (4º)."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Refining the Fuel:</strong> When rapture feels too noisy, drop it and sink into quiet happiness (2nd). When happiness is too exciting, drop it and rest in peace (3rd). Drop peace for still equanimity (4th).</p>",
+                      "pt": "<p><strong>Decantando o Combustível:</strong> Se o arrebatamento estiver agitado, solte-o e mergulhe na alegria doce (2º). Se a alegria for intensa, decante na paz (3º). Solte a paz na pura quietude (4º).</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Ayya Khema's teachings in <em>Who Is My Self? A Guide to Buddhist Meditation</em>.</p>",
+                      "pt": "<p>Os ensinamentos de Ayya Khema reunidos em <em>Who Is My Self? A Guide to Buddhist Meditation</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Shifting Gears in a Sports Car:</strong> Smoothly clutching from first to second, second to third, third to fourth; the engine hums quieter while the car glides faster.</p>",
+                      "pt": "<p><strong>Trocando as Marchas do Carro:</strong> Passando suavemente da primeira para a segunda, terceira e quarta marcha; o motor silencia enquanto o veículo desliza veloz.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Paccavekkhaṇā-vipassanā",
+                "title": {
+                      "en": "4. Using the Post-Jhāna Mind for Liberating Insight",
+                      "pt": "4. Usando a Mente Pós-Jhāna para o Insight Libertador"
+                },
+                "desc": {
+                      "en": "Emerging from absorption with a super-charged, pliable, diamond-bright mind. Immediately directing that stillness onto the Three Characteristics and Dependent Origination.",
+                      "pt": "Emergindo da absorção com uma mente maleável, potente e brilhante como diamante. Aplicando essa quietude imediatamente para investigar as Três Marcas e a Originação Dependente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>The Insight Harvest:</strong> After Jhāna, observe physical sensations or your sense of self. Watch them dissolve instantly. Liberating wisdom cuts through delusion.</p>",
+                      "pt": "<p><strong>A Colheita da Sabedoria:</strong> Após o Jhāna, observe as sensações ou o senso de ego. Veja-os dissolverem-se na hora. A sabedoria liberta corta a ilusão pela raiz.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p><strong>AN 9.36</strong>: Absorption as the springboard for destroying mental taints.</p>",
+                      "pt": "<p><strong>AN 9.36</strong>: A absorção como trampolim direto para extinguir as contaminações mentais.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Sharpened Samurai Sword:</strong> Polished and sharpened to molecular perfection, slicing effortlessly through thick bamboo stalks in a single stroke.</p>",
+                      "pt": "<p><strong>A Espada Samurai Afiada no Cadinho:</strong> Polida e afiada com perfeição molecular, cortando bambus grossos com um único golpe limpo e sem resistência.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Mastery of the 4 Sutta Jhānas & Transition to Vipassanā",
@@ -6073,42 +8197,78 @@ const MEDITATION_LINEAGES = [
       "pt": "Ven. Bhikkhu Anālayo é mundialmente reverenciado como um dos maiores monges pesquisadores e praticantes de meditação canônica. Ao confrontar os suttas em Pāli com seus paralelos em chinês antigo (Āgamas) e sânscrito, ele resgata o núcleo autêntico da prática dos primeiros séculos. Em seu método, Satipaṭṭhāna não é fragmentado em caixas rígidas, mas flui panoramicamente do corpo às sensações, mente e fatores de despertar."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Kāyabhāvanā",
-        "title": {
-          "en": "1. Somatic Grounding",
-          "pt": "1. Ancoragem Somática"
-        },
-        "desc": {
-          "en": "Establish bodily awareness as a stable anchor: feeling posture, breath, and anatomical presence.",
-          "pt": "Estabeleça a consciência corporal como um porto seguro: sinta a postura, a respiração e a presença física."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Vedanā-Upekkhā",
-        "title": {
-          "en": "2. Tracking the Feeling Tone",
-          "pt": "2. Rastreamento do Tom Afetivo"
-        },
-        "desc": {
-          "en": "Recognize how subtle pleasure or displeasure instantly primes the mind for greed or aversion.",
-          "pt": "Reconheça como sutis sensações de agrado ou desagrado preparam o terreno para o desejo ou aversão."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Bojjhaṅga-Bhāvanā",
-        "title": {
-          "en": "3. Feeding the Awakening Factors",
-          "pt": "3. Alimentar os Fatores do Despertar"
-        },
-        "desc": {
-          "en": "Nurture mindfulness, investigation, energy, joy, tranquility, concentration, and equanimity.",
-          "pt": "Cultive os 7 fatores: atenção, investigação, energia, alegria, tranquilidade, concentração e equanimidade."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Aparihāniya-sati",
+                "title": {
+                      "en": "1. Panoramic Open Monitoring of the Present",
+                      "pt": "1. Monitoramento Panorâmico Aberto do Presente"
+                },
+                "desc": {
+                      "en": "Bhikkhu Anālayo's early Buddhist synthesis: balancing focused concentration with wide-angle awareness, observing the interplay of body, feeling, and mind without tunnel vision.",
+                      "pt": "A síntese do Bhikkhu Anālayo a partir dos textos antigos: equilibrar foco pontual com visão panorâmica aberta, observando a dança entre corpo, sensação e mente sem visão de túnel."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Wide-Angle Field:</strong> Keep the breath in the center while maintaining soft peripheral awareness of the body posture and soundscape. Balanced, alert, and spacious.</p>",
+                      "pt": "<p><strong>Campo Amplo:</strong> Mantenha a respiração no centro enquanto sustenta consciência periférica do corpo e dos sons. Equilibrado, vigilante e espaçoso.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Bhikkhu Anālayo's landmark scholarly study: <em>Satipaṭṭhāna: The Direct Path to Realization</em>.</p>",
+                      "pt": "<p>O estudo acadêmico seminal de Bhikkhu Anālayo: <em>Satipaṭṭhāna: O Caminho Direto para a Realização</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Bird Gliding on High Thermals:</strong> Seeing the entire landscape below—rivers, forests, roads—in one unified, effortless, panoramic gaze.</p>",
+                      "pt": "<p><strong>O Pássaro Flutuando nas Alturas:</strong> Contemplando toda a paisagem abaixo—rios, matas, estradas—num único olhar panorâmico e desimpedido.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Catu-satipaṭṭhāna-saṅgama",
+                "title": {
+                      "en": "2. The Organic Interconnection of the 4 Foundations",
+                      "pt": "2. A Interconexão Orgânica dos Quatro Satipaṭṭhānas"
+                },
+                "desc": {
+                      "en": "Seeing that body, feeling, mind, and dharmas are not four isolated boxes, but an organic continuum: bodily posture affects feelings; feelings trigger mental states; mental states shape dharmas.",
+                      "pt": "Reconhecendo que corpo, sensação, mente e dhammas não são quatro gavetas separadas, mas um fluxo contínuo: a postura afeta as sensações; sensações disparam estados mentais; estados mentais moldam dhammas."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Tracing the Feedback Loop:</strong> Notice how a tight shoulder (body) creates an unpleasant sensation (feeling), which triggers irritation (mind), which feeds ill will (dhamma). Intervene early!</p>",
+                      "pt": "<p><strong>Mapeando o Circuito:</strong> Veja como o ombro tenso (corpo) gera desconforto (sensação), que dispara irritação (mente), que alimenta a aversão (dhamma). Intervenha no início!</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Anālayo's companion practice manual: <em>Perspectives on Satipaṭṭhāna</em>.</p>",
+                      "pt": "<p>O manual prático de Anālayo: <em>Perspectives on Satipaṭṭhāna</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Symphony Orchestra:</strong> Strings, woodwinds, brass, and percussion playing together; each instrument influences the acoustic harmony of the whole piece.</p>",
+                      "pt": "<p><strong>A Orquestra Sinfônica:</strong> Cordas, sopros e percussão tocando juntos; cada naipe de instrumentos afeta a harmonia viva da obra inteira.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Karuṇā-upekkhā-samatha",
+                "title": {
+                      "en": "3. Compassionate Equanimity as the Master Key",
+                      "pt": "3. Equanimidade Compassiva como Chave-Mestra"
+                },
+                "desc": {
+                      "en": "Steeping rigorous insight in warmth, compassion, and non-judgmental equanimity. Avoiding cold, intellectual detachment by grounding contemplation in boundless goodwill.",
+                      "pt": "Banhando a investigação analítica em calor, compaixão e acolhimento. Evitando a frieza intelectual ao enraizar toda a prática meditativa na boa vontade imensurável."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Warm Insight:</strong> Whatever weakness you discover in yourself, meet it with compassionate understanding: 'This is the conditioned human heart.' Rest in liberating peace.</p>",
+                      "pt": "<p><strong>Sabedoria Compassiva:</strong> Qualquer fraqueza que você descubra em si, acolha com compaixão lúcida: 'Este é o coração humano condicionado'. Descanse na paz libertadora.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Bhikkhu Anālayo's research on integrating the <em>Brahma-vihāras</em> with <em>Satipaṭṭhāna</em>.</p>",
+                      "pt": "<p>As pesquisas de Bhikkhu Anālayo integrando os <em>Brahma-vihāras</em> com <em>Satipaṭṭhāna</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Sun Warming the Earth:</strong> Shining equally upon gardens and wastelands, melting frost and coaxing seedlings into radiant growth.</p>",
+                      "pt": "<p><strong>O Sol Aquecendo a Terra:</strong> Brilhando com a mesma ternura sobre jardins floridos e solos pedregosos, derretendo o gelo e fazendo brotar a vida.</p>"
+                }
+          }
     ],
     "layApplication": {
       "en": "Use the Awakening Factors as an emotional balancing toolkit. When depressed or sluggish, stimulate investigation, energy, and joy. When stressed or hyperactive, cultivate tranquility, concentration, and equanimity.",
@@ -6184,54 +8344,102 @@ const MEDITATION_LINEAGES = [
       "pt": "Rob Burbea foi o respeitado professor residente da Gaia House no Reino Unido. Sua obra-prima, 'Seeing That Frees: Meditations on Emptiness and Dependent Arising', transformou o panorama meditativo contemporâneo. Burbea demonstrou que o sofrimento não é uma propriedade das coisas, mas o produto de 'modos de olhar' rígidos e apegados. Ao treinar a mente para brincar com a percepção — vendo tudo como inconstante, como desprovido de Eu, como insubstancial — descobre-se que nem o 'eu' nem o 'mundo' possuem existência separada e rígida. A experiência torna-se luminosa, leve e liberta."
     },
     "steps": [
-      {
-        "step": 1,
-        "pali": "Ditthi-Pariññā",
-        "title": {
-          "en": "1. Recognizing Your Way of Looking",
-          "pt": "1. Reconhecer o Modo de Olhar"
-        },
-        "desc": {
-          "en": "Notice how you are viewing the current moment: Are you viewing it through judgment? Urgency? Clinging? Understand that how things appear depends on your way of looking.",
-          "pt": "Perceba como você enxerga o momento: sob a lente do julgamento? Da urgência? Do apego? Compreenda que a aparência das coisas depende do modo como você olha."
-        }
-      },
-      {
-        "step": 2,
-        "pali": "Anattā-Dhammā",
-        "title": {
-          "en": "2. Adopting Deconstructive Lenses",
-          "pt": "2. Adotar Lentes Desconstrutivas"
-        },
-        "desc": {
-          "en": "Intentionally apply the lens of impermanence (anicca) or non-self (anattā). Watch how the emotional weight and solidity of the problem immediately diminish.",
-          "pt": "Aplique intencionalmente a lente da inconstância (anicca) ou do não-eu (anattā). Veja como o peso emocional e a solidez do problema diminuem na hora."
-        }
-      },
-      {
-        "step": 3,
-        "pali": "Saṅkhāra-Vūpasama",
-        "title": {
-          "en": "3. Unfabricating the Object",
-          "pt": "3. A Desfabricação do Objeto"
-        },
-        "desc": {
-          "en": "As clinging softens, the distinction between 'inner me' and 'outer world' dissolves. Sensations become like rainbow light—vivid, beautiful, yet empty of substance.",
-          "pt": "Conforme o apego cede, a barreira entre o 'eu interior' e o 'mundo exterior' se desfaz. As sensações tornam-se como arco-íris — vívidas, belas e sem substância sólida."
-        }
-      },
-      {
-        "step": 4,
-        "pali": "Suññatā-Vimokkha",
-        "title": {
-          "en": "4. The Radiance of Emptiness",
-          "pt": "4. A Radiância da Vacuidade"
-        },
-        "desc": {
-          "en": "Rest in the unconditioned transparency of awareness. Nothing is held, nothing is rejected. The heart rejoices in pristine, boundless freedom.",
-          "pt": "Repouse na transparência incondicionada da consciência. Nada é agarrado, nada é rejeitado. O coração repousa na liberdade pura e sem limites."
-        }
-      }
+          {
+                "step": 1,
+                "pali": "Diṭṭhi-vibhāga (Ways of Looking)",
+                "title": {
+                      "en": "1. Recognizing the 'Way of Looking'",
+                      "pt": "1. Reconhecendo o 'Modo de Olhar'"
+                },
+                "desc": {
+                      "en": "Rob Burbea's foundational premise: perception is not an objective snapshot of an external world; perception is an active fabrication conditioned by the mind's current 'way of looking'.",
+                      "pt": "A premissa basilar de Rob Burbea: a percepção não é um retrato neutro de um mundo externo fixo; a percepção é uma fabricação ativa moldada pelo 'modo de olhar' da mente."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Experimenting with Lenses:</strong> Notice that when looking with aversion, the world appears hostile and irritating; when looking with mettā, the same world appears tender and lovable.</p>",
+                      "pt": "<p><strong>Experimentando as Lentes:</strong> Observe que ao olhar com irritação, o mundo parece hostil e chato; ao olhar com bondade amorosa, o mesmíssimo mundo parece terno e amável.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Rob Burbea's modern masterpiece: <em>Seeing That Frees: Meditations on Emptiness and Dependent Arising</em>.</p>",
+                      "pt": "<p>A obra-prima moderna de Rob Burbea: <em>Seeing That Frees (Visão que Liberta: Meditações sobre a Vacuidade e a Originação Dependente)</em>.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Wearing Tinted Glasses:</strong> Put on yellow sunglasses and the snowy landscape turns golden; put on blue glasses and it turns cobalt; neither color belongs inherently to the snow.</p>",
+                      "pt": "<p><strong>Os Óculos com Lentes Coloridas:</strong> Coloque óculos amarelos e a neve parecerá dourada; coloque lentes azuis e ela parecerá cobalto; nenhuma cor pertence à neve em si.</p>"
+                }
+          },
+          {
+                "step": 2,
+                "pali": "Saṅkhāra-vighāta",
+                "title": {
+                      "en": "2. Deconstructing Fabrication (Saṅkhāra)",
+                      "pt": "2. Desconstruindo a Fabricação (Saṅkhāra)"
+                },
+                "desc": {
+                      "en": "Deliberately shifting ways of looking—from viewing phenomena as solid entities to viewing them as impermanent, unsatisfactory, and empty of self. Watching their solidity dissolve.",
+                      "pt": "Alterando conscientemente os modos de contemplação—de ver as coisas como entidades sólidas para vê-las como impermanentes, insatisfatórias e vazias de um eu. Vendo a solidez derreter."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>De-Fabricating Reality:</strong> When an emotion feels overwhelming, look at it as changing sensations. Watch how the 'thingness' of the problem thins out and loses its weight.</p>",
+                      "pt": "<p><strong>Desfabricando o Problema:</strong> Quando uma dor ou mágoa parecer esmagadora, examine-a como vibrações em mutação. Veja a 'solidez' do problema afinar e perder o peso.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The practice of insight as progressive de-fabrication (<em>visaṅkhāra</em>) taught in the Nikāyas.</p>",
+                      "pt": "<p>A prática de insight como desfabricação progressiva (<em>visaṅkhāra</em>) ensinada nos Nikāyas canônicos.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Holographic Image:</strong> It appears solid and three-dimensional, but wave your hand through it and your fingers meet only empty air.</p>",
+                      "pt": "<p><strong>A Projeção Holográfica:</strong> Parece sólida e tridimensional, mas ao passar a mão através dela seus dedos encontram apenas o ar vazio.</p>"
+                }
+          },
+          {
+                "step": 3,
+                "pali": "Virāga-nirodha-anupassanā",
+                "title": {
+                      "en": "3. Less Grasping = Less Fabrication",
+                      "pt": "3. Menos Apego = Menos Fabricação"
+                },
+                "desc": {
+                      "en": "Burbea's central discovery: the more grasping there is, the more solid and problematic the world appears; the less grasping there is, the less the world is fabricated.",
+                      "pt": "A descoberta central de Burbea: quanto mais apego houver, mais sólido e problemático o mundo parece; quanto menos apego, menos o mundo é fabricado como problema."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Releasing the Grip:</strong> Deliberately relax craving and aversion. Notice that as grasping drops, the appearance of solid suffering simply vanishes.</p>",
+                      "pt": "<p><strong>Soltando o Aperto:</strong> Relaxe conscientemente o desejo e a revolta. Note que ao soltar o aperto, a aparência de sofrimento sólido simplesmente desvanece.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>Dependent cessation: <em>Taṇhā-nirodhā upādāna-nirodho, upādāna-nirodhā bhava-nirodho</em> (SN 12.2).</p>",
+                      "pt": "<p>Cessação dependente: cessando o desejo, cessa o apego; cessando o apego, cessa o devir (SN 12.2).</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>Unclamping a Tight Fist:</strong> Your hand was clenched so hard the fingernails drew blood; unclench the fingers, and the pain instantly disappears.</p>",
+                      "pt": "<p><strong>Abrindo o Punho Fechado:</strong> Sua mão estava tão cerrada que as unhas cravavam na palma gerando dor; abra os dedos e o sofrimento cessa na hora.</p>"
+                }
+          },
+          {
+                "step": 4,
+                "pali": "Suññatā-vimokkha",
+                "title": {
+                      "en": "4. Resting in Radical Emptiness (Suññatā)",
+                      "pt": "4. Repousando na Vacuidade Radical (Suññatā)"
+                },
+                "desc": {
+                      "en": "When all grasping and all ways of looking are abandoned, fabrication ceases completely. Reality is experienced as utterly empty of inherent existence: luminous, ungraspable, playful freedom.",
+                      "pt": "Quando todo apego e todos os modos de olhar são soltos, a fabricação cessa por completo. A realidade é vivenciada como vazia de essência inerente: luminosa, insubstancial e liberta."
+                },
+                "practiceInstructions": {
+                      "en": "<p><strong>Boundless Freedom:</strong> Live in the world seeing all things as dreams, rainbows, and echoes. Love fully, act compassionately, and cling to nothing whatsoever.</p>",
+                      "pt": "<p><strong>Liberdade Ilimitada:</strong> Viva no mundo contemplando todas as coisas como sonhos, ecos e arco-íris. Ame com plenitude, aja com compaixão e não se apegue a coisa alguma.</p>"
+                },
+                "canonicalBasis": {
+                      "en": "<p>The ultimate realization of Suññatā in the Early Buddhist Texts and Prajñāpāramitā synthesis.</p>",
+                      "pt": "<p>A realização última da Vacuidade (Suññatā) nos Textos Antigos e sua culminância libertadora.</p>"
+                },
+                "canonicalSimile": {
+                      "en": "<p><strong>The Rainbow in the Sunlight:</strong> Vividly colorful, breathtakingly beautiful, inspiring wonder, yet completely insubstantial; reach for it and your hand touches empty space.</p>",
+                      "pt": "<p><strong>O Arco-Íris no Céu Ensopado de Sol:</strong> Vibrante de cores, deslumbrante de se ver, inspirando encantamento, mas totalmente insubstancial; toque nele e sua mão tocará apenas o ar aberto.</p>"
+                }
+          }
     ],
     "attainments": {
       "maxAttainment": "Realization of Emptiness (Suññatā) & Cessation of Mental Fabrication",
